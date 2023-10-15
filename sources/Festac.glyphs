@@ -2,7 +2,9 @@
 .appVersion = "3221";
 .formatVersion = 3;
 DisplayStrings = (
-"abcdef/f.ss01/f.ss02 tghi"
+"OoH Hoo hon OOh onoHO OhH OHH nOOn oHO Oon OHh ohH OHo oHhH oOH Ooh noOn oHh hoO noH ohh oOh ooh HOo hoo HonnO onO Hon OHhh OhO oHH nOn HOO Ohono OhonO OnO noh nOOo OOH ohHH hOO hOn OHonO HOn hOo HoO oon non hOh ooO nOo oOO ooH OhHh nooO Oho OOo ono Ono hOH nOho nOHO OhhH nOh OHHh ohHh oHo nOnnO oHhh oOn OOn Honno oho OOO OhHH nOoo ooOH nOnO ohhH onoho onOHo nOoO OOOh noO OHOno oOOh noo oOoh onOhO nonO oOoH Oooh Ohhh hoH OHHH nOOO nOno hOOn OoOH Ooo",
+"abcdefghijklm
+nopqrstuvwxyz"
 );
 date = "2023-08-31 14:19:10 +0000";
 familyName = "Festac 23";
@@ -176,62 +178,54 @@ unicode = 71;
 },
 {
 glyphname = H;
-lastChange = "2023-10-11 16:14:43 +0000";
+lastChange = "2023-10-15 11:17:33 +0000";
 layers = (
 {
 anchors = (
 {
 name = bowl;
-pos = (202,0);
+pos = (182,0);
 },
 {
 name = kleg;
-pos = (206,280);
+pos = (186,280);
 },
 {
 name = leg;
-pos = (204,400);
+pos = (184,400);
 }
 );
-background = {
-shapes = (
-{
-pos = (34,0);
-ref = n;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(520,0,l),
-(520,554,l),
-(347,554,l),
-(347,0,l)
+(500,0,l),
+(500,554,l),
+(327,554,l),
+(327,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(231,0,l),
-(231,554,l),
-(58,554,l),
-(58,0,l)
+(211,0,l),
+(211,554,l),
+(38,554,l),
+(38,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(491,234,l),
-(491,354,l),
-(80,354,l),
-(80,234,l)
+(471,234,l),
+(471,354,l),
+(60,354,l),
+(60,234,l)
 );
 }
 );
-width = 578;
+width = 538;
 }
 );
 unicode = 72;
@@ -288,6 +282,7 @@ unicode = 77;
 },
 {
 glyphname = N;
+lastChange = "2023-10-15 11:22:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -298,65 +293,57 @@ unicode = 78;
 },
 {
 glyphname = O;
-lastChange = "2023-10-11 16:44:09 +0000";
+lastChange = "2023-10-15 11:40:41 +0000";
 layers = (
 {
 anchors = (
 {
 name = oconnect;
-pos = (224,0);
+pos = (194,0);
 }
 );
-background = {
-shapes = (
-{
-pos = (-3,0);
-ref = H;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(493,0,l),
-(530,61,o),
-(551,162,o),
-(551,277,cs),
-(551,391,o),
-(527,496,o),
-(483,554,c),
-(281,554,l),
-(335,483,o),
-(366,382,o),
-(366,277,cs),
-(366,172,o),
-(334,66,o),
-(281,0,c)
+(453,0,l),
+(490,61,o),
+(511,162,o),
+(511,277,cs),
+(511,391,o),
+(487,496,o),
+(443,554,c),
+(247,554,l),
+(301,483,o),
+(332,382,o),
+(332,277,cs),
+(332,172,o),
+(300,66,o),
+(247,0,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(318,0,l),
-(264,71,o),
-(233,172,o),
-(233,277,cs),
-(233,382,o),
-(265,488,o),
-(318,554,c),
-(106,554,l),
-(69,493,o),
-(48,392,o),
-(48,277,cs),
-(48,163,o),
-(72,58,o),
-(116,0,c)
+(292,0,l),
+(238,71,o),
+(207,172,o),
+(207,277,cs),
+(207,382,o),
+(239,488,o),
+(292,554,c),
+(86,554,l),
+(49,493,o),
+(28,392,o),
+(28,277,cs),
+(28,163,o),
+(52,58,o),
+(96,0,c)
 );
 }
 );
-width = 599;
+width = 539;
 }
 );
 unicode = 79;
@@ -996,7 +983,7 @@ unicode = 232;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-10-14 08:31:24 +0000";
+lastChange = "2023-10-15 11:09:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -1004,29 +991,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(197,0,l),
-(197,400,ls),
-(197,511,o),
-(233,575,o),
-(327,630,c),
-(154,630,l),
-(59,574,o),
-(24,512,o),
-(24,400,cs),
-(24,0,l)
+(98,554,l),
+(37,515,o),
+(24,455,o),
+(24,407,cs),
+(24,0,l),
+(201,0,l),
+(201,400,ls),
+(201,442,o),
+(206,506,o),
+(258,554,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(327,280,l),
-(327,400,l),
-(87,400,l),
-(87,280,l)
+(266,280,l),
+(266,400,l),
+(24,400,l),
+(24,280,l)
 );
 }
 );
-width = 351;
+width = 290;
 }
 );
 unicode = 102;
@@ -2242,42 +2229,6 @@ nodes = (
 alignment = -1;
 pos = (-6,0);
 ref = _part.tstem;
-}
-);
-width = 286;
-}
-);
-},
-{
-glyphname = f.ss02;
-lastChange = "2023-10-14 09:15:15 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(94,554,l),
-(33,515,o),
-(20,455,o),
-(20,407,cs),
-(20,0,l),
-(197,0,l),
-(197,400,ls),
-(197,442,o),
-(202,506,o),
-(254,554,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(262,280,l),
-(262,400,l),
-(20,400,l),
-(20,280,l)
-);
 }
 );
 width = 286;
