@@ -115,20 +115,23 @@ iconName = SemiBold;
 id = m01;
 metricValues = (
 {
+over = 12;
 pos = 574;
 },
 {
+over = 12;
 pos = 554;
 },
 {
+over = 12;
 pos = 400;
 },
 {
+over = -12;
 },
 {
+over = -12;
 pos = -270;
-},
-{
 }
 );
 name = Bold;
@@ -8401,8 +8404,6 @@ type = baseline;
 },
 {
 type = descender;
-},
-{
 }
 );
 properties = (
