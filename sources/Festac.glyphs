@@ -88,6 +88,24 @@ fontMaster = (
 axesValues = (
 173
 );
+customParameters = (
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = TTFBlueFuzz;
+value = 1;
+}
+);
 guides = (
 {
 pos = (627,630);
@@ -8334,6 +8352,24 @@ instances = (
 {
 axesValues = (
 173
+);
+customParameters = (
+{
+name = blueScale;
+value = 0.04;
+},
+{
+name = blueShift;
+value = 7;
+},
+{
+name = blueFuzz;
+value = 1;
+},
+{
+name = TTFBlueFuzz;
+value = 1;
+}
 );
 instanceInterpolations = {
 m01 = 1;
