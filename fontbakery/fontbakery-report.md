@@ -165,14 +165,14 @@ These were the version values found:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1035,7 +1035,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-BlackItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -1179,14 +1179,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1647,7 +1647,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -1792,14 +1792,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -2195,7 +2195,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-MediumItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -2339,14 +2339,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -2523,7 +2523,7 @@ Width = 570:
 equal
 
 Width = 576:
-multiply, logicalnot
+logicalnot, multiply
 
 Width = 562:
 plusminus
@@ -2732,7 +2732,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -2877,14 +2877,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -3346,7 +3346,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-BoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -3490,14 +3490,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -3886,7 +3886,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -4031,14 +4031,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -4291,7 +4291,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-LightItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -4435,14 +4435,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -4717,7 +4717,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[15] Rubik-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -4862,14 +4862,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -5250,7 +5250,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -5395,14 +5395,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -5738,7 +5738,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[15] Rubik-ExtraBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -5882,14 +5882,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -6261,7 +6261,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-SemiBoldItalic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -6405,14 +6405,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -6749,7 +6749,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[15] Rubik-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -6894,14 +6894,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -7117,7 +7117,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details><details><summary><b>[16] Rubik-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
@@ -7262,14 +7262,14 @@ Your font does *not* cover the following languages that require the soft-dotted 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, tifinagh, malayalam, canadian-aboriginal, math, old-permic, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, coptic, tai-le, canadian-aboriginal, tifinagh, malayalam, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -7673,7 +7673,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
