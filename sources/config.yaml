@@ -1,6 +1,5 @@
 sources:
   - Festac.glyphs
-
 axisOrder:
-
-familyName: Festac
+  - wght
+familyName: Festac 23

@@ -1,12 +1,19 @@
 {
-.appVersion = "3221";
+.appVersion = "3222";
 .formatVersion = 3;
 DisplayStrings = (
 "HOno
 HHHHHH HHHnnnHHnnHHNN
-OOOOOOOOOoooOOoOOooo"
+OOOOOOOOOoooOOoOOooo",
+n
 );
-date = "2023-08-31 14:19:10 +0000";
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+date = "2023-10-17 21:19:41 +0000";
 familyName = "Festac 23";
 featurePrefixes = (
 {
@@ -60,6 +67,9 @@ tag = ss01;
 );
 fontMaster = (
 {
+axesValues = (
+173
+);
 guides = (
 {
 pos = (627,630);
@@ -85,7 +95,7 @@ pos = -270;
 {
 }
 );
-name = Regular;
+name = Bold;
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
@@ -8302,6 +8312,19 @@ width = 282;
 );
 }
 );
+instances = (
+{
+axesValues = (
+173
+);
+instanceInterpolations = {
+m01 = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+}
+);
 kerningLTR = {
 m01 = {
 j.ss01 = {
@@ -8330,20 +8353,20 @@ type = descender;
 );
 properties = (
 {
-key = designers;
-values = (
-{
-language = ENG;
-value = "Oluseyi Olusanya";
-}
-);
-},
-{
 key = copyrights;
 values = (
 {
 language = dflt;
 value = "Copyright 2023 Afrotype. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = ENG;
+value = "Oluseyi Olusanya, David lastname, Eyeyemi lastname, Mirko Velimirovic";
 }
 );
 }
