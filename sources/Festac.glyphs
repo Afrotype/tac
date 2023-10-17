@@ -5,7 +5,7 @@ DisplayStrings = (
 "HOno
 HHHHHH HHHnnnHHnnHHNN
 OOOOOOOOOoooOOoOOooo",
-n
+notOH
 );
 axes = (
 {
@@ -8393,7 +8393,15 @@ unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 m01 = {
+HH = "120";
+HV = "173";
+OH = "32";
+OV = "179";
 nV = "173";
+nd = "38";
+oH = "23";
+oV = "173";
+tH = "119";
 };
 };
 };
