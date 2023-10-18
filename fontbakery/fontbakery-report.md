@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[25] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -73,13 +73,6 @@ fontbakery version: 0.10.1
 * 🔥 **FAIL** Glyph "ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 * 🔥 **FAIL** Glyph "zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
-
-
-* 🔥 **FAIL** In this font fsType is set to 8 meaning that:
-The font may be embedded but must only be installed temporarily on other systems.
-
-No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -151,35 +144,17 @@ But instead we have got:
 
 	- Glyph name: at	Expected: 2
 
-	- Glyph name: B	Expected: 2 or 3
-
 	- Glyph name: C	Expected: 1
-
-	- Glyph name: D	Expected: 2
-
-	- Glyph name: E	Expected: 1
 
 	- Glyph name: G	Expected: 1
 
-	- Glyph name: I	Expected: 1
-
 	- Glyph name: J	Expected: 1
-
-	- Glyph name: K	Expected: 1 or 2
 
 	- Glyph name: L	Expected: 1
 
 	- Glyph name: M	Expected: 1
 
-	- Glyph name: N	Expected: 1
-
-	- Glyph name: P	Expected: 1 or 2
-
 	- Glyph name: Q	Expected: 2
-
-	- Glyph name: R	Expected: 1 or 2
-
-	- Glyph name: S	Expected: 1
 
 	- Glyph name: U	Expected: 1
 
@@ -321,7 +296,11 @@ But instead we have got:
 
 	- Glyph name: Gbreve	Expected: 2
 
+	- Glyph name: gbreve	Expected: 3 or 4
+
 	- Glyph name: Gdotaccent	Expected: 2
+
+	- Glyph name: gdotaccent	Expected: 3 or 4
 
 	- Glyph name: uni0122	Expected: 2
 
@@ -525,8 +504,6 @@ But instead we have got:
 
 	- Glyph name: AE	Expected: 2
 
-	- Glyph name: B	Expected: 2 or 3
-
 	- Glyph name: C	Expected: 1
 
 	- Glyph name: Ccaron	Expected: 2
@@ -535,13 +512,9 @@ But instead we have got:
 
 	- Glyph name: Cdotaccent	Expected: 2
 
-	- Glyph name: D	Expected: 2
-
 	- Glyph name: Dcaron	Expected: 3
 
 	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: E	Expected: 1
 
 	- Glyph name: Ecaron	Expected: 2
 
@@ -571,8 +544,6 @@ But instead we have got:
 
 	- Glyph name: Hbar	Expected: 2
 
-	- Glyph name: I	Expected: 1
-
 	- Glyph name: Icircumflex	Expected: 2
 
 	- Glyph name: Idieresis	Expected: 3
@@ -587,8 +558,6 @@ But instead we have got:
 
 	- Glyph name: J	Expected: 1
 
-	- Glyph name: K	Expected: 1 or 2
-
 	- Glyph name: L	Expected: 1
 
 	- Glyph name: Lcaron	Expected: 2
@@ -596,8 +565,6 @@ But instead we have got:
 	- Glyph name: Lslash	Expected: 1
 
 	- Glyph name: M	Expected: 1
-
-	- Glyph name: N	Expected: 1
 
 	- Glyph name: Ncaron	Expected: 2
 
@@ -607,15 +574,9 @@ But instead we have got:
 
 	- Glyph name: Oslash	Expected: 2 or 3
 
-	- Glyph name: P	Expected: 1 or 2
-
 	- Glyph name: Q	Expected: 2
 
-	- Glyph name: R	Expected: 1 or 2
-
 	- Glyph name: Rcaron	Expected: 3
-
-	- Glyph name: S	Expected: 1
 
 	- Glyph name: Scaron	Expected: 2
 
@@ -738,6 +699,10 @@ But instead we have got:
 	- Glyph name: exclam	Expected: 2
 
 	- Glyph name: exclamdown	Expected: 2
+
+	- Glyph name: gbreve	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Expected: 3 or 4
 
 	- Glyph name: germandbls	Expected: 1
 
@@ -933,8 +898,6 @@ But instead we have got:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
 	- Glyph name: Agrave	Contours detected: 2	Expected: 3
 
 	- Glyph name: Acircumflex	Contours detected: 2	Expected: 3
@@ -1008,10 +971,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: edotaccent	Contours detected: 2	Expected: 3
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
-
-	- Glyph name: gbreve	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: gdotaccent	Contours detected: 7	Expected: 3 or 4
 
 	- Glyph name: Lacute	Contours detected: 1	Expected: 2
 
@@ -1140,12 +1099,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: egrave	Contours detected: 2	Expected: 3
 
 	- Glyph name: emacron	Contours detected: 2	Expected: 3
-
-	- Glyph name: g	Contours detected: 7	Expected: 2 or 3
-
-	- Glyph name: gbreve	Contours detected: 7	Expected: 3 or 4
-
-	- Glyph name: gdotaccent	Contours detected: 7	Expected: 3 or 4
 
 	- Glyph name: lcaron	Contours detected: 1	Expected: 2
 
@@ -1220,17 +1173,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, canadian-aboriginal, malayalam, math, syriac, coptic, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, syriac, malayalam, math, tai-le, old-permic, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1280,6 +1233,14 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- F.ss10
 
+	- N.ss01
+
+	- N.ss02
+
+	- R.ss01
+
+	- V.ss01
+
 	- f.ss01
 
 	- i.loclTRK
@@ -1299,6 +1260,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- v.ss01
 
 	- w.ss01
+
+	- x.ss01
+
+	- z.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -1307,7 +1272,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs were present but did not contain any outlines: bar, bracketleft, I [code: empty-glyphs]
+* ⚠ **WARN** The following glyphs were present but did not contain any outlines: bar, bracketleft [code: empty-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1325,229 +1290,35 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038): X=406.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=260.0,Y=-2.0 (should be at baseline 0?)
+	* B (U+0042): X=24.0,Y=1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=260.0,Y=-2.0 (should be at baseline 0?)
+	* B (U+0042): X=24.0,Y=555.0 (should be at cap-height 554?)
 
-	* gbreve (U+011F): X=260.0,Y=-2.0 (should be at baseline 0?)
+	* B (U+0042): X=363.0,Y=555.0 (should be at cap-height 554?)
 
-	* gbreve (U+011F): X=260.0,Y=-2.0 (should be at baseline 0?)
+	* B (U+0042): X=365.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
-	* gdotaccent (U+0121): X=260.0,Y=-2.0 (should be at baseline 0?)
 
-	* gdotaccent (U+0121): X=260.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+* ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* two (U+0032) contains a short segment L<<24.0,0.0>--<24.0,14.0>>
 
-* ⚠ **WARN** The following glyphs have colinear vectors:
+	* two (U+0032) contains a short segment L<<21.0,245.0>--<21.0,259.0>>
 
-	* g (U+0067): L<<208.0,-136.0>--<209.0,-134.0>> -> L<<209.0,-134.0>--<210.0,-132.0>>
+	* five (U+0035) contains a short segment B<<410.5,-139.0>-<404.0,-154.0>-<404.0,-154.0>>
 
-	* g (U+0067): L<<212.0,-129.0>--<213.0,-127.0>> -> L<<213.0,-127.0>--<214.0,-125.0>>
+	* m (U+006D) contains a short segment B<<588.0,400.0>-<588.0,400.0>-<598.5,388.5>>
 
-	* g (U+0067): L<<216.0,-122.0>--<217.0,-120.0>> -> L<<217.0,-120.0>--<218.0,-118.0>>
+	* w (U+0077) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>>
 
-	* g (U+0067): L<<225.0,-105.0>--<226.0,-103.0>> -> L<<226.0,-103.0>--<227.0,-101.0>>
+	* wcircumflex (U+0175) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>>
 
-	* g (U+0067): L<<231.0,-93.0>--<232.0,-91.0>> -> L<<232.0,-91.0>--<233.0,-89.0>>
+	* wgrave (U+1E81) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>>
 
-	* g (U+0067): L<<243.0,-64.0>--<244.0,-61.0>> -> L<<244.0,-61.0>--<245.0,-58.0>>
+	* wacute (U+1E83) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>>
 
-	* g (U+0067): L<<265.0,26.0>--<265.0,29.0>> -> L<<265.0,29.0>--<265.0,31.0>>
-
-	* g (U+0067): L<<265.0,29.0>--<265.0,31.0>> -> L<<265.0,31.0>--<265.0,34.0>>
-
-	* g (U+0067): L<<265.0,31.0>--<265.0,34.0>> -> L<<265.0,34.0>--<265.0,36.0>>
-
-	* g (U+0067): L<<266.0,39.0>--<266.0,41.0>> -> L<<266.0,41.0>--<266.0,44.0>>
-
-	* g (U+0067): L<<266.0,41.0>--<266.0,44.0>> -> L<<266.0,44.0>--<266.0,47.0>>
-
-	* g (U+0067): L<<266.0,44.0>--<266.0,47.0>> -> L<<266.0,47.0>--<266.0,49.0>>
-
-	* g (U+0067): L<<266.0,47.0>--<266.0,49.0>> -> L<<266.0,49.0>--<266.0,54.0>>
-
-	* g (U+0067): L<<266.0,49.0>--<266.0,54.0>> -> L<<266.0,54.0>--<266.0,400.0>>
-
-	* g (U+0067): L<<407.0,-148.0>--<408.0,-146.0>> -> L<<408.0,-146.0>--<409.0,-144.0>>
-
-	* g (U+0067): L<<408.0,-146.0>--<409.0,-144.0>> -> L<<409.0,-144.0>--<410.0,-142.0>>
-
-	* g (U+0067): L<<409.0,-144.0>--<410.0,-142.0>> -> L<<410.0,-142.0>--<411.0,-140.0>>
-
-	* g (U+0067): L<<410.0,-142.0>--<411.0,-140.0>> -> L<<411.0,-140.0>--<412.0,-138.0>>
-
-	* g (U+0067): L<<413.0,-133.0>--<414.0,-131.0>> -> L<<414.0,-131.0>--<415.0,-129.0>>
-
-	* g (U+0067): L<<414.0,-131.0>--<415.0,-129.0>> -> L<<415.0,-129.0>--<416.0,-127.0>>
-
-	* g (U+0067): L<<421.0,-112.0>--<422.0,-109.0>> -> L<<422.0,-109.0>--<423.0,-106.0>>
-
-	* g (U+0067): L<<427.0,-90.0>--<428.0,-87.0>> -> L<<428.0,-87.0>--<429.0,-84.0>>
-
-	* g (U+0067): L<<429.0,-82.0>--<430.0,-79.0>> -> L<<430.0,-79.0>--<431.0,-76.0>>
-
-	* g (U+0067): L<<431.0,-73.0>--<432.0,-70.0>> -> L<<432.0,-70.0>--<433.0,-67.0>>
-
-	* g (U+0067): L<<435.0,-56.0>--<435.0,-53.0>> -> L<<435.0,-53.0>--<435.0,-50.0>>
-
-	* g (U+0067): L<<437.0,-41.0>--<437.0,-39.0>> -> L<<437.0,-39.0>--<437.0,-36.0>>
-
-	* g (U+0067): L<<438.0,-28.0>--<438.0,-25.0>> -> L<<438.0,-25.0>--<438.0,-22.0>>
-
-	* g (U+0067): L<<438.0,-30.0>--<438.0,-28.0>> -> L<<438.0,-28.0>--<438.0,-25.0>>
-
-	* g (U+0067): L<<438.0,-33.0>--<438.0,-30.0>> -> L<<438.0,-30.0>--<438.0,-28.0>>
-
-	* g (U+0067): L<<439.0,-14.0>--<439.0,-12.0>> -> L<<439.0,-12.0>--<439.0,-7.0>>
-
-	* g (U+0067): L<<439.0,-17.0>--<439.0,-14.0>> -> L<<439.0,-14.0>--<439.0,-12.0>>
-
-	* g (U+0067): L<<439.0,-19.0>--<439.0,-17.0>> -> L<<439.0,-17.0>--<439.0,-14.0>>
-
-	* gbreve (U+011F): L<<208.0,-136.0>--<209.0,-134.0>> -> L<<209.0,-134.0>--<210.0,-132.0>>
-
-	* gbreve (U+011F): L<<212.0,-129.0>--<213.0,-127.0>> -> L<<213.0,-127.0>--<214.0,-125.0>>
-
-	* gbreve (U+011F): L<<216.0,-122.0>--<217.0,-120.0>> -> L<<217.0,-120.0>--<218.0,-118.0>>
-
-	* gbreve (U+011F): L<<225.0,-105.0>--<226.0,-103.0>> -> L<<226.0,-103.0>--<227.0,-101.0>>
-
-	* gbreve (U+011F): L<<231.0,-93.0>--<232.0,-91.0>> -> L<<232.0,-91.0>--<233.0,-89.0>>
-
-	* gbreve (U+011F): L<<243.0,-64.0>--<244.0,-61.0>> -> L<<244.0,-61.0>--<245.0,-58.0>>
-
-	* gbreve (U+011F): L<<265.0,26.0>--<265.0,29.0>> -> L<<265.0,29.0>--<265.0,31.0>>
-
-	* gbreve (U+011F): L<<265.0,29.0>--<265.0,31.0>> -> L<<265.0,31.0>--<265.0,34.0>>
-
-	* gbreve (U+011F): L<<265.0,31.0>--<265.0,34.0>> -> L<<265.0,34.0>--<265.0,36.0>>
-
-	* gbreve (U+011F): L<<266.0,39.0>--<266.0,41.0>> -> L<<266.0,41.0>--<266.0,44.0>>
-
-	* gbreve (U+011F): L<<266.0,41.0>--<266.0,44.0>> -> L<<266.0,44.0>--<266.0,47.0>>
-
-	* gbreve (U+011F): L<<266.0,44.0>--<266.0,47.0>> -> L<<266.0,47.0>--<266.0,49.0>>
-
-	* gbreve (U+011F): L<<266.0,47.0>--<266.0,49.0>> -> L<<266.0,49.0>--<266.0,54.0>>
-
-	* gbreve (U+011F): L<<266.0,49.0>--<266.0,54.0>> -> L<<266.0,54.0>--<266.0,400.0>>
-
-	* gbreve (U+011F): L<<407.0,-148.0>--<408.0,-146.0>> -> L<<408.0,-146.0>--<409.0,-144.0>>
-
-	* gbreve (U+011F): L<<408.0,-146.0>--<409.0,-144.0>> -> L<<409.0,-144.0>--<410.0,-142.0>>
-
-	* gbreve (U+011F): L<<409.0,-144.0>--<410.0,-142.0>> -> L<<410.0,-142.0>--<411.0,-140.0>>
-
-	* gbreve (U+011F): L<<410.0,-142.0>--<411.0,-140.0>> -> L<<411.0,-140.0>--<412.0,-138.0>>
-
-	* gbreve (U+011F): L<<413.0,-133.0>--<414.0,-131.0>> -> L<<414.0,-131.0>--<415.0,-129.0>>
-
-	* gbreve (U+011F): L<<414.0,-131.0>--<415.0,-129.0>> -> L<<415.0,-129.0>--<416.0,-127.0>>
-
-	* gbreve (U+011F): L<<421.0,-112.0>--<422.0,-109.0>> -> L<<422.0,-109.0>--<423.0,-106.0>>
-
-	* gbreve (U+011F): L<<427.0,-90.0>--<428.0,-87.0>> -> L<<428.0,-87.0>--<429.0,-84.0>>
-
-	* gbreve (U+011F): L<<429.0,-82.0>--<430.0,-79.0>> -> L<<430.0,-79.0>--<431.0,-76.0>>
-
-	* gbreve (U+011F): L<<431.0,-73.0>--<432.0,-70.0>> -> L<<432.0,-70.0>--<433.0,-67.0>>
-
-	* gbreve (U+011F): L<<435.0,-56.0>--<435.0,-53.0>> -> L<<435.0,-53.0>--<435.0,-50.0>>
-
-	* gbreve (U+011F): L<<437.0,-41.0>--<437.0,-39.0>> -> L<<437.0,-39.0>--<437.0,-36.0>>
-
-	* gbreve (U+011F): L<<438.0,-28.0>--<438.0,-25.0>> -> L<<438.0,-25.0>--<438.0,-22.0>>
-
-	* gbreve (U+011F): L<<438.0,-30.0>--<438.0,-28.0>> -> L<<438.0,-28.0>--<438.0,-25.0>>
-
-	* gbreve (U+011F): L<<438.0,-33.0>--<438.0,-30.0>> -> L<<438.0,-30.0>--<438.0,-28.0>>
-
-	* gbreve (U+011F): L<<439.0,-14.0>--<439.0,-12.0>> -> L<<439.0,-12.0>--<439.0,-7.0>>
-
-	* gbreve (U+011F): L<<439.0,-17.0>--<439.0,-14.0>> -> L<<439.0,-14.0>--<439.0,-12.0>>
-
-	* gbreve (U+011F): L<<439.0,-19.0>--<439.0,-17.0>> -> L<<439.0,-17.0>--<439.0,-14.0>>
-
-	* gdotaccent (U+0121): L<<208.0,-136.0>--<209.0,-134.0>> -> L<<209.0,-134.0>--<210.0,-132.0>>
-
-	* gdotaccent (U+0121): L<<212.0,-129.0>--<213.0,-127.0>> -> L<<213.0,-127.0>--<214.0,-125.0>>
-
-	* gdotaccent (U+0121): L<<216.0,-122.0>--<217.0,-120.0>> -> L<<217.0,-120.0>--<218.0,-118.0>>
-
-	* gdotaccent (U+0121): L<<225.0,-105.0>--<226.0,-103.0>> -> L<<226.0,-103.0>--<227.0,-101.0>>
-
-	* gdotaccent (U+0121): L<<231.0,-93.0>--<232.0,-91.0>> -> L<<232.0,-91.0>--<233.0,-89.0>>
-
-	* gdotaccent (U+0121): L<<243.0,-64.0>--<244.0,-61.0>> -> L<<244.0,-61.0>--<245.0,-58.0>>
-
-	* gdotaccent (U+0121): L<<265.0,26.0>--<265.0,29.0>> -> L<<265.0,29.0>--<265.0,31.0>>
-
-	* gdotaccent (U+0121): L<<265.0,29.0>--<265.0,31.0>> -> L<<265.0,31.0>--<265.0,34.0>>
-
-	* gdotaccent (U+0121): L<<265.0,31.0>--<265.0,34.0>> -> L<<265.0,34.0>--<265.0,36.0>>
-
-	* gdotaccent (U+0121): L<<266.0,39.0>--<266.0,41.0>> -> L<<266.0,41.0>--<266.0,44.0>>
-
-	* gdotaccent (U+0121): L<<266.0,41.0>--<266.0,44.0>> -> L<<266.0,44.0>--<266.0,47.0>>
-
-	* gdotaccent (U+0121): L<<266.0,44.0>--<266.0,47.0>> -> L<<266.0,47.0>--<266.0,49.0>>
-
-	* gdotaccent (U+0121): L<<266.0,47.0>--<266.0,49.0>> -> L<<266.0,49.0>--<266.0,54.0>>
-
-	* gdotaccent (U+0121): L<<266.0,49.0>--<266.0,54.0>> -> L<<266.0,54.0>--<266.0,400.0>>
-
-	* gdotaccent (U+0121): L<<407.0,-148.0>--<408.0,-146.0>> -> L<<408.0,-146.0>--<409.0,-144.0>>
-
-	* gdotaccent (U+0121): L<<408.0,-146.0>--<409.0,-144.0>> -> L<<409.0,-144.0>--<410.0,-142.0>>
-
-	* gdotaccent (U+0121): L<<409.0,-144.0>--<410.0,-142.0>> -> L<<410.0,-142.0>--<411.0,-140.0>>
-
-	* gdotaccent (U+0121): L<<410.0,-142.0>--<411.0,-140.0>> -> L<<411.0,-140.0>--<412.0,-138.0>>
-
-	* gdotaccent (U+0121): L<<413.0,-133.0>--<414.0,-131.0>> -> L<<414.0,-131.0>--<415.0,-129.0>>
-
-	* gdotaccent (U+0121): L<<414.0,-131.0>--<415.0,-129.0>> -> L<<415.0,-129.0>--<416.0,-127.0>>
-
-	* gdotaccent (U+0121): L<<421.0,-112.0>--<422.0,-109.0>> -> L<<422.0,-109.0>--<423.0,-106.0>>
-
-	* gdotaccent (U+0121): L<<427.0,-90.0>--<428.0,-87.0>> -> L<<428.0,-87.0>--<429.0,-84.0>>
-
-	* gdotaccent (U+0121): L<<429.0,-82.0>--<430.0,-79.0>> -> L<<430.0,-79.0>--<431.0,-76.0>>
-
-	* gdotaccent (U+0121): L<<431.0,-73.0>--<432.0,-70.0>> -> L<<432.0,-70.0>--<433.0,-67.0>>
-
-	* gdotaccent (U+0121): L<<435.0,-56.0>--<435.0,-53.0>> -> L<<435.0,-53.0>--<435.0,-50.0>>
-
-	* gdotaccent (U+0121): L<<437.0,-41.0>--<437.0,-39.0>> -> L<<437.0,-39.0>--<437.0,-36.0>>
-
-	* gdotaccent (U+0121): L<<438.0,-28.0>--<438.0,-25.0>> -> L<<438.0,-25.0>--<438.0,-22.0>>
-
-	* gdotaccent (U+0121): L<<438.0,-30.0>--<438.0,-28.0>> -> L<<438.0,-28.0>--<438.0,-25.0>>
-
-	* gdotaccent (U+0121): L<<438.0,-33.0>--<438.0,-30.0>> -> L<<438.0,-30.0>--<438.0,-28.0>>
-
-	* gdotaccent (U+0121): L<<439.0,-14.0>--<439.0,-12.0>> -> L<<439.0,-12.0>--<439.0,-7.0>>
-
-	* gdotaccent (U+0121): L<<439.0,-17.0>--<439.0,-14.0>> -> L<<439.0,-14.0>--<439.0,-12.0>>
-
-	* gdotaccent (U+0121): L<<439.0,-19.0>--<439.0,-17.0>> -> L<<439.0,-17.0>--<439.0,-14.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* g (U+0067): B<<199.0,-150.0>-<197.0,-152.0>-<196.0,-154.0>>/L<<196.0,-154.0>--<199.0,-150.0>> = 10.304846468766044
-
-	* g (U+0067): B<<405.0,-151.0>-<404.0,-153.0>-<403.0,-154.0>>/L<<403.0,-154.0>--<405.0,-151.0>> = 11.309932474020195
-
-	* gbreve (U+011F): B<<199.0,-150.0>-<197.0,-152.0>-<196.0,-154.0>>/L<<196.0,-154.0>--<199.0,-150.0>> = 10.304846468766044
-
-	* gbreve (U+011F): B<<405.0,-151.0>-<404.0,-153.0>-<403.0,-154.0>>/L<<403.0,-154.0>--<405.0,-151.0>> = 11.309932474020195
-
-	* gdotaccent (U+0121): B<<199.0,-150.0>-<197.0,-152.0>-<196.0,-154.0>>/L<<196.0,-154.0>--<199.0,-150.0>> = 10.304846468766044
-
-	* gdotaccent (U+0121): B<<405.0,-151.0>-<404.0,-153.0>-<403.0,-154.0>>/L<<403.0,-154.0>--<405.0,-151.0>> = 11.309932474020195 [code: found-jaggy-segments]
+	* wdieresis (U+1E85) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1569,15 +1340,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 10 | 14 | 122 | 7 | 98 | 0 |
-| 0% | 4% | 6% | 48% | 3% | 39% | 0% |
+| 1 | 9 | 13 | 122 | 7 | 100 | 0 |
+| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
