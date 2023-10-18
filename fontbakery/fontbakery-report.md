@@ -144,16 +144,6 @@ But instead we have got:
 
 	- Glyph name: at	Expected: 2
 
-	- Glyph name: C	Expected: 1
-
-	- Glyph name: G	Expected: 1
-
-	- Glyph name: J	Expected: 1
-
-	- Glyph name: L	Expected: 1
-
-	- Glyph name: M	Expected: 1
-
 	- Glyph name: Q	Expected: 2
 
 	- Glyph name: U	Expected: 1
@@ -228,8 +218,6 @@ But instead we have got:
 
 	- Glyph name: AE	Expected: 2
 
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
 	- Glyph name: Egrave	Expected: 2
 
 	- Glyph name: Ecircumflex	Expected: 2
@@ -276,10 +264,6 @@ But instead we have got:
 
 	- Glyph name: thorn	Expected: 2
 
-	- Glyph name: Cdotaccent	Expected: 2
-
-	- Glyph name: Ccaron	Expected: 2
-
 	- Glyph name: Dcaron	Expected: 3
 
 	- Glyph name: Dcroat	Expected: 2
@@ -294,11 +278,7 @@ But instead we have got:
 
 	- Glyph name: Ecaron	Expected: 2
 
-	- Glyph name: Gbreve	Expected: 2
-
 	- Glyph name: gbreve	Expected: 3 or 4
-
-	- Glyph name: Gdotaccent	Expected: 2
 
 	- Glyph name: gdotaccent	Expected: 3 or 4
 
@@ -327,8 +307,6 @@ But instead we have got:
 	- Glyph name: uni013B	Expected: 2
 
 	- Glyph name: uni013C	Expected: 2
-
-	- Glyph name: Lcaron	Expected: 2
 
 	- Glyph name: Lslash	Expected: 1
 
@@ -504,14 +482,6 @@ But instead we have got:
 
 	- Glyph name: AE	Expected: 2
 
-	- Glyph name: C	Expected: 1
-
-	- Glyph name: Ccaron	Expected: 2
-
-	- Glyph name: Ccedilla	Expected: 1 or 2
-
-	- Glyph name: Cdotaccent	Expected: 2
-
 	- Glyph name: Dcaron	Expected: 3
 
 	- Glyph name: Dcroat	Expected: 2
@@ -536,12 +506,6 @@ But instead we have got:
 
 	- Glyph name: Euro	Expected: 1 or 2
 
-	- Glyph name: G	Expected: 1
-
-	- Glyph name: Gbreve	Expected: 2
-
-	- Glyph name: Gdotaccent	Expected: 2
-
 	- Glyph name: Hbar	Expected: 2
 
 	- Glyph name: Icircumflex	Expected: 2
@@ -556,15 +520,7 @@ But instead we have got:
 
 	- Glyph name: Iogonek	Expected: 1 or 2
 
-	- Glyph name: J	Expected: 1
-
-	- Glyph name: L	Expected: 1
-
-	- Glyph name: Lcaron	Expected: 2
-
 	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: M	Expected: 1
 
 	- Glyph name: Ncaron	Expected: 2
 
@@ -958,9 +914,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: abreve	Contours detected: 2	Expected: 3
 
-	- Glyph name: Cacute	Contours detected: 1	Expected: 2
+	- Glyph name: Cdotaccent	Contours detected: 1	Expected: 2
 
 	- Glyph name: cdotaccent	Contours detected: 1	Expected: 2
+
+	- Glyph name: Ccaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: ccaron	Contours detected: 1	Expected: 2
 
@@ -972,7 +930,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ecaron	Contours detected: 2	Expected: 3
 
-	- Glyph name: Lacute	Contours detected: 1	Expected: 2
+	- Glyph name: Gbreve	Contours detected: 1	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 1	Expected: 2
+
+	- Glyph name: Lcaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: lcaron	Contours detected: 1	Expected: 2
 
@@ -1036,13 +998,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Atilde	Contours detected: 2	Expected: 3
 
-	- Glyph name: Cacute	Contours detected: 1	Expected: 2
+	- Glyph name: Ccaron	Contours detected: 1	Expected: 2
+
+	- Glyph name: Cdotaccent	Contours detected: 1	Expected: 2
 
 	- Glyph name: Eacute	Contours detected: 1	Expected: 2
 
+	- Glyph name: Gbreve	Contours detected: 1	Expected: 2
+
+	- Glyph name: Gdotaccent	Contours detected: 1	Expected: 2
+
 	- Glyph name: Iacute	Contours detected: 1	Expected: 2
 
-	- Glyph name: Lacute	Contours detected: 1	Expected: 2
+	- Glyph name: Lcaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: Nacute	Contours detected: 1	Expected: 2
 
@@ -1173,17 +1141,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, syriac, malayalam, math, tai-le, old-permic, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, old-permic, syriac, malayalam, coptic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1340,7 +1308,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
