@@ -135,6 +135,10 @@ pos = -270;
 }
 );
 name = Bold;
+stemValues = (
+120,
+173
+);
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
@@ -8426,6 +8430,15 @@ value = "Oluseyi Olusanya, David lastname, Eyeyemi lastname, Mirko Velimirovic";
 );
 }
 );
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -8438,7 +8451,7 @@ nV = "173";
 nd = "38";
 oH = "23";
 oV = "173";
-tH = "119";
+tH = "120";
 };
 };
 };
