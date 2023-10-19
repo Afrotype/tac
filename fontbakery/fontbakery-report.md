@@ -124,15 +124,9 @@ But instead we have got:
 
 	- Glyph name: plus	Expected: 1
 
-	- Glyph name: comma	Expected: 1
-
 	- Glyph name: hyphen	Expected: 1
 
 	- Glyph name: slash	Expected: 1
-
-	- Glyph name: colon	Expected: 2
-
-	- Glyph name: semicolon	Expected: 2
 
 	- Glyph name: less	Expected: 1
 
@@ -414,13 +408,9 @@ But instead we have got:
 
 	- Glyph name: quoteright	Expected: 1
 
-	- Glyph name: quotesinglbase	Expected: 1
-
 	- Glyph name: quotedblleft	Expected: 2
 
 	- Glyph name: quotedblright	Expected: 2
-
-	- Glyph name: quotedblbase	Expected: 2
 
 	- Glyph name: dagger	Expected: 1 or 2
 
@@ -594,10 +584,6 @@ But instead we have got:
 
 	- Glyph name: cent	Expected: 1 or 2
 
-	- Glyph name: colon	Expected: 2
-
-	- Glyph name: comma	Expected: 1
-
 	- Glyph name: copyright	Expected: 3
 
 	- Glyph name: currency	Expected: 2
@@ -722,8 +708,6 @@ But instead we have got:
 
 	- Glyph name: quotedbl	Expected: 2
 
-	- Glyph name: quotedblbase	Expected: 2
-
 	- Glyph name: quotedblleft	Expected: 2
 
 	- Glyph name: quotedblright	Expected: 2
@@ -732,8 +716,6 @@ But instead we have got:
 
 	- Glyph name: quoteright	Expected: 1
 
-	- Glyph name: quotesinglbase	Expected: 1
-
 	- Glyph name: radical	Expected: 1
 
 	- Glyph name: registered	Expected: 3 or 4
@@ -741,8 +723,6 @@ But instead we have got:
 	- Glyph name: ring	Expected: 2
 
 	- Glyph name: section	Expected: 2
-
-	- Glyph name: semicolon	Expected: 2
 
 	- Glyph name: slash	Expected: 1
 
@@ -1117,14 +1097,14 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, coptic, tifinagh, tai-le, syriac, malayalam, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, malayalam, tai-le, coptic, tifinagh, syriac, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1324,7 +1304,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
