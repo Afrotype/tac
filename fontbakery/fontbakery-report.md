@@ -144,18 +144,6 @@ But instead we have got:
 
 	- Glyph name: at	Expected: 2
 
-	- Glyph name: Q	Expected: 2
-
-	- Glyph name: U	Expected: 1
-
-	- Glyph name: W	Expected: 1 or 2
-
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
-	- Glyph name: Z	Expected: 1
-
 	- Glyph name: bracketleft	Expected: 1
 
 	- Glyph name: backslash	Expected: 1
@@ -530,15 +518,11 @@ But instead we have got:
 
 	- Glyph name: Oslash	Expected: 2 or 3
 
-	- Glyph name: Q	Expected: 2
-
 	- Glyph name: Rcaron	Expected: 3
 
 	- Glyph name: Scaron	Expected: 2
 
 	- Glyph name: Thorn	Expected: 1 or 2
-
-	- Glyph name: U	Expected: 1
 
 	- Glyph name: Ubreve	Expected: 2
 
@@ -556,25 +540,17 @@ But instead we have got:
 
 	- Glyph name: Uring	Expected: 3
 
-	- Glyph name: W	Expected: 1 or 2
-
 	- Glyph name: Wcircumflex	Expected: 2
 
 	- Glyph name: Wdieresis	Expected: 3
 
 	- Glyph name: Wgrave	Expected: 2
 
-	- Glyph name: X	Expected: 1
-
-	- Glyph name: Y	Expected: 1
-
 	- Glyph name: Ycircumflex	Expected: 2
 
 	- Glyph name: Ydieresis	Expected: 3
 
 	- Glyph name: Ygrave	Expected: 2
-
-	- Glyph name: Z	Expected: 1
 
 	- Glyph name: Zcaron	Expected: 2
 
@@ -1141,17 +1117,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, tai-le, old-permic, syriac, malayalam, coptic, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, old-permic, canadian-aboriginal, coptic, tai-le, syriac, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1176,16 +1152,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + f
-
-	- f + i
-
-	- t + t [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1201,13 +1167,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- F.ss10
 
+	- M.ss01
+
 	- N.ss01
 
 	- N.ss02
 
+	- Q.ss01
+
 	- R.ss01
 
+	- S.ss01
+
 	- V.ss01
+
+	- X.ss02
 
 	- f.ss01
 
@@ -1241,6 +1215,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** The following glyphs were present but did not contain any outlines: bar, bracketleft [code: empty-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1276,6 +1254,16 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* five (U+0035) contains a short segment B<<410.5,-139.0>-<404.0,-154.0>-<404.0,-154.0>>
 
+	* W (U+0057) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
+
+	* W (U+0057) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
+
+	* W (U+0057) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+
+	* Z (U+005A) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
+
+	* Z (U+005A) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
+
 	* m (U+006D) contains a short segment B<<588.0,400.0>-<588.0,400.0>-<598.5,388.5>>
 
 	* w (U+0077) contains a short segment B<<598.5,11.5>-<588.0,0.0>-<588.0,0.0>>
@@ -1291,6 +1279,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* Y (U+0059): L<<160.0,0.0>--<161.0,257.0>>
+
+	* Y (U+0059): L<<346.0,257.0>--<345.0,0.0>>
 
 	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1308,15 +1300,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 9 | 13 | 122 | 7 | 100 | 0 |
-| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
+| 1 | 9 | 13 | 123 | 7 | 99 | 0 |
+| 0% | 4% | 5% | 49% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
