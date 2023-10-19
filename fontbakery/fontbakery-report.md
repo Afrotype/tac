@@ -1117,17 +1117,17 @@ The following glyphs do not have the recommended number of contours:
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, math, coptic, malayalam, syriac, tifinagh, tai-le
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, coptic, tifinagh, tai-le, syriac, malayalam, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1199,6 +1199,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- one.osf
 
+	- one.ss01
+
 	- periodcentered.loclCAT
 
 	- periodcentered.loclCAT.case
@@ -1210,6 +1212,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- three.osf
 
 	- two.osf
+
+	- two.ss01
 
 	- u.ss01
 
@@ -1244,9 +1248,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* four (U+0034): X=78.0,Y=-2.0 (should be at baseline 0?)
+	* three (U+0033): X=56.0,Y=553.0 (should be at cap-height 554?)
 
-	* four (U+0034): X=264.0,Y=-2.0 (should be at baseline 0?)
+	* three (U+0033): X=408.0,Y=553.0 (should be at cap-height 554?)
+
+	* four (U+0034): X=78.0,Y=552.0 (should be at cap-height 554?)
+
+	* four (U+0034): X=292.0,Y=552.0 (should be at cap-height 554?)
 
 	* eight (U+0038): X=56.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1268,11 +1276,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* two (U+0032) contains a short segment L<<24.0,0.0>--<24.0,14.0>>
-
-	* two (U+0032) contains a short segment L<<21.0,245.0>--<21.0,259.0>>
-
-	* five (U+0035) contains a short segment B<<410.5,-139.0>-<404.0,-154.0>-<404.0,-154.0>>
+	* five (U+0035) contains a short segment B<<410.5,15.0>-<404.0,0.0>-<404.0,0.0>>
 
 	* W (U+0057) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
 
@@ -1320,7 +1324,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĩ ĭ i̇ ǐ i̒ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ ĵ
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Dutch (Latn, 31,709,104 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
