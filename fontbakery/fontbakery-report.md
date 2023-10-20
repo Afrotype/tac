@@ -2,21 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
-</div></details><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -123,8 +109,6 @@ But instead we have got:
 
 	- Glyph name: brokenbar	Expected: 2
 
-	- Glyph name: section	Expected: 2
-
 	- Glyph name: dieresis	Expected: 2
 
 	- Glyph name: copyright	Expected: 3
@@ -138,8 +122,6 @@ But instead we have got:
 	- Glyph name: degree	Expected: 2
 
 	- Glyph name: plusminus	Expected: 1 or 2
-
-	- Glyph name: paragraph	Expected: 1, 2 or 3
 
 	- Glyph name: periodcentered	Expected: 1
 
@@ -226,8 +208,6 @@ But instead we have got:
 	- Glyph name: uni019D	Expected: 1
 
 	- Glyph name: nlongrightleg	Expected: 1
-
-	- Glyph name: Obarred	Expected: 3
 
 	- Glyph name: uni01A4	Expected: 2
 
@@ -567,8 +547,6 @@ But instead we have got:
 
 	- Glyph name: oslash	Expected: 3
 
-	- Glyph name: paragraph	Expected: 1, 2 or 3
-
 	- Glyph name: parenleft	Expected: 1
 
 	- Glyph name: parenright	Expected: 1
@@ -606,8 +584,6 @@ But instead we have got:
 	- Glyph name: registered	Expected: 3 or 4
 
 	- Glyph name: ring	Expected: 2
-
-	- Glyph name: section	Expected: 2
 
 	- Glyph name: slash	Expected: 1
 
@@ -875,8 +851,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E0C	Contours detected: 2	Expected: 3
-
 	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
@@ -926,8 +900,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E0C	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
 
@@ -1074,18 +1046,18 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, coptic, tai-le, syriac, math, canadian-aboriginal, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, malayalam, old-permic, coptic, tifinagh, syriac, canadian-aboriginal, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1101,8 +1073,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, syriac, tifinagh, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, syriac, caucasian-albanian, cherokee, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1260,13 +1232,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* four (U+0034): X=292.0,Y=552.0 (should be at cap-height 554?)
 
-	* eight (U+0038): X=56.0,Y=-1.0 (should be at baseline 0?)
+	* eight (U+0038): X=71.0,Y=-1.0 (should be at baseline 0?)
 
-	* eight (U+0038): X=56.0,Y=552.0 (should be at cap-height 554?)
+	* eight (U+0038): X=71.0,Y=552.0 (should be at cap-height 554?)
 
-	* eight (U+0038): X=406.0,Y=552.0 (should be at cap-height 554?)
+	* eight (U+0038): X=421.0,Y=552.0 (should be at cap-height 554?)
 
-	* eight (U+0038): X=406.0,Y=-1.0 (should be at baseline 0?)
+	* eight (U+0038): X=421.0,Y=-1.0 (should be at baseline 0?)
 
 	* B (U+0042): X=24.0,Y=1.0 (should be at baseline 0?)
 
@@ -1424,25 +1396,25 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Ygrave (U+1EF2): L<<346.0,257.0>--<345.0,0.0>>
 
-	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
+	* l (U+006C): L<<13.0,147.0>--<12.0,574.0>>
 
-	* lacute (U+013A): L<<25.0,147.0>--<24.0,574.0>>
+	* lacute (U+013A): L<<13.0,147.0>--<12.0,574.0>>
 
-	* lcaron (U+013E): L<<25.0,147.0>--<24.0,574.0>>
+	* lcaron (U+013E): L<<13.0,147.0>--<12.0,574.0>>
 
-	* lmacronbelow (U+1E3B): L<<25.0,147.0>--<24.0,574.0>>
+	* lmacronbelow (U+1E3B): L<<13.0,147.0>--<12.0,574.0>>
 
-	* uni013C (U+013C): L<<25.0,147.0>--<24.0,574.0>>
+	* uni013C (U+013C): L<<13.0,147.0>--<12.0,574.0>>
 
 	* uni0232 (U+0232): L<<160.0,0.0>--<161.0,257.0>>
 
 	* uni0232 (U+0232): L<<346.0,257.0>--<345.0,0.0>>
 
-	* uni1E37 (U+1E37): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E37 (U+1E37): L<<13.0,147.0>--<12.0,574.0>>
 
-	* uni1E39 (U+1E39): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E39 (U+1E39): L<<13.0,147.0>--<12.0,574.0>>
 
-	* uni1E3D (U+1E3D): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E3D (U+1E3D): L<<13.0,147.0>--<12.0,574.0>>
 
 	* uni1E8E (U+1E8E): L<<160.0,0.0>--<161.0,257.0>>
 
@@ -1464,15 +1436,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Dutch (Latn, 31,709,104 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 8 | 13 | 123 | 7 | 99 | 0 |
-| 1% | 3% | 5% | 49% | 3% | 39% | 0% |
+| 1 | 8 | 13 | 123 | 7 | 100 | 0 |
+| 0% | 3% | 5% | 49% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
