@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -34,6 +34,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (574) and hhea ascent (930) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
 
 
@@ -43,23 +47,15 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
 
-	- Glyph name: quotedbl	Expected: 2
-
 	- Glyph name: dollar	Expected: 1, 3 or 5
 
 	- Glyph name: percent	Expected: 5
 
 	- Glyph name: ampersand	Expected: 1, 2 or 3
 
-	- Glyph name: parenleft	Expected: 1
-
-	- Glyph name: parenright	Expected: 1
-
 	- Glyph name: asterisk	Expected: 1 or 4
 
 	- Glyph name: plus	Expected: 1
-
-	- Glyph name: hyphen	Expected: 1
 
 	- Glyph name: less	Expected: 1
 
@@ -75,15 +71,9 @@ But instead we have got:
 
 	- Glyph name: asciicircum	Expected: 1
 
-	- Glyph name: underscore	Expected: 1
-
 	- Glyph name: grave	Expected: 1
 
-	- Glyph name: braceleft	Expected: 1
-
 	- Glyph name: bar	Expected: 1
-
-	- Glyph name: braceright	Expected: 1
 
 	- Glyph name: asciitilde	Expected: 1
 
@@ -103,8 +93,6 @@ But instead we have got:
 
 	- Glyph name: copyright	Expected: 3
 
-	- Glyph name: guillemotleft	Expected: 2
-
 	- Glyph name: logicalnot	Expected: 1
 
 	- Glyph name: registered	Expected: 3 or 4
@@ -116,8 +104,6 @@ But instead we have got:
 	- Glyph name: paragraph	Expected: 1, 2 or 3
 
 	- Glyph name: cedilla	Expected: 1
-
-	- Glyph name: guillemotright	Expected: 2
 
 	- Glyph name: AE	Expected: 2
 
@@ -305,8 +291,6 @@ But instead we have got:
 
 	- Glyph name: uni02BB	Expected: 1
 
-	- Glyph name: uni02BC	Expected: 1
-
 	- Glyph name: uni02BE	Expected: 1
 
 	- Glyph name: uni02BF	Expected: 1
@@ -341,27 +325,11 @@ But instead we have got:
 
 	- Glyph name: uni1E9E	Expected: 1
 
-	- Glyph name: endash	Expected: 1
-
-	- Glyph name: emdash	Expected: 1
-
-	- Glyph name: quoteleft	Expected: 1
-
-	- Glyph name: quoteright	Expected: 1
-
-	- Glyph name: quotedblleft	Expected: 2
-
-	- Glyph name: quotedblright	Expected: 2
-
 	- Glyph name: dagger	Expected: 1 or 2
 
 	- Glyph name: daggerdbl	Expected: 1 or 3
 
 	- Glyph name: perthousand	Expected: 6 or 7
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
 
 	- Glyph name: uni20AA	Expected: 2
 
@@ -433,10 +401,6 @@ But instead we have got:
 
 	- Glyph name: bar	Expected: 1
 
-	- Glyph name: braceleft	Expected: 1
-
-	- Glyph name: braceright	Expected: 1
-
 	- Glyph name: bracketleft	Expected: 1
 
 	- Glyph name: bracketright	Expected: 1
@@ -471,10 +435,6 @@ But instead we have got:
 
 	- Glyph name: dotaccent	Expected: 1
 
-	- Glyph name: emdash	Expected: 1
-
-	- Glyph name: endash	Expected: 1
-
 	- Glyph name: eng	Expected: 1
 
 	- Glyph name: equal	Expected: 2
@@ -489,19 +449,9 @@ But instead we have got:
 
 	- Glyph name: greaterequal	Expected: 2
 
-	- Glyph name: guillemotleft	Expected: 2
-
-	- Glyph name: guillemotright	Expected: 2
-
-	- Glyph name: guilsinglleft	Expected: 1
-
-	- Glyph name: guilsinglright	Expected: 1
-
 	- Glyph name: hbar	Expected: 1
 
 	- Glyph name: hungarumlaut	Expected: 2
-
-	- Glyph name: hyphen	Expected: 1
 
 	- Glyph name: infinity	Expected: 3
 
@@ -527,10 +477,6 @@ But instead we have got:
 
 	- Glyph name: paragraph	Expected: 1, 2 or 3
 
-	- Glyph name: parenleft	Expected: 1
-
-	- Glyph name: parenright	Expected: 1
-
 	- Glyph name: partialdiff	Expected: 2
 
 	- Glyph name: percent	Expected: 5
@@ -542,16 +488,6 @@ But instead we have got:
 	- Glyph name: plusminus	Expected: 1 or 2
 
 	- Glyph name: product	Expected: 1
-
-	- Glyph name: quotedbl	Expected: 2
-
-	- Glyph name: quotedblleft	Expected: 2
-
-	- Glyph name: quotedblright	Expected: 2
-
-	- Glyph name: quoteleft	Expected: 1
-
-	- Glyph name: quoteright	Expected: 1
 
 	- Glyph name: radical	Expected: 1
 
@@ -570,8 +506,6 @@ But instead we have got:
 	- Glyph name: tilde	Expected: 1
 
 	- Glyph name: trademark	Expected: 2
-
-	- Glyph name: underscore	Expected: 1
 
 	- Glyph name: uni0180	Expected: 2
 
@@ -708,8 +642,6 @@ But instead we have got:
 	- Glyph name: uni0292	Expected: 1
 
 	- Glyph name: uni02BB	Expected: 1
-
-	- Glyph name: uni02BC	Expected: 1
 
 	- Glyph name: uni02BE	Expected: 1
 
@@ -889,8 +821,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1024,7 +955,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -1033,9 +964,9 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, tifinagh, old-permic, canadian-aboriginal, math, malayalam, tai-le
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, coptic, math, old-permic, syriac, tai-le, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1051,8 +982,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, tifinagh, cherokee
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, cherokee, syriac, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1420,15 +1351,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 8 | 13 | 123 | 7 | 100 | 0 |
-| 0% | 3% | 5% | 49% | 3% | 40% | 0% |
+| 1 | 9 | 13 | 123 | 7 | 99 | 0 |
+| 0% | 4% | 5% | 49% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
