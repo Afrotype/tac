@@ -302,7 +302,7 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
@@ -311,12 +311,12 @@ definitions.</p>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, coptic, math, old-permic, syriac, tai-le, malayalam</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, canadian-aboriginal, tai-le, coptic, tifinagh, syriac, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -329,8 +329,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, caucasian-albanian, cherokee, syriac, gothic</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, syriac, gothic, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -1159,7 +1159,9 @@ But instead we have got:
 <p>[code: no-contour]</p>
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: ae	Contours detected: 4	Expected: 3
+<pre><code>- Glyph name: m	Contours detected: 2	Expected: 1
+
+- Glyph name: ae	Contours detected: 4	Expected: 3
 
 - Glyph name: Abreve	Contours detected: 4	Expected: 3
 
@@ -1241,6 +1243,12 @@ But instead we have got:
 
 - Glyph name: uni1E1D	Contours detected: 5	Expected: 3
 
+- Glyph name: uni1E3F	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E41	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E43	Contours detected: 3	Expected: 2
+
 - Glyph name: Abreve	Contours detected: 4	Expected: 3
 
 - Glyph name: Gbreve	Contours detected: 3	Expected: 2
@@ -1260,6 +1268,8 @@ But instead we have got:
 - Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: m	Contours detected: 2	Expected: 1
 
 - Glyph name: oe	Contours detected: 4	Expected: 3
 
@@ -1292,6 +1302,12 @@ But instead we have got:
 - Glyph name: uni1E1C	Contours detected: 4	Expected: 2
 
 - Glyph name: uni1E1D	Contours detected: 5	Expected: 3
+
+- Glyph name: uni1E3F	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E41	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E43	Contours detected: 3	Expected: 2
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
@@ -1334,17 +1350,17 @@ But instead we have got:
 
 * three (U+0033): X=408.0,Y=553.0 (should be at cap-height 554?)
 
-* four (U+0034): X=78.0,Y=552.0 (should be at cap-height 554?)
+* four (U+0034): X=90.0,Y=552.0 (should be at cap-height 554?)
 
-* four (U+0034): X=292.0,Y=552.0 (should be at cap-height 554?)
+* four (U+0034): X=304.0,Y=552.0 (should be at cap-height 554?)
 
-* eight (U+0038): X=56.0,Y=-1.0 (should be at baseline 0?)
+* eight (U+0038): X=67.0,Y=-1.0 (should be at baseline 0?)
 
-* eight (U+0038): X=56.0,Y=552.0 (should be at cap-height 554?)
+* eight (U+0038): X=67.0,Y=552.0 (should be at cap-height 554?)
 
-* eight (U+0038): X=406.0,Y=552.0 (should be at cap-height 554?)
+* eight (U+0038): X=417.0,Y=552.0 (should be at cap-height 554?)
 
-* eight (U+0038): X=406.0,Y=-1.0 (should be at baseline 0?)
+* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?)
 
 * B (U+0042): X=24.0,Y=1.0 (should be at baseline 0?)
 
@@ -1395,9 +1411,7 @@ But instead we have got:
 
 * Z (U+005A) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
 
-* m (U+006D) contains a short segment B&lt;&lt;588.0,400.0&gt;-&lt;588.0,400.0&gt;-&lt;598.5,388.5&gt;&gt;
-
-* w (U+0077) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* w (U+0077) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * Wcircumflex (U+0174) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1405,7 +1419,7 @@ But instead we have got:
 
 * Wcircumflex (U+0174) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * Zacute (U+0179) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
 
@@ -1419,13 +1433,7 @@ But instead we have got:
 
 * Zcaron (U+017D) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
 
-* uni02B7 (U+02B7) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
-
-* uni1E3F (U+1E3F) contains a short segment B&lt;&lt;588.0,400.0&gt;-&lt;588.0,400.0&gt;-&lt;598.5,388.5&gt;&gt;
-
-* uni1E41 (U+1E41) contains a short segment B&lt;&lt;588.0,400.0&gt;-&lt;588.0,400.0&gt;-&lt;598.5,388.5&gt;&gt;
-
-* uni1E43 (U+1E43) contains a short segment B&lt;&lt;588.0,400.0&gt;-&lt;588.0,400.0&gt;-&lt;598.5,388.5&gt;&gt;
+* uni02B7 (U+02B7) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * Wgrave (U+1E80) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1433,7 +1441,7 @@ But instead we have got:
 
 * Wgrave (U+1E80) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * Wacute (U+1E82) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1441,7 +1449,7 @@ But instead we have got:
 
 * Wacute (U+1E82) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* wacute (U+1E83) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * Wdieresis (U+1E84) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1449,7 +1457,7 @@ But instead we have got:
 
 * Wdieresis (U+1E84) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * uni1E86 (U+1E86) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1457,7 +1465,7 @@ But instead we have got:
 
 * uni1E86 (U+1E86) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* uni1E87 (U+1E87) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* uni1E87 (U+1E87) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * uni1E88 (U+1E88) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
 
@@ -1465,7 +1473,7 @@ But instead we have got:
 
 * uni1E88 (U+1E88) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* uni1E89 (U+1E89) contains a short segment B&lt;&lt;598.5,11.5&gt;-&lt;588.0,0.0&gt;-&lt;588.0,0.0&gt;&gt;
+* uni1E89 (U+1E89) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
 * uni1E90 (U+1E90) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
 
@@ -1546,7 +1554,7 @@ But instead we have got:
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̐ i̓ i᷆ i᷇ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Koonzime (Latn, 40,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
