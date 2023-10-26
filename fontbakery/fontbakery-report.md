@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with TypeError: 'NoneType' object is not subscriptable
@@ -26,10 +26,6 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "356" it should be 0 [code: bad-OS/2.sTypoLineGap]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/Festac23-Bold.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -675,23 +671,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
-	- Glyph name: Abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: abreve	Contours detected: 4	Expected: 3
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
-
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
-
-	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
-
-	- Glyph name: ubreve	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -741,8 +727,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -751,9 +735,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E0C	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E3F	Contours detected: 3	Expected: 2
 
@@ -761,19 +745,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E43	Contours detected: 3	Expected: 2
 
-	- Glyph name: Abreve	Contours detected: 4	Expected: 3
-
-	- Glyph name: Gbreve	Contours detected: 3	Expected: 2
-
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
 	- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
 
-	- Glyph name: Ubreve	Contours detected: 3	Expected: 2
-
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: abreve	Contours detected: 4	Expected: 3
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -789,8 +765,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslashacute	Contours detected: 1	Expected: 4
 
-	- Glyph name: ubreve	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni01E2	Contours detected: 1	Expected: 3
 
 	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
@@ -803,8 +777,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0306	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -813,9 +785,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E0C	Contours detected: 2	Expected: 3
 
-	- Glyph name: uni1E1C	Contours detected: 4	Expected: 2
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E1D	Contours detected: 5	Expected: 3
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E3F	Contours detected: 3	Expected: 2
 
@@ -963,7 +935,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -972,12 +944,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tifinagh, old-permic, tai-le, math, canadian-aboriginal, coptic, malayalam
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, coptic, old-permic, tifinagh, tai-le, malayalam, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -990,8 +962,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, gothic, tifinagh, cherokee
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, tifinagh, caucasian-albanian, syriac
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1339,15 +1311,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Dutch (Latn, 31,709,104 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 9 | 13 | 123 | 7 | 99 | 0 |
-| 0% | 4% | 5% | 49% | 3% | 39% | 0% |
+| 1 | 8 | 13 | 123 | 7 | 100 | 0 |
+| 0% | 3% | 5% | 49% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
