@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[21] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -195,8 +195,6 @@ But instead we have got:
 
 	- Glyph name: uni01C3	Expected: 2
 
-	- Glyph name: uni01DD	Expected: 2
-
 	- Glyph name: uni01E4	Expected: 1
 
 	- Glyph name: uni01E5	Expected: 2
@@ -248,8 +246,6 @@ But instead we have got:
 	- Glyph name: uni024F	Expected: 2
 
 	- Glyph name: uni0251	Expected: 2
-
-	- Glyph name: uni0259	Expected: 2
 
 	- Glyph name: uni0272	Expected: 1
 
@@ -489,8 +485,6 @@ But instead we have got:
 
 	- Glyph name: uni01C3	Expected: 2
 
-	- Glyph name: uni01DD	Expected: 2
-
 	- Glyph name: uni01E4	Expected: 1
 
 	- Glyph name: uni01E5	Expected: 2
@@ -540,8 +534,6 @@ But instead we have got:
 	- Glyph name: uni024F	Expected: 2
 
 	- Glyph name: uni0251	Expected: 2
-
-	- Glyph name: uni0259	Expected: 2
 
 	- Glyph name: uni0272	Expected: 1
 
@@ -647,8 +639,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni1E02	Contours detected: 3	Expected: 4
-
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
@@ -688,8 +678,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni1E02	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -842,7 +830,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -851,12 +839,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, coptic, malayalam, old-permic, canadian-aboriginal, tai-le, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tai-le, malayalam, tifinagh, math, canadian-aboriginal, syriac, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -869,8 +857,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, cherokee
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, caucasian-albanian, syriac
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -918,6 +906,16 @@ The following glyphs do not have the recommended number of contours:
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
+
+	- f + i
+
+	- t + t [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1021,10 +1019,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1118,37 +1112,29 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* five (U+0035) contains a short segment B<<410.5,15.0>-<404.0,0.0>-<404.0,0.0>>
+	* three (U+0033) contains a short segment B<<56.0,0.0>-<56.0,0.0>-<47.5,15.0>>
 
-	* W (U+0057) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
+	* three (U+0033) contains a short segment B<<47.5,537.0>-<56.0,553.0>-<56.0,553.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
-	* w (U+0077) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Wcircumflex (U+0174) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
+* ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* wcircumflex (U+0175) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
+	* uni02B7 (U+02B7): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* uni02B7 (U+02B7) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
+	* uni1E87 (U+1E87): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* Wgrave (U+1E80) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
+	* uni1E89 (U+1E89): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* wgrave (U+1E81) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
+	* w (U+0077): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* Wacute (U+1E82) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
+	* wacute (U+1E83): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* wacute (U+1E83) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
+	* wcircumflex (U+0175): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* Wdieresis (U+1E84) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
+	* wdieresis (U+1E85): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474
 
-	* wdieresis (U+1E85) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
-
-	* uni1E86 (U+1E86) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
-
-	* uni1E87 (U+1E87) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
-
-	* uni1E88 (U+1E88) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
-
-	* uni1E89 (U+1E89) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>> [code: found-short-segments]
+	* wgrave (U+1E81): B<<419.5,96.5>-<413.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 6.009005957494474 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1174,9 +1160,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Wgrave (U+1E80): L<<454.0,554.0>--<455.0,199.0>>
 
-	* ij (U+0133): L<<473.0,400.0>--<472.0,-27.0>>
+	* ij (U+0133): L<<440.0,400.0>--<439.0,-27.0>>
 
-	* j (U+006A): L<<252.0,400.0>--<251.0,-27.0>>
+	* j (U+006A): L<<207.0,400.0>--<206.0,-27.0>>
 
 	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1214,17 +1200,17 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊
 
-Your font fully covers the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 12 | 123 | 7 | 101 | 0 |
-| 0% | 4% | 5% | 49% | 3% | 40% | 0% |
+| 0 | 9 | 13 | 122 | 7 | 101 | 0 |
+| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
