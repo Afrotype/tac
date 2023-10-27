@@ -302,20 +302,20 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, coptic, old-permic, tifinagh, tai-le, malayalam, syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, math, canadian-aboriginal, malayalam, tai-le, coptic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
@@ -330,7 +330,7 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
 <li>U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, tifinagh, caucasian-albanian, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -1214,6 +1214,8 @@ But instead we have got:
 
 - Glyph name: uni0311	Contours detected: 2	Expected: 1
 
+- Glyph name: uni1E02	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1E09	Contours detected: 3	Expected: 2
@@ -1263,6 +1265,8 @@ But instead we have got:
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 - Glyph name: uni0311	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1E02	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -1331,7 +1335,71 @@ But instead we have got:
 
 * eight (U+0038): X=417.0,Y=552.0 (should be at cap-height 554?)
 
-* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?)
+
+* Y (U+0059): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* Y (U+0059): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* Y (U+0059): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* Y (U+0059): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* Yacute (U+00DD): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* Yacute (U+00DD): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* Yacute (U+00DD): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* Yacute (U+00DD): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* Ycircumflex (U+0176): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* Ycircumflex (U+0176): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* Ycircumflex (U+0176): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* Ycircumflex (U+0176): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* Ydieresis (U+0178): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* Ydieresis (U+0178): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* Ydieresis (U+0178): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* Ydieresis (U+0178): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* uni0232 (U+0232): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* uni0232 (U+0232): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* uni0232 (U+0232): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* uni0232 (U+0232): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1E8E (U+1E8E): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1E8E (U+1E8E): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1E8E (U+1E8E): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1E8E (U+1E8E): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* Ygrave (U+1EF2): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* Ygrave (U+1EF2): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* Ygrave (U+1EF2): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* Ygrave (U+1EF2): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1EF8 (U+1EF8): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1EF8 (U+1EF8): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1EF8 (U+1EF8): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+* uni1EF8 (U+1EF8): X=498.0,Y=555.0 (should be at cap-height 554?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Are any segments inordinately short?</h3>
@@ -1340,120 +1408,60 @@ But instead we have got:
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
 <pre><code>* five (U+0035) contains a short segment B&lt;&lt;410.5,15.0&gt;-&lt;404.0,0.0&gt;-&lt;404.0,0.0&gt;&gt;
 
-* W (U+0057) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* W (U+0057) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* W (U+0057) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
-
-* Z (U+005A) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* Z (U+005A) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
+* W (U+0057) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * w (U+0077) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* Wcircumflex (U+0174) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* Wcircumflex (U+0174) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * wcircumflex (U+0175) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* Zacute (U+0179) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* Zacute (U+0179) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
-
-* Zdotaccent (U+017B) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* Zdotaccent (U+017B) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
-
-* Zcaron (U+017D) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* Zcaron (U+017D) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
-
 * uni02B7 (U+02B7) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* Wgrave (U+1E80) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* Wgrave (U+1E80) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
+* Wgrave (U+1E80) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * wgrave (U+1E81) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* Wacute (U+1E82) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* Wacute (U+1E82) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* Wacute (U+1E82) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
+* Wacute (U+1E82) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * wacute (U+1E83) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* Wdieresis (U+1E84) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* Wdieresis (U+1E84) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* Wdieresis (U+1E84) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
+* Wdieresis (U+1E84) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * wdieresis (U+1E85) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* uni1E86 (U+1E86) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
-
-* uni1E86 (U+1E86) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* uni1E86 (U+1E86) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
+* uni1E86 (U+1E86) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
 * uni1E87 (U+1E87) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
 
-* uni1E88 (U+1E88) contains a short segment B&lt;&lt;292.5,530.0&gt;-&lt;292.0,554.0&gt;-&lt;292.0,554.0&gt;&gt;
+* uni1E88 (U+1E88) contains a short segment B&lt;&lt;636.0,8.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
 
-* uni1E88 (U+1E88) contains a short segment B&lt;&lt;558.0,531.5&gt;-&lt;559.0,554.0&gt;-&lt;559.0,554.0&gt;&gt;
-
-* uni1E88 (U+1E88) contains a short segment B&lt;&lt;641.5,21.0&gt;-&lt;629.0,0.0&gt;-&lt;629.0,0.0&gt;&gt;
-
-* uni1E89 (U+1E89) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt;
-
-* uni1E90 (U+1E90) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* uni1E90 (U+1E90) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
-
-* uni1E92 (U+1E92) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* uni1E92 (U+1E92) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt;
-
-* Zmacronbelow (U+1E94) contains a short segment L&lt;&lt;24.0,120.0&gt;--&lt;24.0,120.0&gt;&gt;
-
-* Zmacronbelow (U+1E94) contains a short segment L&lt;&lt;458.0,434.0&gt;--&lt;458.0,434.0&gt;&gt; [code: found-short-segments]
+* uni1E89 (U+1E89) contains a short segment B&lt;&lt;616.5,11.5&gt;-&lt;606.0,0.0&gt;-&lt;606.0,0.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_semi_vertical</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* K (U+004B): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
+<pre><code>* W (U+0057): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* Kmacronbelow (U+1E34): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
+* W (U+0057): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
-* Y (U+0059): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* Wacute (U+1E82): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* Y (U+0059): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
+* Wacute (U+1E82): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
-* Yacute (U+00DD): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* Wcircumflex (U+0174): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* Yacute (U+00DD): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
+* Wcircumflex (U+0174): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
-* Ycircumflex (U+0176): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* Wdieresis (U+1E84): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* Ycircumflex (U+0176): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
+* Wdieresis (U+1E84): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
-* Ydieresis (U+0178): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* Wgrave (U+1E80): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* Ydieresis (U+0178): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
-
-* Ygrave (U+1EF2): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
-
-* Ygrave (U+1EF2): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
+* Wgrave (U+1E80): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
 * l (U+006C): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
@@ -1463,19 +1471,7 @@ But instead we have got:
 
 * lmacronbelow (U+1E3B): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
-* uni0136 (U+0136): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
-
 * uni013C (U+013C): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
-
-* uni01E8 (U+01E8): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
-
-* uni0232 (U+0232): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
-
-* uni0232 (U+0232): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
-
-* uni1E30 (U+1E30): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
-
-* uni1E32 (U+1E32): L&lt;&lt;256.0,434.0&gt;--&lt;255.0,554.0&gt;&gt;
 
 * uni1E37 (U+1E37): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
@@ -1483,13 +1479,13 @@ But instead we have got:
 
 * uni1E3D (U+1E3D): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
-* uni1E8E (U+1E8E): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* uni1E86 (U+1E86): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* uni1E8E (U+1E8E): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt;
+* uni1E86 (U+1E86): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
-* uni1EF8 (U+1EF8): L&lt;&lt;160.0,0.0&gt;--&lt;161.0,257.0&gt;&gt;
+* uni1E88 (U+1E88): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
-* uni1EF8 (U+1EF8): L&lt;&lt;346.0,257.0&gt;--&lt;345.0,0.0&gt;&gt; [code: found-semi-vertical]
+* uni1E88 (U+1E88): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
 <h2>Section: Shaping Checks</h2>
@@ -1505,7 +1501,7 @@ But instead we have got:
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̐ i̓ i᷆ i᷇ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>

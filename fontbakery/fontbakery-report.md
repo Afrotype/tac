@@ -729,6 +729,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
+	- Glyph name: uni1E02	Contours detected: 3	Expected: 4
+
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
@@ -778,6 +780,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E02	Contours detected: 3	Expected: 4
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -935,20 +939,20 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, coptic, old-permic, tifinagh, tai-le, malayalam, syriac
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, math, canadian-aboriginal, malayalam, tai-le, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
@@ -963,7 +967,7 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
  * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, tifinagh, caucasian-albanian, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1141,7 +1145,71 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038): X=417.0,Y=552.0 (should be at cap-height 554?)
 
-	* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+	* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?)
+
+	* Y (U+0059): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* Y (U+0059): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* Y (U+0059): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* Y (U+0059): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* Yacute (U+00DD): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* Yacute (U+00DD): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* Yacute (U+00DD): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* Yacute (U+00DD): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ycircumflex (U+0176): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ycircumflex (U+0176): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ycircumflex (U+0176): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ycircumflex (U+0176): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ydieresis (U+0178): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ydieresis (U+0178): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ydieresis (U+0178): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ydieresis (U+0178): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni0232 (U+0232): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni0232 (U+0232): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni0232 (U+0232): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni0232 (U+0232): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1E8E (U+1E8E): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1E8E (U+1E8E): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1E8E (U+1E8E): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1E8E (U+1E8E): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ygrave (U+1EF2): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ygrave (U+1EF2): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ygrave (U+1EF2): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* Ygrave (U+1EF2): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1EF8 (U+1EF8): X=36.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1EF8 (U+1EF8): X=209.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1EF8 (U+1EF8): X=325.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni1EF8 (U+1EF8): X=498.0,Y=555.0 (should be at cap-height 554?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1149,119 +1217,59 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* five (U+0035) contains a short segment B<<410.5,15.0>-<404.0,0.0>-<404.0,0.0>>
 
-	* W (U+0057) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* W (U+0057) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* W (U+0057) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
-
-	* Z (U+005A) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* Z (U+005A) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
+	* W (U+0057) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* w (U+0077) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Wcircumflex (U+0174) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* Wcircumflex (U+0174) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* Wcircumflex (U+0174) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+	* Wcircumflex (U+0174) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* wcircumflex (U+0175) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Zacute (U+0179) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* Zacute (U+0179) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
-
-	* Zdotaccent (U+017B) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* Zdotaccent (U+017B) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
-
-	* Zcaron (U+017D) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* Zcaron (U+017D) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
-
 	* uni02B7 (U+02B7) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Wgrave (U+1E80) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+	* Wgrave (U+1E80) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* wgrave (U+1E81) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Wacute (U+1E82) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* Wacute (U+1E82) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* Wacute (U+1E82) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+	* Wacute (U+1E82) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* wacute (U+1E83) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* Wdieresis (U+1E84) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* Wdieresis (U+1E84) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* Wdieresis (U+1E84) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+	* Wdieresis (U+1E84) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* wdieresis (U+1E85) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* uni1E86 (U+1E86) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
-
-	* uni1E86 (U+1E86) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* uni1E86 (U+1E86) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
+	* uni1E86 (U+1E86) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
 	* uni1E87 (U+1E87) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
 
-	* uni1E88 (U+1E88) contains a short segment B<<292.5,530.0>-<292.0,554.0>-<292.0,554.0>>
+	* uni1E88 (U+1E88) contains a short segment B<<636.0,8.0>-<629.0,0.0>-<629.0,0.0>>
 
-	* uni1E88 (U+1E88) contains a short segment B<<558.0,531.5>-<559.0,554.0>-<559.0,554.0>>
-
-	* uni1E88 (U+1E88) contains a short segment B<<641.5,21.0>-<629.0,0.0>-<629.0,0.0>>
-
-	* uni1E89 (U+1E89) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>>
-
-	* uni1E90 (U+1E90) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* uni1E90 (U+1E90) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
-
-	* uni1E92 (U+1E92) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* uni1E92 (U+1E92) contains a short segment L<<458.0,434.0>--<458.0,434.0>>
-
-	* Zmacronbelow (U+1E94) contains a short segment L<<24.0,120.0>--<24.0,120.0>>
-
-	* Zmacronbelow (U+1E94) contains a short segment L<<458.0,434.0>--<458.0,434.0>> [code: found-short-segments]
+	* uni1E89 (U+1E89) contains a short segment B<<616.5,11.5>-<606.0,0.0>-<606.0,0.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* K (U+004B): L<<256.0,434.0>--<255.0,554.0>>
+	* W (U+0057): L<<284.0,199.0>--<281.0,554.0>>
 
-	* Kmacronbelow (U+1E34): L<<256.0,434.0>--<255.0,554.0>>
+	* W (U+0057): L<<454.0,554.0>--<455.0,199.0>>
 
-	* Y (U+0059): L<<160.0,0.0>--<161.0,257.0>>
+	* Wacute (U+1E82): L<<284.0,199.0>--<281.0,554.0>>
 
-	* Y (U+0059): L<<346.0,257.0>--<345.0,0.0>>
+	* Wacute (U+1E82): L<<454.0,554.0>--<455.0,199.0>>
 
-	* Yacute (U+00DD): L<<160.0,0.0>--<161.0,257.0>>
+	* Wcircumflex (U+0174): L<<284.0,199.0>--<281.0,554.0>>
 
-	* Yacute (U+00DD): L<<346.0,257.0>--<345.0,0.0>>
+	* Wcircumflex (U+0174): L<<454.0,554.0>--<455.0,199.0>>
 
-	* Ycircumflex (U+0176): L<<160.0,0.0>--<161.0,257.0>>
+	* Wdieresis (U+1E84): L<<284.0,199.0>--<281.0,554.0>>
 
-	* Ycircumflex (U+0176): L<<346.0,257.0>--<345.0,0.0>>
+	* Wdieresis (U+1E84): L<<454.0,554.0>--<455.0,199.0>>
 
-	* Ydieresis (U+0178): L<<160.0,0.0>--<161.0,257.0>>
+	* Wgrave (U+1E80): L<<284.0,199.0>--<281.0,554.0>>
 
-	* Ydieresis (U+0178): L<<346.0,257.0>--<345.0,0.0>>
-
-	* Ygrave (U+1EF2): L<<160.0,0.0>--<161.0,257.0>>
-
-	* Ygrave (U+1EF2): L<<346.0,257.0>--<345.0,0.0>>
+	* Wgrave (U+1E80): L<<454.0,554.0>--<455.0,199.0>>
 
 	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1271,19 +1279,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* lmacronbelow (U+1E3B): L<<25.0,147.0>--<24.0,574.0>>
 
-	* uni0136 (U+0136): L<<256.0,434.0>--<255.0,554.0>>
-
 	* uni013C (U+013C): L<<25.0,147.0>--<24.0,574.0>>
-
-	* uni01E8 (U+01E8): L<<256.0,434.0>--<255.0,554.0>>
-
-	* uni0232 (U+0232): L<<160.0,0.0>--<161.0,257.0>>
-
-	* uni0232 (U+0232): L<<346.0,257.0>--<345.0,0.0>>
-
-	* uni1E30 (U+1E30): L<<256.0,434.0>--<255.0,554.0>>
-
-	* uni1E32 (U+1E32): L<<256.0,434.0>--<255.0,554.0>>
 
 	* uni1E37 (U+1E37): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1291,13 +1287,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1E3D (U+1E3D): L<<25.0,147.0>--<24.0,574.0>>
 
-	* uni1E8E (U+1E8E): L<<160.0,0.0>--<161.0,257.0>>
+	* uni1E86 (U+1E86): L<<284.0,199.0>--<281.0,554.0>>
 
-	* uni1E8E (U+1E8E): L<<346.0,257.0>--<345.0,0.0>>
+	* uni1E86 (U+1E86): L<<454.0,554.0>--<455.0,199.0>>
 
-	* uni1EF8 (U+1EF8): L<<160.0,0.0>--<161.0,257.0>>
+	* uni1E88 (U+1E88): L<<284.0,199.0>--<281.0,554.0>>
 
-	* uni1EF8 (U+1EF8): L<<346.0,257.0>--<345.0,0.0>> [code: found-semi-vertical]
+	* uni1E88 (U+1E88): L<<454.0,554.0>--<455.0,199.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1311,7 +1307,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
