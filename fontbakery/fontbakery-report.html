@@ -128,15 +128,15 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
-                <td>8</td>
+                <td>9</td>
                 <td>13</td>
                 <td>123</td>
                 <td>7</td>
-                <td>101</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>4%</td>
+                <td>5%</td>
                 <td>7%</td>
                 <td>64%</td>
                 <td>4%</td>
@@ -311,12 +311,12 @@ definitions.</p>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, tai-le, coptic, syriac, old-permic, malayalam, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, tai-le, old-permic, malayalam, math, coptic, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -329,8 +329,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, caucasian-albanian, syriac, tifinagh</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -402,7 +402,12 @@ But instead we have got:
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
-<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
+
+<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 280, but got 270 instead [code: descent]</p>
+</span></li></ul></div></details>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
@@ -692,8 +697,6 @@ But instead we have got:
 
 - Glyph name: uni0223	Expected: 2
 
-- Glyph name: uni0237	Expected: 1
-
 - Glyph name: uni023A	Expected: 3
 
 - Glyph name: uni023B	Expected: 2
@@ -751,10 +754,6 @@ But instead we have got:
 - Glyph name: uni02CA	Expected: 1
 
 - Glyph name: uni02CB	Expected: 1
-
-- Glyph name: uni0329	Expected: 1
-
-- Glyph name: uni0334	Expected: 1
 
 - Glyph name: uni0E3F	Expected: 3 or 5
 
@@ -996,8 +995,6 @@ But instead we have got:
 
 - Glyph name: uni0223	Expected: 2
 
-- Glyph name: uni0237	Expected: 1
-
 - Glyph name: uni023A	Expected: 3
 
 - Glyph name: uni023B	Expected: 2
@@ -1054,8 +1051,6 @@ But instead we have got:
 
 - Glyph name: uni02CB	Expected: 1
 
-- Glyph name: uni0329	Expected: 1
-
 - Glyph name: uni0E3F	Expected: 3 or 5
 
 - Glyph name: uni1E2A	Expected: 2
@@ -1084,8 +1079,6 @@ But instead we have got:
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
-
-- Glyph name: j	Contours detected: 1	Expected: 2
 
 - Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -1168,8 +1161,6 @@ But instead we have got:
 - Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: j	Contours detected: 1	Expected: 2
 
 - Glyph name: oe	Contours detected: 2	Expected: 3
 
@@ -1297,6 +1288,10 @@ But instead we have got:
 
 * uni0232 (U+0232): X=498.0,Y=555.0 (should be at cap-height 554?)
 
+* uni0310 (U+0310): X=153.0,Y=572.0 (should be at ascender 574?)
+
+* uni0310 (U+0310): X=241.0,Y=572.0 (should be at ascender 574?)
+
 * uni1E8E (U+1E8E): X=36.0,Y=555.0 (should be at cap-height 554?)
 
 * uni1E8E (U+1E8E): X=209.0,Y=555.0 (should be at cap-height 554?)
@@ -1383,6 +1378,10 @@ But instead we have got:
 
 * Wgrave (U+1E80): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
+* ij (U+0133): L&lt;&lt;473.0,400.0&gt;--&lt;472.0,-27.0&gt;&gt;
+
+* j (U+006A): L&lt;&lt;252.0,400.0&gt;--&lt;251.0,-27.0&gt;&gt;
+
 * l (U+006C): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
 * lacute (U+013A): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
@@ -1392,6 +1391,8 @@ But instead we have got:
 * lmacronbelow (U+1E3B): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
 * uni013C (U+013C): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
+
+* uni0237 (U+0237): L&lt;&lt;252.0,400.0&gt;--&lt;251.0,-27.0&gt;&gt;
 
 * uni1E37 (U+1E37): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
@@ -1420,8 +1421,8 @@ But instead we have got:
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̐ i̓ i᷆ i᷇ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>

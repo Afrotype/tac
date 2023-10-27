@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[21] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -16,6 +16,10 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2.sTypoLineGap is "356" it should be 0 [code: bad-OS/2.sTypoLineGap]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 280, but got 270 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -207,8 +211,6 @@ But instead we have got:
 
 	- Glyph name: uni0223	Expected: 2
 
-	- Glyph name: uni0237	Expected: 1
-
 	- Glyph name: uni023A	Expected: 3
 
 	- Glyph name: uni023B	Expected: 2
@@ -266,10 +268,6 @@ But instead we have got:
 	- Glyph name: uni02CA	Expected: 1
 
 	- Glyph name: uni02CB	Expected: 1
-
-	- Glyph name: uni0329	Expected: 1
-
-	- Glyph name: uni0334	Expected: 1
 
 	- Glyph name: uni0E3F	Expected: 3 or 5
 
@@ -511,8 +509,6 @@ But instead we have got:
 
 	- Glyph name: uni0223	Expected: 2
 
-	- Glyph name: uni0237	Expected: 1
-
 	- Glyph name: uni023A	Expected: 3
 
 	- Glyph name: uni023B	Expected: 2
@@ -569,8 +565,6 @@ But instead we have got:
 
 	- Glyph name: uni02CB	Expected: 1
 
-	- Glyph name: uni0329	Expected: 1
-
 	- Glyph name: uni0E3F	Expected: 3 or 5
 
 	- Glyph name: uni1E2A	Expected: 2
@@ -600,8 +594,6 @@ But instead we have got:
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
-
-	- Glyph name: j	Contours detected: 1	Expected: 2
 
 	- Glyph name: ae	Contours detected: 4	Expected: 3
 
@@ -684,8 +676,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: j	Contours detected: 1	Expected: 2
 
 	- Glyph name: oe	Contours detected: 2	Expected: 3
 
@@ -869,12 +859,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, tai-le, coptic, syriac, old-permic, malayalam, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, tai-le, old-permic, malayalam, math, coptic, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -887,8 +877,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, syriac, cherokee, tifinagh
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, caucasian-albanian, syriac, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1108,6 +1098,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni0232 (U+0232): X=498.0,Y=555.0 (should be at cap-height 554?)
 
+	* uni0310 (U+0310): X=153.0,Y=572.0 (should be at ascender 574?)
+
+	* uni0310 (U+0310): X=241.0,Y=572.0 (should be at ascender 574?)
+
 	* uni1E8E (U+1E8E): X=36.0,Y=555.0 (should be at cap-height 554?)
 
 	* uni1E8E (U+1E8E): X=209.0,Y=555.0 (should be at cap-height 554?)
@@ -1192,6 +1186,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Wgrave (U+1E80): L<<454.0,554.0>--<455.0,199.0>>
 
+	* ij (U+0133): L<<473.0,400.0>--<472.0,-27.0>>
+
+	* j (U+006A): L<<252.0,400.0>--<251.0,-27.0>>
+
 	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
 
 	* lacute (U+013A): L<<25.0,147.0>--<24.0,574.0>>
@@ -1201,6 +1199,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* lmacronbelow (U+1E3B): L<<25.0,147.0>--<24.0,574.0>>
 
 	* uni013C (U+013C): L<<25.0,147.0>--<24.0,574.0>>
+
+	* uni0237 (U+0237): L<<252.0,400.0>--<251.0,-27.0>>
 
 	* uni1E37 (U+1E37): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1226,17 +1226,17 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 13 | 123 | 7 | 101 | 0 |
-| 0% | 3% | 5% | 49% | 3% | 40% | 0% |
+| 0 | 9 | 13 | 123 | 7 | 100 | 0 |
+| 0% | 4% | 5% | 49% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
