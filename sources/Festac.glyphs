@@ -149,7 +149,7 @@ id = m01;
 metricValues = (
 {
 over = 12;
-pos = 730;
+pos = 630;
 },
 {
 over = 12;
@@ -164,7 +164,7 @@ over = -12;
 },
 {
 over = -12;
-pos = -270;
+pos = -170;
 }
 );
 name = Bold;
