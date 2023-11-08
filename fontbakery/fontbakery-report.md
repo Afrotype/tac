@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -15,15 +15,15 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.sTypoLineGap is "200" it should be 0 [code: bad-OS/2.sTypoLineGap]
+* 🔥 **FAIL** OS/2.sTypoLineGap is "400" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 280, but got 270 instead [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 280, but got 170 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (730) and hhea ascent (930) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (630) and hhea ascent (1030) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -810,21 +810,21 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, syriac, math, tifinagh, malayalam, tai-le, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, math, tai-le, coptic, tifinagh, canadian-aboriginal, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -838,7 +838,7 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
  * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, tifinagh, cherokee, gothic
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -997,158 +997,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* three (U+0033): X=56.0,Y=553.0 (should be at cap-height 554?)
-
-	* three (U+0033): X=408.0,Y=553.0 (should be at cap-height 554?)
-
-	* four (U+0034): X=90.0,Y=552.0 (should be at cap-height 554?)
-
-	* four (U+0034): X=304.0,Y=552.0 (should be at cap-height 554?)
-
-	* eight (U+0038): X=67.0,Y=-1.0 (should be at baseline 0?)
-
-	* eight (U+0038): X=67.0,Y=552.0 (should be at cap-height 554?)
-
-	* eight (U+0038): X=417.0,Y=552.0 (should be at cap-height 554?)
-
-	* eight (U+0038): X=417.0,Y=-1.0 (should be at baseline 0?)
-
-	* Y (U+0059): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* Y (U+0059): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* Y (U+0059): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* Y (U+0059): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* Yacute (U+00DD): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* Yacute (U+00DD): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* Yacute (U+00DD): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* Yacute (U+00DD): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* ae (U+00E6): X=290.0,Y=1.0 (should be at baseline 0?)
-
-	* lacute (U+013A): X=101.0,Y=728.0 (should be at ascender 730?)
-
-	* lacute (U+013A): X=294.0,Y=728.0 (should be at ascender 730?)
-
-	* Ycircumflex (U+0176): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ycircumflex (U+0176): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ycircumflex (U+0176): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ycircumflex (U+0176): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ydieresis (U+0178): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ydieresis (U+0178): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ydieresis (U+0178): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ydieresis (U+0178): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni01E3 (U+01E3): X=290.0,Y=1.0 (should be at baseline 0?)
-
-	* uni01E9 (U+01E9): X=38.0,Y=728.0 (should be at ascender 730?)
-
-	* uni01E9 (U+01E9): X=179.0,Y=728.0 (should be at ascender 730?)
-
-	* uni01E9 (U+01E9): X=300.0,Y=728.0 (should be at ascender 730?)
-
-	* uni01E9 (U+01E9): X=441.0,Y=728.0 (should be at ascender 730?)
-
-	* uni021F (U+021F): X=35.0,Y=728.0 (should be at ascender 730?)
-
-	* uni021F (U+021F): X=176.0,Y=728.0 (should be at ascender 730?)
-
-	* uni021F (U+021F): X=297.0,Y=728.0 (should be at ascender 730?)
-
-	* uni021F (U+021F): X=438.0,Y=728.0 (should be at ascender 730?)
-
-	* uni0232 (U+0232): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni0232 (U+0232): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni0232 (U+0232): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni0232 (U+0232): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1E0B (U+1E0B): X=181.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E0B (U+1E0B): X=318.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E1F (U+1E1F): X=81.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E1F (U+1E1F): X=218.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E23 (U+1E23): X=173.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E23 (U+1E23): X=310.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E27 (U+1E27): X=78.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E27 (U+1E27): X=215.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E27 (U+1E27): X=269.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E27 (U+1E27): X=406.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E31 (U+1E31): X=207.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E31 (U+1E31): X=400.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E39 (U+1E39): X=-31.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E39 (U+1E39): X=299.0,Y=728.0 (should be at ascender 730?)
-
-	* uni1E64 (U+1E64): X=81.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E64 (U+1E64): X=217.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E66 (U+1E66): X=81.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E66 (U+1E66): X=217.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E7A (U+1E7A): X=110.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E7A (U+1E7A): X=246.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E7A (U+1E7A): X=301.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E7A (U+1E7A): X=437.0,Y=732.0 (should be at ascender 730?)
-
-	* uni1E8E (U+1E8E): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1E8E (U+1E8E): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1E8E (U+1E8E): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1E8E (U+1E8E): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ygrave (U+1EF2): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ygrave (U+1EF2): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ygrave (U+1EF2): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* Ygrave (U+1EF2): X=498.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1EF8 (U+1EF8): X=36.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1EF8 (U+1EF8): X=209.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1EF8 (U+1EF8): X=325.0,Y=555.0 (should be at cap-height 554?)
-
-	* uni1EF8 (U+1EF8): X=498.0,Y=555.0 (should be at cap-height 554?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1254,15 +1102,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Dan (Latn, 1,099,244 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 14 | 122 | 7 | 100 | 0 |
-| 0% | 4% | 6% | 48% | 3% | 40% | 0% |
+| 0 | 9 | 13 | 122 | 7 | 101 | 0 |
+| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
