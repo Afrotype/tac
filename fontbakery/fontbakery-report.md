@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[23] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -27,7 +27,7 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
 
 
@@ -103,17 +103,11 @@ But instead we have got:
 
 	- Glyph name: Hbar	Expected: 2
 
-	- Glyph name: hbar	Expected: 1
-
 	- Glyph name: Lslash	Expected: 1
 
 	- Glyph name: lslash	Expected: 1
 
 	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: eng	Expected: 1
-
-	- Glyph name: uni0180	Expected: 2
 
 	- Glyph name: uni0181	Expected: 3
 
@@ -357,8 +351,6 @@ But instead we have got:
 
 	- Glyph name: dollar	Expected: 1, 3 or 5
 
-	- Glyph name: eng	Expected: 1
-
 	- Glyph name: equal	Expected: 2
 
 	- Glyph name: eth	Expected: 2
@@ -368,8 +360,6 @@ But instead we have got:
 	- Glyph name: greater	Expected: 1
 
 	- Glyph name: greaterequal	Expected: 2
-
-	- Glyph name: hbar	Expected: 1
 
 	- Glyph name: infinity	Expected: 3
 
@@ -416,8 +406,6 @@ But instead we have got:
 	- Glyph name: summation	Expected: 1
 
 	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: uni0180	Expected: 2
 
 	- Glyph name: uni0181	Expected: 3
 
@@ -579,8 +567,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
@@ -592,8 +578,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01E2	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -651,8 +635,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: ae	Contours detected: 4	Expected: 3
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
@@ -664,8 +646,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: oslashacute	Contours detected: 1	Expected: 4
 
 	- Glyph name: uni01E2	Contours detected: 1	Expected: 3
-
-	- Glyph name: uni01E3	Contours detected: 5	Expected: 4
 
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
@@ -830,18 +810,18 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
  * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, coptic, old-permic, malayalam, tai-le, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, math, tai-le, syriac, malayalam, coptic, canadian-aboriginal, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -857,8 +837,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, cherokee, gothic, tifinagh
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, cherokee, syriac, gothic, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -1054,6 +1034,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Yacute (U+00DD): X=498.0,Y=555.0 (should be at cap-height 554?)
 
+	* ae (U+00E6): X=290.0,Y=1.0 (should be at baseline 0?)
+
 	* Ycircumflex (U+0176): X=36.0,Y=555.0 (should be at cap-height 554?)
 
 	* Ycircumflex (U+0176): X=209.0,Y=555.0 (should be at cap-height 554?)
@@ -1069,6 +1051,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* Ydieresis (U+0178): X=325.0,Y=555.0 (should be at cap-height 554?)
 
 	* Ydieresis (U+0178): X=498.0,Y=555.0 (should be at cap-height 554?)
+
+	* uni01E3 (U+01E3): X=290.0,Y=1.0 (should be at baseline 0?)
 
 	* uni0232 (U+0232): X=36.0,Y=555.0 (should be at cap-height 554?)
 
@@ -1115,6 +1099,14 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* three (U+0033) contains a short segment B<<47.5,537.0>-<56.0,553.0>-<56.0,553.0>>
 
 	* x (U+0078) contains a short segment L<<385.0,228.0>--<384.0,228.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* eng (U+014B): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>>
+
+	* uniA727 (U+A727): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1202,15 +1194,15 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 13 | 122 | 7 | 101 | 0 |
-| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
+| 0 | 9 | 14 | 122 | 7 | 100 | 0 |
+| 0% | 4% | 6% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
