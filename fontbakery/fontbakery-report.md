@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[19] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -12,18 +12,10 @@ fontbakery version: 0.10.1
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2023 Afrotype. All rights reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "400" it should be 0 [code: bad-OS/2.sTypoLineGap]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 280, but got 170 instead [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (630) and hhea ascent (1030) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 878, but got 830 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -810,7 +802,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -819,9 +811,9 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, tifinagh, malayalam, old-permic, syriac, canadian-aboriginal, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, tai-le, math, malayalam, coptic, syriac, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -837,8 +829,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, cherokee, syriac, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, cherokee, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, gothic, tifinagh, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -905,8 +897,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- A.ss01
-
 	- F.ss10
 
 	- J.ss01
@@ -930,6 +920,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- five.osf
 
 	- five.ss01
+
+	- five.ss03
 
 	- four.osf
 
@@ -961,6 +953,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- three.ss01
 
+	- three.ss02
+
 	- two.osf
 
 	- two.ss01
@@ -987,10 +981,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- zero.osf
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -999,10 +989,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* zero (U+0030) contains a short segment L<<238.0,554.0>--<238.0,554.0>>
 
 	* zero (U+0030) contains a short segment L<<274.0,554.0>--<274.0,554.0>>
-
-	* three (U+0033) contains a short segment B<<66.0,0.0>-<66.0,0.0>-<57.5,15.0>>
-
-	* three (U+0033) contains a short segment B<<57.5,537.0>-<66.0,553.0>-<66.0,553.0>>
 
 	* seven (U+0037) contains a short segment L<<215.0,554.0>--<215.0,554.0>>
 
@@ -1090,10 +1076,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* A (U+0041): L<<114.0,553.0>--<392.0,554.0>>
-
-	* A (U+0041): L<<173.0,0.0>--<12.0,-1.0>>
-
 	* Aacute (U+00C1): L<<114.0,553.0>--<392.0,554.0>>
 
 	* Aacute (U+00C1): L<<173.0,0.0>--<12.0,-1.0>>
@@ -1130,13 +1112,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Atilde (U+00C3): L<<173.0,0.0>--<12.0,-1.0>>
 
-	* B (U+0042): L<<40.0,554.0>--<402.0,553.0>>
+	* B (U+0042): L<<420.0,-1.0>--<44.0,0.0>>
 
-	* B (U+0042): L<<416.0,-1.0>--<40.0,0.0>>
+	* B (U+0042): L<<44.0,554.0>--<406.0,553.0>>
 
-	* Bmacronbelow (U+1E06): L<<40.0,554.0>--<402.0,553.0>>
+	* Bmacronbelow (U+1E06): L<<420.0,-1.0>--<44.0,0.0>>
 
-	* Bmacronbelow (U+1E06): L<<416.0,-1.0>--<40.0,0.0>>
+	* Bmacronbelow (U+1E06): L<<44.0,554.0>--<406.0,553.0>>
 
 	* C (U+0043): L<<129.0,554.0>--<354.0,553.0>>
 
@@ -1182,9 +1164,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038): L<<221.0,-1.0>--<71.0,0.0>>
 
-	* ij (U+0133): L<<440.0,400.0>--<439.0,-27.0>>
+	* ij (U+0133): L<<440.0,400.0>--<439.0,-7.0>>
 
-	* j (U+006A): L<<207.0,400.0>--<206.0,-27.0>>
+	* j (U+006A): L<<207.0,400.0>--<206.0,-7.0>>
 
 	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1232,13 +1214,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1E00 (U+1E00): L<<173.0,0.0>--<12.0,-1.0>>
 
-	* uni1E02 (U+1E02): L<<40.0,554.0>--<402.0,553.0>>
+	* uni1E02 (U+1E02): L<<420.0,-1.0>--<44.0,0.0>>
 
-	* uni1E02 (U+1E02): L<<416.0,-1.0>--<40.0,0.0>>
+	* uni1E02 (U+1E02): L<<44.0,554.0>--<406.0,553.0>>
 
-	* uni1E04 (U+1E04): L<<40.0,554.0>--<402.0,553.0>>
+	* uni1E04 (U+1E04): L<<420.0,-1.0>--<44.0,0.0>>
 
-	* uni1E04 (U+1E04): L<<416.0,-1.0>--<40.0,0.0>>
+	* uni1E04 (U+1E04): L<<44.0,554.0>--<406.0,553.0>>
 
 	* uni1E08 (U+1E08): L<<129.0,554.0>--<354.0,553.0>>
 
@@ -1280,17 +1262,17 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊
 
-Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Lithuanian (Latn, 2,357,094 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Lithuanian (Latn, 2,357,094 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 13 | 122 | 7 | 101 | 0 |
-| 0% | 4% | 5% | 48% | 3% | 40% | 0% |
+| 0 | 7 | 12 | 122 | 7 | 104 | 0 |
+| 0% | 3% | 5% | 48% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
