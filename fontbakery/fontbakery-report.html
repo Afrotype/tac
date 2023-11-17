@@ -302,21 +302,21 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tifinagh, canadian-aboriginal, tai-le, coptic, math, malayalam, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, math, canadian-aboriginal, tai-le, old-permic, coptic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -329,8 +329,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, syriac, gothic, caucasian-albanian</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -441,6 +441,8 @@ But instead we have got:
 - S.ss01
 
 - V.ss01
+
+- Z.ss01
 
 - asterisk_node
 
@@ -1281,35 +1283,83 @@ But instead we have got:
 
 * Atilde (U+00C3): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
 
-* B (U+0042): L&lt;&lt;420.0,-1.0&gt;--&lt;44.0,0.0&gt;&gt;
+* B (U+0042): L&lt;&lt;417.0,-1.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* B (U+0042): L&lt;&lt;44.0,554.0&gt;--&lt;406.0,553.0&gt;&gt;
+* Bmacronbelow (U+1E06): L&lt;&lt;417.0,-1.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* Bmacronbelow (U+1E06): L&lt;&lt;420.0,-1.0&gt;--&lt;44.0,0.0&gt;&gt;
+* C (U+0043): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* Bmacronbelow (U+1E06): L&lt;&lt;44.0,554.0&gt;--&lt;406.0,553.0&gt;&gt;
+* C (U+0043): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* C (U+0043): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* Cacute (U+0106): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* C (U+0043): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* Cacute (U+0106): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* Cacute (U+0106): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* Ccaron (U+010C): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* Cacute (U+0106): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* Ccaron (U+010C): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* Ccaron (U+010C): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* Ccedilla (U+00C7): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* Ccaron (U+010C): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* Ccedilla (U+00C7): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* Ccedilla (U+00C7): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* Cdotaccent (U+010A): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* Ccedilla (U+00C7): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* Cdotaccent (U+010A): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* Cdotaccent (U+010A): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* E (U+0045): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* Cdotaccent (U+010A): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* E (U+0045): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
 
-* Q (U+0051): L&lt;&lt;430.0,-127.0&gt;--&lt;217.0,-126.0&gt;&gt;
+* Eacute (U+00C9): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Eacute (U+00C9): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Ecaron (U+011A): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Ecaron (U+011A): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Ecircumflex (U+00CA): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Ecircumflex (U+00CA): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Edieresis (U+00CB): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Edieresis (U+00CB): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Edotaccent (U+0116): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Edotaccent (U+0116): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Egrave (U+00C8): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Egrave (U+00C8): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Emacron (U+0112): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Emacron (U+0112): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* Eogonek (U+0118): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* Eogonek (U+0118): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* G (U+0047): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* G (U+0047): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
+* Gbreve (U+011E): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* Gbreve (U+011E): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
+* Gcaron (U+01E6): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* Gcaron (U+01E6): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
+* Gdotaccent (U+0120): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* Gdotaccent (U+0120): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
+* Q (U+0051): L&lt;&lt;432.0,-127.0&gt;--&lt;219.0,-126.0&gt;&gt;
 
 * W (U+0057): L&lt;&lt;284.0,199.0&gt;--&lt;281.0,554.0&gt;&gt;
 
@@ -1331,6 +1381,56 @@ But instead we have got:
 
 * Wgrave (U+1E80): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
+* Y (U+0059): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* Y (U+0059): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* Y (U+0059): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* Yacute (U+00DD): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* Yacute (U+00DD): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* Yacute (U+00DD): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* Ycircumflex (U+0176): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* Ycircumflex (U+0176): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* Ycircumflex (U+0176): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* Ydieresis (U+0178): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* Ydieresis (U+0178): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* Ydieresis (U+0178): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* Ygrave (U+1EF2): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* Ygrave (U+1EF2): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* Ygrave (U+1EF2): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* Z (U+005A): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* Z (U+005A): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
+* Zacute (U+0179): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* Zacute (U+0179): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
+* Zcaron (U+017D): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* Zcaron (U+017D): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
+* Zdotaccent (U+017B): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* Zdotaccent (U+017B): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
+* Zmacronbelow (U+1E94): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* Zmacronbelow (U+1E94): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
 * eight (U+0038): L&lt;&lt;230.0,-1.0&gt;--&lt;71.0,0.0&gt;&gt;
 
 * ij (U+0133): L&lt;&lt;440.0,400.0&gt;--&lt;439.0,-7.0&gt;&gt;
@@ -1351,7 +1451,15 @@ But instead we have got:
 
 * seven (U+0037): L&lt;&lt;282.0,0.0&gt;--&lt;82.0,-1.0&gt;&gt;
 
+* uni0122 (U+0122): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* uni0122 (U+0122): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
 * uni013C (U+013C): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
+
+* uni01B5 (U+01B5): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* uni01B5 (U+01B5): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
 
 * uni01CD (U+01CD): L&lt;&lt;114.0,553.0&gt;--&lt;392.0,554.0&gt;&gt;
 
@@ -1365,6 +1473,10 @@ But instead we have got:
 
 * uni01E0 (U+01E0): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
 
+* uni01F4 (U+01F4): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* uni01F4 (U+01F4): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
+
 * uni0200 (U+0200): L&lt;&lt;114.0,553.0&gt;--&lt;392.0,554.0&gt;&gt;
 
 * uni0200 (U+0200): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
@@ -1373,35 +1485,81 @@ But instead we have got:
 
 * uni0202 (U+0202): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
 
+* uni0204 (U+0204): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni0204 (U+0204): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni0206 (U+0206): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni0206 (U+0206): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
 * uni0226 (U+0226): L&lt;&lt;114.0,553.0&gt;--&lt;392.0,554.0&gt;&gt;
 
 * uni0226 (U+0226): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
 
+* uni0228 (U+0228): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni0228 (U+0228): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni0232 (U+0232): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* uni0232 (U+0232): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* uni0232 (U+0232): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
 * uni0237 (U+0237): L&lt;&lt;252.0,400.0&gt;--&lt;251.0,-27.0&gt;&gt;
 
-* uni023B (U+023B): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* uni023B (U+023B): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* uni023B (U+023B): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* uni023B (U+023B): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* uni0243 (U+0243): L&lt;&lt;420.0,-1.0&gt;--&lt;44.0,0.0&gt;&gt;
+* uni0243 (U+0243): L&lt;&lt;417.0,-1.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* uni0243 (U+0243): L&lt;&lt;44.0,554.0&gt;--&lt;406.0,553.0&gt;&gt;
+* uni0246 (U+0246): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni0246 (U+0246): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni024E (U+024E): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* uni024E (U+024E): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* uni024E (U+024E): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
 
 * uni1E00 (U+1E00): L&lt;&lt;114.0,553.0&gt;--&lt;392.0,554.0&gt;&gt;
 
 * uni1E00 (U+1E00): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
 
-* uni1E02 (U+1E02): L&lt;&lt;420.0,-1.0&gt;--&lt;44.0,0.0&gt;&gt;
+* uni1E02 (U+1E02): L&lt;&lt;417.0,-1.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* uni1E02 (U+1E02): L&lt;&lt;44.0,554.0&gt;--&lt;406.0,553.0&gt;&gt;
+* uni1E04 (U+1E04): L&lt;&lt;417.0,-1.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* uni1E04 (U+1E04): L&lt;&lt;420.0,-1.0&gt;--&lt;44.0,0.0&gt;&gt;
+* uni1E08 (U+1E08): L&lt;&lt;133.0,554.0&gt;--&lt;358.0,553.0&gt;&gt;
 
-* uni1E04 (U+1E04): L&lt;&lt;44.0,554.0&gt;--&lt;406.0,553.0&gt;&gt;
+* uni1E08 (U+1E08): L&lt;&lt;358.0,-1.0&gt;--&lt;133.0,0.0&gt;&gt;
 
-* uni1E08 (U+1E08): L&lt;&lt;129.0,554.0&gt;--&lt;354.0,553.0&gt;&gt;
+* uni1E14 (U+1E14): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
 
-* uni1E08 (U+1E08): L&lt;&lt;354.0,-1.0&gt;--&lt;129.0,0.0&gt;&gt;
+* uni1E14 (U+1E14): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1E16 (U+1E16): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1E16 (U+1E16): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1E18 (U+1E18): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1E18 (U+1E18): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1E1A (U+1E1A): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1E1A (U+1E1A): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1E1C (U+1E1C): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1E1C (U+1E1C): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1E20 (U+1E20): L&lt;&lt;453.0,0.0&gt;--&lt;103.0,-1.0&gt;&gt;
+
+* uni1E20 (U+1E20): L&lt;&lt;92.0,553.0&gt;--&lt;444.0,554.0&gt;&gt;
 
 * uni1E37 (U+1E37): L&lt;&lt;25.0,147.0&gt;--&lt;24.0,574.0&gt;&gt;
 
@@ -1417,9 +1575,41 @@ But instead we have got:
 
 * uni1E88 (U+1E88): L&lt;&lt;454.0,554.0&gt;--&lt;455.0,199.0&gt;&gt;
 
+* uni1E8E (U+1E8E): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* uni1E8E (U+1E8E): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* uni1E8E (U+1E8E): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
+
+* uni1E90 (U+1E90): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* uni1E90 (U+1E90): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
+* uni1E92 (U+1E92): L&lt;&lt;301.0,-1.0&gt;--&lt;87.0,0.0&gt;&gt;
+
+* uni1E92 (U+1E92): L&lt;&lt;44.0,553.0&gt;--&lt;252.0,552.0&gt;&gt;
+
 * uni1EAC (U+1EAC): L&lt;&lt;114.0,553.0&gt;--&lt;392.0,554.0&gt;&gt;
 
 * uni1EAC (U+1EAC): L&lt;&lt;173.0,0.0&gt;--&lt;12.0,-1.0&gt;&gt;
+
+* uni1EB8 (U+1EB8): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1EB8 (U+1EB8): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1EBC (U+1EBC): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1EBC (U+1EBC): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1EC6 (U+1EC6): L&lt;&lt;388.0,0.0&gt;--&lt;44.0,-2.0&gt;&gt;
+
+* uni1EC6 (U+1EC6): L&lt;&lt;44.0,552.0&gt;--&lt;384.0,554.0&gt;&gt;
+
+* uni1EF8 (U+1EF8): L&lt;&lt;260.0,204.0&gt;--&lt;91.0,203.0&gt;&gt;
+
+* uni1EF8 (U+1EF8): L&lt;&lt;32.0,553.0&gt;--&lt;208.0,554.0&gt;&gt;
+
+* uni1EF8 (U+1EF8): L&lt;&lt;367.0,-1.0&gt;--&lt;155.0,0.0&gt;&gt;
 
 * zero (U+0030): L&lt;&lt;256.0,0.0&gt;--&lt;80.0,-1.0&gt;&gt;
 
@@ -1442,8 +1632,8 @@ But instead we have got:
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̍ i̐ i̓ i᷆ i᷇ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>

@@ -786,21 +786,21 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tifinagh, canadian-aboriginal, tai-le, coptic, math, malayalam, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, math, canadian-aboriginal, tai-le, old-permic, coptic, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -813,8 +813,8 @@ The following glyphs do not have the recommended number of contours:
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, syriac, gothic, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -894,6 +894,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- S.ss01
 
 	- V.ss01
+
+	- Z.ss01
 
 	- asterisk_node
 
@@ -1096,35 +1098,83 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Atilde (U+00C3): L<<173.0,0.0>--<12.0,-1.0>>
 
-	* B (U+0042): L<<420.0,-1.0>--<44.0,0.0>>
+	* B (U+0042): L<<417.0,-1.0>--<44.0,-2.0>>
 
-	* B (U+0042): L<<44.0,554.0>--<406.0,553.0>>
+	* Bmacronbelow (U+1E06): L<<417.0,-1.0>--<44.0,-2.0>>
 
-	* Bmacronbelow (U+1E06): L<<420.0,-1.0>--<44.0,0.0>>
+	* C (U+0043): L<<133.0,554.0>--<358.0,553.0>>
 
-	* Bmacronbelow (U+1E06): L<<44.0,554.0>--<406.0,553.0>>
+	* C (U+0043): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* C (U+0043): L<<129.0,554.0>--<354.0,553.0>>
+	* Cacute (U+0106): L<<133.0,554.0>--<358.0,553.0>>
 
-	* C (U+0043): L<<354.0,-1.0>--<129.0,0.0>>
+	* Cacute (U+0106): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* Cacute (U+0106): L<<129.0,554.0>--<354.0,553.0>>
+	* Ccaron (U+010C): L<<133.0,554.0>--<358.0,553.0>>
 
-	* Cacute (U+0106): L<<354.0,-1.0>--<129.0,0.0>>
+	* Ccaron (U+010C): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* Ccaron (U+010C): L<<129.0,554.0>--<354.0,553.0>>
+	* Ccedilla (U+00C7): L<<133.0,554.0>--<358.0,553.0>>
 
-	* Ccaron (U+010C): L<<354.0,-1.0>--<129.0,0.0>>
+	* Ccedilla (U+00C7): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* Ccedilla (U+00C7): L<<129.0,554.0>--<354.0,553.0>>
+	* Cdotaccent (U+010A): L<<133.0,554.0>--<358.0,553.0>>
 
-	* Ccedilla (U+00C7): L<<354.0,-1.0>--<129.0,0.0>>
+	* Cdotaccent (U+010A): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* Cdotaccent (U+010A): L<<129.0,554.0>--<354.0,553.0>>
+	* E (U+0045): L<<388.0,0.0>--<44.0,-2.0>>
 
-	* Cdotaccent (U+010A): L<<354.0,-1.0>--<129.0,0.0>>
+	* E (U+0045): L<<44.0,552.0>--<384.0,554.0>>
 
-	* Q (U+0051): L<<430.0,-127.0>--<217.0,-126.0>>
+	* Eacute (U+00C9): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Eacute (U+00C9): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Ecaron (U+011A): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Ecaron (U+011A): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Ecircumflex (U+00CA): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Ecircumflex (U+00CA): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Edieresis (U+00CB): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Edieresis (U+00CB): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Edotaccent (U+0116): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Edotaccent (U+0116): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Egrave (U+00C8): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Egrave (U+00C8): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Emacron (U+0112): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Emacron (U+0112): L<<44.0,552.0>--<384.0,554.0>>
+
+	* Eogonek (U+0118): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* Eogonek (U+0118): L<<44.0,552.0>--<384.0,554.0>>
+
+	* G (U+0047): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* G (U+0047): L<<92.0,553.0>--<444.0,554.0>>
+
+	* Gbreve (U+011E): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* Gbreve (U+011E): L<<92.0,553.0>--<444.0,554.0>>
+
+	* Gcaron (U+01E6): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* Gcaron (U+01E6): L<<92.0,553.0>--<444.0,554.0>>
+
+	* Gdotaccent (U+0120): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* Gdotaccent (U+0120): L<<92.0,553.0>--<444.0,554.0>>
+
+	* Q (U+0051): L<<432.0,-127.0>--<219.0,-126.0>>
 
 	* W (U+0057): L<<284.0,199.0>--<281.0,554.0>>
 
@@ -1146,6 +1196,56 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Wgrave (U+1E80): L<<454.0,554.0>--<455.0,199.0>>
 
+	* Y (U+0059): L<<260.0,204.0>--<91.0,203.0>>
+
+	* Y (U+0059): L<<32.0,553.0>--<208.0,554.0>>
+
+	* Y (U+0059): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* Yacute (U+00DD): L<<260.0,204.0>--<91.0,203.0>>
+
+	* Yacute (U+00DD): L<<32.0,553.0>--<208.0,554.0>>
+
+	* Yacute (U+00DD): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* Ycircumflex (U+0176): L<<260.0,204.0>--<91.0,203.0>>
+
+	* Ycircumflex (U+0176): L<<32.0,553.0>--<208.0,554.0>>
+
+	* Ycircumflex (U+0176): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* Ydieresis (U+0178): L<<260.0,204.0>--<91.0,203.0>>
+
+	* Ydieresis (U+0178): L<<32.0,553.0>--<208.0,554.0>>
+
+	* Ydieresis (U+0178): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* Ygrave (U+1EF2): L<<260.0,204.0>--<91.0,203.0>>
+
+	* Ygrave (U+1EF2): L<<32.0,553.0>--<208.0,554.0>>
+
+	* Ygrave (U+1EF2): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* Z (U+005A): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* Z (U+005A): L<<44.0,553.0>--<252.0,552.0>>
+
+	* Zacute (U+0179): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* Zacute (U+0179): L<<44.0,553.0>--<252.0,552.0>>
+
+	* Zcaron (U+017D): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* Zcaron (U+017D): L<<44.0,553.0>--<252.0,552.0>>
+
+	* Zdotaccent (U+017B): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* Zdotaccent (U+017B): L<<44.0,553.0>--<252.0,552.0>>
+
+	* Zmacronbelow (U+1E94): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* Zmacronbelow (U+1E94): L<<44.0,553.0>--<252.0,552.0>>
+
 	* eight (U+0038): L<<230.0,-1.0>--<71.0,0.0>>
 
 	* ij (U+0133): L<<440.0,400.0>--<439.0,-7.0>>
@@ -1166,7 +1266,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* seven (U+0037): L<<282.0,0.0>--<82.0,-1.0>>
 
+	* uni0122 (U+0122): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* uni0122 (U+0122): L<<92.0,553.0>--<444.0,554.0>>
+
 	* uni013C (U+013C): L<<25.0,147.0>--<24.0,574.0>>
+
+	* uni01B5 (U+01B5): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* uni01B5 (U+01B5): L<<44.0,553.0>--<252.0,552.0>>
 
 	* uni01CD (U+01CD): L<<114.0,553.0>--<392.0,554.0>>
 
@@ -1180,6 +1288,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni01E0 (U+01E0): L<<173.0,0.0>--<12.0,-1.0>>
 
+	* uni01F4 (U+01F4): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* uni01F4 (U+01F4): L<<92.0,553.0>--<444.0,554.0>>
+
 	* uni0200 (U+0200): L<<114.0,553.0>--<392.0,554.0>>
 
 	* uni0200 (U+0200): L<<173.0,0.0>--<12.0,-1.0>>
@@ -1188,35 +1300,81 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni0202 (U+0202): L<<173.0,0.0>--<12.0,-1.0>>
 
+	* uni0204 (U+0204): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni0204 (U+0204): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni0206 (U+0206): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni0206 (U+0206): L<<44.0,552.0>--<384.0,554.0>>
+
 	* uni0226 (U+0226): L<<114.0,553.0>--<392.0,554.0>>
 
 	* uni0226 (U+0226): L<<173.0,0.0>--<12.0,-1.0>>
 
+	* uni0228 (U+0228): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni0228 (U+0228): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni0232 (U+0232): L<<260.0,204.0>--<91.0,203.0>>
+
+	* uni0232 (U+0232): L<<32.0,553.0>--<208.0,554.0>>
+
+	* uni0232 (U+0232): L<<367.0,-1.0>--<155.0,0.0>>
+
 	* uni0237 (U+0237): L<<252.0,400.0>--<251.0,-27.0>>
 
-	* uni023B (U+023B): L<<129.0,554.0>--<354.0,553.0>>
+	* uni023B (U+023B): L<<133.0,554.0>--<358.0,553.0>>
 
-	* uni023B (U+023B): L<<354.0,-1.0>--<129.0,0.0>>
+	* uni023B (U+023B): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* uni0243 (U+0243): L<<420.0,-1.0>--<44.0,0.0>>
+	* uni0243 (U+0243): L<<417.0,-1.0>--<44.0,-2.0>>
 
-	* uni0243 (U+0243): L<<44.0,554.0>--<406.0,553.0>>
+	* uni0246 (U+0246): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni0246 (U+0246): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni024E (U+024E): L<<260.0,204.0>--<91.0,203.0>>
+
+	* uni024E (U+024E): L<<32.0,553.0>--<208.0,554.0>>
+
+	* uni024E (U+024E): L<<367.0,-1.0>--<155.0,0.0>>
 
 	* uni1E00 (U+1E00): L<<114.0,553.0>--<392.0,554.0>>
 
 	* uni1E00 (U+1E00): L<<173.0,0.0>--<12.0,-1.0>>
 
-	* uni1E02 (U+1E02): L<<420.0,-1.0>--<44.0,0.0>>
+	* uni1E02 (U+1E02): L<<417.0,-1.0>--<44.0,-2.0>>
 
-	* uni1E02 (U+1E02): L<<44.0,554.0>--<406.0,553.0>>
+	* uni1E04 (U+1E04): L<<417.0,-1.0>--<44.0,-2.0>>
 
-	* uni1E04 (U+1E04): L<<420.0,-1.0>--<44.0,0.0>>
+	* uni1E08 (U+1E08): L<<133.0,554.0>--<358.0,553.0>>
 
-	* uni1E04 (U+1E04): L<<44.0,554.0>--<406.0,553.0>>
+	* uni1E08 (U+1E08): L<<358.0,-1.0>--<133.0,0.0>>
 
-	* uni1E08 (U+1E08): L<<129.0,554.0>--<354.0,553.0>>
+	* uni1E14 (U+1E14): L<<388.0,0.0>--<44.0,-2.0>>
 
-	* uni1E08 (U+1E08): L<<354.0,-1.0>--<129.0,0.0>>
+	* uni1E14 (U+1E14): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1E16 (U+1E16): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1E16 (U+1E16): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1E18 (U+1E18): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1E18 (U+1E18): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1E1A (U+1E1A): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1E1A (U+1E1A): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1E1C (U+1E1C): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1E1C (U+1E1C): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1E20 (U+1E20): L<<453.0,0.0>--<103.0,-1.0>>
+
+	* uni1E20 (U+1E20): L<<92.0,553.0>--<444.0,554.0>>
 
 	* uni1E37 (U+1E37): L<<25.0,147.0>--<24.0,574.0>>
 
@@ -1232,9 +1390,41 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1E88 (U+1E88): L<<454.0,554.0>--<455.0,199.0>>
 
+	* uni1E8E (U+1E8E): L<<260.0,204.0>--<91.0,203.0>>
+
+	* uni1E8E (U+1E8E): L<<32.0,553.0>--<208.0,554.0>>
+
+	* uni1E8E (U+1E8E): L<<367.0,-1.0>--<155.0,0.0>>
+
+	* uni1E90 (U+1E90): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* uni1E90 (U+1E90): L<<44.0,553.0>--<252.0,552.0>>
+
+	* uni1E92 (U+1E92): L<<301.0,-1.0>--<87.0,0.0>>
+
+	* uni1E92 (U+1E92): L<<44.0,553.0>--<252.0,552.0>>
+
 	* uni1EAC (U+1EAC): L<<114.0,553.0>--<392.0,554.0>>
 
 	* uni1EAC (U+1EAC): L<<173.0,0.0>--<12.0,-1.0>>
+
+	* uni1EB8 (U+1EB8): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1EB8 (U+1EB8): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1EBC (U+1EBC): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1EBC (U+1EBC): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1EC6 (U+1EC6): L<<388.0,0.0>--<44.0,-2.0>>
+
+	* uni1EC6 (U+1EC6): L<<44.0,552.0>--<384.0,554.0>>
+
+	* uni1EF8 (U+1EF8): L<<260.0,204.0>--<91.0,203.0>>
+
+	* uni1EF8 (U+1EF8): L<<32.0,553.0>--<208.0,554.0>>
+
+	* uni1EF8 (U+1EF8): L<<367.0,-1.0>--<155.0,0.0>>
 
 	* zero (U+0030): L<<256.0,0.0>--<80.0,-1.0>>
 
@@ -1254,9 +1444,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊
 
-Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
