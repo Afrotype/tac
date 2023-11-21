@@ -13,7 +13,8 @@ HHMMHHHHNNHH
 HHHOOOHHHOOHHO
 Eritrea",
 "Ʒ",
-"NEHFNGX 
+"NEHFNGX
+ENZNE 
 Effervescent
 Cyanotype
 OGO yanotype"
@@ -7995,7 +7996,7 @@ unicode = 7928;
 {
 color = 0;
 glyphname = Z;
-lastChange = "2023-11-20 19:01:47 +0000";
+lastChange = "2023-11-21 14:55:31 +0000";
 layers = (
 {
 anchors = (
@@ -8025,14 +8026,63 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(442,-2,l),
-(442,118,l),
+(442,0,l),
+(442,119,l),
 (256,119,l),
-(443,551,l),
+(443,554,l),
 (32,554,l),
 (32,437,l),
-(214,435,l),
+(214,437,l),
 (20,0,l)
+);
+}
+);
+width = 467;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (202,0);
+},
+{
+name = center;
+pos = (165,277);
+},
+{
+name = ogonek;
+pos = (390,0);
+},
+{
+name = top;
+pos = (202,554);
+},
+{
+name = topleft;
+pos = (-14,554);
+}
+);
+associatedMasterId = m01;
+layerId = "6C0CBC7E-04B2-442D-B6FE-85CB4A71A9FF";
+name = VisibleStrokeZ;
+shapes = (
+{
+closed = 1;
+nodes = (
+(442,118,l),
+(158,113,l),
+(210,122,o),
+(250,149,o),
+(279,208,cs),
+(442,554,l),
+(32,554,l),
+(32,437,l),
+(289,441,l),
+(239,426,o),
+(194,396,o),
+(172,347,cs),
+(14,0,l),
+(442,-2,l)
 );
 }
 );
