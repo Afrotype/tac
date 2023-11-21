@@ -2,22 +2,14 @@
 .appVersion = "3227";
 .formatVersion = 3;
 DisplayStrings = (
-"france
-abcdefghijklmnopqrstuvwxyz
-uufrnnonfoofoo
-uunnon/r.ss01 oo/r.ss01 oo
-uuannonaooaoo
-uunnnonnoonoo
-uucnnoncoocoo
-uuennoneooeoo
-e",
 "hypnotics sneers gammer heteromerous flagpoles absurdists algonquians swith begoniaceae vale spooms buffaloes stanford sorghum embracery drouks fechters psalms practices imagism undines berryings interlinks revivalism unrepulsable albumenises unanchor insubjection ailourophile mustily bastilles headrail disunion corybantism superrealism miraclenticores aplomb diphysites resupinate nappiness soothsaid alcock f/r.ss01 anceoussas solver jestee vaunting niddering praecordial dimplement overtly gor/r.ss01 ki bonists unswathes shrine agent chibouques becall superlative females dramatics poetise gooch garonne reprograms affricates juratory stubborning communism provender perry tractarian inurbanity praha cuckoldy horror rearranged pogoed scotistic venidium inforced turds destabilized incusing inequalities microfarad shedhand barrelful vintner calmodulin forth fundy macerated spud disseizin scoopers glissades dodmans windies demonized tinkers rotal charlock febricity recrossing puddle ibsenism rhizophagous coalesced potentise",
-"finding schistosome quickiez bivium episodic 
-abcdefghijklmnopqrstuvwxyzscapulas routemarriage macrogametes nashi 
-vaporimeters peripeteias troglodytism xeres 
-escalading underlooker distillate moppers 
-lightweights garbo swinging",
-"abcdefghijklmnopqrstuvwxyz/z.ss01"
+"abcdefghijklmnopqrstuvwxyz/z.ss01",
+"ḫ",
+"Ḫ",
+"᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̧̨̣̥̦̩̭̯̰̱̲̍̏̐̑̒̓᷇᷅᷄᷆͘/strokeshortcomb.case",
+"̰",
+"̮",
+"DḌ"
 );
 axes = (
 {
@@ -2847,7 +2839,7 @@ unicode = 484;
 {
 color = 4;
 glyphname = H;
-lastChange = "2023-11-18 02:29:58 +0000";
+lastChange = "2023-11-21 13:40:05 +0000";
 layers = (
 {
 anchors = (
@@ -2923,7 +2915,7 @@ unicode = 294;
 {
 color = 9;
 glyphname = Hbrevebelow;
-lastChange = "2023-11-18 02:35:22 +0000";
+lastChange = "2023-11-21 13:42:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -2932,8 +2924,8 @@ shapes = (
 ref = H;
 },
 {
-pos = (542,0);
-ref = brevebelowcomb.case;
+pos = (111,0);
+ref = brevebelowcomb;
 }
 );
 width = 542;
@@ -21327,7 +21319,7 @@ unicode = 780;
 {
 color = 2;
 glyphname = brevecomb;
-lastChange = "2023-11-17 13:59:19 +0000";
+lastChange = "2023-11-21 13:36:30 +0000";
 layers = (
 {
 anchors = (
@@ -22119,6 +22111,57 @@ width = 446;
 }
 );
 unicode = 813;
+},
+{
+glyphname = brevebelowcomb;
+lastChange = "2023-11-21 13:42:22 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (160,0);
+},
+{
+name = bottom;
+pos = (160,-194);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(290,-202,l),
+(314,-169,o),
+(327,-114,o),
+(322,-80,c),
+(200,-80,l),
+(205,-117,o),
+(182,-164,o),
+(161,-202,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(181,-202,l),
+(160,-164,o),
+(137,-117,o),
+(142,-80,c),
+(20,-80,l),
+(15,-114,o),
+(28,-169,o),
+(52,-202,c)
+);
+}
+);
+width = 342;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 814;
 },
 {
 color = 1;
