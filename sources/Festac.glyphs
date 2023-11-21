@@ -2,14 +2,8 @@
 .appVersion = "3227";
 .formatVersion = 3;
 DisplayStrings = (
-"hypnotics sneers gammer heteromerous flagpoles absurdists algonquians swith begoniaceae vale spooms buffaloes stanford sorghum embracery drouks fechters psalms practices imagism undines berryings interlinks revivalism unrepulsable albumenises unanchor insubjection ailourophile mustily bastilles headrail disunion corybantism superrealism miraclenticores aplomb diphysites resupinate nappiness soothsaid alcock f/r.ss01 anceoussas solver jestee vaunting niddering praecordial dimplement overtly gor/r.ss01 ki bonists unswathes shrine agent chibouques becall superlative females dramatics poetise gooch garonne reprograms affricates juratory stubborning communism provender perry tractarian inurbanity praha cuckoldy horror rearranged pogoed scotistic venidium inforced turds destabilized incusing inequalities microfarad shedhand barrelful vintner calmodulin forth fundy macerated spud disseizin scoopers glissades dodmans windies demonized tinkers rotal charlock febricity recrossing puddle ibsenism rhizophagous coalesced potentise",
-"abcdefghijklmnopqrstuvwxyz/z.ss01",
-"ḫ",
-"Ḫ",
-"᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̧̨̣̥̦̩̭̯̰̱̲̍̏̐̑̒̓᷇᷅᷄᷆͘/strokeshortcomb.case",
-"̰",
-"̮",
-"DḌ"
+"ɲ",
+"ƁƇƊƑƓꞪƘƝƤɊƬƮƲⱲƳɓƈɗɠɦƙɲƥɋɾƭʈʋⱳƴ"
 );
 axes = (
 {
@@ -12480,17 +12474,56 @@ unicode = 505;
 {
 color = 8;
 glyphname = nhookleft;
-lastChange = "2023-11-18 03:02:53 +0000";
+lastChange = "2023-11-21 13:58:45 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = engpart;
+pos = (456,0);
+},
+{
+name = jot;
+pos = (118,400);
+},
+{
+name = leg;
+pos = (178,400);
+},
+{
+name = top;
+pos = (241,400);
+}
+);
 layerId = m01;
 shapes = (
 {
-ref = n;
-},
-{
-pos = (484,0);
-ref = _hookleft.part;
+closed = 1;
+nodes = (
+(149,-174,l),
+(184,-119,o),
+(205,-60,o),
+(205,13,cs),
+(205,366,l),
+(253,333,o),
+(283,279,o),
+(283,189,cs),
+(283,0,l),
+(456,0,l),
+(456,200,ls),
+(456,282,o),
+(434,358,o),
+(398,400,c),
+(32,400,l),
+(32,55,ls),
+(32,-23,o),
+(1,-113,o),
+(-39,-174,c)
+);
 }
 );
 width = 484;
