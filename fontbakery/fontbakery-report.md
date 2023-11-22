@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[19] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -19,11 +19,17 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.3 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current FontBakery version is 0.10.1, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
 
 
 * 🔥 **FAIL** The '.notdef' glyph should contain a drawing, but it is blank. [code: notdef-is-blank]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
+
+
+* 🔥 **FAIL** name id 256 missing from name table
+* 🔥 **FAIL** name id 257 missing from name table
+* 🔥 **FAIL** name id 258 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -71,13 +77,7 @@ But instead we have got:
 
 	- Glyph name: paragraph	Expected: 1, 2 or 3
 
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Eth	Expected: 2
-
 	- Glyph name: multiply	Expected: 1
-
-	- Glyph name: Oslash	Expected: 2 or 3
 
 	- Glyph name: germandbls	Expected: 1
 
@@ -85,13 +85,7 @@ But instead we have got:
 
 	- Glyph name: divide	Expected: 3
 
-	- Glyph name: oslash	Expected: 3
-
 	- Glyph name: thorn	Expected: 2
-
-	- Glyph name: Dcroat	Expected: 2
-
-	- Glyph name: dcroat	Expected: 2
 
 	- Glyph name: Hbar	Expected: 2
 
@@ -103,8 +97,6 @@ But instead we have got:
 
 	- Glyph name: uni0181	Expected: 3
 
-	- Glyph name: uni0186	Expected: 1
-
 	- Glyph name: uni0187	Expected: 1
 
 	- Glyph name: uni0188	Expected: 1
@@ -115,23 +107,13 @@ But instead we have got:
 
 	- Glyph name: uni018E	Expected: 1
 
-	- Glyph name: uni018F	Expected: 2
-
-	- Glyph name: uni0190	Expected: 1
-
-	- Glyph name: uni0191	Expected: 1
-
 	- Glyph name: florin	Expected: 1
 
 	- Glyph name: uni0193	Expected: 1
 
 	- Glyph name: Gammalatin	Expected: 2
 
-	- Glyph name: Iotalatin	Expected: 1
-
 	- Glyph name: uni0198	Expected: 1
-
-	- Glyph name: uni0199	Expected: 1
 
 	- Glyph name: uni019A	Expected: 1
 
@@ -141,19 +123,9 @@ But instead we have got:
 
 	- Glyph name: uni019D	Expected: 1
 
-	- Glyph name: nlongrightleg	Expected: 1
-
-	- Glyph name: Obarred	Expected: 3
-
 	- Glyph name: uni01A4	Expected: 2
 
-	- Glyph name: uni01A5	Expected: 2
-
-	- Glyph name: uni01A9	Expected: 1
-
 	- Glyph name: uni01AC	Expected: 1
-
-	- Glyph name: uni01AD	Expected: 1
 
 	- Glyph name: uni01AE	Expected: 1
 
@@ -189,8 +161,6 @@ But instead we have got:
 
 	- Glyph name: uni023C	Expected: 2
 
-	- Glyph name: uni023D	Expected: 1
-
 	- Glyph name: Glottalstopsmall	Expected: 1
 
 	- Glyph name: uni0242	Expected: 1
@@ -213,10 +183,6 @@ But instead we have got:
 
 	- Glyph name: uni0251	Expected: 2
 
-	- Glyph name: uni0272	Expected: 1
-
-	- Glyph name: uni0292	Expected: 1
-
 	- Glyph name: uni02BB	Expected: 1
 
 	- Glyph name: uni02BE	Expected: 1
@@ -229,11 +195,7 @@ But instead we have got:
 
 	- Glyph name: uni0E3F	Expected: 3 or 5
 
-	- Glyph name: uni1E2A	Expected: 2
-
 	- Glyph name: uni1E2B	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
 
 	- Glyph name: dagger	Expected: 1 or 2
 
@@ -279,21 +241,13 @@ But instead we have got:
 
 	- Glyph name: uniA78C	Expected: 1
 
-	- Glyph name: AE	Expected: 2
-
-	- Glyph name: Dcroat	Expected: 2
-
 	- Glyph name: Eng	Expected: 1
-
-	- Glyph name: Eth	Expected: 2
 
 	- Glyph name: Euro	Expected: 1 or 2
 
 	- Glyph name: Hbar	Expected: 2
 
 	- Glyph name: Lslash	Expected: 1
-
-	- Glyph name: Oslash	Expected: 2 or 3
 
 	- Glyph name: ampersand	Expected: 1, 2 or 3
 
@@ -316,8 +270,6 @@ But instead we have got:
 	- Glyph name: dagger	Expected: 1 or 2
 
 	- Glyph name: daggerdbl	Expected: 1 or 3
-
-	- Glyph name: dcroat	Expected: 2
 
 	- Glyph name: divide	Expected: 3
 
@@ -351,8 +303,6 @@ But instead we have got:
 
 	- Glyph name: notequal	Expected: 1
 
-	- Glyph name: oslash	Expected: 3
-
 	- Glyph name: paragraph	Expected: 1, 2 or 3
 
 	- Glyph name: partialdiff	Expected: 2
@@ -381,8 +331,6 @@ But instead we have got:
 
 	- Glyph name: uni0181	Expected: 3
 
-	- Glyph name: uni0186	Expected: 1
-
 	- Glyph name: uni0187	Expected: 1
 
 	- Glyph name: uni0188	Expected: 1
@@ -391,17 +339,9 @@ But instead we have got:
 
 	- Glyph name: uni018E	Expected: 1
 
-	- Glyph name: uni018F	Expected: 2
-
-	- Glyph name: uni0190	Expected: 1
-
-	- Glyph name: uni0191	Expected: 1
-
 	- Glyph name: uni0193	Expected: 1
 
 	- Glyph name: uni0198	Expected: 1
-
-	- Glyph name: uni0199	Expected: 1
 
 	- Glyph name: uni019A	Expected: 1
 
@@ -413,13 +353,7 @@ But instead we have got:
 
 	- Glyph name: uni01A4	Expected: 2
 
-	- Glyph name: uni01A5	Expected: 2
-
-	- Glyph name: uni01A9	Expected: 1
-
 	- Glyph name: uni01AC	Expected: 1
-
-	- Glyph name: uni01AD	Expected: 1
 
 	- Glyph name: uni01AE	Expected: 1
 
@@ -453,8 +387,6 @@ But instead we have got:
 
 	- Glyph name: uni023C	Expected: 2
 
-	- Glyph name: uni023D	Expected: 1
-
 	- Glyph name: uni0242	Expected: 1
 
 	- Glyph name: uni0244	Expected: 2
@@ -475,10 +407,6 @@ But instead we have got:
 
 	- Glyph name: uni0251	Expected: 2
 
-	- Glyph name: uni0272	Expected: 1
-
-	- Glyph name: uni0292	Expected: 1
-
 	- Glyph name: uni02BB	Expected: 1
 
 	- Glyph name: uni02BE	Expected: 1
@@ -491,11 +419,7 @@ But instead we have got:
 
 	- Glyph name: uni0E3F	Expected: 3 or 5
 
-	- Glyph name: uni1E2A	Expected: 2
-
 	- Glyph name: uni1E2B	Expected: 2
-
-	- Glyph name: uni1E9E	Expected: 1
 
 	- Glyph name: uni20AA	Expected: 2
 
@@ -519,9 +443,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
+
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: dcaron	Contours detected: 1	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 1	Expected: 2
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oe	Contours detected: 2	Expected: 3
 
@@ -535,6 +473,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01E2	Contours detected: 1	Expected: 3
 
+	- Glyph name: gcaron	Contours detected: 1	Expected: 3 or 4
+
 	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
@@ -545,9 +485,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EF	Contours detected: 1	Expected: 2
 
-	- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
+	- Glyph name: uni01F5	Contours detected: 1	Expected: 3
 
-	- Glyph name: oslashacute	Contours detected: 1	Expected: 4
+	- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
 
 	- Glyph name: uni0202	Contours detected: 4	Expected: 3
 
@@ -577,6 +517,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0243	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0246	Contours detected: 2	Expected: 3
@@ -587,13 +529,29 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
+	- Glyph name: uni1E03	Contours detected: 1	Expected: 3
+
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni1E0B	Contours detected: 1	Expected: 3
+
+	- Glyph name: uni1E0D	Contours detected: 1	Expected: 3
+
+	- Glyph name: dmacronbelow	Contours detected: 1	Expected: 3
+
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E21	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: uni1E57	Contours detected: 1	Expected: 3
+
+	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
 
@@ -603,11 +561,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
+	- Glyph name: dcaron	Contours detected: 1	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 1	Expected: 2
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: gbreve	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: gcaron	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: gdotaccent	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oe	Contours detected: 2	Expected: 3
 
-	- Glyph name: oslashacute	Contours detected: 1	Expected: 4
+	- Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: uni0197	Contours detected: 2	Expected: 1
 
@@ -625,6 +593,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni0243	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni0246	Contours detected: 2	Expected: 3
@@ -635,13 +605,23 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0311	Contours detected: 2	Expected: 1
 
+	- Glyph name: uni1E03	Contours detected: 1	Expected: 3
+
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni1E0B	Contours detected: 1	Expected: 3
+
+	- Glyph name: uni1E0D	Contours detected: 1	Expected: 3
+
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+	- Glyph name: uni1E21	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: uni1E57	Contours detected: 1	Expected: 3
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -767,9 +747,6 @@ The following glyphs do not have the recommended number of contours:
 	- 0x1E97 (LATIN SMALL LETTER T WITH DIAERESIS)
 
 
-	- 0x032E (COMBINING BREVE BELOW)
-
-
 	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
  [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
@@ -786,7 +763,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -795,12 +772,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, math, canadian-aboriginal, tai-le, old-permic, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, syriac, math, old-permic, malayalam, canadian-aboriginal, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -812,9 +789,10 @@ The following glyphs do not have the recommended number of contours:
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
+ * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, cherokee, syriac, caucasian-albanian, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -872,6 +850,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- f + i
 
 	- t + t [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
+
+
+* ⚠ **WARN** The stylistic set ss10 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -881,92 +863,18 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- F.ss10
-
-	- J.ss01
-
-	- J.ss02
-
-	- M.ss01
-
-	- Q.ss02
-
-	- S.ss01
-
-	- V.ss01
-
-	- Z.ss01
+	- D.001
 
 	- asterisk_node
 
-	- eight.osf
-
-	- f.ss01
-
-	- five.osf
-
-	- five.ss01
-
-	- five.ss02
-
-	- four.osf
-
-	- i.loclTRK
-
-	- j.ss01
-
-	- nine.osf
-
-	- one.osf
-
-	- one.ss01
-
-	- one.ss02
-
-	- one.ss03
-
-	- periodcentered.loclCAT
-
-	- periodcentered.loclCAT.case
-
-	- r.ss01
-
-	- seven.osf
-
-	- six.osf
-
-	- three.osf
-
-	- three.ss01
-
-	- three.ss02
-
-	- two.osf
-
-	- two.ss01
-
-	- u.ss01
-
-	- uni006A0301
-
-	- uni03000304
-
-	- uni03010304
-
-	- uni03040300
-
-	- uni03040301
-
-	- v.ss01
-
-	- w.ss01
-
-	- x.ss01
+	- d.001
 
 	- z.ss01
-
-	- zero.osf
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
+
+
+* ⚠ **WARN** dcaron is composed of a single component and therefore could not be checked. Please check manually. [code: single-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -982,49 +890,53 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038) contains a short segment B<<177.5,261.5>-<172.0,265.0>-<167.0,268.0>>
 
-	* uni01B8 (U+01B8) contains a short segment L<<315.0,322.0>--<314.0,322.0>> [code: found-short-segments]
+	* X (U+0058) contains a short segment L<<356.0,306.0>--<363.0,301.0>>
+
+	* x (U+0078) contains a short segment B<<290.0,0.0>-<290.0,0.0>-<290.5,5.5>>
+
+	* uni01AD (U+01AD) contains a short segment L<<235.0,280.0>--<235.0,270.0>>
+
+	* uni01B8 (U+01B8) contains a short segment L<<315.0,322.0>--<314.0,322.0>>
+
+	* uni0266 (U+0266) contains a short segment L<<29.0,385.0>--<30.0,385.0>>
+
+	* uni0266 (U+0266) contains a short segment L<<30.0,385.0>--<30.0,387.0>>
+
+	* uni1E8A (U+1E8A) contains a short segment L<<356.0,306.0>--<363.0,301.0>>
+
+	* uni1E8C (U+1E8C) contains a short segment L<<356.0,306.0>--<363.0,301.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* eng (U+014B): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>>
+	* eng (U+014B): L<<456.0,200.0>--<456.0,0.0>> -> L<<456.0,0.0>--<455.0,-63.0>>
 
-	* g (U+0067): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
-
-	* gbreve (U+011F): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
-
-	* gcaron (U+01E7): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
-
-	* gdotaccent (U+0121): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
+	* g (U+0067): L<<270.0,36.0>--<271.0,54.0>> -> L<<271.0,54.0>--<271.0,366.0>>
 
 	* seven (U+0037): L<<10.0,553.0>--<215.0,554.0>> -> L<<215.0,554.0>--<215.0,554.0>>
 
 	* seven (U+0037): L<<215.0,554.0>--<215.0,554.0>> -> L<<215.0,554.0>--<385.0,554.0>>
 
-	* uni0123 (U+0123): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
+	* uni0199 (U+0199): L<<30.0,0.0>--<30.0,324.0>> -> L<<30.0,324.0>--<31.0,387.0>>
 
-	* uni01F5 (U+01F5): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
+	* uni0233 (U+0233): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* uni0233 (U+0233): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* uni1E8F (U+1E8F): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* uni1E21 (U+1E21): L<<276.0,25.0>--<278.0,54.0>> -> L<<278.0,54.0>--<278.0,376.0>>
+	* uni1EF9 (U+1EF9): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* uni1E8F (U+1E8F): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* uniA727 (U+A727): L<<456.0,200.0>--<456.0,0.0>> -> L<<456.0,0.0>--<455.0,-63.0>>
 
-	* uni1EF9 (U+1EF9): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* y (U+0079): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* uniA727 (U+A727): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>>
+	* yacute (U+00FD): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* y (U+0079): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* ycircumflex (U+0177): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* yacute (U+00FD): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* ydieresis (U+00FF): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* ycircumflex (U+0177): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
-
-	* ydieresis (U+00FF): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
-
-	* ygrave (U+1EF3): L<<268.0,24.0>--<270.0,52.0>> -> L<<270.0,52.0>--<270.0,400.0>>
+	* ygrave (U+1EF3): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
 	* zero (U+0030): L<<238.0,554.0>--<238.0,554.0>> -> L<<238.0,554.0>--<256.0,554.0>>
 
@@ -1040,225 +952,171 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
+	* Z (U+005A): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
+
+	* Zacute (U+0179): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
+
+	* Zcaron (U+017D): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
+
+	* Zdotaccent (U+017B): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
+
+	* Zmacronbelow (U+1E94): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
+
 	* eight (U+0038): L<<230.0,-1.0>--<230.0,-1.0>>/L<<230.0,-1.0>--<71.0,0.0>> = 0.36034606338677005
 
-	* uni02B7 (U+02B7): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
+	* uni0190 (U+0190): L<<137.0,554.0>--<359.0,554.0>>/B<<359.0,554.0>-<317.0,550.0>-<284.5,527.0>> = 5.4403320310054815
 
-	* uni1E87 (U+1E87): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
+	* uni01B5 (U+01B5): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
 
-	* uni1E89 (U+1E89): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
+	* uni1E90 (U+1E90): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923
 
-	* w (U+0077): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
-
-	* wacute (U+1E83): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
-
-	* wcircumflex (U+0175): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
-
-	* wdieresis (U+1E85): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317
-
-	* wgrave (U+1E81): B<<420.0,96.5>-<414.0,57.0>-<401.0,21.0>>/L<<401.0,21.0>--<406.0,32.0>> = 4.588740411095317 [code: found-jaggy-segments]
+	* uni1E92 (U+1E92): B<<227.0,142.0>-<197.0,120.0>-<158.0,113.0>>/L<<158.0,113.0>--<442.0,118.0>> = 9.166886532382923 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* Aacute (U+00C1): L<<114.0,553.0>--<392.0,554.0>>
+	* B (U+0042): L<<417.0,-1.0>--<40.0,-2.0>>
 
-	* Aacute (U+00C1): L<<173.0,0.0>--<12.0,-1.0>>
+	* Bmacronbelow (U+1E06): L<<417.0,-1.0>--<40.0,-2.0>>
 
-	* Abreve (U+0102): L<<114.0,553.0>--<392.0,554.0>>
+	* C (U+0043): L<<129.0,554.0>--<354.0,553.0>>
 
-	* Abreve (U+0102): L<<173.0,0.0>--<12.0,-1.0>>
+	* C (U+0043): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* Acircumflex (U+00C2): L<<114.0,553.0>--<392.0,554.0>>
+	* Cacute (U+0106): L<<129.0,554.0>--<354.0,553.0>>
 
-	* Acircumflex (U+00C2): L<<173.0,0.0>--<12.0,-1.0>>
+	* Cacute (U+0106): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* Adieresis (U+00C4): L<<114.0,553.0>--<392.0,554.0>>
+	* Ccaron (U+010C): L<<129.0,554.0>--<354.0,553.0>>
 
-	* Adieresis (U+00C4): L<<173.0,0.0>--<12.0,-1.0>>
+	* Ccaron (U+010C): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* Agrave (U+00C0): L<<114.0,553.0>--<392.0,554.0>>
+	* Ccedilla (U+00C7): L<<129.0,554.0>--<354.0,553.0>>
 
-	* Agrave (U+00C0): L<<173.0,0.0>--<12.0,-1.0>>
+	* Ccedilla (U+00C7): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* Amacron (U+0100): L<<114.0,553.0>--<392.0,554.0>>
+	* Cdotaccent (U+010A): L<<129.0,554.0>--<354.0,553.0>>
 
-	* Amacron (U+0100): L<<173.0,0.0>--<12.0,-1.0>>
+	* Cdotaccent (U+010A): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* Aogonek (U+0104): L<<114.0,553.0>--<392.0,554.0>>
+	* E (U+0045): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Aogonek (U+0104): L<<173.0,0.0>--<12.0,-1.0>>
+	* E (U+0045): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Aring (U+00C5): L<<114.0,553.0>--<392.0,554.0>>
+	* Eacute (U+00C9): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Aring (U+00C5): L<<173.0,0.0>--<12.0,-1.0>>
+	* Eacute (U+00C9): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Atilde (U+00C3): L<<114.0,553.0>--<392.0,554.0>>
+	* Ecaron (U+011A): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Atilde (U+00C3): L<<173.0,0.0>--<12.0,-1.0>>
+	* Ecaron (U+011A): L<<40.0,552.0>--<376.0,554.0>>
 
-	* B (U+0042): L<<417.0,-1.0>--<44.0,-2.0>>
+	* Ecircumflex (U+00CA): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Bmacronbelow (U+1E06): L<<417.0,-1.0>--<44.0,-2.0>>
+	* Ecircumflex (U+00CA): L<<40.0,552.0>--<376.0,554.0>>
 
-	* C (U+0043): L<<133.0,554.0>--<358.0,553.0>>
+	* Edieresis (U+00CB): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* C (U+0043): L<<358.0,-1.0>--<133.0,0.0>>
+	* Edieresis (U+00CB): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Cacute (U+0106): L<<133.0,554.0>--<358.0,553.0>>
+	* Edotaccent (U+0116): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Cacute (U+0106): L<<358.0,-1.0>--<133.0,0.0>>
+	* Edotaccent (U+0116): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Ccaron (U+010C): L<<133.0,554.0>--<358.0,553.0>>
+	* Egrave (U+00C8): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Ccaron (U+010C): L<<358.0,-1.0>--<133.0,0.0>>
+	* Egrave (U+00C8): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Ccedilla (U+00C7): L<<133.0,554.0>--<358.0,553.0>>
+	* Emacron (U+0112): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Ccedilla (U+00C7): L<<358.0,-1.0>--<133.0,0.0>>
+	* Emacron (U+0112): L<<40.0,552.0>--<376.0,554.0>>
 
-	* Cdotaccent (U+010A): L<<133.0,554.0>--<358.0,553.0>>
+	* Eogonek (U+0118): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* Cdotaccent (U+010A): L<<358.0,-1.0>--<133.0,0.0>>
+	* Eogonek (U+0118): L<<40.0,552.0>--<376.0,554.0>>
 
-	* E (U+0045): L<<388.0,0.0>--<44.0,-2.0>>
+	* G (U+0047): L<<323.0,34.0>--<324.0,288.0>>
 
-	* E (U+0045): L<<44.0,552.0>--<384.0,554.0>>
+	* G (U+0047): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* Eacute (U+00C9): L<<388.0,0.0>--<44.0,-2.0>>
+	* Gbreve (U+011E): L<<323.0,34.0>--<324.0,288.0>>
 
-	* Eacute (U+00C9): L<<44.0,552.0>--<384.0,554.0>>
+	* Gbreve (U+011E): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* Ecaron (U+011A): L<<388.0,0.0>--<44.0,-2.0>>
+	* Gcaron (U+01E6): L<<323.0,34.0>--<324.0,288.0>>
 
-	* Ecaron (U+011A): L<<44.0,552.0>--<384.0,554.0>>
+	* Gcaron (U+01E6): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* Ecircumflex (U+00CA): L<<388.0,0.0>--<44.0,-2.0>>
+	* Gdotaccent (U+0120): L<<323.0,34.0>--<324.0,288.0>>
 
-	* Ecircumflex (U+00CA): L<<44.0,552.0>--<384.0,554.0>>
+	* Gdotaccent (U+0120): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* Edieresis (U+00CB): L<<388.0,0.0>--<44.0,-2.0>>
+	* Q (U+0051): L<<428.0,-127.0>--<215.0,-126.0>>
 
-	* Edieresis (U+00CB): L<<44.0,552.0>--<384.0,554.0>>
+	* R (U+0052): L<<209.0,517.0>--<210.0,306.0>>
 
-	* Edotaccent (U+0116): L<<388.0,0.0>--<44.0,-2.0>>
+	* Racute (U+0154): L<<209.0,517.0>--<210.0,306.0>>
 
-	* Edotaccent (U+0116): L<<44.0,552.0>--<384.0,554.0>>
+	* Rcaron (U+0158): L<<209.0,517.0>--<210.0,306.0>>
 
-	* Egrave (U+00C8): L<<388.0,0.0>--<44.0,-2.0>>
+	* Rmacronbelow (U+1E5E): L<<209.0,517.0>--<210.0,306.0>>
 
-	* Egrave (U+00C8): L<<44.0,552.0>--<384.0,554.0>>
+	* W (U+0057): L<<304.0,199.0>--<301.0,554.0>>
 
-	* Emacron (U+0112): L<<388.0,0.0>--<44.0,-2.0>>
+	* W (U+0057): L<<474.0,554.0>--<475.0,199.0>>
 
-	* Emacron (U+0112): L<<44.0,552.0>--<384.0,554.0>>
+	* Wacute (U+1E82): L<<304.0,199.0>--<301.0,554.0>>
 
-	* Eogonek (U+0118): L<<388.0,0.0>--<44.0,-2.0>>
+	* Wacute (U+1E82): L<<474.0,554.0>--<475.0,199.0>>
 
-	* Eogonek (U+0118): L<<44.0,552.0>--<384.0,554.0>>
+	* Wcircumflex (U+0174): L<<304.0,199.0>--<301.0,554.0>>
 
-	* G (U+0047): L<<453.0,0.0>--<103.0,-1.0>>
+	* Wcircumflex (U+0174): L<<474.0,554.0>--<475.0,199.0>>
 
-	* G (U+0047): L<<92.0,553.0>--<444.0,554.0>>
+	* Wdieresis (U+1E84): L<<304.0,199.0>--<301.0,554.0>>
 
-	* Gbreve (U+011E): L<<453.0,0.0>--<103.0,-1.0>>
+	* Wdieresis (U+1E84): L<<474.0,554.0>--<475.0,199.0>>
 
-	* Gbreve (U+011E): L<<92.0,553.0>--<444.0,554.0>>
+	* Wgrave (U+1E80): L<<304.0,199.0>--<301.0,554.0>>
 
-	* Gcaron (U+01E6): L<<453.0,0.0>--<103.0,-1.0>>
+	* Wgrave (U+1E80): L<<474.0,554.0>--<475.0,199.0>>
 
-	* Gcaron (U+01E6): L<<92.0,553.0>--<444.0,554.0>>
+	* Y (U+0059): L<<256.0,204.0>--<91.0,203.0>>
 
-	* Gdotaccent (U+0120): L<<453.0,0.0>--<103.0,-1.0>>
+	* Y (U+0059): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* Gdotaccent (U+0120): L<<92.0,553.0>--<444.0,554.0>>
+	* Yacute (U+00DD): L<<256.0,204.0>--<91.0,203.0>>
 
-	* Q (U+0051): L<<432.0,-127.0>--<219.0,-126.0>>
+	* Yacute (U+00DD): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* W (U+0057): L<<284.0,199.0>--<281.0,554.0>>
+	* Ycircumflex (U+0176): L<<256.0,204.0>--<91.0,203.0>>
 
-	* W (U+0057): L<<454.0,554.0>--<455.0,199.0>>
+	* Ycircumflex (U+0176): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* Wacute (U+1E82): L<<284.0,199.0>--<281.0,554.0>>
+	* Ydieresis (U+0178): L<<256.0,204.0>--<91.0,203.0>>
 
-	* Wacute (U+1E82): L<<454.0,554.0>--<455.0,199.0>>
+	* Ydieresis (U+0178): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* Wcircumflex (U+0174): L<<284.0,199.0>--<281.0,554.0>>
+	* Ygrave (U+1EF2): L<<256.0,204.0>--<91.0,203.0>>
 
-	* Wcircumflex (U+0174): L<<454.0,554.0>--<455.0,199.0>>
+	* Ygrave (U+1EF2): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* Wdieresis (U+1E84): L<<284.0,199.0>--<281.0,554.0>>
+	* Z (U+005A): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* Wdieresis (U+1E84): L<<454.0,554.0>--<455.0,199.0>>
+	* Zacute (U+0179): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* Wgrave (U+1E80): L<<284.0,199.0>--<281.0,554.0>>
+	* Zcaron (U+017D): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* Wgrave (U+1E80): L<<454.0,554.0>--<455.0,199.0>>
+	* Zdotaccent (U+017B): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* Y (U+0059): L<<260.0,204.0>--<91.0,203.0>>
-
-	* Y (U+0059): L<<32.0,553.0>--<208.0,554.0>>
-
-	* Y (U+0059): L<<367.0,-1.0>--<155.0,0.0>>
-
-	* Yacute (U+00DD): L<<260.0,204.0>--<91.0,203.0>>
-
-	* Yacute (U+00DD): L<<32.0,553.0>--<208.0,554.0>>
-
-	* Yacute (U+00DD): L<<367.0,-1.0>--<155.0,0.0>>
-
-	* Ycircumflex (U+0176): L<<260.0,204.0>--<91.0,203.0>>
-
-	* Ycircumflex (U+0176): L<<32.0,553.0>--<208.0,554.0>>
-
-	* Ycircumflex (U+0176): L<<367.0,-1.0>--<155.0,0.0>>
-
-	* Ydieresis (U+0178): L<<260.0,204.0>--<91.0,203.0>>
-
-	* Ydieresis (U+0178): L<<32.0,553.0>--<208.0,554.0>>
-
-	* Ydieresis (U+0178): L<<367.0,-1.0>--<155.0,0.0>>
-
-	* Ygrave (U+1EF2): L<<260.0,204.0>--<91.0,203.0>>
-
-	* Ygrave (U+1EF2): L<<32.0,553.0>--<208.0,554.0>>
-
-	* Ygrave (U+1EF2): L<<367.0,-1.0>--<155.0,0.0>>
-
-	* Z (U+005A): L<<301.0,-1.0>--<87.0,0.0>>
-
-	* Z (U+005A): L<<44.0,553.0>--<252.0,552.0>>
-
-	* Zacute (U+0179): L<<301.0,-1.0>--<87.0,0.0>>
-
-	* Zacute (U+0179): L<<44.0,553.0>--<252.0,552.0>>
-
-	* Zcaron (U+017D): L<<301.0,-1.0>--<87.0,0.0>>
-
-	* Zcaron (U+017D): L<<44.0,553.0>--<252.0,552.0>>
-
-	* Zdotaccent (U+017B): L<<301.0,-1.0>--<87.0,0.0>>
-
-	* Zdotaccent (U+017B): L<<44.0,553.0>--<252.0,552.0>>
-
-	* Zmacronbelow (U+1E94): L<<301.0,-1.0>--<87.0,0.0>>
-
-	* Zmacronbelow (U+1E94): L<<44.0,553.0>--<252.0,552.0>>
+	* Zmacronbelow (U+1E94): L<<442.0,-2.0>--<14.0,0.0>>
 
 	* eight (U+0038): L<<230.0,-1.0>--<71.0,0.0>>
 
 	* ij (U+0133): L<<440.0,400.0>--<439.0,-7.0>>
 
-	* j (U+006A): L<<207.0,400.0>--<206.0,-7.0>>
-
-	* l (U+006C): L<<25.0,147.0>--<24.0,574.0>>
-
-	* lacute (U+013A): L<<25.0,147.0>--<24.0,574.0>>
-
-	* lcaron (U+013E): L<<25.0,147.0>--<24.0,574.0>>
-
-	* lmacronbelow (U+1E3B): L<<25.0,147.0>--<24.0,574.0>>
+	* j (U+006A): L<<203.0,400.0>--<202.0,-7.0>>
 
 	* seven (U+0037): L<<10.0,553.0>--<215.0,554.0>>
 
@@ -1266,165 +1124,131 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* seven (U+0037): L<<282.0,0.0>--<82.0,-1.0>>
 
-	* uni0122 (U+0122): L<<453.0,0.0>--<103.0,-1.0>>
+	* uni0122 (U+0122): L<<323.0,34.0>--<324.0,288.0>>
 
-	* uni0122 (U+0122): L<<92.0,553.0>--<444.0,554.0>>
+	* uni0122 (U+0122): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* uni013C (U+013C): L<<25.0,147.0>--<24.0,574.0>>
+	* uni0156 (U+0156): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni01B5 (U+01B5): L<<301.0,-1.0>--<87.0,0.0>>
+	* uni018F (U+018F): L<<222.0,408.0>--<42.0,409.0>>
 
-	* uni01B5 (U+01B5): L<<44.0,553.0>--<252.0,552.0>>
+	* uni01A5 (U+01A5): L<<30.0,-154.0>--<31.0,387.0>>
 
-	* uni01CD (U+01CD): L<<114.0,553.0>--<392.0,554.0>>
+	* uni01A9 (U+01A9): L<<353.0,554.0>--<352.0,436.0>>
 
-	* uni01CD (U+01CD): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni01B5 (U+01B5): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* uni01DE (U+01DE): L<<114.0,553.0>--<392.0,554.0>>
+	* uni01F4 (U+01F4): L<<323.0,34.0>--<324.0,288.0>>
 
-	* uni01DE (U+01DE): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni01F4 (U+01F4): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* uni01E0 (U+01E0): L<<114.0,553.0>--<392.0,554.0>>
+	* uni0204 (U+0204): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni01E0 (U+01E0): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni0204 (U+0204): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni01F4 (U+01F4): L<<453.0,0.0>--<103.0,-1.0>>
+	* uni0206 (U+0206): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni01F4 (U+01F4): L<<92.0,553.0>--<444.0,554.0>>
+	* uni0206 (U+0206): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni0200 (U+0200): L<<114.0,553.0>--<392.0,554.0>>
+	* uni0210 (U+0210): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni0200 (U+0200): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni0212 (U+0212): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni0202 (U+0202): L<<114.0,553.0>--<392.0,554.0>>
+	* uni0228 (U+0228): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni0202 (U+0202): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni0228 (U+0228): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni0204 (U+0204): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni0232 (U+0232): L<<256.0,204.0>--<91.0,203.0>>
 
-	* uni0204 (U+0204): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni0206 (U+0206): L<<388.0,0.0>--<44.0,-2.0>>
-
-	* uni0206 (U+0206): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni0226 (U+0226): L<<114.0,553.0>--<392.0,554.0>>
-
-	* uni0226 (U+0226): L<<173.0,0.0>--<12.0,-1.0>>
-
-	* uni0228 (U+0228): L<<388.0,0.0>--<44.0,-2.0>>
-
-	* uni0228 (U+0228): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni0232 (U+0232): L<<260.0,204.0>--<91.0,203.0>>
-
-	* uni0232 (U+0232): L<<32.0,553.0>--<208.0,554.0>>
-
-	* uni0232 (U+0232): L<<367.0,-1.0>--<155.0,0.0>>
+	* uni0232 (U+0232): L<<359.0,-1.0>--<151.0,0.0>>
 
 	* uni0237 (U+0237): L<<252.0,400.0>--<251.0,-27.0>>
 
-	* uni023B (U+023B): L<<133.0,554.0>--<358.0,553.0>>
+	* uni023B (U+023B): L<<129.0,554.0>--<354.0,553.0>>
 
-	* uni023B (U+023B): L<<358.0,-1.0>--<133.0,0.0>>
+	* uni023B (U+023B): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* uni0243 (U+0243): L<<417.0,-1.0>--<44.0,-2.0>>
+	* uni0243 (U+0243): L<<417.0,-1.0>--<40.0,-2.0>>
 
-	* uni0246 (U+0246): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni0246 (U+0246): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni0246 (U+0246): L<<44.0,552.0>--<384.0,554.0>>
+	* uni0246 (U+0246): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni024E (U+024E): L<<260.0,204.0>--<91.0,203.0>>
+	* uni024C (U+024C): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni024E (U+024E): L<<32.0,553.0>--<208.0,554.0>>
+	* uni024E (U+024E): L<<256.0,204.0>--<91.0,203.0>>
 
-	* uni024E (U+024E): L<<367.0,-1.0>--<155.0,0.0>>
+	* uni024E (U+024E): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* uni1E00 (U+1E00): L<<114.0,553.0>--<392.0,554.0>>
+	* uni1E02 (U+1E02): L<<417.0,-1.0>--<40.0,-2.0>>
 
-	* uni1E00 (U+1E00): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni1E04 (U+1E04): L<<417.0,-1.0>--<40.0,-2.0>>
 
-	* uni1E02 (U+1E02): L<<417.0,-1.0>--<44.0,-2.0>>
+	* uni1E08 (U+1E08): L<<129.0,554.0>--<354.0,553.0>>
 
-	* uni1E04 (U+1E04): L<<417.0,-1.0>--<44.0,-2.0>>
+	* uni1E08 (U+1E08): L<<354.0,-1.0>--<129.0,0.0>>
 
-	* uni1E08 (U+1E08): L<<133.0,554.0>--<358.0,553.0>>
+	* uni1E14 (U+1E14): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E08 (U+1E08): L<<358.0,-1.0>--<133.0,0.0>>
+	* uni1E14 (U+1E14): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E14 (U+1E14): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni1E16 (U+1E16): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E14 (U+1E14): L<<44.0,552.0>--<384.0,554.0>>
+	* uni1E16 (U+1E16): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E16 (U+1E16): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni1E18 (U+1E18): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E16 (U+1E16): L<<44.0,552.0>--<384.0,554.0>>
+	* uni1E18 (U+1E18): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E18 (U+1E18): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni1E1A (U+1E1A): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E18 (U+1E18): L<<44.0,552.0>--<384.0,554.0>>
+	* uni1E1A (U+1E1A): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E1A (U+1E1A): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni1E1C (U+1E1C): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E1A (U+1E1A): L<<44.0,552.0>--<384.0,554.0>>
+	* uni1E1C (U+1E1C): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E1C (U+1E1C): L<<388.0,0.0>--<44.0,-2.0>>
+	* uni1E20 (U+1E20): L<<323.0,34.0>--<324.0,288.0>>
 
-	* uni1E1C (U+1E1C): L<<44.0,552.0>--<384.0,554.0>>
+	* uni1E20 (U+1E20): L<<493.0,288.0>--<492.0,-74.0>>
 
-	* uni1E20 (U+1E20): L<<453.0,0.0>--<103.0,-1.0>>
+	* uni1E58 (U+1E58): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni1E20 (U+1E20): L<<92.0,553.0>--<444.0,554.0>>
+	* uni1E5A (U+1E5A): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni1E37 (U+1E37): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E5C (U+1E5C): L<<209.0,517.0>--<210.0,306.0>>
 
-	* uni1E39 (U+1E39): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E86 (U+1E86): L<<304.0,199.0>--<301.0,554.0>>
 
-	* uni1E3D (U+1E3D): L<<25.0,147.0>--<24.0,574.0>>
+	* uni1E86 (U+1E86): L<<474.0,554.0>--<475.0,199.0>>
 
-	* uni1E86 (U+1E86): L<<284.0,199.0>--<281.0,554.0>>
+	* uni1E88 (U+1E88): L<<304.0,199.0>--<301.0,554.0>>
 
-	* uni1E86 (U+1E86): L<<454.0,554.0>--<455.0,199.0>>
+	* uni1E88 (U+1E88): L<<474.0,554.0>--<475.0,199.0>>
 
-	* uni1E88 (U+1E88): L<<284.0,199.0>--<281.0,554.0>>
+	* uni1E8E (U+1E8E): L<<256.0,204.0>--<91.0,203.0>>
 
-	* uni1E88 (U+1E88): L<<454.0,554.0>--<455.0,199.0>>
+	* uni1E8E (U+1E8E): L<<359.0,-1.0>--<151.0,0.0>>
 
-	* uni1E8E (U+1E8E): L<<260.0,204.0>--<91.0,203.0>>
+	* uni1E90 (U+1E90): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* uni1E8E (U+1E8E): L<<32.0,553.0>--<208.0,554.0>>
+	* uni1E92 (U+1E92): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* uni1E8E (U+1E8E): L<<367.0,-1.0>--<155.0,0.0>>
+	* uni1EB8 (U+1EB8): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E90 (U+1E90): L<<301.0,-1.0>--<87.0,0.0>>
+	* uni1EB8 (U+1EB8): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E90 (U+1E90): L<<44.0,553.0>--<252.0,552.0>>
+	* uni1EBC (U+1EBC): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1E92 (U+1E92): L<<301.0,-1.0>--<87.0,0.0>>
+	* uni1EBC (U+1EBC): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E92 (U+1E92): L<<44.0,553.0>--<252.0,552.0>>
+	* uni1EC6 (U+1EC6): L<<386.0,0.0>--<40.0,-2.0>>
 
-	* uni1EAC (U+1EAC): L<<114.0,553.0>--<392.0,554.0>>
+	* uni1EC6 (U+1EC6): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1EAC (U+1EAC): L<<173.0,0.0>--<12.0,-1.0>>
+	* uni1EF8 (U+1EF8): L<<256.0,204.0>--<91.0,203.0>>
 
-	* uni1EB8 (U+1EB8): L<<388.0,0.0>--<44.0,-2.0>>
-
-	* uni1EB8 (U+1EB8): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni1EBC (U+1EBC): L<<388.0,0.0>--<44.0,-2.0>>
-
-	* uni1EBC (U+1EBC): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni1EC6 (U+1EC6): L<<388.0,0.0>--<44.0,-2.0>>
-
-	* uni1EC6 (U+1EC6): L<<44.0,552.0>--<384.0,554.0>>
-
-	* uni1EF8 (U+1EF8): L<<260.0,204.0>--<91.0,203.0>>
-
-	* uni1EF8 (U+1EF8): L<<32.0,553.0>--<208.0,554.0>>
-
-	* uni1EF8 (U+1EF8): L<<367.0,-1.0>--<155.0,0.0>>
+	* uni1EF8 (U+1EF8): L<<359.0,-1.0>--<151.0,0.0>>
 
 	* zero (U+0030): L<<256.0,0.0>--<80.0,-1.0>>
 
@@ -1440,21 +1264,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i̊ i̋ i̍ i̐ i̓ i᷆ i᷇ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters _should_ disappear in other cases, for example: ĭ i̇ i̒ i᷄ i᷅ ĭ̥ i̥̇ i̥̊ i̥̋ i̥̍ i̥̐ i̥̒ i̥̓ i̥᷄ i̥᷅ i̥᷆ i̥᷇ ĭ̦ i̦̇ i̦̊
+The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ i̧᷆ i̧᷇ i̩᷄ i̩᷅ i̩᷆ i̩᷇ i̭᷄ i̭᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 12 | 122 | 7 | 104 | 0 |
-| 0% | 3% | 5% | 48% | 3% | 41% | 0% |
+| 0 | 8 | 14 | 122 | 7 | 101 | 0 |
+| 0% | 3% | 6% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
