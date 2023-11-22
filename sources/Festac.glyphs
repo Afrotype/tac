@@ -4,7 +4,7 @@
 DisplayStrings = (
 "uuznnonzoozoo
 uu/z.ss03 noonnon/z.ss03 oo/z.ss03 oo
-uu/z.ss04 nnoni/z.ss04 oo/z.ss04 oo
+uu/z.ss04 nnoni/z.ss04/z.ss04 yoo/z.ss04 oo
 uu/z.ss01 nnon/z.ss01 oo/z.ss01 oo
 uu/z.ss02 nnon/z.ss02 oo/z.ss02 oo
 yzebra"
@@ -17140,7 +17140,7 @@ width = 422;
 },
 {
 glyphname = z.ss04;
-lastChange = "2023-11-22 14:10:50 +0000";
+lastChange = "2023-11-22 14:13:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -17148,14 +17148,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(331,305,o),
+(329,304,o),
 (307,353,o),
 (277,400,c),
-(59,400,l),
-(95,356,o),
-(148,264,o),
-(205,152,c),
-(362,225,l)
+(71,400,l),
+(107,346,o),
+(148,262,o),
+(197,150,c),
+(360,224,l)
 );
 },
 {
@@ -17165,8 +17165,8 @@ nodes = (
 (41,120,o),
 (71,59,o),
 (110,0,c),
-(322,0,l),
-(274,70,o),
+(311,0,l),
+(269,70,o),
 (248,113,o),
 (181,248,c)
 );
@@ -24306,6 +24306,9 @@ m01 = {
 };
 r = {
 "@MMK_R_a" = 0;
+};
+z.ss04 = {
+z.ss04 = -60;
 };
 };
 };
