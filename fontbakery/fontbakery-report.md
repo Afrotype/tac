@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[22] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[21] Festac23-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
@@ -30,6 +30,7 @@ But instead we have got:
 * 🔥 **FAIL** name id 256 missing from name table
 * 🔥 **FAIL** name id 257 missing from name table
 * 🔥 **FAIL** name id 258 missing from name table
+* 🔥 **FAIL** name id 259 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -443,6 +444,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
+	- Glyph name: guillemotright	Contours detected: 1	Expected: 2
+
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
@@ -549,6 +552,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1E57	Contours detected: 1	Expected: 3
 
+	- Glyph name: quotedblleft	Contours detected: 1	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: ellipsis	Contours detected: 1	Expected: 3
+
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
@@ -565,6 +574,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 1	Expected: 2
 
+	- Glyph name: ellipsis	Contours detected: 1	Expected: 3
+
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: gbreve	Contours detected: 1	Expected: 3 or 4
@@ -573,7 +584,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: gdotaccent	Contours detected: 1	Expected: 3 or 4
 
+	- Glyph name: guillemotright	Contours detected: 1	Expected: 2
+
 	- Glyph name: oe	Contours detected: 2	Expected: 3
+
+	- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+
+	- Glyph name: quotedblleft	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
 
@@ -625,14 +642,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0}
-	* {'glyph': 'quotedblleft', 'component': 'quoteleft', 'x': 0, 'y': 0} and {'glyph': 'guillemotright', 'component': 'guilsinglright', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -763,7 +772,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
@@ -772,9 +781,9 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, canadian-aboriginal, tifinagh, malayalam, old-permic, tai-le, coptic, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, canadian-aboriginal, tai-le, tifinagh, math, old-permic, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -792,7 +801,7 @@ The following glyphs do not have the recommended number of contours:
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
  * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, caucasian-albanian, syriac, tifinagh
+ * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, cherokee, syriac, gothic, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -868,14 +877,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- asterisk_node
 
 	- d.001
-
-	- z.ss01
-
-	- z.ss02
-
-	- z.ss03
-
-	- z.ss04
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
 
@@ -896,9 +897,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038) contains a short segment B<<177.5,261.5>-<172.0,265.0>-<167.0,268.0>>
 
-	* X (U+0058) contains a short segment L<<356.0,306.0>--<363.0,301.0>>
+	* X (U+0058) contains a short segment L<<355.0,306.0>--<362.0,301.0>>
 
-	* x (U+0078) contains a short segment B<<290.0,0.0>-<290.0,0.0>-<290.5,5.5>>
+	* x (U+0078) contains a short segment B<<298.0,0.0>-<298.0,0.0>-<298.5,5.5>>
 
 	* uni01AD (U+01AD) contains a short segment L<<235.0,280.0>--<235.0,270.0>>
 
@@ -908,15 +909,15 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni0266 (U+0266) contains a short segment L<<30.0,385.0>--<30.0,387.0>>
 
-	* uni1E8A (U+1E8A) contains a short segment L<<356.0,306.0>--<363.0,301.0>>
+	* uni1E8A (U+1E8A) contains a short segment L<<355.0,306.0>--<362.0,301.0>>
 
-	* uni1E8C (U+1E8C) contains a short segment L<<356.0,306.0>--<363.0,301.0>> [code: found-short-segments]
+	* uni1E8C (U+1E8C) contains a short segment L<<355.0,306.0>--<362.0,301.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* eng (U+014B): L<<456.0,200.0>--<456.0,0.0>> -> L<<456.0,0.0>--<455.0,-63.0>>
+	* eng (U+014B): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>>
 
 	* g (U+0067): L<<270.0,36.0>--<271.0,54.0>> -> L<<271.0,54.0>--<271.0,366.0>>
 
@@ -932,7 +933,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1EF9 (U+1EF9): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
-	* uniA727 (U+A727): L<<456.0,200.0>--<456.0,0.0>> -> L<<456.0,0.0>--<455.0,-63.0>>
+	* uniA727 (U+A727): L<<454.0,200.0>--<454.0,0.0>> -> L<<454.0,0.0>--<453.0,-63.0>>
 
 	* y (U+0079): L<<275.0,31.0>--<276.0,52.0>> -> L<<276.0,52.0>--<276.0,400.0>>
 
@@ -1042,21 +1043,21 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* Eogonek (U+0118): L<<40.0,552.0>--<376.0,554.0>>
 
-	* G (U+0047): L<<323.0,34.0>--<324.0,288.0>>
+	* G (U+0047): L<<326.0,34.0>--<327.0,288.0>>
 
-	* G (U+0047): L<<493.0,288.0>--<492.0,-74.0>>
+	* G (U+0047): L<<496.0,288.0>--<495.0,-74.0>>
 
-	* Gbreve (U+011E): L<<323.0,34.0>--<324.0,288.0>>
+	* Gbreve (U+011E): L<<326.0,34.0>--<327.0,288.0>>
 
-	* Gbreve (U+011E): L<<493.0,288.0>--<492.0,-74.0>>
+	* Gbreve (U+011E): L<<496.0,288.0>--<495.0,-74.0>>
 
-	* Gcaron (U+01E6): L<<323.0,34.0>--<324.0,288.0>>
+	* Gcaron (U+01E6): L<<326.0,34.0>--<327.0,288.0>>
 
-	* Gcaron (U+01E6): L<<493.0,288.0>--<492.0,-74.0>>
+	* Gcaron (U+01E6): L<<496.0,288.0>--<495.0,-74.0>>
 
-	* Gdotaccent (U+0120): L<<323.0,34.0>--<324.0,288.0>>
+	* Gdotaccent (U+0120): L<<326.0,34.0>--<327.0,288.0>>
 
-	* Gdotaccent (U+0120): L<<493.0,288.0>--<492.0,-74.0>>
+	* Gdotaccent (U+0120): L<<496.0,288.0>--<495.0,-74.0>>
 
 	* Q (U+0051): L<<428.0,-127.0>--<215.0,-126.0>>
 
@@ -1120,9 +1121,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* eight (U+0038): L<<230.0,-1.0>--<71.0,0.0>>
 
-	* ij (U+0133): L<<440.0,400.0>--<439.0,-7.0>>
+	* ij (U+0133): L<<441.0,400.0>--<440.0,-7.0>>
 
-	* j (U+006A): L<<203.0,400.0>--<202.0,-7.0>>
+	* j (U+006A): L<<206.0,400.0>--<205.0,-7.0>>
 
 	* seven (U+0037): L<<10.0,553.0>--<215.0,554.0>>
 
@@ -1130,9 +1131,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* seven (U+0037): L<<282.0,0.0>--<82.0,-1.0>>
 
-	* uni0122 (U+0122): L<<323.0,34.0>--<324.0,288.0>>
+	* uni0122 (U+0122): L<<326.0,34.0>--<327.0,288.0>>
 
-	* uni0122 (U+0122): L<<493.0,288.0>--<492.0,-74.0>>
+	* uni0122 (U+0122): L<<496.0,288.0>--<495.0,-74.0>>
 
 	* uni0156 (U+0156): L<<209.0,517.0>--<210.0,306.0>>
 
@@ -1144,9 +1145,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni01B5 (U+01B5): L<<442.0,-2.0>--<14.0,0.0>>
 
-	* uni01F4 (U+01F4): L<<323.0,34.0>--<324.0,288.0>>
+	* uni01F4 (U+01F4): L<<326.0,34.0>--<327.0,288.0>>
 
-	* uni01F4 (U+01F4): L<<493.0,288.0>--<492.0,-74.0>>
+	* uni01F4 (U+01F4): L<<496.0,288.0>--<495.0,-74.0>>
 
 	* uni0204 (U+0204): L<<386.0,0.0>--<40.0,-2.0>>
 
@@ -1186,6 +1187,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni024E (U+024E): L<<359.0,-1.0>--<151.0,0.0>>
 
+	* uni1DBB (U+1DBB): L<<364.0,1.0>--<126.0,0.0>>
+
 	* uni1E02 (U+1E02): L<<417.0,-1.0>--<40.0,-2.0>>
 
 	* uni1E04 (U+1E04): L<<417.0,-1.0>--<40.0,-2.0>>
@@ -1214,9 +1217,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1E1C (U+1E1C): L<<40.0,552.0>--<376.0,554.0>>
 
-	* uni1E20 (U+1E20): L<<323.0,34.0>--<324.0,288.0>>
+	* uni1E20 (U+1E20): L<<326.0,34.0>--<327.0,288.0>>
 
-	* uni1E20 (U+1E20): L<<493.0,288.0>--<492.0,-74.0>>
+	* uni1E20 (U+1E20): L<<496.0,288.0>--<495.0,-74.0>>
 
 	* uni1E58 (U+1E58): L<<209.0,517.0>--<210.0,306.0>>
 
@@ -1238,7 +1241,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1E90 (U+1E90): L<<442.0,-2.0>--<14.0,0.0>>
 
+	* uni1E91 (U+1E91): L<<364.0,1.0>--<126.0,0.0>>
+
 	* uni1E92 (U+1E92): L<<442.0,-2.0>--<14.0,0.0>>
+
+	* uni1E93 (U+1E93): L<<364.0,1.0>--<126.0,0.0>>
 
 	* uni1EB8 (U+1EB8): L<<386.0,0.0>--<40.0,-2.0>>
 
@@ -1256,13 +1263,23 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* uni1EF8 (U+1EF8): L<<359.0,-1.0>--<151.0,0.0>>
 
+	* z (U+007A): L<<364.0,1.0>--<126.0,0.0>>
+
+	* zacute (U+017A): L<<364.0,1.0>--<126.0,0.0>>
+
+	* zcaron (U+017E): L<<364.0,1.0>--<126.0,0.0>>
+
+	* zdotaccent (U+017C): L<<364.0,1.0>--<126.0,0.0>>
+
 	* zero (U+0030): L<<256.0,0.0>--<80.0,-1.0>>
 
 	* zero (U+0030): L<<274.0,554.0>--<432.0,553.0>>
 
 	* zero (U+0030): L<<432.0,-1.0>--<256.0,0.0>>
 
-	* zero (U+0030): L<<80.0,553.0>--<238.0,554.0>> [code: found-semi-vertical]
+	* zero (U+0030): L<<80.0,553.0>--<238.0,554.0>>
+
+	* zmacronbelow (U+1E95): L<<364.0,1.0>--<126.0,0.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1274,16 +1291,16 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ i̧᷆ i̧᷇ i̩᷄ i̩᷅ i̩᷆ i̩᷇ i̭᷄ i̭᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 14 | 122 | 7 | 101 | 0 |
+| 0 | 7 | 14 | 122 | 7 | 102 | 0 |
 | 0% | 3% | 6% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
