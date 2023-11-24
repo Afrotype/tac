@@ -24488,7 +24488,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Seventy Seven Project  Oluseyi Olusanya, David Udoh, Eyiyemi Adegbite, Mirko Velimirovic (git@github.com:Afrotype/festacrevival.git";
+value = "Copyright 2023 The SeventySeven Project  Oluseyi Olusanya David Udoh Eyiyemi Adegbite Mirko Velimirovic (git@github.com:Afrotype/festacrevival.git)";
 }
 );
 },
