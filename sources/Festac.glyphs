@@ -9,7 +9,8 @@ Z,
 abcdefghijklmnopqrstuvwxyz
 
 \"The lazy brown fox jumped over a hazy fence, creating a dazzling display of zigzag patterns. Zebras in the nearby zoo observed the spectacle, while a group of zealous birdwatchers marveled at the scene. The sun was lazily setting, casting a warm glow over the entire landscape. A gentle breeze whispered through the trees, causing the leaves to rustle in a mesmerizing rhythm. The azure sky above was dotted with fluffy white clouds, resembling playful zeppelins floating in a sea of tranquility.",
-"£"
+"£",
+"/.notdef"
 );
 axes = (
 {
@@ -19430,10 +19431,30 @@ unicode = 160;
 {
 color = 0;
 glyphname = .notdef;
-lastChange = "2023-10-19 19:11:52 +0000";
+lastChange = "2023-11-24 12:48:36 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-70,l),
+(537,-70,l),
+(537,566,l),
+(64,566,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(167,0,l),
+(167,496,l),
+(433,496,l),
+(433,0,l)
+);
+}
+);
 width = 600;
 }
 );
