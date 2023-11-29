@@ -299,7 +299,7 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
@@ -308,12 +308,12 @@ definitions.</p>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, malayalam, tai-le, tifinagh, coptic, canadian-aboriginal, old-permic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, old-permic, malayalam, math, syriac, canadian-aboriginal, tai-le</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -327,8 +327,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, syriac, cherokee, caucasian-albanian, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, syriac, cherokee, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -1072,13 +1072,17 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* five (U+0035) contains a short segment L&lt;&lt;103.0,553.0&gt;--&lt;103.0,554.0&gt;&gt;
+<pre><code>* two (U+0032) contains a short segment L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt;
 
-* seven (U+0037) contains a short segment L&lt;&lt;196.0,554.0&gt;--&lt;196.0,554.0&gt;&gt;
+* three (U+0033) contains a short segment L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt;
 
-* eight (U+0038) contains a short segment L&lt;&lt;218.0,-1.0&gt;--&lt;218.0,-1.0&gt;&gt;
+* five (U+0035) contains a short segment L&lt;&lt;107.0,553.0&gt;--&lt;107.0,554.0&gt;&gt;
 
-* eight (U+0038) contains a short segment B&lt;&lt;165.5,261.5&gt;-&lt;160.0,265.0&gt;-&lt;155.0,268.0&gt;&gt;
+* seven (U+0037) contains a short segment L&lt;&lt;199.0,554.0&gt;--&lt;199.0,554.0&gt;&gt;
+
+* eight (U+0038) contains a short segment L&lt;&lt;225.0,-1.0&gt;--&lt;225.0,-1.0&gt;&gt;
+
+* eight (U+0038) contains a short segment B&lt;&lt;169.5,261.5&gt;-&lt;164.0,265.0&gt;-&lt;159.0,268.0&gt;&gt;
 
 * X (U+0058) contains a short segment L&lt;&lt;342.0,315.0&gt;--&lt;345.0,312.0&gt;&gt;
 
@@ -1101,9 +1105,17 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_colinear_vectors</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* seven (U+0037): L&lt;&lt;-9.0,553.0&gt;--&lt;196.0,554.0&gt;&gt; -&gt; L&lt;&lt;196.0,554.0&gt;--&lt;196.0,554.0&gt;&gt;
+<pre><code>* seven (U+0037): L&lt;&lt;0.0,553.0&gt;--&lt;199.0,554.0&gt;&gt; -&gt; L&lt;&lt;199.0,554.0&gt;--&lt;199.0,554.0&gt;&gt;
 
-* seven (U+0037): L&lt;&lt;196.0,554.0&gt;--&lt;196.0,554.0&gt;&gt; -&gt; L&lt;&lt;196.0,554.0&gt;--&lt;366.0,554.0&gt;&gt;
+* seven (U+0037): L&lt;&lt;199.0,554.0&gt;--&lt;199.0,554.0&gt;&gt; -&gt; L&lt;&lt;199.0,554.0&gt;--&lt;381.0,554.0&gt;&gt;
+
+* three (U+0033): L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt; -&gt; L&lt;&lt;247.0,554.0&gt;--&lt;408.0,552.0&gt;&gt;
+
+* three (U+0033): L&lt;&lt;5.0,554.0&gt;--&lt;247.0,554.0&gt;&gt; -&gt; L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt; -&gt; L&lt;&lt;247.0,554.0&gt;--&lt;367.0,553.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;73.0,554.0&gt;--&lt;247.0,554.0&gt;&gt; -&gt; L&lt;&lt;247.0,554.0&gt;--&lt;247.0,554.0&gt;&gt;
 
 * uni0199 (U+0199): L&lt;&lt;30.0,0.0&gt;--&lt;30.0,324.0&gt;&gt; -&gt; L&lt;&lt;30.0,324.0&gt;--&lt;31.0,387.0&gt;&gt;
 
@@ -1114,7 +1126,7 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_jaggy_segments</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* eight (U+0038): L&lt;&lt;218.0,-1.0&gt;--&lt;218.0,-1.0&gt;&gt;/L&lt;&lt;218.0,-1.0&gt;--&lt;59.0,0.0&gt;&gt; = 0.36034606338677005
+<pre><code>* eight (U+0038): L&lt;&lt;225.0,-1.0&gt;--&lt;225.0,-1.0&gt;&gt;/L&lt;&lt;225.0,-1.0&gt;--&lt;66.0,0.0&gt;&gt; = 0.36034606338677005
 
 * uni0190 (U+0190): L&lt;&lt;137.0,554.0&gt;--&lt;359.0,554.0&gt;&gt;/B&lt;&lt;359.0,554.0&gt;-&lt;317.0,550.0&gt;-&lt;284.5,527.0&gt;&gt; = 5.4403320310054815 [code: found-jaggy-segments]
 </code></pre>
@@ -1123,21 +1135,29 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_semi_vertical</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* eight (U+0038): L&lt;&lt;218.0,-1.0&gt;--&lt;59.0,0.0&gt;&gt;
+<pre><code>* eight (U+0038): L&lt;&lt;225.0,-1.0&gt;--&lt;66.0,0.0&gt;&gt;
 
-* five (U+0035): L&lt;&lt;187.0,256.0&gt;--&lt;16.0,257.0&gt;&gt;
+* five (U+0035): L&lt;&lt;189.0,308.0&gt;--&lt;20.0,309.0&gt;&gt;
 
-* seven (U+0037): L&lt;&lt;-9.0,553.0&gt;--&lt;196.0,554.0&gt;&gt;
+* five (U+0035): L&lt;&lt;191.0,346.0&gt;--&lt;372.0,345.0&gt;&gt;
 
-* seven (U+0037): L&lt;&lt;207.0,434.0&gt;--&lt;-9.0,433.0&gt;&gt;
+* five (U+0035): L&lt;&lt;310.0,0.0&gt;--&lt;62.0,1.0&gt;&gt;
 
-* seven (U+0037): L&lt;&lt;263.0,0.0&gt;--&lt;63.0,-1.0&gt;&gt;
+* seven (U+0037): L&lt;&lt;0.0,553.0&gt;--&lt;199.0,554.0&gt;&gt;
+
+* seven (U+0037): L&lt;&lt;210.0,434.0&gt;--&lt;0.0,433.0&gt;&gt;
+
+* seven (U+0037): L&lt;&lt;278.0,0.0&gt;--&lt;66.0,-1.0&gt;&gt;
 
 * sterling (U+00A3): L&lt;&lt;204.0,554.0&gt;--&lt;411.0,553.0&gt;&gt;
 
-* three (U+0033): L&lt;&lt;210.0,286.0&gt;--&lt;58.0,285.0&gt;&gt;
+* three (U+0033): L&lt;&lt;221.0,284.0&gt;--&lt;54.0,285.0&gt;&gt;
 
-* three (U+0033): L&lt;&lt;296.0,-1.0&gt;--&lt;56.0,0.0&gt;&gt;
+* three (U+0033): L&lt;&lt;302.0,-2.0&gt;--&lt;58.0,0.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;247.0,554.0&gt;--&lt;367.0,553.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;444.0,-1.0&gt;--&lt;13.0,0.0&gt;&gt;
 
 * uni018F (U+018F): L&lt;&lt;222.0,408.0&gt;--&lt;42.0,409.0&gt;&gt;
 
@@ -1166,8 +1186,8 @@ definitions.</p>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ i̧᷆ i̧᷇ i̩᷄ i̩᷅ i̩᷆ i̩᷇ i̭᷄ i̭᷅</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
