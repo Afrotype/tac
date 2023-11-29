@@ -19,7 +19,7 @@ nn/q.ss03 n/q.ss03 o/q.ss03 oo*
 nvnv
 
 ",
-"0123456789/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf 
+"012345/five.ss01 6789/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf 
 123456789
 /one.ss05 2/three.ss03/four.ss03/five.ss03/six.ss03/seven.ss03/eight.ss03/nine.ss03 *
 /three.ss04/four.ss04/five.ss04/six.ss04",
@@ -19332,20 +19332,11 @@ width = 411;
 {
 color = 10;
 glyphname = five.ss01;
-lastChange = "2023-11-28 21:45:01 +0000";
+lastChange = "2023-11-29 12:21:31 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
-{
-closed = 0;
-nodes = (
-(41,554,l),
-(41,295,l),
-(206,295,l),
-(206,434,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -19366,8 +19357,10 @@ nodes = (
 );
 },
 {
-closed = 0;
+closed = 1;
 nodes = (
+(41,295,l),
+(206,295,l),
 (206,434,l),
 (395,434,l),
 (395,554,l),
