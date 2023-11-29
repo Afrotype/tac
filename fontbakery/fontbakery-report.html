@@ -299,21 +299,21 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, coptic, canadian-aboriginal, tifinagh, malayalam, syriac, tai-le</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, malayalam, tifinagh, tai-le, old-permic, canadian-aboriginal, coptic, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -327,8 +327,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, caucasian-albanian, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, syriac, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -413,7 +413,7 @@ definitions.</p>
 <h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
 
-<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 878, but got 830 instead [code: ascent]</p>
+<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1004, but got 830 instead [code: ascent]</p>
 </span></li></ul></div></details>
 <h3>Do we have the latest version of FontBakery installed?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
@@ -900,6 +900,8 @@ definitions.</p>
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
+- Glyph name: uni0180	Contours detected: 3	Expected: 2
+
 - Glyph name: uni0197	Contours detected: 2	Expected: 1
 
 - Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -1022,6 +1024,8 @@ definitions.</p>
 
 - Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
 
+- Glyph name: uni0180	Contours detected: 3	Expected: 2
+
 - Glyph name: uni0197	Contours detected: 2	Expected: 1
 
 - Glyph name: uni01B5	Contours detected: 2	Expected: 1
@@ -1084,15 +1088,21 @@ definitions.</p>
 
 * X (U+0058) contains a short segment L&lt;&lt;342.0,315.0&gt;--&lt;345.0,312.0&gt;&gt;
 
+* s (U+0073) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * s (U+0073) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
-* eng (U+014B) contains a short segment L&lt;&lt;463.0,0.0&gt;--&lt;461.0,0.0&gt;&gt;
+* eng (U+014B) contains a short segment L&lt;&lt;290.0,0.0&gt;--&lt;292.0,0.0&gt;&gt;
 
-* eng (U+014B) contains a short segment L&lt;&lt;288.0,0.0&gt;--&lt;292.0,0.0&gt;&gt;
+* sacute (U+015B) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
 
 * sacute (U+015B) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
+* scedilla (U+015F) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * scedilla (U+015F) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
+
+* scaron (U+0161) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
 
 * scaron (U+0161) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
@@ -1100,19 +1110,31 @@ definitions.</p>
 
 * uni01B8 (U+01B8) contains a short segment L&lt;&lt;315.0,322.0&gt;--&lt;314.0,322.0&gt;&gt;
 
+* uni0219 (U+0219) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * uni0219 (U+0219) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
 * uni0266 (U+0266) contains a short segment L&lt;&lt;29.0,385.0&gt;--&lt;30.0,385.0&gt;&gt;
 
 * uni0266 (U+0266) contains a short segment L&lt;&lt;30.0,385.0&gt;--&lt;30.0,387.0&gt;&gt;
 
+* uni1E61 (U+1E61) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * uni1E61 (U+1E61) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
+
+* uni1E63 (U+1E63) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
 
 * uni1E63 (U+1E63) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
+* uni1E65 (U+1E65) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * uni1E65 (U+1E65) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
+* uni1E67 (U+1E67) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
+
 * uni1E67 (U+1E67) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
+
+* uni1E69 (U+1E69) contains a short segment L&lt;&lt;29.0,0.0&gt;--&lt;27.0,2.0&gt;&gt;
 
 * uni1E69 (U+1E69) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
@@ -1123,7 +1145,9 @@ definitions.</p>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/outline_colinear_vectors</div>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* two (U+0032): L&lt;&lt;253.0,554.0&gt;--&lt;253.0,554.0&gt;&gt; -&gt; L&lt;&lt;253.0,554.0&gt;--&lt;367.0,553.0&gt;&gt;
+<pre><code>* eng (U+014B): L&lt;&lt;463.0,200.0&gt;--&lt;463.0,0.0&gt;&gt; -&gt; L&lt;&lt;463.0,0.0&gt;--&lt;462.0,-63.0&gt;&gt;
+
+* two (U+0032): L&lt;&lt;253.0,554.0&gt;--&lt;253.0,554.0&gt;&gt; -&gt; L&lt;&lt;253.0,554.0&gt;--&lt;367.0,553.0&gt;&gt;
 
 * two (U+0032): L&lt;&lt;79.0,554.0&gt;--&lt;253.0,554.0&gt;&gt; -&gt; L&lt;&lt;253.0,554.0&gt;--&lt;253.0,554.0&gt;&gt;
 
@@ -1155,9 +1179,9 @@ definitions.</p>
 
 * uni1DBB (U+1DBB): L&lt;&lt;357.0,1.0&gt;--&lt;119.0,0.0&gt;&gt;
 
-* x (U+0078): L&lt;&lt;169.0,0.0&gt;--&lt;3.0,-1.0&gt;&gt;
+* x (U+0078): L&lt;&lt;165.0,0.0&gt;--&lt;-1.0,-1.0&gt;&gt;
 
-* x (U+0078): L&lt;&lt;266.0,400.0&gt;--&lt;430.0,399.0&gt;&gt; [code: found-semi-vertical]
+* x (U+0078): L&lt;&lt;270.0,400.0&gt;--&lt;434.0,399.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
 <h2>Section: Shaping Checks</h2>
@@ -1172,8 +1196,8 @@ definitions.</p>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ i̧᷆ i̧᷇ i̩᷄ i̩᷅ i̩᷆ i̩᷇ i̭᷄ i̭᷅</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
