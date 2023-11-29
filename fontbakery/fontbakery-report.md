@@ -762,12 +762,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, malayalam, old-permic, tifinagh, tai-le, coptic, canadian-aboriginal
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, old-permic, coptic, canadian-aboriginal, tifinagh, malayalam, syriac, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -781,8 +781,8 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, gothic, tifinagh, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, tifinagh, caucasian-albanian, syriac, cherokee
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
@@ -877,6 +877,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- nine.ss03
 
+	- o.ss10
+
 	- one.ss05
 
 	- q.ss03
@@ -898,19 +900,41 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	* two (U+0032) contains a short segment L<<253.0,554.0>--<253.0,554.0>>
 
+	* five (U+0035) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
+
 	* X (U+0058) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
+
+	* s (U+0073) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
 
 	* eng (U+014B) contains a short segment L<<463.0,0.0>--<461.0,0.0>>
 
 	* eng (U+014B) contains a short segment L<<288.0,0.0>--<292.0,0.0>>
 
+	* sacute (U+015B) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* scedilla (U+015F) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* scaron (U+0161) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
 	* uni01AD (U+01AD) contains a short segment L<<235.0,280.0>--<235.0,270.0>>
 
 	* uni01B8 (U+01B8) contains a short segment L<<315.0,322.0>--<314.0,322.0>>
 
+	* uni0219 (U+0219) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
 	* uni0266 (U+0266) contains a short segment L<<29.0,385.0>--<30.0,385.0>>
 
 	* uni0266 (U+0266) contains a short segment L<<30.0,385.0>--<30.0,387.0>>
+
+	* uni1E61 (U+1E61) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* uni1E63 (U+1E63) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* uni1E65 (U+1E65) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* uni1E67 (U+1E67) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* uni1E69 (U+1E69) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
 
 	* uniA727 (U+A727) contains a short segment L<<290.0,0.0>--<292.0,0.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -964,7 +988,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Igbo (Latn, 27,823,640 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
