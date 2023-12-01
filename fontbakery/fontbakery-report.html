@@ -128,19 +128,19 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
-                <td>5</td>
+                <td>6</td>
                 <td>14</td>
                 <td>122</td>
                 <td>7</td>
-                <td>104</td>
+                <td>103</td>
             </tr>
             <tr>
                 <td>0%</td>
                 <td>3%</td>
-                <td>8%</td>
-                <td>66%</td>
+                <td>7%</td>
+                <td>65%</td>
                 <td>4%</td>
-                <td>56%</td>
+                <td>54%</td>
             </tr>
             </table>
             
@@ -299,7 +299,7 @@ definitions.</p>
 <li>U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition</li>
 <li>U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition</li>
 <li>U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
 <li>U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition</li>
@@ -308,12 +308,12 @@ definitions.</p>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, old-permic, malayalam, tai-le, coptic, math, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
@@ -327,8 +327,8 @@ definitions.</p>
 <li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, tifinagh, syriac, gothic, caucasian-albanian</li>
 <li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
 <li>U+0358 COMBINING DOT ABOVE RIGHT: try adding osage</li>
@@ -418,7 +418,7 @@ definitions.</p>
 <h3>Do we have the latest version of FontBakery installed?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/fontbakery_version</div>
 
-<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.10.1, while a newer 0.10.6 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
 <h3>Checking with fontTools.ttx</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/ttx_roundtrip</div>
@@ -463,6 +463,10 @@ definitions.</p>
 
 - six.ss04
 
+- strokelong.comb
+
+- strokelongY.comb
+
 - three.ss03
 
 - three.ss04
@@ -480,6 +484,8 @@ definitions.</p>
 - Glyph name: ampersand	Expected: 1, 2 or 3
 
 - Glyph name: plus	Expected: 1
+
+- Glyph name: colon	Expected: 2
 
 - Glyph name: less	Expected: 1
 
@@ -512,6 +518,8 @@ definitions.</p>
 - Glyph name: plusminus	Expected: 1 or 2
 
 - Glyph name: paragraph	Expected: 1, 2 or 3
+
+- Glyph name: periodcentered	Expected: 1
 
 - Glyph name: multiply	Expected: 1
 
@@ -629,9 +637,9 @@ definitions.</p>
 
 - Glyph name: uni02CB	Expected: 1
 
-- Glyph name: uni0E3F	Expected: 3 or 5
+- Glyph name: uni0331	Expected: 1
 
-- Glyph name: uni1E2B	Expected: 2
+- Glyph name: uni0E3F	Expected: 3 or 5
 
 - Glyph name: dagger	Expected: 1 or 2
 
@@ -699,6 +707,8 @@ definitions.</p>
 
 - Glyph name: cent	Expected: 1 or 2
 
+- Glyph name: colon	Expected: 2
+
 - Glyph name: copyright	Expected: 3
 
 - Glyph name: currency	Expected: 2
@@ -744,6 +754,8 @@ definitions.</p>
 - Glyph name: partialdiff	Expected: 2
 
 - Glyph name: percent	Expected: 5
+
+- Glyph name: periodcentered	Expected: 1
 
 - Glyph name: perthousand	Expected: 6 or 7
 
@@ -851,9 +863,9 @@ definitions.</p>
 
 - Glyph name: uni02CB	Expected: 1
 
-- Glyph name: uni0E3F	Expected: 3 or 5
+- Glyph name: uni0331	Expected: 1
 
-- Glyph name: uni1E2B	Expected: 2
+- Glyph name: uni0E3F	Expected: 3 or 5
 
 - Glyph name: uni20AA	Expected: 2
 
@@ -876,7 +888,9 @@ definitions.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: asterisk	Contours detected: 5	Expected: 1 or 4
 
-- Glyph name: guillemotright	Contours detected: 1	Expected: 2
+- Glyph name: question	Contours detected: 1	Expected: 2
+
+- Glyph name: questiondown	Contours detected: 1	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -888,12 +902,6 @@ definitions.</p>
 
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-- Glyph name: gbreve	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: gdotaccent	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
-
 - Glyph name: oe	Contours detected: 2	Expected: 3
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -902,13 +910,7 @@ definitions.</p>
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
-- Glyph name: uni0197	Contours detected: 2	Expected: 1
-
 - Glyph name: uni01B5	Contours detected: 2	Expected: 1
-
-- Glyph name: uni01E2	Contours detected: 1	Expected: 3
-
-- Glyph name: gcaron	Contours detected: 1	Expected: 3 or 4
 
 - Glyph name: uni01EA	Contours detected: 3	Expected: 2
 
@@ -918,36 +920,6 @@ definitions.</p>
 
 - Glyph name: uni01ED	Contours detected: 4	Expected: 3
 
-- Glyph name: uni01EF	Contours detected: 1	Expected: 2
-
-- Glyph name: uni01F5	Contours detected: 1	Expected: 3
-
-- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
-
-- Glyph name: uni0202	Contours detected: 4	Expected: 3
-
-- Glyph name: uni0203	Contours detected: 4	Expected: 3
-
-- Glyph name: uni0206	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0207	Contours detected: 4	Expected: 3
-
-- Glyph name: uni020A	Contours detected: 3	Expected: 2
-
-- Glyph name: uni020B	Contours detected: 3	Expected: 2
-
-- Glyph name: uni020E	Contours detected: 4	Expected: 3
-
-- Glyph name: uni020F	Contours detected: 4	Expected: 3
-
-- Glyph name: uni0212	Contours detected: 4	Expected: 3
-
-- Glyph name: uni0213	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0216	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0217	Contours detected: 3	Expected: 2
-
 - Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
@@ -958,43 +930,39 @@ definitions.</p>
 
 - Glyph name: uni0246	Contours detected: 2	Expected: 3
 
-- Glyph name: uni0248	Contours detected: 2	Expected: 1
-
-- Glyph name: uni024C	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0311	Contours detected: 2	Expected: 1
-
-- Glyph name: uni1E03	Contours detected: 1	Expected: 3
+- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-- Glyph name: uni1E0B	Contours detected: 1	Expected: 3
+- Glyph name: Dmacronbelow	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1E0D	Contours detected: 1	Expected: 3
-
-- Glyph name: dmacronbelow	Contours detected: 1	Expected: 3
+- Glyph name: dmacronbelow	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-- Glyph name: uni1E21	Contours detected: 1	Expected: 3 or 4
+- Glyph name: Lmacronbelow	Contours detected: 1	Expected: 2
 
-- Glyph name: uni1E57	Contours detected: 1	Expected: 3
+- Glyph name: lmacronbelow	Contours detected: 1	Expected: 2
 
-- Glyph name: quotedblleft	Contours detected: 1	Expected: 2
+- Glyph name: Nmacronbelow	Contours detected: 1	Expected: 2
 
-- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+- Glyph name: nmacronbelow	Contours detected: 1	Expected: 2
 
-- Glyph name: ellipsis	Contours detected: 1	Expected: 3
+- Glyph name: Rmacronbelow	Contours detected: 2	Expected: 3
+
+- Glyph name: rmacronbelow	Contours detected: 1	Expected: 2
+
+- Glyph name: Tmacronbelow	Contours detected: 1	Expected: 2
+
+- Glyph name: tmacronbelow	Contours detected: 1	Expected: 2
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: Oslashacute	Contours detected: 1	Expected: 4
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -1004,39 +972,21 @@ definitions.</p>
 
 - Glyph name: dcroat	Contours detected: 1	Expected: 2
 
-- Glyph name: ellipsis	Contours detected: 1	Expected: 3
-
 - Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: gbreve	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: gcaron	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: gdotaccent	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: guillemotright	Contours detected: 1	Expected: 2
 
 - Glyph name: oe	Contours detected: 2	Expected: 3
 
-- Glyph name: quotedblbase	Contours detected: 1	Expected: 2
+- Glyph name: question	Contours detected: 1	Expected: 2
 
-- Glyph name: quotedblleft	Contours detected: 1	Expected: 2
-
-- Glyph name: uni0123	Contours detected: 1	Expected: 3 or 4
+- Glyph name: questiondown	Contours detected: 1	Expected: 2
 
 - Glyph name: uni0180	Contours detected: 3	Expected: 2
 
-- Glyph name: uni0197	Contours detected: 2	Expected: 1
-
 - Glyph name: uni01B5	Contours detected: 2	Expected: 1
-
-- Glyph name: uni01E2	Contours detected: 1	Expected: 3
 
 - Glyph name: uni01EC	Contours detected: 4	Expected: 3
 
 - Glyph name: uni01ED	Contours detected: 4	Expected: 3
-
-- Glyph name: uni01EF	Contours detected: 1	Expected: 2
 
 - Glyph name: uni0228	Contours detected: 2	Expected: 1
 
@@ -1048,33 +998,30 @@ definitions.</p>
 
 - Glyph name: uni0246	Contours detected: 2	Expected: 3
 
-- Glyph name: uni0248	Contours detected: 2	Expected: 1
-
-- Glyph name: uni024C	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0311	Contours detected: 2	Expected: 1
-
-- Glyph name: uni1E03	Contours detected: 1	Expected: 3
+- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-- Glyph name: uni1E0B	Contours detected: 1	Expected: 3
-
-- Glyph name: uni1E0D	Contours detected: 1	Expected: 3
-
 - Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
-- Glyph name: uni1E21	Contours detected: 1	Expected: 3 or 4
-
-- Glyph name: uni1E57	Contours detected: 1	Expected: 3
-
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h2>Section: fontbakery.profiles.glyf</h2>
+<span class='section__emoji'>🔥</span>
+<h3>Check glyphs do not have duplicate components which have the same x,y coordinates.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/glyf_non_transformed_duplicate_components</div>
+
+<details><summary>🔥 Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have duplicate components which have the same x,y coordinates:
+* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0}
+* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0}
+* {'glyph': 'quotedblleft', 'component': 'quoteleft', 'x': 0, 'y': 0} and {'glyph': 'guillemotright', 'component': 'guilsinglright', 'x': 0, 'y': 0} [code: found-duplicates]</p>
 </span></li></ul></div></details>
 <h2>Section: Outline Correctness Checks</h2>
 <span class='section__emoji'>⚠️⚠️⚠️⚠️</span>
@@ -1142,6 +1089,10 @@ definitions.</p>
 
 * uni1E69 (U+1E69) contains a short segment L&lt;&lt;229.0,400.0&gt;--&lt;231.0,398.0&gt;&gt;
 
+* uni1E8A (U+1E8A) contains a short segment L&lt;&lt;342.0,315.0&gt;--&lt;345.0,312.0&gt;&gt;
+
+* uni1E8C (U+1E8C) contains a short segment L&lt;&lt;342.0,315.0&gt;--&lt;345.0,312.0&gt;&gt;
+
 * uniA727 (U+A727) contains a short segment L&lt;&lt;290.0,0.0&gt;--&lt;292.0,0.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
@@ -1166,7 +1117,7 @@ definitions.</p>
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
 <pre><code>* eight (U+0038): L&lt;&lt;224.0,-1.0&gt;--&lt;224.0,-1.0&gt;&gt;/L&lt;&lt;224.0,-1.0&gt;--&lt;65.0,0.0&gt;&gt; = 0.36034606338677005
 
-* uni0190 (U+0190): L&lt;&lt;137.0,554.0&gt;--&lt;359.0,554.0&gt;&gt;/B&lt;&lt;359.0,554.0&gt;-&lt;317.0,550.0&gt;-&lt;284.5,527.0&gt;&gt; = 5.4403320310054815 [code: found-jaggy-segments]
+* uni0190 (U+0190): L&lt;&lt;133.0,554.0&gt;--&lt;355.0,554.0&gt;&gt;/B&lt;&lt;355.0,554.0&gt;-&lt;313.0,550.0&gt;-&lt;280.5,527.0&gt;&gt; = 5.4403320310054815 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
@@ -1175,9 +1126,13 @@ definitions.</p>
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* eight (U+0038): L&lt;&lt;224.0,-1.0&gt;--&lt;65.0,0.0&gt;&gt;
 
+* ij (U+0133): L&lt;&lt;473.0,400.0&gt;--&lt;472.0,-27.0&gt;&gt;
+
+* j (U+006A): L&lt;&lt;252.0,400.0&gt;--&lt;251.0,-27.0&gt;&gt;
+
 * sterling (U+00A3): L&lt;&lt;204.0,554.0&gt;--&lt;411.0,553.0&gt;&gt;
 
-* uni018F (U+018F): L&lt;&lt;222.0,408.0&gt;--&lt;42.0,409.0&gt;&gt;
+* uni018F (U+018F): L&lt;&lt;218.0,408.0&gt;--&lt;38.0,409.0&gt;&gt;
 
 * uni01A5 (U+01A5): L&lt;&lt;30.0,-154.0&gt;--&lt;31.0,387.0&gt;&gt;
 
@@ -1185,7 +1140,13 @@ definitions.</p>
 
 * uni0237 (U+0237): L&lt;&lt;252.0,400.0&gt;--&lt;251.0,-27.0&gt;&gt;
 
-* uni1DBB (U+1DBB): L&lt;&lt;357.0,1.0&gt;--&lt;119.0,0.0&gt;&gt;
+* uni1E8B (U+1E8B): L&lt;&lt;165.0,0.0&gt;--&lt;-1.0,-1.0&gt;&gt;
+
+* uni1E8B (U+1E8B): L&lt;&lt;270.0,400.0&gt;--&lt;434.0,399.0&gt;&gt;
+
+* uni1E8D (U+1E8D): L&lt;&lt;165.0,0.0&gt;--&lt;-1.0,-1.0&gt;&gt;
+
+* uni1E8D (U+1E8D): L&lt;&lt;270.0,400.0&gt;--&lt;434.0,399.0&gt;&gt;
 
 * x (U+0078): L&lt;&lt;165.0,0.0&gt;--&lt;-1.0,-1.0&gt;&gt;
 
@@ -1204,8 +1165,8 @@ definitions.</p>
 
 <details><summary>⚠️ Festac23-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i᷆ i᷇ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ị̀ ị́ ị̂ ị̃ ị̄</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i᷄ i᷅ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅ i̧᷆ i̧᷇ i̩᷄ i̩᷅ i̩᷆ i̩᷇ i̭᷄ i̭᷅</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Aghem (Latn, 38,843 speakers), Kom (Latn, 360,685 speakers), Dan (Latn, 1,099,244 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
