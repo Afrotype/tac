@@ -12,7 +12,8 @@ DisplayStrings = (
 "DƊHꞪ",
 "ƇƓ",
 "PƤ",
-"TƬ"
+"TƬ",
+"Ʉ"
 );
 axes = (
 {
@@ -8172,7 +8173,7 @@ unicode = 218;
 {
 color = 8;
 glyphname = Ubar;
-lastChange = "2023-12-13 15:30:55 +0000";
+lastChange = "2023-12-13 15:35:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -8185,6 +8186,9 @@ nodes = (
 (4,306,l),
 (4,247,l)
 );
+},
+{
+ref = U;
 }
 );
 width = 524;
