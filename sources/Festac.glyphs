@@ -8,7 +8,9 @@ DisplayStrings = (
 "",
 w,
 x,
-"◌"
+"◌",
+"ı",
+"/istroke.dotless ɟ"
 );
 axes = (
 {
@@ -8013,7 +8015,7 @@ unicode = 7782;
 },
 {
 glyphname = Scedilla;
-lastChange = "2023-12-18 22:54:01 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -8022,7 +8024,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (11,0);
+pos = (4,0);
 ref = cedillacomb;
 }
 );
@@ -8053,7 +8055,7 @@ unicode = 348;
 },
 {
 glyphname = Scommaaccent;
-lastChange = "2024-01-04 15:08:37 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -8062,7 +8064,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (11,0);
+pos = (14,0);
 ref = commaaccentcomb;
 }
 );
@@ -8301,7 +8303,7 @@ unicode = 356;
 },
 {
 glyphname = Tcedilla;
-lastChange = "2024-01-04 15:28:09 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -8310,7 +8312,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (88,0);
+pos = (78,0);
 ref = cedillacomb;
 }
 );
@@ -11137,6 +11139,24 @@ width = 322;
 unicode = 618;
 },
 {
+glyphname = Ismallstroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Ismall;
+},
+{
+ref = strokeshortcomb;
+}
+);
+width = 322;
+}
+);
+unicode = 7547;
+},
+{
 glyphname = a;
 lastChange = "2023-12-14 18:14:11 +0000";
 layers = (
@@ -12403,7 +12423,7 @@ unicode = 269;
 },
 {
 glyphname = ccedilla;
-lastChange = "2023-12-18 22:53:38 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -12412,7 +12432,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (46,0);
+pos = (36,0);
 ref = cedillacomb;
 }
 );
@@ -12423,7 +12443,7 @@ unicode = 231;
 },
 {
 glyphname = ccedillaacute;
-lastChange = "2023-12-18 22:53:38 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -12432,7 +12452,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (46,0);
+pos = (36,0);
 ref = cedillacomb;
 },
 {
@@ -13143,7 +13163,7 @@ unicode = 283;
 },
 {
 glyphname = ecedilla;
-lastChange = "2023-12-18 22:54:13 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -13152,7 +13172,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (42,0);
+pos = (32,0);
 ref = cedillacomb;
 }
 );
@@ -13163,7 +13183,7 @@ unicode = 553;
 },
 {
 glyphname = ecedillabreve;
-lastChange = "2023-12-18 22:54:13 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -13172,7 +13192,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (42,0);
+pos = (32,0);
 ref = cedillacomb;
 },
 {
@@ -14597,7 +14617,7 @@ unicode = 543;
 },
 {
 glyphname = hcedilla;
-lastChange = "2023-12-18 22:54:39 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -14606,7 +14626,7 @@ shapes = (
 ref = h;
 },
 {
-pos = (117,0);
+pos = (107,0);
 ref = cedillacomb;
 }
 );
@@ -15516,7 +15536,7 @@ unicode = 669;
 {
 color = 0;
 glyphname = jdotlessstroke;
-lastChange = "2023-12-14 19:20:10 +0000";
+lastChange = "2024-01-04 16:02:38 +0000";
 layers = (
 {
 anchors = (
@@ -15526,26 +15546,20 @@ pos = (106,-173);
 },
 {
 name = top;
-pos = (128,400);
+pos = (107,400);
 }
 );
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(258,204,l),
-(258,264,l),
-(-4,264,l),
-(-4,204,l)
-);
+ref = jdotless;
 },
 {
-pos = (16,0);
-ref = jdotless;
+pos = (-45,47);
+ref = strokeshortcomb;
 }
 );
-width = 237;
+width = 220;
 }
 );
 unicode = 607;
@@ -18951,7 +18965,7 @@ unicode = 349;
 },
 {
 glyphname = scommaaccent;
-lastChange = "2023-12-18 23:00:23 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -18960,7 +18974,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (-6,0);
+pos = (21,0);
 ref = commaaccentcomb;
 }
 );
@@ -19330,7 +19344,7 @@ unicode = 357;
 },
 {
 glyphname = tcedilla;
-lastChange = "2023-12-18 22:53:38 +0000";
+lastChange = "2024-01-04 16:02:49 +0000";
 layers = (
 {
 layerId = m01;
@@ -19339,7 +19353,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (60,0);
+pos = (50,0);
 ref = cedillacomb;
 }
 );
@@ -21653,6 +21667,31 @@ width = 387;
 }
 );
 unicode = 42892;
+},
+{
+glyphname = istroke.dotless;
+lastChange = "2024-01-04 16:02:47 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (109,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-45,47);
+ref = strokeshortcomb;
+}
+);
+width = 221;
+}
+);
 },
 {
 color = 0;
