@@ -10,7 +10,8 @@ w,
 x,
 "◌",
 "ı",
-"/istroke.dotless ɟ"
+"/istroke.dotless ɟ",
+"̃Ỡ"
 );
 axes = (
 {
@@ -21,7 +22,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringbelow Astroke Atilde AE AEmacron B Bdotaccent Bdotbelow Beta-latin Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chi-latin Chook Cstroke D Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Ereversed Esh Estroke Etilde Etildebelow Schwa Ezh Ezhcaron Ezhreversed F Fdotaccent Fhook G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstopsmall Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Heng Hhook Hturned I IJ Iacute Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde Itildebelow J Jacute Jcircumflex Jcrossedtail Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L Lacute Lbar Lbelt Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Ldoublebar Lmacronbelow Lmiddletilde Lslash M Macute Mdotaccent Mdotbelow Mturned N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Ngrave Nhookleft Nlongrightleg Nmacronbelow Ntilde Eng O OU Oacute Obarred Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Omega-latin Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Pacute Pdotaccent Phook Thorn Pstroke Q Qhooktail R Racute Rcaron Rcommaaccent Rdblgrave Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rmacronbelow Rstroke Rtail S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdiagonalstroke Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udblgrave Udieresis Udieresisacute Udieresisbelow Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Upsilon-latin Uring Utilde Utildeacute Utildebelow V Gamma-latin Vdotbelow Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ystroke Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Zstroke Saltillo Iota-latin.ss01 T.ss01 V.ss01 W.ss01 X.ss01 Z.ss01 V.ss02 W.ss03 F.ss10";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adieresismacron Adotaccent Adotbelow Adotmacron Agrave Ahookabove Ainvertedbreve Alpha-latin Amacron Aogonek Aring Aringbelow Astroke Atilde AE AEmacron B Bdotaccent Bdotbelow Beta-latin Bhook Bmacronbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent Chi-latin Chook Cstroke D Dcaron Dcedilla Dcircumflexbelow Dcroat Ddotaccent Ddotbelow Dhook Dmacronbelow Dtail Eth E Eacute Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexbelow Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Eopen Ereversed Esh Estroke Etilde Etildebelow Schwa Ezh Ezhcaron Ezhreversed F Fdotaccent Fhook G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ghook Glottalstopsmall Gmacron Gstroke H Hbar Hbrevebelow Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Heng Hhook Hturned I IJ Iacute Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Iota-latin Istroke Itilde Itildebelow J Jacute Jcircumflex Jcrossedtail Jstroke K Kacute Kcaron Kcommaaccent Kdotbelow Khook Kmacronbelow Kstroke L Lacute Lbar Lbelt Lcaron Lcircumflexbelow Lcommaaccent Ldotbelow Ldotbelowmacron Ldoublebar Lmacronbelow Lmiddletilde Lslash M Macute Mdotaccent Mdotbelow Mturned N Nacute Ncaron Ncircumflexbelow Ncommaaccent Ndotaccent Ndotbelow Ngrave Nhookleft Nlongrightleg Nmacronbelow Ntilde Eng O OU Oacute Obarred Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccent Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Omega-latin Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Pacute Pdotaccent Phook Thorn Pstroke Q Qhooktail R Racute Rcaron Rcommaaccent Rdblgrave Rdotaccent Rdotbelow Rdotbelowmacron Rinvertedbreve Rmacronbelow Rstroke Rtail S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke T Tbar Tcaron Tcedilla Tcircumflexbelow Tcommaaccent Tdiagonalstroke Tdotaccent Tdotbelow Thook Tmacronbelow Tretroflexhook U Uacute Ubar Ubreve Ucaron Ucircumflex Ucircumflexbelow Udblgrave Udieresis Udieresisacute Udieresisbelow Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Upsilon-latin Uring Utilde Utildeacute Utildebelow V Gamma-latin Vdotbelow Vhook Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave Whook X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhook Yhookabove Ymacron Ystroke Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zmacronbelow Zstroke Saltillo Iota-latin.ss01 T.ss01 V.ss01 W.ss01 X.ss01 Z.ss01 V.ss02 W.ss03 F.ss10 Omega";
 name = Uppercase;
 }
 );
@@ -50,9 +51,13 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
-date = "2023-09-29 07:07:32 +0000";
+date = "2024-01-04 16:05:56 +0000";
 familyName = Festac;
 featurePrefixes = (
 {
@@ -119,6 +124,7 @@ lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
+	sub istroke' @CombiningTopAccents by istroke.dotless;
 	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
 
@@ -142,6 +148,7 @@ lookup ccmp_latn_1 {
 lookup ccmp_latn_2 {
 	lookupflag 0;
 	sub fi by f i;
+	sub fl by f l;
 } ccmp_latn_2;
 
 script latn;
@@ -370,6 +377,7 @@ automatic = 1;
 code = "lookupflag IgnoreMarks;
 sub f f by f_f.liga;
 sub f i by fi;
+sub f l by fl;
 ";
 tag = liga;
 },
@@ -6970,7 +6978,7 @@ unicode = 7756;
 },
 {
 glyphname = Otildedieresis;
-lastChange = "2023-12-18 16:51:14 +0000";
+lastChange = "2024-01-04 16:11:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -6983,7 +6991,7 @@ pos = (87,154);
 ref = tildecomb;
 },
 {
-pos = (50,264);
+pos = (69,326);
 ref = dieresiscomb;
 }
 );
@@ -17820,7 +17828,7 @@ unicode = 7757;
 },
 {
 glyphname = otildedieresis;
-lastChange = "2023-12-18 21:37:06 +0000";
+lastChange = "2024-01-04 16:11:16 +0000";
 layers = (
 {
 layerId = m01;
@@ -17833,7 +17841,7 @@ pos = (71,0);
 ref = tildecomb;
 },
 {
-pos = (34,110);
+pos = (53,172);
 ref = dieresiscomb;
 }
 );
@@ -32433,7 +32441,7 @@ unicode = 778;
 {
 color = 7;
 glyphname = tildecomb;
-lastChange = "2024-01-04 15:38:18 +0000";
+lastChange = "2024-01-04 16:05:26 +0000";
 layers = (
 {
 anchors = (
@@ -32443,7 +32451,7 @@ pos = (174,400);
 },
 {
 name = top;
-pos = (153,510);
+pos = (172,572);
 }
 );
 layerId = m01;
@@ -36833,7 +36841,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The SeventySeven Project Authors (https://github.com/Afrotype/festacrevival/), with Reserved Font Name \"Seventy Seven\".";
+value = "Copyright 2024 The FestacProject Authors (https://github.com/Afrotype/festacrevival)";
 }
 );
 },
@@ -36845,6 +36853,23 @@ language = ENG;
 value = "Oluseyi Olusanya, David Udoh, Eyiyemi Adegbite, Mirko Velimirovic";
 }
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturerURL;
+value = "http://www.afrotype.com";
 }
 );
 stems = (
