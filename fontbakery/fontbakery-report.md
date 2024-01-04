@@ -2,14 +2,14 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[22] Festac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[23] Festac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 984, but got 830 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 884, but got 830 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
@@ -31,6 +31,8 @@ fontbakery version: 0.10.1
 
 	- Glyph name: threequarters	Expected: 3 or 4
 
+	- Glyph name: uni02B9	Expected: 1
+
 	- Glyph name: fraction	Expected: 1
 
 	- Glyph name: uni2153	Expected: 3
@@ -44,6 +46,8 @@ fontbakery version: 0.10.1
 	- Glyph name: onequarter	Expected: 3 or 4
 
 	- Glyph name: threequarters	Expected: 3 or 4
+
+	- Glyph name: uni02B9	Expected: 1
  [code: no-contour]
 * ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
@@ -81,23 +85,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0181	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni0187	Contours detected: 2	Expected: 1
-
 	- Glyph name: Dtail	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni018A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0193	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni01A4	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01AC	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
@@ -217,19 +213,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0181	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni0187	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni018A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0193	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0198	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01A4	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni01AC	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B3	Contours detected: 2	Expected: 1
 
@@ -369,7 +357,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -379,12 +367,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, syriac, math, tifinagh, tai-le, malayalam, old-permic, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, syriac, coptic, tifinagh, canadian-aboriginal, malayalam, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -393,7 +381,7 @@ The following glyphs do not have the recommended number of contours:
  * U+0313 COMBINING COMMA ABOVE: try adding old-permic
  * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
  * U+031B COMBINING HORN: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -401,17 +389,17 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, cherokee, tifinagh, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, cherokee, caucasian-albanian, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
  * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
@@ -550,7 +538,7 @@ Width = 380:
 plus, plusminus
 
 Width = 414:
-notequal, minus, equal
+minus, equal, notequal
 
 Width = 250:
 greater
@@ -567,6 +555,10 @@ divide
 Width = 362:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
+
+
+* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -620,10 +612,6 @@ approxequal
 
 	* uni019B (U+019B) contains a short segment L<<380.0,400.0>--<379.0,399.0>>
 
-	* uni01AD (U+01AD) contains a short segment L<<235.0,280.0>--<235.0,270.0>>
-
-	* uni01B4 (U+01B4) contains a short segment B<<539.0,573.0>-<539.0,573.0>-<526.0,562.0>>
-
 	* uni01B8 (U+01B8) contains a short segment L<<315.0,322.0>--<314.0,322.0>>
 
 	* uni01B9 (U+01B9) contains a short segment L<<249.0,168.0>--<248.0,168.0>>
@@ -631,10 +619,6 @@ approxequal
 	* uni0219 (U+0219) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
 
 	* uni0219 (U+0219) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni0266 (U+0266) contains a short segment L<<29.0,385.0>--<30.0,385.0>>
-
-	* uni0266 (U+0266) contains a short segment L<<30.0,385.0>--<30.0,387.0>>
 
 	* lambda (U+03BB) contains a short segment L<<208.0,400.0>--<209.0,400.0>>
 
@@ -694,10 +678,6 @@ approxequal
 
 	* uni2206 (U+2206) contains a short segment L<<554.0,120.0>--<552.0,120.0>>
 
-	* uni2C73 (U+2C73) contains a short segment B<<558.5,555.0>-<570.0,573.0>-<570.0,573.0>>
-
-	* uni2C73 (U+2C73) contains a short segment B<<779.0,573.0>-<779.0,573.0>-<766.0,562.0>>
-
 	* uniA727 (U+A727) contains a short segment L<<290.0,0.0>--<292.0,0.0>>
 
 	* uniA7A9 (U+A7A9) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
@@ -730,8 +710,6 @@ approxequal
 
 	* uni00B2 (U+00B2): L<<87.0,554.0>--<253.0,554.0>> -> L<<253.0,554.0>--<253.0,554.0>>
 
-	* uni0199 (U+0199): L<<30.0,0.0>--<30.0,324.0>> -> L<<30.0,324.0>--<31.0,387.0>>
-
 	* uni2082 (U+2082): L<<253.0,554.0>--<253.0,554.0>> -> L<<253.0,554.0>--<367.0,553.0>>
 
 	* uni2082 (U+2082): L<<87.0,554.0>--<253.0,554.0>> -> L<<253.0,554.0>--<253.0,554.0>>
@@ -744,55 +722,55 @@ approxequal
 
 	* eight (U+0038): L<<224.0,-1.0>--<224.0,-1.0>>/L<<224.0,-1.0>--<65.0,0.0>> = 0.36034606338677005
 
-	* hookabovecomb (U+0309): B<<64.0,601.5>-<43.0,614.0>-<19.0,619.0>>/L<<19.0,619.0>--<150.0,619.0>> = 11.768288932020628
+	* hookabovecomb (U+0309): B<<87.5,616.5>-<61.0,640.0>-<19.0,649.0>>/L<<19.0,649.0>--<150.0,649.0>> = 12.094757077012089
 
-	* uni1EA2 (U+1EA2): B<<199.0,778.5>-<178.0,791.0>-<154.0,796.0>>/L<<154.0,796.0>--<285.0,796.0>> = 11.768288932020628
+	* uni1EA2 (U+1EA2): B<<221.5,770.5>-<195.0,794.0>-<153.0,803.0>>/L<<153.0,803.0>--<284.0,803.0>> = 12.094757077012089
 
-	* uni1EA3 (U+1EA3): B<<157.0,624.5>-<136.0,637.0>-<112.0,642.0>>/L<<112.0,642.0>--<243.0,642.0>> = 11.768288932020628
+	* uni1EA3 (U+1EA3): B<<177.5,616.5>-<151.0,640.0>-<109.0,649.0>>/L<<109.0,649.0>--<240.0,649.0>> = 12.094757077012089
 
-	* uni1EA8 (U+1EA8): B<<199.0,932.5>-<178.0,945.0>-<154.0,950.0>>/L<<154.0,950.0>--<285.0,950.0>> = 11.768288932020628
+	* uni1EA8 (U+1EA8): B<<217.5,861.0>-<194.0,877.0>-<162.0,884.0>>/L<<162.0,884.0>--<279.0,884.0>> = 12.33908727832618
 
-	* uni1EA9 (U+1EA9): B<<157.0,778.5>-<136.0,791.0>-<112.0,796.0>>/L<<112.0,796.0>--<243.0,796.0>> = 11.768288932020628
+	* uni1EA9 (U+1EA9): B<<173.5,707.0>-<150.0,723.0>-<118.0,730.0>>/L<<118.0,730.0>--<235.0,730.0>> = 12.33908727832618
 
-	* uni1EB2 (U+1EB2): B<<188.0,926.5>-<167.0,939.0>-<143.0,944.0>>/L<<143.0,944.0>--<279.0,944.0>> = 11.768288932020628
+	* uni1EB2 (U+1EB2): B<<215.5,861.0>-<192.0,877.0>-<160.0,884.0>>/L<<160.0,884.0>--<277.0,884.0>> = 12.33908727832618
 
-	* uni1EB3 (U+1EB3): B<<146.0,772.5>-<125.0,785.0>-<101.0,790.0>>/L<<101.0,790.0>--<237.0,790.0>> = 11.768288932020628
+	* uni1EB3 (U+1EB3): B<<171.5,707.0>-<148.0,723.0>-<116.0,730.0>>/L<<116.0,730.0>--<233.0,730.0>> = 12.33908727832618
 
-	* uni1EBA (U+1EBA): B<<154.0,778.5>-<133.0,791.0>-<109.0,796.0>>/L<<109.0,796.0>--<240.0,796.0>> = 11.768288932020628
+	* uni1EBA (U+1EBA): B<<174.5,770.5>-<148.0,794.0>-<106.0,803.0>>/L<<106.0,803.0>--<237.0,803.0>> = 12.094757077012089
 
-	* uni1EBB (U+1EBB): B<<180.0,624.5>-<159.0,637.0>-<135.0,642.0>>/L<<135.0,642.0>--<266.0,642.0>> = 11.768288932020628
+	* uni1EBB (U+1EBB): B<<200.5,616.5>-<174.0,640.0>-<132.0,649.0>>/L<<132.0,649.0>--<263.0,649.0>> = 12.094757077012089
 
-	* uni1EC2 (U+1EC2): B<<154.0,932.5>-<133.0,945.0>-<109.0,950.0>>/L<<109.0,950.0>--<240.0,950.0>> = 11.768288932020628
+	* uni1EC2 (U+1EC2): B<<170.5,861.0>-<147.0,877.0>-<115.0,884.0>>/L<<115.0,884.0>--<232.0,884.0>> = 12.33908727832618
 
-	* uni1EC3 (U+1EC3): B<<180.0,778.5>-<159.0,791.0>-<135.0,796.0>>/L<<135.0,796.0>--<266.0,796.0>> = 11.768288932020628
+	* uni1EC3 (U+1EC3): B<<196.5,707.0>-<173.0,723.0>-<141.0,730.0>>/L<<141.0,730.0>--<258.0,730.0>> = 12.33908727832618
 
-	* uni1EC8 (U+1EC8): B<<74.0,778.5>-<53.0,791.0>-<29.0,796.0>>/L<<29.0,796.0>--<160.0,796.0>> = 11.768288932020628
+	* uni1EC8 (U+1EC8): B<<94.5,770.5>-<68.0,794.0>-<26.0,803.0>>/L<<26.0,803.0>--<157.0,803.0>> = 12.094757077012089
 
-	* uni1EC9 (U+1EC9): B<<54.0,624.5>-<33.0,637.0>-<9.0,642.0>>/L<<9.0,642.0>--<140.0,642.0>> = 11.768288932020628
+	* uni1EC9 (U+1EC9): B<<74.5,616.5>-<48.0,640.0>-<6.0,649.0>>/L<<6.0,649.0>--<137.0,649.0>> = 12.094757077012089
 
-	* uni1ECE (U+1ECE): B<<204.0,778.5>-<183.0,791.0>-<159.0,796.0>>/L<<159.0,796.0>--<290.0,796.0>> = 11.768288932020628
+	* uni1ECE (U+1ECE): B<<224.5,770.5>-<198.0,794.0>-<156.0,803.0>>/L<<156.0,803.0>--<287.0,803.0>> = 12.094757077012089
 
-	* uni1ECF (U+1ECF): B<<200.0,624.5>-<179.0,637.0>-<155.0,642.0>>/L<<155.0,642.0>--<286.0,642.0>> = 11.768288932020628
+	* uni1ECF (U+1ECF): B<<208.5,616.5>-<182.0,640.0>-<140.0,649.0>>/L<<140.0,649.0>--<271.0,649.0>> = 12.094757077012089
 
-	* uni1ED4 (U+1ED4): B<<204.0,932.5>-<183.0,945.0>-<159.0,950.0>>/L<<159.0,950.0>--<290.0,950.0>> = 11.768288932020628
+	* uni1ED4 (U+1ED4): B<<220.5,861.0>-<197.0,877.0>-<165.0,884.0>>/L<<165.0,884.0>--<282.0,884.0>> = 12.33908727832618
 
-	* uni1ED5 (U+1ED5): B<<200.0,778.5>-<179.0,791.0>-<155.0,796.0>>/L<<155.0,796.0>--<286.0,796.0>> = 11.768288932020628
+	* uni1ED5 (U+1ED5): B<<204.5,707.0>-<181.0,723.0>-<149.0,730.0>>/L<<149.0,730.0>--<266.0,730.0>> = 12.33908727832618
 
-	* uni1EDE (U+1EDE): B<<204.0,778.5>-<183.0,791.0>-<159.0,796.0>>/L<<159.0,796.0>--<290.0,796.0>> = 11.768288932020628
+	* uni1EDE (U+1EDE): B<<224.5,770.5>-<198.0,794.0>-<156.0,803.0>>/L<<156.0,803.0>--<287.0,803.0>> = 12.094757077012089
 
-	* uni1EDF (U+1EDF): B<<188.0,624.5>-<167.0,637.0>-<143.0,642.0>>/L<<143.0,642.0>--<274.0,642.0>> = 11.768288932020628
+	* uni1EDF (U+1EDF): B<<208.5,616.5>-<182.0,640.0>-<140.0,649.0>>/L<<140.0,649.0>--<271.0,649.0>> = 12.094757077012089
 
-	* uni1EE6 (U+1EE6): B<<201.0,778.5>-<180.0,791.0>-<156.0,796.0>>/L<<156.0,796.0>--<287.0,796.0>> = 11.768288932020628
+	* uni1EE6 (U+1EE6): B<<221.5,770.5>-<195.0,794.0>-<153.0,803.0>>/L<<153.0,803.0>--<284.0,803.0>> = 12.094757077012089
 
-	* uni1EE7 (U+1EE7): B<<184.0,624.5>-<163.0,637.0>-<139.0,642.0>>/L<<139.0,642.0>--<270.0,642.0>> = 11.768288932020628
+	* uni1EE7 (U+1EE7): B<<204.5,616.5>-<178.0,640.0>-<136.0,649.0>>/L<<136.0,649.0>--<267.0,649.0>> = 12.094757077012089
 
-	* uni1EEC (U+1EEC): B<<201.0,778.5>-<180.0,791.0>-<156.0,796.0>>/L<<156.0,796.0>--<287.0,796.0>> = 11.768288932020628
+	* uni1EEC (U+1EEC): B<<221.5,770.5>-<195.0,794.0>-<153.0,803.0>>/L<<153.0,803.0>--<284.0,803.0>> = 12.094757077012089
 
-	* uni1EED (U+1EED): B<<184.0,624.5>-<163.0,637.0>-<139.0,642.0>>/L<<139.0,642.0>--<270.0,642.0>> = 11.768288932020628
+	* uni1EED (U+1EED): B<<204.5,616.5>-<178.0,640.0>-<136.0,649.0>>/L<<136.0,649.0>--<267.0,649.0>> = 12.094757077012089
 
-	* uni1EF6 (U+1EF6): B<<174.0,778.5>-<153.0,791.0>-<129.0,796.0>>/L<<129.0,796.0>--<260.0,796.0>> = 11.768288932020628
+	* uni1EF6 (U+1EF6): B<<194.5,770.5>-<168.0,794.0>-<126.0,803.0>>/L<<126.0,803.0>--<257.0,803.0>> = 12.094757077012089
 
-	* uni1EF7 (U+1EF7): B<<189.0,624.5>-<168.0,637.0>-<144.0,642.0>>/L<<144.0,642.0>--<275.0,642.0>> = 11.768288932020628
+	* uni1EF7 (U+1EF7): B<<209.5,616.5>-<183.0,640.0>-<141.0,649.0>>/L<<141.0,649.0>--<272.0,649.0>> = 12.094757077012089
 
 	* uni2078 (U+2078): L<<224.0,-1.0>--<224.0,-1.0>>/L<<224.0,-1.0>--<65.0,0.0>> = 0.36034606338677005
 
@@ -837,8 +815,6 @@ approxequal
 	* sterling (U+00A3): L<<174.0,554.0>--<381.0,553.0>>
 
 	* uni018F (U+018F): L<<218.0,408.0>--<38.0,409.0>>
-
-	* uni01A5 (U+01A5): L<<30.0,-154.0>--<31.0,387.0>>
 
 	* uni01A9 (U+01A9): L<<353.0,554.0>--<352.0,436.0>>
 
@@ -906,17 +882,17 @@ approxequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Kom (Latn, 360,685 speakers), Ebira (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 16 | 122 | 7 | 101 | 0 |
-| 0% | 2% | 6% | 48% | 3% | 40% | 0% |
+| 0 | 6 | 17 | 122 | 7 | 100 | 0 |
+| 0% | 2% | 7% | 48% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
