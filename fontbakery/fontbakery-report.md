@@ -351,7 +351,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -361,9 +361,9 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, canadian-aboriginal, tifinagh, math, malayalam, old-permic, coptic, syriac
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, coptic, canadian-aboriginal, tai-le, old-permic, tifinagh, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -383,17 +383,17 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, tifinagh, caucasian-albanian, syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, gothic, tifinagh, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
  * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
@@ -428,14 +428,14 @@ The following glyphs do not have the recommended number of contours:
  * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
  * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
  * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
- * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
- * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math
- * U+2195 UP DOWN ARROW: try adding one of: symbols, math
- * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
- * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
- * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
- * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -453,24 +453,24 @@ The following glyphs do not have the recommended number of contours:
  * U+25AA BLACK SMALL SQUARE: try adding symbols
  * U+25AB WHITE SMALL SQUARE: try adding symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CA LOZENGE: try adding one of: math, symbols
  * U+25CB WHITE CIRCLE: try adding symbols
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
@@ -529,10 +529,10 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 380:
-plus, plusminus
+plusminus, plus
 
 Width = 414:
-notequal, minus, equal
+equal, notequal, minus
 
 Width = 250:
 greater
@@ -562,8 +562,6 @@ approxequal
 
 	* five (U+0035) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
 
-	* eight (U+0038) contains a short segment L<<224.0,-1.0>--<224.0,-1.0>>
-
 	* eight (U+0038) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
 
 	* X (U+0058) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
@@ -571,6 +569,12 @@ approxequal
 	* s (U+0073) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
 
 	* s (U+0073) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
+
+	* x (U+0078) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
+
+	* x (U+0078) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
+
+	* sterling (U+00A3) contains a short segment L<<377.0,554.0>--<377.0,552.0>>
 
 	* section (U+00A7) contains a short segment B<<256.0,176.0>-<260.0,172.0>-<265.0,167.0>>
 
@@ -634,19 +638,23 @@ approxequal
 
 	* uni1E8A (U+1E8A) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
 
+	* uni1E8B (U+1E8B) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
+
+	* uni1E8B (U+1E8B) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
+
 	* uni1E8C (U+1E8C) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
 
-	* uni2075 (U+2075) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
+	* uni1E8D (U+1E8D) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
 
-	* uni2078 (U+2078) contains a short segment L<<224.0,-1.0>--<224.0,-1.0>>
+	* uni1E8D (U+1E8D) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
+
+	* uni2075 (U+2075) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
 
 	* uni2078 (U+2078) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
 
 	* uni2082 (U+2082) contains a short segment L<<253.0,554.0>--<253.0,554.0>>
 
 	* uni2085 (U+2085) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
-
-	* uni2088 (U+2088) contains a short segment L<<224.0,-1.0>--<224.0,-1.0>>
 
 	* uni2088 (U+2088) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
 
@@ -660,9 +668,9 @@ approxequal
 
 	* uni20B1 (U+20B1) contains a short segment B<<548.0,391.0>-<548.0,384.0>-<548.0,377.0>>
 
-	* uni20B4 (U+20B4) contains a short segment B<<355.0,391.0>-<355.0,386.0>-<354.0,381.0>>
+	* uni20B4 (U+20B4) contains a short segment B<<355.0,389.0>-<355.0,385.0>-<354.0,381.0>>
 
-	* uni20B4 (U+20B4) contains a short segment B<<323.0,281.0>-<320.0,275.0>-<318.0,271.0>>
+	* uni20B4 (U+20B4) contains a short segment B<<323.0,279.0>-<321.0,275.0>-<319.0,271.0>>
 
 	* uni20B9 (U+20B9) contains a short segment L<<192.0,424.0>--<192.0,428.0>>
 
@@ -704,8 +712,6 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* eight (U+0038): L<<224.0,-1.0>--<224.0,-1.0>>/L<<224.0,-1.0>--<65.0,0.0>> = 0.36034606338677005
-
 	* uni1EA8 (U+1EA8): B<<217.5,861.0>-<194.0,877.0>-<162.0,884.0>>/L<<162.0,884.0>--<279.0,884.0>> = 12.33908727832618
 
 	* uni1EA9 (U+1EA9): B<<173.5,707.0>-<150.0,723.0>-<118.0,730.0>>/L<<118.0,730.0>--<235.0,730.0>> = 12.33908727832618
@@ -716,25 +722,15 @@ approxequal
 
 	* uni1ED4 (U+1ED4): B<<220.5,861.0>-<197.0,877.0>-<165.0,884.0>>/L<<165.0,884.0>--<282.0,884.0>> = 12.33908727832618
 
-	* uni1ED5 (U+1ED5): B<<204.5,707.0>-<181.0,723.0>-<149.0,730.0>>/L<<149.0,730.0>--<266.0,730.0>> = 12.33908727832618
-
-	* uni2078 (U+2078): L<<224.0,-1.0>--<224.0,-1.0>>/L<<224.0,-1.0>--<65.0,0.0>> = 0.36034606338677005
-
-	* uni2088 (U+2088): L<<224.0,-1.0>--<224.0,-1.0>>/L<<224.0,-1.0>--<65.0,0.0>> = 0.36034606338677005 [code: found-jaggy-segments]
+	* uni1ED5 (U+1ED5): B<<204.5,707.0>-<181.0,723.0>-<149.0,730.0>>/L<<149.0,730.0>--<266.0,730.0>> = 12.33908727832618 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* ampersand (U+0026): L<<405.0,282.0>--<552.0,281.0>>
-
-	* eight (U+0038): L<<224.0,-1.0>--<65.0,0.0>>
-
 	* filledbox (U+25A0): L<<20.0,65.0>--<18.0,619.0>>
 
 	* filledbox (U+25A0): L<<570.0,619.0>--<572.0,65.0>>
-
-	* sterling (U+00A3): L<<174.0,554.0>--<381.0,553.0>>
 
 	* uni018F (U+018F): L<<218.0,408.0>--<38.0,409.0>>
 
@@ -745,18 +741,6 @@ approxequal
 	* uni1E87 (U+1E87): L<<624.0,-1.0>--<47.0,0.0>>
 
 	* uni1E89 (U+1E89): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* uni1E8B (U+1E8B): L<<165.0,0.0>--<-1.0,-1.0>>
-
-	* uni1E8B (U+1E8B): L<<270.0,400.0>--<434.0,399.0>>
-
-	* uni1E8D (U+1E8D): L<<165.0,0.0>--<-1.0,-1.0>>
-
-	* uni1E8D (U+1E8D): L<<270.0,400.0>--<434.0,399.0>>
-
-	* uni2078 (U+2078): L<<224.0,-1.0>--<65.0,0.0>>
-
-	* uni2088 (U+2088): L<<224.0,-1.0>--<65.0,0.0>>
 
 	* uni25A1 (U+25A1): L<<20.0,65.0>--<18.0,619.0>>
 
@@ -788,11 +772,7 @@ approxequal
 
 	* wdieresis (U+1E85): L<<624.0,-1.0>--<47.0,0.0>>
 
-	* wgrave (U+1E81): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* x (U+0078): L<<165.0,0.0>--<-1.0,-1.0>>
-
-	* x (U+0078): L<<270.0,400.0>--<434.0,399.0>> [code: found-semi-vertical]
+	* wgrave (U+1E81): L<<624.0,-1.0>--<47.0,0.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -804,9 +784,9 @@ approxequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Kom (Latn, 360,685 speakers), Navajo (Latn, 166,319 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
