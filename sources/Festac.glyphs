@@ -36841,7 +36841,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2024 The FestacProject Authors (https://github.com/Afrotype/festacrevival)";
+value = "Copyright 2024 The Festac Project Authors (https://github.com/Afrotype/festacrevival)";
 }
 );
 },
