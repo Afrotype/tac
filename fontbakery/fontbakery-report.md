@@ -2,7 +2,7 @@
 
 fontbakery version: 0.10.1
 
-<details><summary><b>[20] Festac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[18] Festac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 935, but got 830 instead [code: ascent]
@@ -370,12 +370,12 @@ The following glyphs do not have the recommended number of contours:
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, canadian-aboriginal, syriac, malayalam, old-permic, coptic, tai-le, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, coptic, old-permic, canadian-aboriginal, malayalam, tifinagh, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -384,7 +384,7 @@ The following glyphs do not have the recommended number of contours:
  * U+0313 COMBINING COMMA ABOVE: try adding old-permic
  * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
  * U+031B COMBINING HORN: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -392,16 +392,16 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, syriac, cherokee, tifinagh, caucasian-albanian
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, tifinagh, cherokee, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
  * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
  * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
@@ -482,7 +482,7 @@ The following glyphs do not have the recommended number of contours:
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: math, symbols
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: nko, manichaean, marchen, tagalog, mongolian, limbu, sharada, syloti-nagri, adlam, sinhala, kayah-li, hebrew, newa, kannada, osage, sundanese, elbasan, zanabazar-square, masaram-gondi, music, bassa-vah, tai-le, batak, rejang, psalter-pahlavi, duployan, mende-kikakui, yi, thaana, soyombo, kharoshthi, takri, balinese, lao, pahawh-hmong, gunjala-gondi, meetei-mayek, new-tai-lue, grantha, dogra, bengali, oriya, buginese, bhaiksuki, siddham, thai, tirhuta, gurmukhi, mandaic, mahajani, phags-pa, hanifi-rohingya, myanmar, chakma, hanunoo, modi, tai-viet, telugu, malayalam, sogdian, miao, syriac, caucasian-albanian, gujarati, tibetan, lepcha, kaithi, tagbanwa, wancho, coptic, ahom, khudawadi, cham, symbols, tamil, math, buhid, devanagari, javanese, khmer, brahmi, old-permic, khojki, tifinagh
+ * U+25CC DOTTED CIRCLE: try adding one of: ahom, miao, rejang, manichaean, kayah-li, meetei-mayek, wancho, buhid, music, sharada, osage, tifinagh, lao, marchen, tirhuta, sundanese, mandaic, dogra, syriac, limbu, bhaiksuki, syloti-nagri, soyombo, gurmukhi, duployan, myanmar, caucasian-albanian, buginese, cham, devanagari, kannada, zanabazar-square, psalter-pahlavi, tamil, pahawh-hmong, hanifi-rohingya, symbols, khudawadi, tai-viet, elbasan, yi, mende-kikakui, siddham, khojki, khmer, batak, gujarati, newa, balinese, old-permic, tagalog, modi, hanunoo, chakma, grantha, telugu, bengali, kaithi, gunjala-gondi, sogdian, kharoshthi, coptic, lepcha, javanese, sinhala, mahajani, thaana, thai, hebrew, oriya, tagbanwa, tai-le, tibetan, bassa-vah, adlam, masaram-gondi, new-tai-lue, mongolian, math, takri, phags-pa, nko, brahmi, malayalam
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -552,7 +552,7 @@ Width = 380:
 plusminus, plus
 
 Width = 414:
-minus, equal, notequal
+equal, minus, notequal
 
 Width = 250:
 greater
@@ -569,142 +569,6 @@ divide
 Width = 362:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check accent of Lcaron, dcaron, lcaron, tcaron (derived from com.google.fonts/check/alt_caron) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/alt_caron">com.google.fonts/check/alt_caron</a>)</summary><div>
-
-
-* ⚠ **WARN** dcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* two (U+0032) contains a short segment L<<253.0,554.0>--<253.0,554.0>>
-
-	* five (U+0035) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
-
-	* eight (U+0038) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
-
-	* X (U+0058) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
-
-	* s (U+0073) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* s (U+0073) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* x (U+0078) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
-
-	* x (U+0078) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
-
-	* sterling (U+00A3) contains a short segment L<<377.0,554.0>--<377.0,552.0>>
-
-	* section (U+00A7) contains a short segment B<<256.0,176.0>-<260.0,172.0>-<265.0,167.0>>
-
-	* uni00B2 (U+00B2) contains a short segment L<<253.0,554.0>--<253.0,554.0>>
-
-	* eng (U+014B) contains a short segment L<<290.0,0.0>--<292.0,0.0>>
-
-	* sacute (U+015B) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* sacute (U+015B) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* scircumflex (U+015D) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* scircumflex (U+015D) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* scedilla (U+015F) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* scedilla (U+015F) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* scaron (U+0161) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* scaron (U+0161) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni0190 (U+0190) contains a short segment L<<301.0,554.0>--<301.0,549.0>>
-
-	* uni019B (U+019B) contains a short segment L<<201.0,393.0>--<196.0,404.0>>
-
-	* uni019B (U+019B) contains a short segment L<<379.0,400.0>--<380.0,400.0>>
-
-	* uni019B (U+019B) contains a short segment L<<380.0,400.0>--<379.0,399.0>>
-
-	* uni01B8 (U+01B8) contains a short segment L<<315.0,322.0>--<314.0,322.0>>
-
-	* uni01B9 (U+01B9) contains a short segment L<<249.0,168.0>--<248.0,168.0>>
-
-	* uni0219 (U+0219) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni0219 (U+0219) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* lambda (U+03BB) contains a short segment L<<208.0,400.0>--<209.0,400.0>>
-
-	* uni1E61 (U+1E61) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni1E61 (U+1E61) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni1E63 (U+1E63) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni1E63 (U+1E63) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni1E65 (U+1E65) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni1E65 (U+1E65) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni1E67 (U+1E67) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni1E67 (U+1E67) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni1E69 (U+1E69) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uni1E69 (U+1E69) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uni1E8A (U+1E8A) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
-
-	* uni1E8B (U+1E8B) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
-
-	* uni1E8B (U+1E8B) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
-
-	* uni1E8C (U+1E8C) contains a short segment L<<342.0,315.0>--<345.0,312.0>>
-
-	* uni1E8D (U+1E8D) contains a short segment L<<136.0,185.0>--<136.0,186.0>>
-
-	* uni1E8D (U+1E8D) contains a short segment L<<300.0,222.0>--<300.0,221.0>>
-
-	* uni2075 (U+2075) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
-
-	* uni2078 (U+2078) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
-
-	* uni2082 (U+2082) contains a short segment L<<253.0,554.0>--<253.0,554.0>>
-
-	* uni2085 (U+2085) contains a short segment L<<65.0,0.0>--<64.0,2.0>>
-
-	* uni2088 (U+2088) contains a short segment B<<172.0,261.5>-<166.0,265.0>-<161.0,268.0>>
-
-	* colonmonetary (U+20A1) contains a short segment L<<125.0,0.0>--<115.0,0.0>>
-
-	* uni20A8 (U+20A8) contains a short segment L<<544.0,0.0>--<542.0,2.0>>
-
-	* uni20A8 (U+20A8) contains a short segment L<<744.0,400.0>--<746.0,398.0>>
-
-	* Euro (U+20AC) contains a short segment B<<279.0,284.0>-<279.0,277.0>-<279.0,271.0>>
-
-	* uni20B1 (U+20B1) contains a short segment B<<557.0,391.0>-<558.0,384.0>-<558.0,377.0>>
-
-	* uni20B4 (U+20B4) contains a short segment B<<355.0,389.0>-<355.0,385.0>-<354.0,381.0>>
-
-	* uni20B4 (U+20B4) contains a short segment B<<323.0,279.0>-<321.0,275.0>-<319.0,271.0>>
-
-	* uni2206 (U+2206) contains a short segment L<<554.0,120.0>--<552.0,120.0>>
-
-	* uniA727 (U+A727) contains a short segment L<<290.0,0.0>--<292.0,0.0>>
-
-	* uniA7A9 (U+A7A9) contains a short segment L<<29.0,0.0>--<27.0,2.0>>
-
-	* uniA7A9 (U+A7A9) contains a short segment L<<229.0,400.0>--<231.0,398.0>>
-
-	* uniA7B3 (U+A7B3) contains a short segment L<<187.0,260.0>--<187.0,261.0>>
-
-	* uniA7B3 (U+A7B3) contains a short segment L<<203.0,554.0>--<206.0,550.0>>
-
-	* uniA7B3 (U+A7B3) contains a short segment L<<284.0,314.0>--<283.0,312.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -746,6 +610,16 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
+	* Y (U+0059): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* Yacute (U+00DD): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* Ycircumflex (U+0176): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* Ydieresis (U+0178): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* Ygrave (U+1EF2): L<<338.0,-1.0>--<127.0,0.0>>
+
 	* filledbox (U+25A0): L<<20.0,65.0>--<18.0,619.0>>
 
 	* filledbox (U+25A0): L<<570.0,619.0>--<572.0,65.0>>
@@ -756,11 +630,19 @@ approxequal
 
 	* uni01A9 (U+01A9): L<<353.0,554.0>--<352.0,436.0>>
 
-	* uni02B7 (U+02B7): L<<414.0,297.0>--<45.0,298.0>>
+	* uni01B3 (U+01B3): L<<338.0,-1.0>--<127.0,0.0>>
 
-	* uni1E87 (U+1E87): L<<624.0,-1.0>--<47.0,0.0>>
+	* uni0232 (U+0232): L<<338.0,-1.0>--<127.0,0.0>>
 
-	* uni1E89 (U+1E89): L<<624.0,-1.0>--<47.0,0.0>>
+	* uni024E (U+024E): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* uni1E8E (U+1E8E): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* uni1EF4 (U+1EF4): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* uni1EF6 (U+1EF6): L<<338.0,-1.0>--<127.0,0.0>>
+
+	* uni1EF8 (U+1EF8): L<<338.0,-1.0>--<127.0,0.0>>
 
 	* uni25A1 (U+25A1): L<<20.0,65.0>--<18.0,619.0>>
 
@@ -778,21 +660,11 @@ approxequal
 
 	* uni25AB (U+25AB): L<<41.0,65.0>--<40.0,388.0>>
 
-	* uni2C73 (U+2C73): L<<624.0,-1.0>--<47.0,0.0>>
-
 	* uniA7B3 (U+A7B3): L<<423.0,315.0>--<284.0,314.0>>
 
 	* uniA7B3 (U+A7B3): L<<63.0,261.0>--<187.0,260.0>>
 
-	* w (U+0077): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* wacute (U+1E83): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* wcircumflex (U+0175): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* wdieresis (U+1E85): L<<624.0,-1.0>--<47.0,0.0>>
-
-	* wgrave (U+1E81): L<<624.0,-1.0>--<47.0,0.0>> [code: found-semi-vertical]
+	* yen (U+00A5): L<<382.0,-1.0>--<171.0,0.0>> [code: found-semi-vertical]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -800,17 +672,17 @@ approxequal
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: i᷄ i᷅ i̛᷄ i̛᷅ i̛᷆ i̛᷇ i̤᷄ i̤᷅ i̤᷆ i̤᷇ i̥᷄ i̥᷅ i̥᷆ i̥᷇ i̦᷄ i̦᷅ i̦᷆ i̦᷇ i̧᷄ i̧᷅
 
-Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Kom (Latn, 360,685 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Basaa (Latn, 332,940 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 16 | 121 | 7 | 104 | 0 |
-| 0% | 2% | 6% | 48% | 3% | 41% | 0% |
+| 0 | 4 | 14 | 121 | 7 | 106 | 0 |
+| 0% | 2% | 6% | 48% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
