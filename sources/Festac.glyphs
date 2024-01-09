@@ -2,25 +2,10 @@
 .appVersion = "3234";
 .formatVersion = 3;
 DisplayStrings = (
-"1",
-"/istroke.dotless ɟ",
-"AḄÇÐEƓGĦHIĴƘLMNỐPɊŖSɄṴVWXƳZ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcɗefghiɟklmnœᵽɋɽstuvwxyź",
-"ǠÁĂẮẶẰẲẴǍÂẤẬẦẨẪȀÄǞȦẠǠÀẢȂⱭĀĄÅḀȺÃÆǢBḂḄꞴƁḆɃCĆČÇḈĈĊꞳƇȻDĎḐḒĐḊḌƊḎƉÐEÉĚȨḜÊẾḘỆỀỂỄȄËĖẸÈẺȆĒḖEḔĘƐƎƩɆẼḚƏƷǮƸFḞƑGǴĞǦĜĢĠ/_hooktop.part ƓɁḠǤHĦḪȞḨĤḦḢḤꜦꞪꞍIĲÍǏÎȈÏḮİỊÌỈȊĪĮƖƗĨḬJ/Jacute ĴꞲɈKḰǨĶḲƘḴꝀLĹȽꞭḸḼĻḶḸⱠḺⱢŁMḾṀṂƜNŃŇṊŅṄṆǸƝȠṈÑŊOȢÓƟǑÔỐỘỒỔ̃/circumflexcomb_tildecomb ỖȌÖȪȮȰỌÒỎƠỚỢỜỞ̃ƠƠỠŐȎŌṒṐꞶǪǬƆØǾÕṌṎȬŒPṔṖƤÞⱣQɊRŔŘŖȐṘṚṜȒṞɌⱤSŚṤŠṦŞŜȘṠṢṨẞꞨTŦŤŢṰȚȾṪṬƬṮƮUÚɄŬǓÛṶȔÜǗṲǙǛǕỤÙỦƯỨỰỪỬỮŰȖŪṺŲƱŮŨṸṴVƔṾƲṼɅWẂŴẄẆẈẀⱲXẌẊYÝŶŸẎỴỲƳỶȲɎỸZŹŽẐŻẒẔƵꞋ/Iota-latin.ss01/T.ss01/V.ss01/W.ss01/X.ss01/Z.ss01/V.ss02/W.ss03/F.ss10 ɪ̵ᵻaáăắặằẳẵǎâấậầẩẫȁäǟȧạǡàảȃɑāąåḁⱥãæǣbḃḅꞵɓʘḇƀcćčçḉĉċꭓƈȼdďḑḓđḋḍɗḏɖðeéěȩḝêếḙệềểễȅëėẹèẻȇēḗę̄̀ęɛʃɇẽḛǝəʒǯƹfḟgǵɣğǧĝģġɠʔʕɂḡǥhħḫȟḩĥḧḣḥꜧɦɥiı/idotless_ogonek íǐîȉïḯ/idotaccent ịìỉȋīįɩɨĩḭĳjȷ/jacute ǰĵʝɟɉkḱǩķḳĸƙḵꝁlĺƛƚɬľḽļḷḹⱡḻɫłmḿṁṃɯnńňṋņṅṇǹɲƞṉñŋoóɵǒôốộồổỗȍöȫȯȱọòỏơớợờởỡőȏōṓṑꞷǫǫǭɔøǿõṍṏȭȣœpṕṗp/_hook.part ƥþᵽqɋrŕřŗȑṙṛṝɾȓṟɍɽsśṥšṧşŝșṡṣṩßꞩtŧHťHţṱțⱦṫṭƭṯʈuúʉŭǔûṷȕüǘṳǚǜǖụùủưứựừửữűȗūṻųʊůũṹṵvṿʋṽʌwẃŵẅẇẉẁⱳxẍẋyýŷÿẏỵỳƴỷȳɏỹzźžẑżẓẕƶꞌ̵ı/istroke.dotless ȷ/_shortstroke.part/jdotlessstroke.dotless/a.ss01/f.ss01/g.ss01/j.ss01/r.ss01/t.ss01/v.ss01/w.ss01/x.ss01/z.ss01/r.ss02/b.ss03/g.ss03/q.ss03/o.ss10/f_f.liga ﬁﬂªºǂǀǁǃ/clickalveolar.001 ʰⁿʷʸΩλπχᶿᵘᵛᶻ0123456789/zero.zero/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ⁄½⅓⅔¼¾₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹ /nbspace/.notdef ⟨⟩/asterisk_node/slash_part .,:;…!¡?¿·•*‖#///backslash/periodcentered.loclCAT/question.ss01/questiondown.ss01/periodcentered.loclCAT.case -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ฿꞉ˮ˗꞊@&¶§©®™°′″|¦†ℓ‡℮№₿₵¢₡¤$₫€₲₴₭₾₺₼₦₱₽₨₹₪£₸₮₩¥⅄+−×÷=≠><≥≤±≈~¬^∞∅∫Ω∆∏∑√∂µ%‰/infinity.001 ↑↗→↘↓↙←↖↔↕●○◌◦◆◇◊■□▪▫▲▶▼◀△▷▽◁▴▸▾◂▵▹▿◃᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̷̧̨̛̣̤̥̦̩̭̮̯̰̱̲̉̍̏̐̑̒̓᷇̕͘/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷅᷄᷆/strokeshortcomb.case/brevecomb.ss01 ¨˙`´˝ˆˊˇˋ˘˚˜¯¸˛ʼʻˀʹʿʾˈꞮꞸꞹ/_part.aleftbowl/_part.angledstem/_part.crossbar/_part.curvedstem/_part.descendedstem/_part.farleg/_part.fstem/_part.kleg/_part.lefthalfo/_part.leg/_part.longstem/_part.middleleg/_part.normalleftbowl/_part.normalrightbowl/_part.rightthalfo/_part.s/_part.shortcurvedstem/_part.shortstem/_part.tittle/_part.tstem/_part.xleg/_part.z/_bottomshortstroke.part/_leftcaphook.part/_shortdiagonalstroke.part/_shortstroke.part/_topshortstroke.part/strokelong.comb/strokelongY.comb/_belt.part/_beltcase.part/_eng.part/_hook.part/_hooktop.part/_midstroke.part/_stroke.part/_tail.part",
-"ƒ฿꞉ˮ˗꞊@&¶§©®™°′″|¦†ℓ‡℮№₿₵¢₡¤$₫€₲₴₭₾₺₼₦₱₽₨₹H₪H£₸₮₩¥",
-"ABCDEFGHIJKLMNOPQRSTOƠUƯUVWXYZabcdefgḣıijklmnopqrstuvwxyz",
-"Ƭ",
-"1",
-"Ǥ",
-"/_shortstroke.part bƀ",
-"iiįiį",
-".",
-"Ċ",
-"ƥ",
-"i/_shortstroke.part ɨ",
-"ı/istroke.dotless j/_shortstroke.part jɉ",
-"ɟ/jdotlessstroke.dotless"
+"ʝ/jcrossedtail.dotless ⁱ",
+"ⁱ/imod.dotless 
+
+ıį/iogenek.dotless  ị/idotbelow.dotless  ḭ/itildebelow.dotless  ɨᶤ/istrokemod.dotless"
 );
 axes = (
 {
@@ -112,7 +97,6 @@ feature ss10;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub acutecomb macroncomb by acutecomb_macroncomb;
@@ -130,11 +114,18 @@ code = "lookup ccmp_DFLT_1 {
 } ccmp_DFLT_1;
 
 lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
+	@CombiningTopAccents = [acutecomb acutemacroncomb brevecomb breveinvertedcomb candraBinducomb caroncomb circumflexcomb commaabovecomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb gravemacroncomb hookabovecomb horncomb hungarumlautcomb macroncomb macronacutecomb macrongravecomb ringcomb tildecomb verticallineabovecomb dieresisbelowcomb ringbelowcomb ];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
+	sub imod' @CombiningTopAccents by imod.dotless;
+	sub iogonek' @CombiningTopAccents by iogenek.dotless;
+	sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
+	sub itildebelow' @CombiningTopAccents by itildebelow.dotless;
 	sub istroke' @CombiningTopAccents by istroke.dotless;
+	sub istrokemod' @CombiningTopAccents by istrokemod.dotless;
 	sub j' @CombiningTopAccents by jdotless;
+    sub jstroke' by jdotlessstroke;
+	sub jcrossedtail' @CombiningTopAccents by jcrossedtail.dotless;
 } ccmp_Other_1;
 
 lookup ccmp_Other_2 {
@@ -15519,13 +15510,13 @@ unicode = 309;
 },
 {
 glyphname = jcrossedtail;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-09 16:11:15 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (272,-270);
+pos = (272,-174);
 },
 {
 name = shortstroke;
@@ -15533,7 +15524,7 @@ pos = (293,234);
 },
 {
 name = top;
-pos = (307,400);
+pos = (292,400);
 }
 );
 layerId = m01;
@@ -15545,23 +15536,13 @@ nodes = (
 (362,-146,o),
 (378,-77,o),
 (378,-27,cs),
-(378,400,l),
-(206,400,l),
-(206,34,ls),
-(206,-28,o),
-(178,-111,o),
-(136,-174,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(222,-174,l),
-(98,-60,o),
-(116,75,o),
-(217,75,cs),
+(378,75,l),
 (463,75,l),
 (463,135,l),
+(378,135,l),
+(378,400,l),
+(206,400,l),
+(206,135,l),
 (186,135,ls),
 (129,135,o),
 (76,91,o),
@@ -15578,6 +15559,18 @@ nodes = (
 (379,503,l),
 (206,503,l),
 (206,433,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(110,-21,o),
+(131,67,o),
+(206,74,c),
+(206,34,ls),
+(206,-9,o),
+(192,-63,o),
+(170,-113,c)
 );
 }
 );
@@ -21800,6 +21793,49 @@ width = 387;
 unicode = 42892;
 },
 {
+glyphname = idotbelow.dotless;
+lastChange = "2024-01-09 16:20:49 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = shortstroke;
+pos = (111,200);
+},
+{
+name = top;
+pos = (111,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+pos = (31,0);
+ref = dotbelowcomb;
+}
+);
+width = 221;
+}
+);
+},
+{
 color = 3;
 glyphname = istroke.dotless;
 lastChange = "2024-01-09 15:04:35 +0000";
@@ -21824,6 +21860,112 @@ ref = strokeshortcomb;
 width = 221;
 }
 );
+},
+{
+glyphname = itildebelow.dotless;
+lastChange = "2024-01-09 16:21:34 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = shortstroke;
+pos = (111,200);
+},
+{
+name = top;
+pos = (111,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+pos = (-38,0);
+ref = tildebelowcomb;
+}
+);
+width = 221;
+}
+);
+},
+{
+glyphname = jcrossedtail.dotless;
+lastChange = "2024-01-09 16:11:33 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (272,-174);
+},
+{
+name = shortstroke;
+pos = (293,234);
+},
+{
+name = top;
+pos = (292,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,-174,l),
+(362,-146,o),
+(378,-77,o),
+(378,-27,cs),
+(378,75,l),
+(463,75,l),
+(463,135,l),
+(378,135,l),
+(378,400,l),
+(206,400,l),
+(206,135,l),
+(186,135,ls),
+(129,135,o),
+(76,91,o),
+(62,22,cs),
+(45,-60,o),
+(76,-136,o),
+(121,-174,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(110,-21,o),
+(131,67,o),
+(206,74,c),
+(206,34,ls),
+(206,-9,o),
+(192,-63,o),
+(170,-113,c)
+);
+}
+);
+width = 473;
+}
+);
+metricLeft = jcrossedtail;
+metricRight = jcrossedtail;
 },
 {
 color = 3;
@@ -22878,6 +23020,25 @@ width = 494;
 unicode = 688;
 },
 {
+glyphname = imod;
+lastChange = "2024-01-09 16:15:59 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,222);
+ref = i;
+scale = (0.66,0.66);
+}
+);
+width = 221;
+}
+);
+unicode = 8305;
+},
+{
 glyphname = nmod;
 lastChange = "2023-12-14 18:14:11 +0000";
 layers = (
@@ -22936,6 +23097,37 @@ width = 323;
 metricLeft = O;
 metricRight = O;
 unicode = 696;
+},
+{
+glyphname = imod.dotless;
+lastChange = "2024-01-09 16:16:48 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (108,223);
+},
+{
+name = top;
+pos = (108,486);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,222,l),
+(168,486,l),
+(54,486,l),
+(54,222,l)
+);
+}
+);
+width = 221;
+}
+);
 },
 {
 color = 0;
@@ -23138,6 +23330,60 @@ width = 486;
 unicode = 967;
 },
 {
+glyphname = istrokemod;
+lastChange = "2024-01-09 16:23:15 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111.26,222);
+},
+{
+name = ogonek;
+pos = (168.02,222);
+},
+{
+name = shortstroke;
+pos = (111.26,354);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,508,l),
+(168,554,l),
+(54,554,l),
+(54,508,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(168,222,l),
+(168,486,l),
+(54,486,l),
+(54,222,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(197,334,l),
+(197,374,l),
+(24,374,l),
+(24,334,l)
+);
+}
+);
+width = 221;
+}
+);
+unicode = 7588;
+},
+{
 color = 5;
 glyphname = thetamod;
 lastChange = "2023-12-14 18:52:04 +0000";
@@ -23229,6 +23475,42 @@ width = 299;
 metricLeft = O;
 metricRight = O;
 unicode = 7611;
+},
+{
+glyphname = istrokemod.dotless;
+lastChange = "2024-01-09 16:23:25 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (108,222);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,222,l),
+(168,486,l),
+(54,486,l),
+(54,222,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(197,334,l),
+(197,374,l),
+(24,374,l),
+(24,334,l)
+);
+}
+);
+width = 221;
+}
+);
 },
 {
 glyphname = zero;
@@ -36592,6 +36874,31 @@ nodes = (
 }
 );
 width = 365;
+}
+);
+},
+{
+glyphname = iogenek.dotless;
+lastChange = "2024-01-09 16:18:52 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (111,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (21,0);
+ref = ogonekcomb;
+}
+);
+width = 221;
 }
 );
 },
