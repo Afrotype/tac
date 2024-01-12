@@ -1,10 +1,6 @@
 {
 .appVersion = "3234";
 .formatVersion = 3;
-DisplayStrings = (
-"ꞳꞲꭓʝ/jcrossedtail.dotless ­­′″ʹ",
-"­"
-);
 axes = (
 {
 name = Weight;
@@ -472,6 +468,10 @@ value = 1;
 {
 name = TTFBlueFuzz;
 value = 1;
+},
+{
+name = winAscent;
+value = 935;
 }
 );
 iconName = SemiBold;
@@ -10664,8 +10664,9 @@ metricRight = I;
 unicode = 42891;
 },
 {
+export = 0;
 glyphname = "Iota-latin.ss01";
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -10714,8 +10715,9 @@ width = 286;
 metricLeft = H;
 },
 {
+export = 0;
 glyphname = T.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -10739,8 +10741,9 @@ width = 405;
 );
 },
 {
+export = 0;
 glyphname = V.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -10783,8 +10786,9 @@ width = 493;
 );
 },
 {
+export = 0;
 glyphname = W.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -10824,8 +10828,9 @@ width = 766;
 );
 },
 {
+export = 0;
 glyphname = X.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -10873,8 +10878,9 @@ width = 484;
 );
 },
 {
+export = 0;
 glyphname = Z.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 background = {
@@ -10935,8 +10941,9 @@ width = 461;
 );
 },
 {
+export = 0;
 glyphname = V.ss02;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -11001,8 +11008,9 @@ width = 518;
 );
 },
 {
+export = 0;
 glyphname = W.ss03;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -11042,8 +11050,9 @@ width = 778;
 );
 },
 {
+export = 0;
 glyphname = F.ss10;
-lastChange = "2024-01-04 15:38:18 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -21970,8 +21979,9 @@ width = 253;
 );
 },
 {
+export = 0;
 glyphname = a.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -22040,8 +22050,9 @@ metricLeft = o;
 metricRight = h;
 },
 {
+export = 0;
 glyphname = f.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22076,8 +22087,9 @@ width = 280;
 );
 },
 {
+export = 0;
 glyphname = g.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22124,8 +22136,9 @@ width = 482;
 );
 },
 {
+export = 0;
 glyphname = j.ss01;
-lastChange = "2024-01-09 13:59:58 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22143,8 +22156,9 @@ width = 253;
 );
 },
 {
+export = 0;
 glyphname = r.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22170,9 +22184,10 @@ width = 290;
 );
 },
 {
+export = 0;
 glyphname = t.ss01;
 kernRight = t;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -22225,8 +22240,9 @@ width = 276;
 );
 },
 {
+export = 0;
 glyphname = v.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -22299,8 +22315,9 @@ width = 476;
 );
 },
 {
+export = 0;
 glyphname = w.ss01;
-lastChange = "2024-01-04 15:38:18 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -22411,8 +22428,9 @@ width = 683;
 );
 },
 {
+export = 0;
 glyphname = x.ss01;
-lastChange = "2024-01-04 15:38:18 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22454,8 +22472,9 @@ width = 441;
 );
 },
 {
+export = 0;
 glyphname = z.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 anchors = (
@@ -22509,8 +22528,9 @@ width = 374;
 );
 },
 {
+export = 0;
 glyphname = r.ss02;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22545,8 +22565,9 @@ width = 452;
 );
 },
 {
+export = 0;
 glyphname = b.ss03;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22587,8 +22608,9 @@ width = 485;
 );
 },
 {
+export = 0;
 glyphname = g.ss03;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22635,8 +22657,9 @@ width = 481;
 );
 },
 {
+export = 0;
 glyphname = q.ss03;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -22677,8 +22700,9 @@ width = 485;
 );
 },
 {
+export = 0;
 glyphname = o.ss10;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -28657,8 +28681,24 @@ width = 227;
 );
 },
 {
+glyphname = periodcentered.loclCAT.case;
+lastChange = "2023-12-14 18:14:11 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = periodcentered;
+}
+);
+width = 215;
+}
+);
+},
+{
+export = 0;
 glyphname = question.ss01;
-lastChange = "2024-01-12 14:21:12 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 background = {
@@ -28758,8 +28798,9 @@ width = 422;
 metricLeft = two;
 },
 {
+export = 0;
 glyphname = questiondown.ss01;
-lastChange = "2023-12-14 18:14:11 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -28771,21 +28812,6 @@ ref = question.ss01;
 }
 );
 width = 424;
-}
-);
-},
-{
-glyphname = periodcentered.loclCAT.case;
-lastChange = "2023-12-14 18:14:11 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = periodcentered;
-}
-);
-width = 215;
 }
 );
 },
@@ -39010,8 +39036,9 @@ metricRight = period;
 },
 {
 color = 7;
+export = 0;
 glyphname = brevecomb.ss01;
-lastChange = "2023-12-14 19:01:58 +0000";
+lastChange = "2024-01-12 15:24:05 +0000";
 layers = (
 {
 layerId = m01;
