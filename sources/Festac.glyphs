@@ -1,6 +1,11 @@
 {
 .appVersion = "3234";
 .formatVersion = 3;
+DisplayStrings = (
+"'ʹ",
+"′ʹ",
+"!′ʹ″"
+);
 axes = (
 {
 name = Weight;
@@ -30754,13 +30759,27 @@ unicode = 176;
 {
 color = 5;
 glyphname = minute;
+lastChange = "2024-01-16 14:46:30 +0000";
 layers = (
 {
-layerId = m01;
+background = {
 shapes = (
 {
 pos = (30,469);
 ref = comma;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(184,384,l),
+(226,614,l),
+(53,614,l),
+(45,384,l)
+);
 }
 );
 width = 242;
@@ -39616,11 +39635,16 @@ unicode = 704;
 {
 color = 7;
 glyphname = primemod;
-lastChange = "2024-01-14 15:41:52 +0000";
+lastChange = "2024-01-16 14:46:38 +0000";
 layers = (
 {
 layerId = m01;
-width = 221;
+shapes = (
+{
+ref = minute;
+}
+);
+width = 242;
 }
 );
 unicode = 697;
