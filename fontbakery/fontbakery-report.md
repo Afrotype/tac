@@ -27,7 +27,7 @@ fontbakery version: 0.10.8
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -37,11 +37,11 @@ fontbakery version: 0.10.8
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, canadian-aboriginal, tifinagh, syriac, tai-le, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, coptic, malayalam, math, syriac, old-permic, tifinagh, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
@@ -59,17 +59,17 @@ fontbakery version: 0.10.8
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, tifinagh, syriac, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, syriac, tifinagh, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
  * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
  * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
@@ -107,14 +107,14 @@ fontbakery version: 0.10.8
  * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
  * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
  * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, emoji, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, emoji, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, emoji, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, emoji, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, emoji, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, emoji, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: emoji, symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: emoji, symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: emoji, symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: emoji, symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: emoji, symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: emoji, symbols, math
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -129,29 +129,29 @@ fontbakery version: 0.10.8
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25A0 BLACK SQUARE: try adding symbols
  * U+25A1 WHITE SQUARE: try adding symbols
- * U+25AA BLACK SMALL SQUARE: try adding one of: symbols, emoji
- * U+25AB WHITE SMALL SQUARE: try adding one of: symbols, emoji
+ * U+25AA BLACK SMALL SQUARE: try adding one of: emoji, symbols
+ * U+25AB WHITE SMALL SQUARE: try adding one of: emoji, symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
- * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding one of: symbols, emoji
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding one of: emoji, symbols
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
- * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding one of: symbols, emoji
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
+ * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding one of: emoji, symbols
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: takri, hanunoo, old-permic, modi, kayah-li, tagalog, javanese, newa, zanabazar-square, tirhuta, khojki, tai-viet, manichaean, bhaiksuki, sharada, tibetan, tagbanwa, bengali, lepcha, khudawadi, psalter-pahlavi, adlam, chakma, phags-pa, brahmi, batak, sogdian, osage, limbu, duployan, ahom, tifinagh, masaram-gondi, myanmar, cham, sinhala, syriac, dogra, miao, caucasian-albanian, thai, pahawh-hmong, gujarati, new-tai-lue, bassa-vah, kaithi, tai-le, kannada, devanagari, malayalam, hanifi-rohingya, elbasan, sundanese, oriya, tamil, gunjala-gondi, yi, thaana, mende-kikakui, coptic, gurmukhi, nko, mongolian, hebrew, grantha, math, meetei-mayek, buhid, symbols, telugu, kharoshthi, khmer, buginese, mandaic, siddham, mahajani, wancho, soyombo, marchen, lao, syloti-nagri, music, balinese, rejang
+ * U+25CC DOTTED CIRCLE: try adding one of: siddham, hanunoo, mongolian, mahajani, syriac, khmer, bhaiksuki, javanese, kharoshthi, caucasian-albanian, malayalam, oriya, batak, old-permic, brahmi, tifinagh, masaram-gondi, tagalog, tai-le, hanifi-rohingya, cham, elbasan, osage, marchen, pahawh-hmong, bengali, syloti-nagri, rejang, khudawadi, ahom, mende-kikakui, miao, gurmukhi, new-tai-lue, devanagari, tagbanwa, lepcha, bassa-vah, duployan, tai-viet, hebrew, mandaic, gujarati, wancho, yi, buhid, math, manichaean, music, buginese, sogdian, zanabazar-square, tirhuta, gunjala-gondi, telugu, sinhala, adlam, lao, meetei-mayek, nko, takri, tibetan, phags-pa, limbu, psalter-pahlavi, soyombo, kaithi, symbols, grantha, kannada, balinese, newa, chakma, sharada, tamil, khojki, dogra, thai, kayah-li, coptic, myanmar, thaana, modi, sundanese
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -200,6 +200,18 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- uni01C2.001
 
 	- uni025F.dotless
+
+	- uni03020300.case
+
+	- uni03020301.case
+
+	- uni03020303.case
+
+	- uni03020309.case
+
+	- uni03060300.case
+
+	- uni03060309.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -257,8 +269,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01B3	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni01B6	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01E4	Contours detected: 2	Expected: 1
 
@@ -382,8 +392,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni01B6	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni01E4	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01E5	Contours detected: 3	Expected: 2
@@ -496,33 +504,43 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* eng (U+014B): L<<463.0,200.0>--<463.0,0.0>> -> L<<463.0,0.0>--<462.0,-63.0>>
-
 	* uni2078 (U+2078): L<<274.0,479.0>--<206.0,479.0>> -> L<<206.0,479.0>--<205.0,479.0>>
 
 	* uni2078 (U+2078): L<<33.0,432.0>--<120.0,432.0>> -> L<<120.0,432.0>--<121.0,432.0>>
 
 	* uni2088 (U+2088): L<<274.0,116.0>--<206.0,116.0>> -> L<<206.0,116.0>--<205.0,116.0>>
 
-	* uni2088 (U+2088): L<<33.0,69.0>--<120.0,69.0>> -> L<<120.0,69.0>--<121.0,69.0>>
-
-	* uniA727 (U+A727): L<<463.0,200.0>--<463.0,0.0>> -> L<<463.0,0.0>--<462.0,-63.0>> [code: found-colinear-vectors]
+	* uni2088 (U+2088): L<<33.0,69.0>--<120.0,69.0>> -> L<<120.0,69.0>--<121.0,69.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* uni1EA8 (U+1EA8): B<<217.5,861.0>-<194.0,877.0>-<162.0,884.0>>/L<<162.0,884.0>--<279.0,884.0>> = 12.33908727832618
+	* Aogonek (U+0104): L<<301.0,0.0>--<374.0,0.0>>/B<<374.0,0.0>-<346.0,-7.0>-<330.0,-22.0>> = 14.036243467926484
 
-	* uni1EA9 (U+1EA9): B<<173.5,707.0>-<150.0,723.0>-<118.0,730.0>>/L<<118.0,730.0>--<235.0,730.0>> = 12.33908727832618
+	* Eogonek (U+0118): L<<306.0,0.0>--<379.0,0.0>>/B<<379.0,0.0>-<351.0,-7.0>-<335.0,-22.0>> = 14.036243467926484
 
-	* uni1EC2 (U+1EC2): B<<170.5,861.0>-<147.0,877.0>-<115.0,884.0>>/L<<115.0,884.0>--<232.0,884.0>> = 12.33908727832618
+	* Iogonek (U+012E): L<<144.0,0.0>--<217.0,0.0>>/B<<217.0,0.0>-<189.0,-7.0>-<173.0,-22.0>> = 14.036243467926484
 
-	* uni1EC3 (U+1EC3): B<<196.5,707.0>-<173.0,723.0>-<141.0,730.0>>/L<<141.0,730.0>--<258.0,730.0>> = 12.33908727832618
+	* Uogonek (U+0172): L<<397.0,0.0>--<480.0,0.0>>/B<<480.0,0.0>-<452.0,-7.0>-<436.0,-20.5>> = 14.036243467926484
 
-	* uni1ED4 (U+1ED4): B<<228.5,861.0>-<205.0,877.0>-<173.0,884.0>>/L<<173.0,884.0>--<290.0,884.0>> = 12.33908727832618
+	* aogonek (U+0105): L<<338.0,0.0>--<421.0,0.0>>/B<<421.0,0.0>-<393.0,-7.0>-<377.0,-20.5>> = 14.036243467926484
 
-	* uni1ED5 (U+1ED5): B<<204.5,707.0>-<181.0,723.0>-<149.0,730.0>>/L<<149.0,730.0>--<266.0,730.0>> = 12.33908727832618 [code: found-jaggy-segments]
+	* eogonek (U+0119): L<<186.0,0.0>--<269.0,0.0>>/B<<269.0,0.0>-<241.0,-7.0>-<225.0,-20.5>> = 14.036243467926484
+
+	* ogonek (U+02DB): L<<90.0,0.0>--<173.0,0.0>>/B<<173.0,0.0>-<145.0,-7.0>-<129.0,-20.5>> = 14.036243467926484
+
+	* uni01EA (U+01EA): L<<351.0,0.0>--<434.0,0.0>>/B<<434.0,0.0>-<406.0,-7.0>-<390.0,-20.5>> = 14.036243467926484
+
+	* uni01EB (U+01EB): L<<331.0,0.0>--<414.0,0.0>>/B<<414.0,0.0>-<386.0,-7.0>-<370.0,-20.5>> = 14.036243467926484
+
+	* uni01EC (U+01EC): L<<351.0,0.0>--<434.0,0.0>>/B<<434.0,0.0>-<406.0,-7.0>-<390.0,-20.5>> = 14.036243467926484
+
+	* uni01ED (U+01ED): L<<331.0,0.0>--<414.0,0.0>>/B<<414.0,0.0>-<386.0,-7.0>-<370.0,-20.5>> = 14.036243467926484
+
+	* uni0328 (U+0328): L<<90.0,0.0>--<173.0,0.0>>/B<<173.0,0.0>-<145.0,-7.0>-<129.0,-20.5>> = 14.036243467926484
+
+	* uogonek (U+0173): L<<372.0,0.0>--<455.0,0.0>>/B<<455.0,0.0>-<427.0,-7.0>-<411.0,-20.5>> = 14.036243467926484 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -543,10 +561,6 @@ greaterequal
 	* bar (U+007C): L<<204.0,-59.0>--<44.0,-58.0>>
 
 	* bar (U+007C): L<<44.0,613.0>--<204.0,612.0>>
-
-	* uni018F (U+018F): L<<226.0,408.0>--<46.0,409.0>>
-
-	* uni01A9 (U+01A9): L<<353.0,554.0>--<352.0,436.0>>
 
 	* uni01B3 (U+01B3): L<<338.0,-1.0>--<127.0,0.0>>
 
