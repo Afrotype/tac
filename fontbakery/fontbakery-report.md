@@ -27,22 +27,22 @@ fontbakery version: 0.10.8
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, coptic, old-permic, syriac, tai-le, tifinagh, math
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tifinagh, canadian-aboriginal, tai-le, math, malayalam, coptic, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -59,17 +59,17 @@ fontbakery version: 0.10.8
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, caucasian-albanian, tifinagh, gothic, cherokee
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math
- * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
- * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
+ * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
+ * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
  * U+1D5B MODIFIER LETTER SMALL V: not included in any glyphset definition
@@ -109,12 +109,12 @@ fontbakery version: 0.10.8
  * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
  * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
  * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2194 LEFT RIGHT ARROW: try adding one of: math, emoji, symbols
- * U+2195 UP DOWN ARROW: try adding one of: math, emoji, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, emoji, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, emoji, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, emoji, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, emoji, symbols
+ * U+2194 LEFT RIGHT ARROW: try adding one of: emoji, math, symbols
+ * U+2195 UP DOWN ARROW: try adding one of: emoji, math, symbols
+ * U+2196 NORTH WEST ARROW: try adding one of: emoji, math, symbols
+ * U+2197 NORTH EAST ARROW: try adding one of: emoji, math, symbols
+ * U+2198 SOUTH EAST ARROW: try adding one of: emoji, math, symbols
+ * U+2199 SOUTH WEST ARROW: try adding one of: emoji, math, symbols
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -151,7 +151,7 @@ fontbakery version: 0.10.8
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: math, symbols
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: telugu, oriya, zanabazar-square, syloti-nagri, thai, batak, soyombo, old-permic, tibetan, hanunoo, miao, kharoshthi, osage, tamil, syriac, mahajani, khojki, gunjala-gondi, kannada, siddham, kaithi, wancho, hanifi-rohingya, newa, tagbanwa, phags-pa, duployan, modi, sogdian, balinese, symbols, tagalog, caucasian-albanian, yi, limbu, marchen, mandaic, tai-le, ahom, bhaiksuki, tifinagh, sinhala, khmer, mongolian, new-tai-lue, myanmar, coptic, elbasan, lao, cham, hebrew, thaana, masaram-gondi, chakma, grantha, takri, adlam, music, javanese, brahmi, khudawadi, tirhuta, sundanese, gujarati, sharada, gurmukhi, malayalam, meetei-mayek, bengali, devanagari, psalter-pahlavi, bassa-vah, dogra, mende-kikakui, buhid, tai-viet, buginese, rejang, manichaean, nko, math, lepcha, pahawh-hmong, kayah-li
+ * U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, thaana, brahmi, tamil, syriac, lepcha, mandaic, malayalam, oriya, batak, caucasian-albanian, sogdian, bengali, mende-kikakui, bassa-vah, tagalog, javanese, coptic, gurmukhi, psalter-pahlavi, siddham, phags-pa, masaram-gondi, pahawh-hmong, nko, newa, hanifi-rohingya, sundanese, adlam, sharada, mongolian, buhid, kharoshthi, symbols, tai-viet, lao, elbasan, tai-le, meetei-mayek, zanabazar-square, syloti-nagri, chakma, khmer, miao, rejang, old-permic, kannada, tibetan, hebrew, osage, gujarati, grantha, khudawadi, buginese, telugu, devanagari, mahajani, yi, marchen, manichaean, wancho, gunjala-gondi, duployan, sinhala, khojki, limbu, tirhuta, dogra, tagbanwa, kaithi, balinese, modi, math, bhaiksuki, takri, soyombo, ahom, tifinagh, thai, cham, kayah-li, myanmar, music, hanunoo
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -480,7 +480,7 @@ Width = 430:
 plus
 
 Width = 460:
-notequal, equal
+equal, notequal
 
 Width = 438:
 logicalnot
@@ -550,35 +550,11 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* Y (U+0059): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* Yacute (U+00DD): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* Ycircumflex (U+0176): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* Ydieresis (U+0178): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* Ygrave (U+1EF2): L<<338.0,-1.0>--<127.0,0.0>>
-
 	* at (U+0040): L<<618.0,-1.0>--<322.0,0.0>>
 
 	* bar (U+007C): L<<204.0,-59.0>--<44.0,-58.0>>
 
-	* bar (U+007C): L<<44.0,613.0>--<204.0,612.0>>
-
-	* uni01B3 (U+01B3): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni0232 (U+0232): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni024E (U+024E): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni1E8E (U+1E8E): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni1EF4 (U+1EF4): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni1EF6 (U+1EF6): L<<338.0,-1.0>--<127.0,0.0>>
-
-	* uni1EF8 (U+1EF8): L<<338.0,-1.0>--<127.0,0.0>> [code: found-semi-vertical]
+	* bar (U+007C): L<<44.0,613.0>--<204.0,612.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
