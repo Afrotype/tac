@@ -11,15 +11,11 @@ fontbakery version: 0.10.9
 
 * 🔥 **FAIL** The following glyphs have no contours even though they were expected to have some:
 
-	- Glyph name: uni01C3	Expected: 2
-
 	- Glyph name: uni02BB	Expected: 1
 
 	- Glyph name: uni02BC	Expected: 1
 
 	- Glyph name: uni0324	Expected: 2
-
-	- Glyph name: uni01C3	Expected: 2
 
 	- Glyph name: uni02BB	Expected: 1
 
@@ -67,6 +63,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni018A	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
@@ -97,17 +95,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni023A	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0243	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
+	- Glyph name: uni0246	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
@@ -116,8 +108,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni024D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -205,6 +195,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni018A	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni0197	Contours detected: 2	Expected: 1
+
 	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni01A4	Contours detected: 3	Expected: 2
@@ -225,17 +217,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni023A	Contours detected: 2	Expected: 3
-
-	- Glyph name: uni023B	Contours detected: 1	Expected: 2
-
 	- Glyph name: uni023D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni023E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni0243	Contours detected: 4	Expected: 3
 
-	- Glyph name: uni0246	Contours detected: 1	Expected: 3
+	- Glyph name: uni0246	Contours detected: 2	Expected: 3
 
 	- Glyph name: uni0247	Contours detected: 3	Expected: 4
 
@@ -244,8 +230,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0249	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni024D	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni024E	Contours detected: 1	Expected: 2
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
@@ -310,7 +294,7 @@ The following glyphs do not have the recommended number of contours:
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -321,8 +305,8 @@ The following glyphs do not have the recommended number of contours:
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
  * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, coptic, tifinagh, math, old-permic, tai-le, malayalam
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, coptic, malayalam, math, syriac, tai-le, canadian-aboriginal, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -334,7 +318,7 @@ The following glyphs do not have the recommended number of contours:
  * U+0313 COMBINING COMMA ABOVE: try adding old-permic
  * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
  * U+031B COMBINING HORN: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -342,16 +326,16 @@ The following glyphs do not have the recommended number of contours:
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, caucasian-albanian, tifinagh, cherokee
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, math, syriac
+ * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, cherokee, caucasian-albanian, tifinagh, gothic
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek
  * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek
  * U+03C7 GREEK SMALL LETTER CHI: try adding one of: math, greek
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
@@ -390,8 +374,8 @@ The following glyphs do not have the recommended number of contours:
  * U+2144 TURNED SANS-SERIF CAPITAL Y: not included in any glyphset definition
  * U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition
  * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
- * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
+ * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
  * U+2194 LEFT RIGHT ARROW: try adding one of: emoji, math, symbols
  * U+2195 UP DOWN ARROW: try adding one of: emoji, math, symbols
  * U+2196 NORTH WEST ARROW: try adding one of: emoji, math, symbols
@@ -415,26 +399,26 @@ The following glyphs do not have the recommended number of contours:
  * U+25AA BLACK SMALL SQUARE: try adding one of: emoji, symbols
  * U+25AB WHITE SMALL SQUARE: try adding one of: emoji, symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
- * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding one of: emoji, symbols
- * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols
- * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding one of: emoji, symbols
- * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
+ * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C6 BLACK DIAMOND: try adding symbols
  * U+25C7 WHITE DIAMOND: try adding symbols
- * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CA LOZENGE: try adding one of: math, symbols
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: syriac, psalter-pahlavi, tamil, newa, gujarati, kaithi, javanese, mongolian, mandaic, chakma, ahom, oriya, hanifi-rohingya, cham, malayalam, hebrew, thai, khudawadi, sogdian, zanabazar-square, khojki, mende-kikakui, new-tai-lue, meetei-mayek, sharada, miao, marchen, modi, adlam, yi, soyombo, gurmukhi, music, bengali, balinese, tibetan, devanagari, coptic, tagalog, sinhala, symbols, batak, phags-pa, takri, tagbanwa, osage, kharoshthi, kayah-li, masaram-gondi, caucasian-albanian, math, pahawh-hmong, brahmi, syloti-nagri, rejang, duployan, bassa-vah, tai-le, wancho, telugu, grantha, thaana, lepcha, tifinagh, tirhuta, limbu, manichaean, myanmar, buginese, kannada, bhaiksuki, mahajani, sundanese, lao, tai-viet, khmer, old-permic, elbasan, gunjala-gondi, dogra, nko, hanunoo, buhid, siddham
+ * U+25CC DOTTED CIRCLE: try adding one of: tibetan, brahmi, siddham, kannada, balinese, buhid, tifinagh, kharoshthi, nko, sundanese, symbols, adlam, old-permic, lepcha, tai-viet, miao, soyombo, devanagari, grantha, khmer, thaana, dogra, mende-kikakui, modi, chakma, takri, gurmukhi, tirhuta, myanmar, yi, ahom, gunjala-gondi, syloti-nagri, music, tamil, mandaic, psalter-pahlavi, math, bhaiksuki, elbasan, manichaean, khojki, mongolian, masaram-gondi, bassa-vah, cham, mahajani, tagbanwa, marchen, thai, phags-pa, batak, sharada, rejang, gujarati, kaithi, hanifi-rohingya, hanunoo, bengali, coptic, wancho, pahawh-hmong, osage, buginese, telugu, oriya, duployan, tagalog, khudawadi, lao, sinhala, hebrew, caucasian-albanian, newa, javanese, syriac, kayah-li, zanabazar-square, malayalam, meetei-mayek, new-tai-lue, limbu, tai-le, sogdian
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -474,13 +458,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 	- _topshortstroke.part
 
-	- ae.ss01
+	- a.ss01
 
 	- asterisk_node
 
 	- dotlessi_ogonek
-
-	- slash_part
 
 	- strokelongY.comb
 
@@ -499,8 +481,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	- uni03060300.case
 
 	- uni03060309.case
-
-	- v.001
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -590,7 +570,15 @@ greaterequal
 
 	* bar (U+007C): L<<204.0,-59.0>--<44.0,-58.0>>
 
-	* bar (U+007C): L<<44.0,613.0>--<204.0,612.0>> [code: found-semi-vertical]
+	* bar (U+007C): L<<44.0,613.0>--<204.0,612.0>>
+
+	* uni2071 (U+2071): L<<151.0,297.0>--<20.0,298.0>>
+
+	* uni2071 (U+2071): L<<151.0,577.0>--<20.0,578.0>>
+
+	* uni2071 (U+2071): L<<20.0,554.0>--<151.0,553.0>>
+
+	* uni2071 (U+2071): L<<20.0,630.0>--<151.0,629.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
