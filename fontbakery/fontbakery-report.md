@@ -31,22 +31,22 @@ fontbakery version: 0.10.9
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
  * U+02D7 MODIFIER LETTER MINUS SIGN: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, tai-le, malayalam, coptic, tifinagh, old-permic, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, coptic, tai-le, canadian-aboriginal, syriac, tifinagh, old-permic, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -63,16 +63,16 @@ fontbakery version: 0.10.9
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, cherokee, tifinagh, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, cherokee, syriac, gothic, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
  * U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition
  * U+0358 COMBINING DOT ABOVE RIGHT: try adding osage
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
  * U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
  * U+03C7 GREEK SMALL LETTER CHI: try adding one of: greek, math
  * U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai
  * U+1D58 MODIFIER LETTER SMALL U: not included in any glyphset definition
@@ -113,12 +113,12 @@ fontbakery version: 0.10.9
  * U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition
  * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
  * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
- * U+2194 LEFT RIGHT ARROW: try adding one of: symbols, emoji, math
- * U+2195 UP DOWN ARROW: try adding one of: symbols, emoji, math
- * U+2196 NORTH WEST ARROW: try adding one of: symbols, emoji, math
- * U+2197 NORTH EAST ARROW: try adding one of: symbols, emoji, math
- * U+2198 SOUTH EAST ARROW: try adding one of: symbols, emoji, math
- * U+2199 SOUTH WEST ARROW: try adding one of: symbols, emoji, math
+ * U+2194 LEFT RIGHT ARROW: try adding one of: emoji, symbols, math
+ * U+2195 UP DOWN ARROW: try adding one of: emoji, symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: emoji, symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: emoji, symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: emoji, symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: emoji, symbols, math
  * U+2202 PARTIAL DIFFERENTIAL: try adding math
  * U+2205 EMPTY SET: try adding math
  * U+2206 INCREMENT: try adding math
@@ -133,13 +133,13 @@ fontbakery version: 0.10.9
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25A0 BLACK SQUARE: try adding symbols
  * U+25A1 WHITE SQUARE: try adding symbols
- * U+25AA BLACK SMALL SQUARE: try adding one of: symbols, emoji
- * U+25AB WHITE SMALL SQUARE: try adding one of: symbols, emoji
+ * U+25AA BLACK SMALL SQUARE: try adding one of: emoji, symbols
+ * U+25AB WHITE SMALL SQUARE: try adding one of: emoji, symbols
  * U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols
  * U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B4 BLACK UP-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B5 WHITE UP-POINTING SMALL TRIANGLE: try adding symbols
- * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding one of: symbols, emoji
+ * U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding one of: emoji, symbols
  * U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25B8 BLACK RIGHT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25B9 WHITE RIGHT-POINTING SMALL TRIANGLE: try adding symbols
@@ -147,7 +147,7 @@ fontbakery version: 0.10.9
  * U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25BE BLACK DOWN-POINTING SMALL TRIANGLE: try adding symbols
  * U+25BF WHITE DOWN-POINTING SMALL TRIANGLE: try adding symbols
- * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding one of: symbols, emoji
+ * U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding one of: emoji, symbols
  * U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math
  * U+25C2 BLACK LEFT-POINTING SMALL TRIANGLE: try adding symbols
  * U+25C3 WHITE LEFT-POINTING SMALL TRIANGLE: try adding symbols
@@ -155,7 +155,7 @@ fontbakery version: 0.10.9
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: mongolian, thaana, sogdian, siddham, batak, tibetan, bengali, nko, takri, hanunoo, khudawadi, buginese, coptic, newa, kharoshthi, new-tai-lue, elbasan, duployan, thai, kaithi, buhid, tamil, hanifi-rohingya, tifinagh, tagbanwa, masaram-gondi, mende-kikakui, javanese, brahmi, gunjala-gondi, balinese, osage, myanmar, dogra, tagalog, pahawh-hmong, kannada, ahom, oriya, psalter-pahlavi, tai-le, sundanese, soyombo, malayalam, telugu, music, mandaic, math, meetei-mayek, sinhala, bassa-vah, mahajani, zanabazar-square, syriac, bhaiksuki, lepcha, devanagari, rejang, yi, gurmukhi, tai-viet, kayah-li, manichaean, wancho, khmer, gujarati, marchen, modi, tirhuta, chakma, caucasian-albanian, limbu, phags-pa, grantha, cham, khojki, old-permic, symbols, miao, syloti-nagri, hebrew, adlam, sharada, lao
+ * U+25CC DOTTED CIRCLE: try adding one of: miao, malayalam, syloti-nagri, kaithi, hebrew, khojki, pahawh-hmong, khmer, sinhala, coptic, siddham, yi, tai-viet, devanagari, buhid, tirhuta, cham, kannada, ahom, hanifi-rohingya, masaram-gondi, mahajani, dogra, javanese, tagbanwa, kayah-li, music, nko, oriya, balinese, wancho, mandaic, mongolian, bengali, marchen, phags-pa, new-tai-lue, telugu, chakma, kharoshthi, psalter-pahlavi, symbols, bassa-vah, tai-le, brahmi, adlam, gunjala-gondi, tamil, zanabazar-square, sogdian, gujarati, sundanese, thai, sharada, meetei-mayek, duployan, hanunoo, tibetan, batak, bhaiksuki, lao, osage, modi, syriac, tagalog, buginese, gurmukhi, khudawadi, caucasian-albanian, takri, lepcha, old-permic, grantha, limbu, math, thaana, myanmar, soyombo, elbasan, newa, mende-kikakui, rejang, manichaean, tifinagh
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -244,7 +244,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 2	Expected: 3
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
@@ -354,6 +356,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
 
+	- Glyph name: OE	Contours detected: 3	Expected: 2
+
 	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Uhorn	Contours detected: 2	Expected: 1
@@ -376,7 +380,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
-	- Glyph name: oe	Contours detected: 2	Expected: 3
+	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
