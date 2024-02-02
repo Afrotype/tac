@@ -10,7 +10,8 @@ DisplayStrings = (
 01020304050607I08090",
 "æǣ",
 S,
-"æ"
+"æ",
+R
 );
 axes = (
 {
@@ -7664,35 +7665,69 @@ width = 521;
 unicode = 556;
 },
 {
-color = 0;
 glyphname = OE;
-kernLeft = KO_O;
-kernRight = KO_E;
-lastChange = "2024-01-30 15:51:13 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (300,0);
+pos = (452,0);
+},
+{
+name = center;
+pos = (446,277);
+},
+{
+name = ogonek;
+pos = (614,0);
 },
 {
 name = top;
-pos = (300,554);
+pos = (456,554);
+},
+{
+name = topleft;
+pos = (279,554);
 }
 );
 layerId = m01;
 shapes = (
 {
-ref = O;
+closed = 1;
+nodes = (
+(614,0,l),
+(646,120,l),
+(446,120,l),
+(446,219,l),
+(564,219,l),
+(596,337,l),
+(446,337,l),
+(446,436,l),
+(612,436,l),
+(644,554,l),
+(105,554,l),
+(45,481,o),
+(26,354,o),
+(26,276,cs),
+(26,208,o),
+(43,89,o),
+(95,0,c)
+);
 },
 {
-alignment = -1;
-pos = (280,0);
-ref = E;
+closed = 1;
+nodes = (
+(201,365,o),
+(221,462,o),
+(279,514,c),
+(279,33,l),
+(220,87,o),
+(201,184,o),
+(201,277,cs)
+);
 }
 );
-width = 697;
+width = 652;
 }
 );
 metricLeft = O;
