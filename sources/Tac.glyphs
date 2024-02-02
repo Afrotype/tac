@@ -1,5 +1,5 @@
 {
-.appVersion = "3234";
+.appVersion = "3236";
 .formatVersion = 3;
 DisplayStrings = (
 "0123456789
@@ -11,7 +11,12 @@ DisplayStrings = (
 "æǣ",
 S,
 "æ",
-R
+R,
+"Ắ",
+"ÁĂẮẶẰẲẴǍÂẤẬẦẨẪȀÄǞȦẠǠ",
+"Ƞ",
+"Ʈ",
+"AÁĂẮẶẰẲẴǍÂẤẬẦẨẪȀÄǞȦẠǠÀẢȂⱭĀĄÅḀȺÃÆǢBḂḄꞴƁḆɃCĆČÇḈĈĊꞳƇȻDĎḐḒĐḊḌƊḎƉÐEÉĚȨḜÊẾḘỆỀỂỄȄËĖẸÈẺȆĒḖḔĘƐƎƩɆẼḚƏƷǮƸFḞƑGǴĞǦĜĢĠƓɁḠǤHĦḪȞḨĤḦḢḤꜦꞪꞍIĲÍǏÎȈÏḮİỊÌỈȊĪĮƖƗĨḬJ/Jacute ĴꞲɈKḰǨĶḲƘḴꝀLĹȽꞭĽḼĻḶḸⱠḺⱢŁMḾṀṂƜNŃŇṊŅṄṆǸƝȠṈÑŊOȢÓƟǑÔỐỘỒỔỖȌÖȪȮȰỌÒỎƠỚỢỜỞỠŐȎŌṒṐꞶǪǬƆØǾÕṌṎȬŒPṔṖƤÞⱣQɊRŔŘŖȐṘṚṜȒṞɌⱤSŚṤŠṦŞŜȘṠṢṨẞꞨTŦŤŢṰȚȾṪṬƬṮƮUÚɄŬǓÛṶȔÜǗṲǙǛǕỤÙỦƯỨỰỪỬỮŰȖŪṺŲƱŮŨṸṴVƔṾƲṼɅWẂŴẄẆẈẀⱲXẌẊYÝŶŸẎỴỲƳỶȲɎỸZŹŽẐŻẒẔƵꞋ/F.ss10 ɪᵻaáăắặằẳẵǎâấậầẩẫȁäǟȧạǡàảȃɑāąåḁⱥãæǣbḃḅꞵɓʘḇƀcćčçḉĉċꭓƈȼdďḑḓđḋḍɗḏɖðeéěȩḝêếḙệềểễȅëėẹèẻȇēḗḕęɛʃɇẽḛǝəʒǯƹfḟgǵɣğǧĝģġɠʔʕɂḡǥhħḫȟḩĥḧḣḥꜧɦɥiı/idotless_ogonek íǐîȉïḯ/idotaccent ịìỉȋīįɩɨĩḭĳjȷ/jacute ǰĵʝɟɉkḱǩķḳĸƙḵꝁlĺƛƚɬľḽļḷḹⱡḻɫłmḿṁṃɯnńňṋņṅṇǹɲƞṉñŋoóɵǒôốộồổỗȍöȫȯȱọòỏơớợờởỡőȏōṓṑꞷǫǭɔøǿõṍṏȭȣœpṕṗƥþᵽqɋrŕřŗȑṙṛṝɾȓṟɍɽsśṥšṧşŝșṡṣṩßꞩtŧťţṱțⱦṫṭƭṯʈuúʉŭǔûṷȕüǘṳǚǜǖụùủưứựừửữűȗūṻųʊůũṹṵvṿʋṽʌwẃŵẅẇẉẁⱳxẍẋyýŷÿẏỵỳƴỷȳɏỹzźžẑżẓẕƶꞌ/idotbelow.dotless/istroke.dotless/itildebelow.dotless/jcrossedtail.dotless/jdotlessstroke.dotless/a.ss01/r.ss02/f_f.liga ﬁﬂªºǂǀǁǃ/clickalveolar.001 ʰⁱⁿʷʸ/imod.dotless Ωλπχᶤᶿᵘᵛᶻ/istrokemod.dotless 0123456789/zero.zero/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr ⁄½⅓⅔¼¾₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹ /nbspace/.notdef ⟨⟩/asterisk_node/slash_part .,:;…!¡?¿·•*‖#///backslash/periodcentered.loclCAT/periodcentered.loclCAT.case -­–—_(){}[]‚„“”‘’«»‹›\"'ƒ฿꞉ˮ˗꞊@&¶§©®™°′″|¦†ℓ‡℮№₿₵¢₡¤$₫€₲₴₭₾₺₼₦₱₽₨₹₪£₸₮₩¥⅄+−×÷=≠><≥≤±≈~¬^∞∅∫Ω∆∏∑√∂µ%‰↑↗→↘↓↙←↖↔↕●○◌◦◆◇◊■□▪▫▲▶▼◀△▷▽◁▴▸▾◂▵▹▿◃᷊̈̇̀/gravecomb_macroncomb ́/acutecomb_macroncomb ̋/caroncomb.alt ̂̌̆̊̃̄/macroncomb_gravecomb/macroncomb_acutecomb ̴̵̷̧̨̛̣̤̥̦̩̭̮̯̰̱̲̉̍̏̐̑̒̓᷇̕͘/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb ᷅᷄᷆/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/circumflexcomb.case/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case/circumflexcomb_hookabovecomb.case/caroncomb.case/brevecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/dblgravecomb.case/breveinvertedcomb.case/horncomb.case/dotbelowcomb.case/ringbelowcomb.case/commaaccentcomb.case/cedillacomb.case/ogonekcomb.case/circumflexbelowcomb.case/brevebelowcomb.case/tildebelowcomb.case/macronbelowcomb.case/strokeshortcomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case ¨˙`´˝ˆˊˇˋ˘˚˜¯¸˛ʼʻˀʹʿʾˈꞮꞸꞹ/deeperacutecomb/deeperbrevecomb/deepercaroncomb/deepercircumflex/deeperdieresiscomb/deepergravecomb/deeperhookabovecomb/deepermacroncomb/deepertildecomb/Tslash.part/_bottomshortstroke.part/_leftcaphook.part/_shortdiagonalstroke.part/_shortstroke.part/_topshortstroke.part/capbar.part/deeperacutecomb.case/deeperbrevecomb.case/deepercaroncomb.case/deepercircumflexcomb.case/deeperdieresiscomb.case/deeperdotaccent.comb/deeperdotaccentcomb.case/deepergravecomb.case/deeperhookabovecomb.case/deepermacroncomb.case/deepertildecomb.case/iogenek.dotless/strokelong.comb/strokelongY.comb/_beltcase.part/_eng.part/_hook.part/_hooktop.part/_midstroke.part/_rightcaphook.part/_stroke.part/_tail.part"
 );
 axes = (
 {
@@ -397,24 +402,36 @@ axesValues = (
 );
 customParameters = (
 {
-name = blueScale;
-value = 0.04;
+name = typoLineGap;
+value = 0;
 },
 {
-name = blueShift;
-value = 7;
+name = typoAscender;
+value = 830;
 },
 {
-name = blueFuzz;
-value = 1;
-},
-{
-name = TTFBlueFuzz;
-value = 1;
+name = typoDescender;
+value = -200;
 },
 {
 name = winAscent;
-value = 935;
+value = 830;
+},
+{
+name = winDescent;
+value = 200;
+},
+{
+name = hheaAscender;
+value = 830;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 guides = (
@@ -452,7 +469,7 @@ over = -12;
 },
 {
 over = -12;
-pos = -370;
+pos = -200;
 }
 );
 name = Bold;
@@ -9364,7 +9381,7 @@ unicode = 7790;
 {
 glyphname = Tretroflexhook;
 kernRight = KO_T;
-lastChange = "2024-01-26 22:43:32 +0000";
+lastChange = "2024-02-02 15:12:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -9372,6 +9389,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(352,-186,l),
+(314,-151,o),
+(291,-100,o),
+(291,-33,cs),
 (291,436,l),
 (403,436,l),
 (435,554,l),
@@ -9381,11 +9402,7 @@ nodes = (
 (122,-39,ls),
 (122,-104,o),
 (148,-155,o),
-(196,-186,c),
-(352,-186,l),
-(314,-151,o),
-(291,-100,o),
-(291,-33,cs)
+(196,-186,c)
 );
 }
 );
@@ -28564,7 +28581,7 @@ ref = two;
 scale = (0.66,0.66);
 }
 );
-width = 304;
+width = 300;
 }
 );
 metricLeft = two;
@@ -28591,7 +28608,7 @@ ref = three;
 scale = (0.66,0.66);
 }
 );
-width = 292;
+width = 282;
 }
 );
 metricLeft = three;
@@ -28619,7 +28636,7 @@ ref = four;
 scale = (0.66,0.66);
 }
 );
-width = 315;
+width = 314;
 }
 );
 metricLeft = four;
@@ -28647,7 +28664,7 @@ ref = five;
 scale = (0.66,0.66);
 }
 );
-width = 297;
+width = 300;
 }
 );
 metricLeft = five;
@@ -28675,7 +28692,7 @@ ref = six;
 scale = (0.66,0.66);
 }
 );
-width = 309;
+width = 312;
 }
 );
 metricLeft = six;
@@ -28702,7 +28719,7 @@ ref = seven;
 scale = (0.66,0.66);
 }
 );
-width = 275;
+width = 278;
 }
 );
 metricLeft = seven;
@@ -28729,7 +28746,7 @@ ref = eight;
 scale = (0.66,0.66);
 }
 );
-width = 327;
+width = 323;
 }
 );
 metricLeft = eight;
@@ -28756,7 +28773,7 @@ ref = nine;
 scale = (0.66,0.66);
 }
 );
-width = 307;
+width = 313;
 }
 );
 metricLeft = nine;
@@ -28814,7 +28831,7 @@ ref = two;
 scale = (0.66,0.66);
 }
 );
-width = 304;
+width = 300;
 }
 );
 metricLeft = two;
@@ -28842,7 +28859,7 @@ ref = three;
 scale = (0.66,0.66);
 }
 );
-width = 292;
+width = 282;
 }
 );
 metricLeft = three;
@@ -28871,7 +28888,7 @@ ref = four;
 scale = (0.66,0.66);
 }
 );
-width = 315;
+width = 314;
 }
 );
 metricLeft = four;
@@ -28900,7 +28917,7 @@ ref = five;
 scale = (0.66,0.66);
 }
 );
-width = 297;
+width = 300;
 }
 );
 metricLeft = five;
@@ -28928,7 +28945,7 @@ ref = six;
 scale = (0.66,0.66);
 }
 );
-width = 309;
+width = 312;
 }
 );
 metricLeft = six;
@@ -28956,7 +28973,7 @@ ref = seven;
 scale = (0.66,0.66);
 }
 );
-width = 275;
+width = 278;
 }
 );
 metricLeft = seven;
@@ -28985,7 +29002,7 @@ ref = eight;
 scale = (0.66,0.66);
 }
 );
-width = 327;
+width = 323;
 }
 );
 metricLeft = eight;
@@ -29013,7 +29030,7 @@ ref = nine;
 scale = (0.66,0.66);
 }
 );
-width = 307;
+width = 313;
 }
 );
 metricLeft = nine;
@@ -51818,8 +51835,6 @@ scircumflex = 38;
 twoinferior = -32;
 udieresis = 0;
 };
-Q = {
-};
 R = {
 Imacron = -7;
 T = -12;
@@ -53591,8 +53606,6 @@ ringhalfright = -103;
 secondtonechinese = -82;
 zcaron = 2;
 };
-naira = {
-};
 nhookleft = {
 oopen = -13;
 };
@@ -54378,8 +54391,6 @@ o = -112;
 r = -119;
 softhyphen = -121;
 v = -88;
-};
-section = {
 };
 semicolon = {
 hyphen = -26;
