@@ -3,15 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "@&¶§©®",
-"ʈ",
-"",
-"ồổỗ",
-"/imod.dotless",
-q,
-"ʸ",
-"ʷ",
-"ⁿ",
-"ʰ"
+"₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹",
+"ÁĂẮẶẰẲẴǍÂẤ"
 );
 axes = (
 {
@@ -28044,17 +28037,17 @@ unicode = 190;
 },
 {
 glyphname = oneinferior;
+lastChange = "2024-02-08 13:14:22 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = one;
-scale = (0.66,0.66);
+ref = one.dnom;
 }
 );
-width = 166;
+width = 168;
 }
 );
 metricLeft = one;
@@ -28069,17 +28062,17 @@ R = superiors;
 },
 {
 glyphname = twoinferior;
+lastChange = "2024-02-08 13:14:29 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = two;
-scale = (0.66,0.66);
+ref = two.dnom;
 }
 );
-width = 300;
+width = 270;
 }
 );
 metricLeft = two;
@@ -28094,17 +28087,17 @@ R = superiors;
 },
 {
 glyphname = threeinferior;
+lastChange = "2024-02-08 13:14:41 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = three;
-scale = (0.66,0.66);
+ref = three.dnom;
 }
 );
-width = 282;
+width = 259;
 }
 );
 metricLeft = three;
@@ -28119,18 +28112,17 @@ R = superiors;
 },
 {
 glyphname = fourinferior;
-kernRight = KO_period;
+lastChange = "2024-02-08 13:15:01 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = four;
-scale = (0.66,0.66);
+ref = four.dnom;
 }
 );
-width = 314;
+width = 286;
 }
 );
 metricLeft = four;
@@ -28145,18 +28137,17 @@ R = superiors;
 },
 {
 glyphname = fiveinferior;
-kernRight = KO_question;
+lastChange = "2024-02-08 13:15:24 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = five;
-scale = (0.66,0.66);
+ref = five.dnom;
 }
 );
-width = 300;
+width = 280;
 }
 );
 metricLeft = five;
@@ -28171,18 +28162,19 @@ R = superiors;
 },
 {
 glyphname = sixinferior;
-kernRight = KO_period;
+kernLeft = six.dnom;
+kernRight = six.dnom;
+lastChange = "2024-02-08 13:16:53 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = six;
-scale = (0.66,0.66);
+ref = six.dnom;
 }
 );
-width = 312;
+width = 274;
 }
 );
 metricLeft = six;
@@ -28197,17 +28189,19 @@ R = superiors;
 },
 {
 glyphname = seveninferior;
+kernLeft = seven.dnom;
+kernRight = seven.dnom;
+lastChange = "2024-02-08 13:17:22 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = seven;
-scale = (0.66,0.66);
+ref = seven.dnom;
 }
 );
-width = 278;
+width = 262;
 }
 );
 metricLeft = seven;
@@ -28222,17 +28216,17 @@ R = superiors;
 },
 {
 glyphname = eightinferior;
+lastChange = "2024-02-08 13:16:11 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = eight;
-scale = (0.66,0.66);
+ref = eight.dnom;
 }
 );
-width = 321;
+width = 276;
 }
 );
 metricLeft = eight;
@@ -28247,17 +28241,17 @@ R = superiors;
 },
 {
 glyphname = nineinferior;
+lastChange = "2024-02-08 13:16:27 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,-99);
-ref = nine;
-scale = (0.66,0.66);
+ref = nine.dnom;
 }
 );
-width = 313;
+width = 274;
 }
 );
 metricLeft = nine;
@@ -28272,19 +28266,17 @@ R = superiors;
 },
 {
 glyphname = onesuperior;
-kernLeft = KO_onesuperior;
-kernRight = KO_parenright;
+lastChange = "2024-02-08 13:17:44 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = one;
-scale = (0.66,0.66);
+ref = one.numr;
 }
 );
-width = 166;
+width = 168;
 }
 );
 metricLeft = one;
@@ -28299,19 +28291,17 @@ R = superiors;
 },
 {
 glyphname = twosuperior;
-kernLeft = KO_twosuperior;
-kernRight = KO_quotesingle;
+lastChange = "2024-02-08 13:18:06 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = two;
-scale = (0.66,0.66);
+ref = two.numr;
 }
 );
-width = 300;
+width = 270;
 }
 );
 metricLeft = two;
@@ -28326,18 +28316,17 @@ R = superiors;
 },
 {
 glyphname = threesuperior;
-kernLeft = KO_threesuperior;
+lastChange = "2024-02-08 13:18:16 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = three;
-scale = (0.66,0.66);
+ref = three.numr;
 }
 );
-width = 282;
+width = 259;
 }
 );
 metricLeft = three;
@@ -28352,19 +28341,17 @@ R = superiors;
 },
 {
 glyphname = foursuperior;
-kernLeft = KO_foursuperior;
-kernRight = KO_parenright;
+lastChange = "2024-02-08 13:18:29 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = four;
-scale = (0.66,0.66);
+ref = four.numr;
 }
 );
-width = 314;
+width = 286;
 }
 );
 metricLeft = four;
@@ -28379,19 +28366,17 @@ R = superiors;
 },
 {
 glyphname = fivesuperior;
-kernLeft = KO_fivesuperior;
-kernRight = KO_parenright;
+lastChange = "2024-02-08 13:18:41 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = five;
-scale = (0.66,0.66);
+ref = five.numr;
 }
 );
-width = 300;
+width = 280;
 }
 );
 metricLeft = five;
@@ -28406,18 +28391,19 @@ R = superiors;
 },
 {
 glyphname = sixsuperior;
-kernLeft = KO_sixsuperior;
+kernLeft = six.dnom;
+kernRight = six.dnom;
+lastChange = "2024-02-08 13:20:26 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = six;
-scale = (0.66,0.66);
+ref = six.numr;
 }
 );
-width = 312;
+width = 274;
 }
 );
 metricLeft = six;
@@ -28432,18 +28418,19 @@ R = superiors;
 },
 {
 glyphname = sevensuperior;
-kernLeft = KO_sevensuperior;
+kernLeft = seven.dnom;
+kernRight = seven.dnom;
+lastChange = "2024-02-08 13:20:13 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = seven;
-scale = (0.66,0.66);
+ref = seven.numr;
 }
 );
-width = 278;
+width = 262;
 }
 );
 metricLeft = seven;
@@ -28458,19 +28445,17 @@ R = superiors;
 },
 {
 glyphname = eightsuperior;
-kernLeft = KO_eightsuperior;
-kernRight = KO_parenright;
+lastChange = "2024-02-08 13:20:35 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = eight;
-scale = (0.66,0.66);
+ref = eight.numr;
 }
 );
-width = 321;
+width = 276;
 }
 );
 metricLeft = eight;
@@ -28485,18 +28470,17 @@ R = superiors;
 },
 {
 glyphname = ninesuperior;
-kernLeft = KO_ninesuperior;
+lastChange = "2024-02-08 13:20:44 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 pos = (0,264);
-ref = nine;
-scale = (0.66,0.66);
+ref = nine.numr;
 }
 );
-width = 313;
+width = 274;
 }
 );
 metricLeft = nine;
@@ -41528,6 +41512,7 @@ metricRight = period;
 {
 export = 0;
 glyphname = brevecomb_tildecomb.case;
+lastChange = "2024-02-08 13:23:21 +0000";
 layers = (
 {
 layerId = m01;
@@ -43252,6 +43237,7 @@ metricRight = period;
 },
 {
 glyphname = deepertildecomb.case;
+lastChange = "2024-02-08 13:23:41 +0000";
 layers = (
 {
 anchors = (
@@ -43293,8 +43279,8 @@ nodes = (
 (83,704,cs),
 (57,704,o),
 (36,695,o),
-(19,677,c),
-(19,585,l)
+(19,683,c),
+(19,591,l)
 );
 }
 );
@@ -50499,6 +50485,9 @@ m01 = {
 "@MMK_R_KO_u" = -5;
 "@MMK_R_KO_v" = -6;
 "@MMK_R_KO_x" = -9;
+};
+"@MMK_L_six.dnom" = {
+"@MMK_R_seven.dnom" = -40;
 };
 };
 };
