@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3236";
 .formatVersion = 3;
 DisplayStrings = (
 "@&¶§©®",
@@ -18,18 +18,11 @@ fractions,
 
 Ligatures
 fi→ﬁ",
-"",
 "f/f.ss01",
 "ẞ",
 "#",
 "{",
 "1½⅓⅔¼¾1%1‰"
-);
-axes = (
-{
-name = Weight;
-tag = wght;
-}
 );
 classes = (
 {
@@ -70,7 +63,7 @@ value = 1;
 }
 );
 date = "2024-01-04 16:05:56 +0000";
-familyName = Tac;
+familyName = "Tac One";
 featurePrefixes = (
 {
 automatic = 1;
@@ -469,9 +462,6 @@ tag = ss03;
 );
 fontMaster = (
 {
-axesValues = (
-173
-);
 customParameters = (
 {
 name = typoLineGap;
@@ -544,7 +534,7 @@ over = -12;
 pos = -200;
 }
 );
-name = Bold;
+name = Regular;
 stemValues = (
 120,
 173
@@ -39954,8 +39944,7 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (612, 110);
-place = (612, 110);
+place = (612,110);
 type = Stem;
 }
 );
@@ -43513,9 +43502,6 @@ metricRight = period;
 );
 instances = (
 {
-axesValues = (
-173
-);
 customParameters = (
 {
 name = blueScale;
@@ -43537,12 +43523,10 @@ value = 1;
 instanceInterpolations = {
 m01 = 1;
 };
-isBold = 1;
-name = Bold;
+name = Regular;
 userData = {
 fpID = "2C9B0119-64C3-45BF-BC67-42239EAEBADC";
 };
-weightClass = 700;
 }
 );
 kerningLTR = {
