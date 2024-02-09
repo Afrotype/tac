@@ -2,7 +2,7 @@
 
 fontbakery version: 0.11.1
 
-<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] Tac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
+<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] TacOne-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs lack their case-swapping counterparts:
@@ -13,7 +13,7 @@ fontbakery version: 0.11.1
 | U+03C7: GREEK SMALL LETTER CHI | U+03A7: GREEK CAPITAL LETTER CHI |
 
  [code: missing-case-counterparts]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[19] Tac-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[19] TacOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/glyphsets/definitions/__init__.py)
@@ -83,7 +83,7 @@ fontbakery version: 0.11.1
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
  * U+02C0 MODIFIER LETTER GLOTTAL STOP: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -95,10 +95,10 @@ fontbakery version: 0.11.1
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
  * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, coptic, math, old-permic, malayalam, syriac, canadian-aboriginal
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, syriac, canadian-aboriginal, math, tai-le, coptic, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
  * U+0310 COMBINING CANDRABINDU: not included in any glyphset definition
@@ -107,7 +107,7 @@ fontbakery version: 0.11.1
  * U+0313 COMBINING COMMA ABOVE: try adding old-permic
  * U+0315 COMBINING COMMA ABOVE RIGHT: not included in any glyphset definition
  * U+031B COMBINING HORN: not included in any glyphset definition
- * U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee
+ * U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac
  * U+0325 COMBINING RING BELOW: try adding syriac
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -115,8 +115,8 @@ fontbakery version: 0.11.1
  * U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
- * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, cherokee, syriac, caucasian-albanian, gothic
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, cherokee, syriac, caucasian-albanian, tifinagh
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
@@ -203,7 +203,7 @@ fontbakery version: 0.11.1
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: tirhuta, chakma, gujarati, manichaean, limbu, phags-pa, devanagari, modi, duployan, rejang, bhaiksuki, hanunoo, coptic, sharada, warang-citi, buhid, newa, psalter-pahlavi, nko, javanese, saurashtra, balinese, malayalam, syriac, armenian, canadian-aboriginal, sinhala, dogra, thai, khmer, telugu, mahajani, kharoshthi, caucasian-albanian, gunjala-gondi, new-tai-lue, siddham, kannada, hebrew, myanmar, thaana, zanabazar-square, tibetan, old-permic, bengali, khudawadi, miao, symbols, syloti-nagri, tagalog, hanifi-rohingya, gurmukhi, tai-le, lepcha, cham, yi, masaram-gondi, sogdian, batak, lao, marchen, osage, mandaic, takri, khojki, meetei-mayek, buginese, soyombo, kayah-li, mongolian, tai-viet, tai-tham, tifinagh, tamil, kaithi, wancho, math, grantha, oriya, ahom, tagbanwa, bassa-vah, music, pahawh-hmong, elbasan, adlam, brahmi, mende-kikakui, sundanese
+ * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, malayalam, canadian-aboriginal, kannada, thaana, syloti-nagri, brahmi, hanunoo, tagbanwa, bengali, hanifi-rohingya, psalter-pahlavi, bhaiksuki, rejang, tagalog, sundanese, hebrew, thai, newa, syriac, new-tai-lue, cham, javanese, kharoshthi, music, soyombo, batak, bassa-vah, ahom, zanabazar-square, khmer, lepcha, osage, siddham, wancho, telugu, sogdian, phags-pa, buhid, meetei-mayek, khojki, adlam, gunjala-gondi, chakma, yi, tai-tham, old-permic, gurmukhi, marchen, lao, duployan, nko, oriya, sinhala, modi, mende-kikakui, takri, math, tifinagh, kaithi, elbasan, grantha, pahawh-hmong, coptic, tibetan, tai-le, symbols, saurashtra, mandaic, devanagari, buginese, dogra, armenian, mongolian, masaram-gondi, caucasian-albanian, tirhuta, manichaean, kayah-li, tamil, balinese, sharada, tai-viet, miao, limbu, warang-citi, gujarati, mahajani, myanmar
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
