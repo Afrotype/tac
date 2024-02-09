@@ -12,15 +12,14 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAfrotype%2Ffestacrevival%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAfrotype%2Ffestacrevival%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
-
+Tac is a single-weight, bold San serif inspired by the wordmark of one of the most significant festivals in Africa's post-colonial history, Festac '77. It's a partial revival that expands upon the six lowercase letters, single quotes and number 7 in the wordmark, resulting in a full Google SSA character set. Tac is the second project from Afrotype.
 
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
 ## About
 
-Afrotype is building fonts!
+Afrotype, founded by Seyi Olusanya, intends to subvert cliches around African graphic design by creating typefaces grounded in African history and culture. David Udoh and Eyiyemi Adegbite collaborated on the design and drawing work. Tac was produced with Mirko Velimirović, who provided technical, drawing, and font engineering assistance.
 
 ## Building
 
