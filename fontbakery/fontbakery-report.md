@@ -2,7 +2,7 @@
 
 fontbakery version: 0.11.1
 
-<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] Tac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
+<h2>Experimental checks</h2><p>These won't break the CI job for now, but will become effective after some time if nobody raises any concern.</p><details><summary><b>[1] TacOne-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure the font supports case swapping for all its glyphs. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/case_mapping">com.google.fonts/check/case_mapping</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs lack their case-swapping counterparts:
@@ -13,7 +13,33 @@ fontbakery version: 0.11.1
 | U+03C7: GREEK SMALL LETTER CHI | U+03A7: GREEK CAPITAL LETTER CHI |
 
  [code: missing-case-counterparts]
-</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[16] Tac-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><h2>All other checks</h2><details><summary><b>[18] TacOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/glyphsets/definitions/__init__.py)
+```
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
+    results.extend(list(result))
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts.py", line 1076, in com_google_fonts_check_glyph_coverage
+    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts_conditions.py", line 748, in get_glyphsets_fulfilled
+    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
+
+``` [code: failed-check]
+</div></details><details><summary>💔 <b>ERROR:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with ImportError: cannot import name 'unicodes_per_glyphset' from 'glyphsets.definitions' (/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/glyphsets/definitions/__init__.py)
+```
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py", line 170, in _exec_check
+    results.extend(list(result))
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts.py", line 3543, in com_google_fonts_check_glyphsets_shape_languages
+    glyphsets_fulfilled = get_glyphsets_fulfilled(ttFont)
+  File "/home/runner/work/tac/tac/venv-test/lib/python3.10/site-packages/fontbakery/profiles/googlefonts_conditions.py", line 748, in get_glyphsets_fulfilled
+    from glyphsets.definitions import unicodes_per_glyphset, glyphset_definitions
+
+``` [code: failed-check]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1030 when it should be at least 1200 [code: bad-hhea-range]
@@ -67,11 +93,11 @@ fontbakery version: 0.11.1
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+02EE MODIFIER LETTER DOUBLE APOSTROPHE: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, syriac, malayalam, tai-le, coptic, canadian-aboriginal, old-permic, math
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, coptic, tai-le, canadian-aboriginal, math, tifinagh, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition
  * U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition
@@ -90,7 +116,7 @@ fontbakery version: 0.11.1
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition
  * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: gothic, caucasian-albanian, tifinagh, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, gothic, tifinagh, caucasian-albanian
  * U+0332 COMBINING LOW LINE: not included in any glyphset definition
  * U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition
  * U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition
@@ -177,7 +203,7 @@ fontbakery version: 0.11.1
  * U+25C7 WHITE DIAMOND: try adding symbols
  * U+25CA LOZENGE: try adding one of: symbols, math
  * U+25CB WHITE CIRCLE: try adding symbols
- * U+25CC DOTTED CIRCLE: try adding one of: osage, sharada, gujarati, warang-citi, kaithi, gurmukhi, chakma, coptic, lepcha, saurashtra, modi, zanabazar-square, duployan, bengali, thai, kayah-li, newa, marchen, tamil, kharoshthi, myanmar, khojki, hebrew, manichaean, new-tai-lue, malayalam, mongolian, bhaiksuki, lao, buhid, oriya, balinese, phags-pa, music, tagalog, syriac, meetei-mayek, masaram-gondi, siddham, thaana, hanunoo, old-permic, sundanese, khudawadi, psalter-pahlavi, dogra, soyombo, buginese, gunjala-gondi, tai-viet, tifinagh, mahajani, batak, sinhala, cham, devanagari, yi, canadian-aboriginal, javanese, takri, bassa-vah, limbu, caucasian-albanian, sogdian, armenian, tibetan, khmer, rejang, tai-le, telugu, elbasan, wancho, syloti-nagri, tagbanwa, symbols, tirhuta, mandaic, kannada, adlam, pahawh-hmong, tai-tham, grantha, hanifi-rohingya, miao, nko, math, mende-kikakui, ahom, brahmi
+ * U+25CC DOTTED CIRCLE: try adding one of: hebrew, myanmar, coptic, khmer, math, mandaic, music, armenian, marchen, rejang, bengali, osage, dogra, tifinagh, bhaiksuki, thaana, syloti-nagri, zanabazar-square, kharoshthi, tagalog, batak, cham, nko, kayah-li, canadian-aboriginal, meetei-mayek, tai-le, tamil, duployan, newa, kaithi, chakma, hanifi-rohingya, balinese, tibetan, adlam, devanagari, khojki, limbu, symbols, tai-viet, sundanese, syriac, pahawh-hmong, lao, sharada, miao, saurashtra, malayalam, brahmi, new-tai-lue, mende-kikakui, thai, masaram-gondi, javanese, tai-tham, sinhala, manichaean, psalter-pahlavi, hanunoo, lepcha, buhid, elbasan, telugu, tirhuta, soyombo, ahom, siddham, sogdian, oriya, caucasian-albanian, buginese, old-permic, tagbanwa, mongolian, kannada, phags-pa, grantha, wancho, warang-citi, bassa-vah, gujarati, gunjala-gondi, mahajani, gurmukhi, yi, khudawadi, modi, takri
  * U+25CF BLACK CIRCLE: try adding symbols
  * U+25E6 WHITE BULLET: try adding symbols
  * U+27E8 MATHEMATICAL LEFT ANGLE BRACKET: try adding math
@@ -599,8 +625,8 @@ greaterequal
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 0 | 0 | 4 | 13 | 124 | 7 | 112 | 0 |
-| 0% | 0% | 2% | 5% | 48% | 3% | 43% | 0% |
+| 2 | 0 | 4 | 13 | 124 | 7 | 110 | 0 |
+| 1% | 0% | 2% | 5% | 48% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
