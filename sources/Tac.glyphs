@@ -1,29 +1,6 @@
 {
 .appVersion = "3236";
 .formatVersion = 3;
-DisplayStrings = (
-"@&¶§©®",
-"₁₂₃₄₅₆₇₈₉¹²³⁴⁵⁶⁷⁸⁹",
-"Festac '77",
-bgeat,
-"Opentype Features
-ABCDEFGHIJKLMNOP
-QRSTUVWXYZ
-
-Stylistic Al/t.ss03 erna/t.ss03 es
-f a/a.ss02  t/t.ss03  f/f.ss03 
-
-fractions, 
-1//3→⅓
-
-Ligatures
-fi→ﬁ",
-"f/f.ss01",
-"ẞ",
-"#",
-"{",
-"1½⅓⅔¼¾1%1‰"
-);
 classes = (
 {
 automatic = 1;
@@ -23344,36 +23321,29 @@ width = 332;
 glyphname = f_f.liga;
 kernLeft = KO_f;
 kernRight = KO_f;
+lastChange = "2024-02-14 11:25:35 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (155,0);
-},
-{
 name = bottom_1;
-pos = (156,0);
+pos = (128,0);
 },
 {
 name = bottom_2;
-pos = (467,0);
+pos = (383,0);
 },
 {
 name = caret_1;
-pos = (311,0);
-},
-{
-name = top;
-pos = (137,574);
+pos = (255.5,0);
 },
 {
 name = top_1;
-pos = (156,574);
+pos = (128,830);
 },
 {
 name = top_2;
-pos = (467,574);
+pos = (383,830);
 }
 );
 layerId = m01;
@@ -23424,28 +23394,13 @@ metricRight = f;
 glyphname = fi;
 kernLeft = KO_f;
 kernRight = KO_i;
+lastChange = "2024-02-14 11:25:35 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (155,0);
-},
-{
 name = caret_1;
-pos = (246,0);
-},
-{
-name = ogonek;
-pos = (477,0);
-},
-{
-name = shortstroke;
-pos = (391,200);
-},
-{
-name = top;
-pos = (137,574);
+pos = (241.5,0);
 }
 );
 layerId = m01;
@@ -23493,8 +23448,15 @@ unicode = 64257;
 glyphname = fl;
 kernLeft = KO_f;
 kernRight = KO_l;
+lastChange = "2024-02-14 11:25:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (268.5,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -29609,30 +29571,6 @@ width = 328;
 unicode = 45;
 userData = {
 KernOnName = hyphen;
-KernOnSpecialSpacing = {
-L = hyphen;
-R = hyphen;
-};
-};
-},
-{
-glyphname = softhyphen;
-kernLeft = KO_hyphen;
-kernRight = KO_hyphen;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 328;
-}
-);
-unicode = 173;
-userData = {
-KernOnName = softhyphen;
 KernOnSpecialSpacing = {
 L = hyphen;
 R = hyphen;
@@ -50337,7 +50275,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2024 The Tac Project Authors (https://github.com/Afrotype/Tac)";
+value = "Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/Tac)";
 }
 );
 },
@@ -50355,13 +50293,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturerURL;
