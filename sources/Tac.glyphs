@@ -50268,7 +50268,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/Tac)";
+value = "Copyright 2024 The Tac One Project Authors (https://github.com/Afrotype/tac)";
 }
 );
 },
@@ -50277,7 +50277,7 @@ key = designers;
 values = (
 {
 language = ENG;
-value = "Oluseyi Olusanya, David Udoh, Eyiyemi Adegbite, Mirko Velimirovic";
+value = "Oluseyi Olusanya, David Udoh, Eyiyemi Adegbite, Mirko Velimirović";
 }
 );
 },
