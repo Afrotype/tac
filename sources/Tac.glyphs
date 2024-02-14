@@ -418,7 +418,7 @@ code = "sub a by a.ss02;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss02;
 }
 );
 tag = ss02;
@@ -431,7 +431,7 @@ sub t by t.ss03;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss03;
 }
 );
 tag = ss03;
@@ -441,10 +441,6 @@ fontMaster = (
 {
 customParameters = (
 {
-name = typoLineGap;
-value = 0;
-},
-{
 name = typoAscender;
 value = 830;
 },
@@ -453,12 +449,16 @@ name = typoDescender;
 value = -200;
 },
 {
+name = typoLineGap;
+value = 0;
+},
+{
 name = winAscent;
-value = 830;
+value = 984;
 },
 {
 name = winDescent;
-value = 200;
+value = 333;
 },
 {
 name = hheaAscender;
@@ -493,7 +493,7 @@ id = m01;
 metricValues = (
 {
 over = 12;
-pos = 830;
+pos = 554;
 },
 {
 over = 12;
