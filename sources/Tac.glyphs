@@ -3,7 +3,7 @@
 .formatVersion = 3;
 DisplayStrings = (
 "",
-"f)ḟ)AV"
+OKabcdefghijklmnopqrstuvwxyzAY
 );
 classes = (
 {
@@ -498,9 +498,6 @@ guides = (
 pos = (64,-71);
 },
 {
-pos = (340,574);
-},
-{
 angle = 90;
 pos = (-100,317);
 },
@@ -513,7 +510,7 @@ id = m01;
 metricValues = (
 {
 over = 12;
-pos = 554;
+pos = 574;
 },
 {
 over = 12;
@@ -15281,6 +15278,7 @@ unicode = 485;
 glyphname = h;
 kernLeft = KO_i;
 kernRight = KO_n;
+lastChange = "2024-02-16 12:55:20 +0000";
 layers = (
 {
 anchors = (
@@ -17957,6 +17955,7 @@ KernOnName = o;
 glyphname = oacute;
 kernLeft = KO_o;
 kernRight = KO_o;
+lastChange = "2024-02-16 12:51:47 +0000";
 layers = (
 {
 layerId = m01;
@@ -37760,6 +37759,7 @@ metricRight = period;
 },
 {
 glyphname = acutecomb;
+lastChange = "2024-02-16 12:51:52 +0000";
 layers = (
 {
 anchors = (
@@ -37777,10 +37777,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(83,554,l),
-(19,438,l),
-(181,438,l),
-(245,554,l)
+(98,554,l),
+(34,438,l),
+(196,438,l),
+(260,554,l)
 );
 }
 );
