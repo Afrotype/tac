@@ -1,8 +1,7 @@
 {
-.appVersion = "3151";
+.appVersion = "3241";
 .formatVersion = 3;
 DisplayStrings = (
-"",
 OKabcdefghijklmnopqrstuvwxyzAY
 );
 classes = (
@@ -39917,8 +39916,7 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (612, 110);
-place = (612, 110);
+place = (612,110);
 type = Stem;
 }
 );
@@ -48265,5 +48263,5 @@ KernOnRegenerateGroups = 1;
 KernOnVersion = "1.29";
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
