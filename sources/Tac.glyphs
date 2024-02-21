@@ -1,6 +1,9 @@
 {
-.appVersion = "3237";
+.appVersion = "3241";
 .formatVersion = 3;
+DisplayStrings = (
+"AṎỴỴỵ"
+);
 classes = (
 {
 automatic = 1;
@@ -971,15 +974,17 @@ unicode = 194;
 glyphname = Acircumflexacute;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-02-21 09:25:21 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = A;
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = circumflexcomb_acutecomb.case;
 }
@@ -1015,15 +1020,17 @@ unicode = 7852;
 glyphname = Acircumflexgrave;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-02-21 09:25:21 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = A;
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = circumflexcomb_gravecomb.case;
 }
@@ -1046,7 +1053,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (116,0);
+pos = (117,0);
 ref = circumflexcomb_hookabovecomb.case;
 }
 );
@@ -1059,15 +1066,17 @@ unicode = 7848;
 glyphname = Acircumflextilde;
 kernLeft = KO_A;
 kernRight = KO_A;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = A;
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = circumflexcomb_tildecomb.case;
 }
@@ -2674,15 +2683,17 @@ unicode = 202;
 glyphname = Ecircumflexacute;
 kernLeft = KO_H;
 kernRight = KO_E;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = E;
 },
 {
+alignment = -1;
 pos = (75,0);
 ref = circumflexcomb_acutecomb.case;
 }
@@ -2737,15 +2748,17 @@ unicode = 7878;
 glyphname = Ecircumflexgrave;
 kernLeft = KO_H;
 kernRight = KO_E;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = E;
 },
 {
+alignment = -1;
 pos = (75,0);
 ref = circumflexcomb_gravecomb.case;
 }
@@ -2768,7 +2781,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (75,0);
+pos = (76,0);
 ref = circumflexcomb_hookabovecomb.case;
 }
 );
@@ -2781,15 +2794,17 @@ unicode = 7874;
 glyphname = Ecircumflextilde;
 kernLeft = KO_H;
 kernRight = KO_E;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = E;
 },
 {
+alignment = -1;
 pos = (75,0);
 ref = circumflexcomb_tildecomb.case;
 }
@@ -6594,15 +6609,17 @@ unicode = 212;
 glyphname = Ocircumflexacute;
 kernLeft = KO_O;
 kernRight = KO_O;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
+alignment = -1;
 pos = (115,0);
 ref = circumflexcomb_acutecomb.case;
 }
@@ -6641,15 +6658,17 @@ unicode = 7896;
 glyphname = Ocircumflexgrave;
 kernLeft = KO_O;
 kernRight = KO_O;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
+alignment = -1;
 pos = (115,0);
 ref = circumflexcomb_gravecomb.case;
 }
@@ -6672,7 +6691,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (115,0);
+pos = (116,0);
 ref = circumflexcomb_hookabovecomb.case;
 }
 );
@@ -6685,15 +6704,17 @@ unicode = 7892;
 glyphname = Ocircumflextilde;
 kernLeft = KO_O;
 kernRight = KO_O;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
+alignment = -1;
 pos = (115,0);
 ref = circumflexcomb_tildecomb.case;
 }
@@ -7427,19 +7448,22 @@ unicode = 213;
 },
 {
 glyphname = Otildeacute;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = deepertildecomb.case;
 },
 {
+alignment = -1;
 pos = (237,403);
 ref = deeperacutecomb.case;
 }
@@ -7451,7 +7475,7 @@ unicode = 7756;
 },
 {
 glyphname = Otildedieresis;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:38:45 +0000";
 layers = (
 {
 layerId = m01;
@@ -7464,7 +7488,7 @@ pos = (116,0);
 ref = deepertildecomb.case;
 },
 {
-pos = (158,403);
+pos = (90,147);
 ref = deeperdieresiscomb.case;
 }
 );
@@ -7475,19 +7499,22 @@ unicode = 7758;
 },
 {
 glyphname = Otildemacron;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
+alignment = -1;
 pos = (116,0);
 ref = deepertildecomb.case;
 },
 {
+alignment = -1;
 pos = (169,403);
 ref = deepermacroncomb.case;
 }
@@ -8540,19 +8567,22 @@ unicode = 346;
 },
 {
 glyphname = Sacutedotaccent;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = S;
 },
 {
+alignment = -1;
 pos = (64,0);
 ref = deeperacutecomb.case;
 },
 {
+alignment = -1;
 pos = (233,389);
 ref = deeperdotaccentcomb.case;
 }
@@ -10044,19 +10074,22 @@ unicode = 360;
 },
 {
 glyphname = Utildeacute;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = U;
 },
 {
+alignment = -1;
 pos = (113,0);
 ref = deepertildecomb.case;
 },
 {
+alignment = -1;
 pos = (234,403);
 ref = deeperacutecomb.case;
 }
@@ -15795,15 +15828,17 @@ unicode = 305;
 glyphname = idotless_ogonek;
 kernLeft = KO_i;
 kernRight = KO_i;
-lastChange = "2024-02-21 09:31:14 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4984,0);
 ref = ogonek;
 }
@@ -15816,14 +15851,17 @@ width = 221;
 glyphname = iacute;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4939,0);
 ref = acutecomb;
 }
@@ -15837,14 +15875,17 @@ unicode = 237;
 glyphname = icaron;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4876,0);
 ref = caroncomb;
 }
@@ -15858,14 +15899,17 @@ unicode = 464;
 glyphname = icircumflex;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4871,0);
 ref = circumflexcomb;
 }
@@ -15882,14 +15926,17 @@ KernOnName = icircumflex;
 glyphname = idblgrave;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4842,0);
 ref = dblgravecomb;
 }
@@ -15903,14 +15950,17 @@ unicode = 521;
 glyphname = idieresis;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4887,0);
 ref = dieresiscomb;
 }
@@ -15924,18 +15974,22 @@ unicode = 239;
 glyphname = idieresisacute;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4898,0);
 ref = deeperdieresiscomb;
 },
 {
+alignment = -1;
 pos = (4972,139);
 ref = deeperacutecomb;
 }
@@ -15949,14 +16003,17 @@ unicode = 7727;
 glyphname = idotaccent;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4970,0);
 ref = dotaccentcomb;
 }
@@ -15990,14 +16047,17 @@ unicode = 7883;
 glyphname = igrave;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4904,0);
 ref = gravecomb;
 }
@@ -16011,14 +16071,17 @@ unicode = 236;
 glyphname = ihookabove;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4940,0);
 ref = hookabovecomb;
 }
@@ -16032,14 +16095,17 @@ unicode = 7881;
 glyphname = iinvertedbreve;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4905,1);
 ref = breveinvertedcomb;
 }
@@ -16074,14 +16140,17 @@ unicode = 307;
 glyphname = imacron;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4913,0);
 ref = macroncomb;
 }
@@ -16179,14 +16248,17 @@ unicode = 616;
 glyphname = itilde;
 kernLeft = KO_i;
 kernRight = KO_i;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4918,0);
 ref = tildecomb;
 }
@@ -18845,19 +18917,22 @@ unicode = 245;
 glyphname = otildeacute;
 kernLeft = KO_o;
 kernRight = KO_o;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (111,0);
 ref = deepertildecomb;
 },
 {
+alignment = -1;
 pos = (240,416);
 ref = deeperacutecomb;
 }
@@ -18871,19 +18946,22 @@ unicode = 7757;
 glyphname = otildedieresis;
 kernLeft = KO_o;
 kernRight = KO_o;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (111,0);
 ref = deepertildecomb;
 },
 {
+alignment = -1;
 pos = (166,416);
 ref = deeperdieresiscomb;
 }
@@ -18897,19 +18975,22 @@ unicode = 7759;
 glyphname = otildemacron;
 kernLeft = KO_o;
 kernRight = KO_o;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (111,0);
 ref = deepertildecomb;
 },
 {
+alignment = -1;
 pos = (180,416);
 ref = deepermacroncomb;
 }
@@ -21849,19 +21930,22 @@ unicode = 361;
 glyphname = utildeacute;
 kernLeft = KO_u;
 kernRight = KO_u;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = u;
 },
 {
+alignment = -1;
 pos = (107,0);
 ref = deepertildecomb;
 },
 {
+alignment = -1;
 pos = (236,416);
 ref = deeperacutecomb;
 }
@@ -22618,17 +22702,78 @@ unicode = 7823;
 glyphname = ydotbelow;
 kernLeft = KO_u;
 kernRight = KO_u;
+lastChange = "2024-02-21 14:40:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (558,0);
+},
+{
+name = hook;
+pos = (454,400);
+},
+{
+name = stroke;
+pos = (246,211);
+},
+{
+name = top;
+pos = (246,400);
+}
+);
+guides = (
+{
+pos = (419,-174);
+}
+);
 layerId = m01;
 shapes = (
 {
-ref = y;
+closed = 1;
+nodes = (
+(419,-174,l),
+(438,-145,o),
+(454,-76,o),
+(454,-14,cs),
+(454,400,l),
+(283,400,l),
+(283,38,l),
+(239,65,o),
+(202,114,o),
+(202,211,cs),
+(202,400,l),
+(31,400,l),
+(31,200,ls),
+(31,118,o),
+(53,42,o),
+(89,0,c),
+(282,0,l),
+(278,-76,o),
+(253,-128,o),
+(220,-172,c),
+(221,-174,l)
+);
 },
 {
-alignment = -1;
-pos = (245,-175);
-ref = dotbelowcomb;
+closed = 1;
+nodes = (
+(619,-175,l),
+(628,-162,o),
+(632,-142,o),
+(632,-118,cs),
+(632,-91,o),
+(628,-71,o),
+(619,-59,c),
+(480,-59,l),
+(469,-72,o),
+(464,-91,o),
+(464,-118,cs),
+(464,-142,o),
+(469,-162,o),
+(480,-175,c)
+);
 }
 );
 width = 493;
@@ -23037,6 +23182,7 @@ width = 221;
 },
 {
 glyphname = istroke.dotless;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 anchors = (
@@ -23048,9 +23194,11 @@ pos = (109,400);
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4918,80);
 ref = strokeshortcomb;
 }
@@ -37518,7 +37666,7 @@ metricRight = period;
 },
 {
 glyphname = circumflexcomb_hookabovecomb;
-lastChange = "2024-02-07 15:39:20 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -37541,9 +37689,11 @@ layerId = "F481625A-A6D3-4EC7-A8D0-C58996D2B1B2";
 name = "18 Dec 23, 15:34";
 shapes = (
 {
+alignment = -1;
 ref = circumflexcomb;
 },
 {
+alignment = -1;
 pos = (141,154);
 ref = hookabovecomb;
 }
@@ -40263,7 +40413,7 @@ metricRight = period;
 },
 {
 glyphname = circumflexcomb_gravecomb.case;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -40275,6 +40425,7 @@ ref = deepercircumflexcomb.case;
 scale = (-1,1);
 },
 {
+alignment = -1;
 pos = (93,132);
 ref = deepergravecomb.case;
 }
@@ -40287,15 +40438,17 @@ metricRight = period;
 },
 {
 glyphname = circumflexcomb_acutecomb.case;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = deepercircumflexcomb.case;
 },
 {
+alignment = -1;
 pos = (48,132);
 ref = deeperacutecomb.case;
 }
@@ -40306,15 +40459,17 @@ width = 381;
 },
 {
 glyphname = circumflexcomb_tildecomb.case;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = deepercircumflexcomb.case;
 },
 {
+alignment = -1;
 pos = (1,132);
 ref = deepertildecomb.case;
 }
@@ -40327,7 +40482,7 @@ metricRight = period;
 },
 {
 glyphname = circumflexcomb_hookabovecomb.case;
-lastChange = "2024-02-21 09:24:34 +0000";
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 layerId = m01;
@@ -40339,6 +40494,7 @@ ref = deepercircumflexcomb.case;
 scale = (-1,1);
 },
 {
+alignment = -1;
 pos = (67,132);
 ref = deeperhookabovecomb.case;
 }
@@ -43111,6 +43267,7 @@ metricRight = period;
 },
 {
 glyphname = iogenek.dotless;
+lastChange = "2024-02-21 14:37:03 +0000";
 layers = (
 {
 anchors = (
@@ -43122,9 +43279,11 @@ pos = (111,400);
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
+alignment = -1;
 pos = (4984,0);
 ref = ogonekcomb;
 }
