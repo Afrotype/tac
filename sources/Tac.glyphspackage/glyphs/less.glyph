@@ -1,0 +1,24 @@
+{
+glyphname = less;
+kernLeft = KO_equal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (373,0);
+ref = greater;
+scale = (-1,1);
+}
+);
+width = 373;
+}
+);
+unicode = 60;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

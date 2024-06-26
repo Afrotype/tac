@@ -1,0 +1,35 @@
+{
+glyphname = ringhalfleft;
+kernLeft = KO_ringhalfleft;
+kernRight = KO_ringhalfleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,517,l),
+(149,552,o),
+(125,593,o),
+(125,640,cs),
+(125,688,o),
+(145,725,o),
+(183,763,c),
+(51,763,l),
+(29,728,o),
+(19,678,o),
+(19,641,cs),
+(19,598,o),
+(35,547,o),
+(57,517,c)
+);
+}
+);
+width = 207;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 703;
+}

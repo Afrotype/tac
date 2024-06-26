@@ -1,0 +1,45 @@
+{
+glyphname = greaterequal;
+layers = (
+{
+guides = (
+{
+angle = 270;
+pos = (274,187);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,30,l),
+(361,126,l),
+(32,126,l),
+(32,30,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,423,l),
+(33,519,l),
+(33,402,l),
+(362,305,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,258,l),
+(362,374,l),
+(33,274,l),
+(33,159,l)
+);
+}
+);
+width = 394;
+}
+);
+unicode = 8805;
+}

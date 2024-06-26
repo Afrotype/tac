@@ -1,0 +1,33 @@
+{
+glyphname = tretroflexhook;
+kernLeft = KO_t;
+kernRight = KO_t;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,-65,o),
+(60,-143,o),
+(108,-174,c),
+(264,-174,l),
+(226,-139,o),
+(206,-67,o),
+(206,0,cs),
+(206,280,l),
+(266,280,l),
+(266,400,l),
+(206,400,l),
+(206,500,l),
+(35,500,l),
+(35,0,ls)
+);
+}
+);
+width = 280;
+}
+);
+unicode = 648;
+}

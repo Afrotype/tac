@@ -1,0 +1,42 @@
+{
+glyphname = deeperdotaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (91,554);
+},
+{
+name = top;
+pos = (91,694);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(147,588,l),
+(157,599,o),
+(162,618,o),
+(162,640,cs),
+(162,664,o),
+(157,683,o),
+(147,694,c),
+(34,694,l),
+(26,682,o),
+(19,664,o),
+(19,641,cs),
+(19,618,o),
+(26,599,o),
+(34,588,c)
+);
+}
+);
+width = 181;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

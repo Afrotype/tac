@@ -1,0 +1,23 @@
+{
+glyphname = rightArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = -90;
+pos = (-15,491);
+ref = upArrow;
+}
+);
+width = 525;
+}
+);
+unicode = 8594;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

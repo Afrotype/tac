@@ -1,0 +1,22 @@
+{
+glyphname = circumflexcomb_tildecomb.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = deepercircumflexcomb.case;
+},
+{
+alignment = -1;
+pos = (50,132);
+ref = deepertildecomb.case;
+}
+);
+width = 381;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

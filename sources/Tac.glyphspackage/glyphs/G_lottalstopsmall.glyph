@@ -1,0 +1,17 @@
+{
+glyphname = Glottalstopsmall;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = glottalstop;
+}
+);
+width = 370;
+}
+);
+metricLeft = O;
+metricRight = P;
+unicode = 577;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = acutemacroncomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,438,l),
+(240,622,l),
+(110,622,l),
+(19,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(381,576,l),
+(381,622,l),
+(111,622,l),
+(111,576,l)
+);
+}
+);
+width = 400;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 7623;
+}

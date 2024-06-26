@@ -1,0 +1,21 @@
+{
+glyphname = istroke;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (-56,-77);
+ref = _shortstroke.part;
+}
+);
+width = 253;
+}
+);
+unicode = 616;
+}

@@ -1,0 +1,77 @@
+{
+glyphname = ihookabove;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,234);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = top;
+pos = (5053,592);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(5142,438,l),
+(5159,456,o),
+(5171,481,o),
+(5171,511,cs),
+(5171,544,o),
+(5157,562,o),
+(5134,569,cs),
+(5115,575,o),
+(5084,575,o),
+(5065,575,cs),
+(5041,575,o),
+(5009,572,o),
+(4959,567,c),
+(4959,555,l),
+(5003,553,o),
+(5027,538,o),
+(5027,511,cs),
+(5027,492,o),
+(5016,464,o),
+(4998,438,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-20,0);
+ref = hookabovecomb;
+}
+);
+width = 221;
+}
+);
+unicode = 7881;
+}

@@ -1,0 +1,89 @@
+{
+glyphname = pstroke;
+kernLeft = KO_n;
+kernRight = KO_b;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = center;
+pos = (243,200);
+},
+{
+name = hook;
+pos = (392,400);
+},
+{
+name = shortstroke;
+pos = (124,-85);
+},
+{
+name = stroke;
+pos = (245,200);
+},
+{
+name = top;
+pos = (243,400);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,-174,l),
+(210,0,l),
+(392,0,l),
+(437,37,o),
+(468,116,o),
+(468,214,cs),
+(468,263,o),
+(446,349,o),
+(392,400,c),
+(39,400,l),
+(39,-174,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,366,l),
+(269,322,o),
+(295,267,o),
+(295,195,cs),
+(295,120,o),
+(253,63,o),
+(210,33,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(495,169,l),
+(495,229,l),
+(0,229,l),
+(0,169,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = p;
+},
+{
+alignment = -1;
+pos = (-30,-78);
+ref = _stroke.part;
+}
+);
+width = 485;
+}
+);
+unicode = 7549;
+}

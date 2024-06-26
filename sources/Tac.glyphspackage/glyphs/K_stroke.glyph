@@ -1,0 +1,21 @@
+{
+glyphname = Kstroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (-22,246);
+ref = strokeshortcomb.case;
+}
+);
+width = 515;
+}
+);
+metricLeft = o;
+metricRight = K;
+unicode = 42816;
+}

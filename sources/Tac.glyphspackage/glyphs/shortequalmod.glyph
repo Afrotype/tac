@@ -1,0 +1,17 @@
+{
+glyphname = shortequalmod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (7,0);
+ref = equal;
+scale = (0.7656,1);
+}
+);
+width = 348;
+}
+);
+unicode = 42890;
+}

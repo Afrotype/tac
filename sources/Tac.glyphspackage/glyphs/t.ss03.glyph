@@ -1,0 +1,51 @@
+{
+glyphname = t.ss03;
+kernLeft = KO_t;
+kernRight = AngledCrossbar;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (167,0);
+},
+{
+name = center;
+pos = (128,222);
+},
+{
+name = top;
+pos = (119,500);
+},
+{
+name = topright;
+pos = (243,448);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(267,0,l),
+(267,2,l),
+(232,50,o),
+(204,107,o),
+(204,195,cs),
+(204,280,l),
+(254,280,l),
+(287,400,l),
+(204,400,l),
+(204,500,l),
+(33,500,l),
+(33,160,ls),
+(33,98,o),
+(49,29,o),
+(68,0,c)
+);
+}
+);
+width = 287;
+}
+);
+}

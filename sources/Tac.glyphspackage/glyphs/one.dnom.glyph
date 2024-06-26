@@ -1,0 +1,31 @@
+{
+glyphname = one.dnom;
+kernLeft = one.dnom;
+kernRight = one.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,0,l),
+(138,299,l),
+(51,299,l),
+(36,270,o),
+(30,240,o),
+(30,198,cs),
+(30,0,l)
+);
+}
+);
+width = 168;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,22 @@
+{
+glyphname = lmiddletilde;
+kernLeft = KO_t;
+kernRight = KO_l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-56,21);
+ref = tildeoverlaycomb;
+scale = (1.1262,1);
+}
+);
+width = 255;
+}
+);
+unicode = 619;
+}

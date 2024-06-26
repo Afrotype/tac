@@ -1,0 +1,19 @@
+{
+glyphname = bhook;
+kernLeft = KO_f;
+kernRight = KO_b;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (488,400);
+ref = g;
+}
+);
+width = 488;
+}
+);
+unicode = 595;
+}

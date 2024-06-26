@@ -1,0 +1,46 @@
+{
+glyphname = "Iota-latin";
+kernLeft = KO_H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (131,0);
+},
+{
+name = ogonek;
+pos = (202,0);
+},
+{
+name = stroke;
+pos = (131,277);
+},
+{
+name = top;
+pos = (131,554);
+},
+{
+name = topleft;
+pos = (40,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,l),
+(217,554,l),
+(44,554,l),
+(44,0,l)
+);
+}
+);
+width = 241;
+}
+);
+metricLeft = H;
+metricRight = h4;
+unicode = 406;
+}

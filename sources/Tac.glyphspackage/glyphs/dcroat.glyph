@@ -1,0 +1,22 @@
+{
+glyphname = dcroat;
+kernLeft = KO_d;
+kernRight = KO_d;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (177,217);
+ref = _shortstroke.part;
+}
+);
+width = 488;
+}
+);
+metricRight = T;
+unicode = 273;
+}

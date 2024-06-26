@@ -1,0 +1,21 @@
+{
+glyphname = Tdotaccent;
+kernLeft = KO_T;
+kernRight = KO_T;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (113,154);
+ref = dotaccentcomb;
+}
+);
+width = 430;
+}
+);
+unicode = 7786;
+}

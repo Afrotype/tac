@@ -1,0 +1,17 @@
+{
+glyphname = "chi-latin";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-152);
+ref = "Chi-latin";
+}
+);
+width = 505;
+}
+);
+unicode = 43859;
+}

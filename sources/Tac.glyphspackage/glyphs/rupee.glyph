@@ -1,0 +1,19 @@
+{
+glyphname = rupee;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (513,0);
+ref = s;
+}
+);
+width = 772;
+}
+);
+unicode = 8360;
+}

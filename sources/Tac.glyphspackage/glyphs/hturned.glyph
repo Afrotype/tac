@@ -1,0 +1,19 @@
+{
+glyphname = hturned;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (495,400);
+ref = h;
+}
+);
+width = 495;
+}
+);
+unicode = 613;
+}

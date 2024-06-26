@@ -1,0 +1,30 @@
+{
+glyphname = brokenbar;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,308,l),
+(204,554,l),
+(44,554,l),
+(44,308,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(204,0,l),
+(204,259,l),
+(44,259,l),
+(44,0,l)
+);
+}
+);
+width = 248;
+}
+);
+unicode = 166;
+}

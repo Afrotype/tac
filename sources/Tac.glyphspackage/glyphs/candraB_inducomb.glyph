@@ -1,0 +1,80 @@
+{
+glyphname = candraBinducomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (170,400);
+},
+{
+name = top;
+pos = (170,651);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,417,l),
+(308,443,o),
+(321,492,o),
+(321,537,c),
+(199,537,l),
+(199,488,o),
+(188,454,o),
+(160,417,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(180,417,l),
+(152,452,o),
+(141,487,o),
+(141,537,c),
+(19,537,l),
+(19,485,o),
+(29,445,o),
+(51,417,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,572,l),
+(240,585,o),
+(245,606,o),
+(245,632,cs),
+(245,657,o),
+(240,678,o),
+(230,691,c),
+(110,691,l),
+(100,678,o),
+(96,657,o),
+(96,632,cs),
+(96,606,o),
+(100,585,o),
+(110,572,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = deeperbrevecomb;
+},
+{
+pos = (79,138);
+ref = deeperdotaccent.comb;
+}
+);
+width = 332;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 784;
+}

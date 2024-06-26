@@ -1,0 +1,17 @@
+{
+glyphname = dieresis;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = dieresiscomb;
+}
+);
+width = 367;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 168;
+}

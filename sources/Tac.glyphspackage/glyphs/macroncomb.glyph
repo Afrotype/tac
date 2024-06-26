@@ -1,0 +1,66 @@
+{
+glyphname = macroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (158,400);
+},
+{
+name = top;
+pos = (158,528);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,437,l),
+(297,530,l),
+(19,530,l),
+(19,437,l)
+);
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (174,412);
+},
+{
+name = top;
+pos = (173,524);
+}
+);
+associatedMasterId = m01;
+layerId = "0ACD335F-E162-4230-A1E5-41C46B55E0F3";
+name = "18 Dec 23, 15:55";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,452,l),
+(329,524,l),
+(19,524,l),
+(19,452,l)
+);
+}
+);
+width = 348;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 772;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

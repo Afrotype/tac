@@ -1,0 +1,65 @@
+{
+glyphname = micro;
+kernRight = KO_micro;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = ogonek;
+pos = (455,0);
+},
+{
+name = top;
+pos = (241,400);
+},
+{
+name = topright;
+pos = (455,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,26,l),
+(248,51,o),
+(202,99,o),
+(202,211,cs),
+(202,400,l),
+(31,400,l),
+(31,200,ls),
+(31,118,o),
+(53,42,o),
+(89,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(202,-128,l),
+(202,400,l),
+(31,400,l),
+(31,-128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(455,0,l),
+(455,400,l),
+(284,400,l),
+(284,0,l)
+);
+}
+);
+width = 494;
+}
+);
+unicode = 181;
+}

@@ -1,0 +1,22 @@
+{
+glyphname = minute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (10,411);
+ref = comma;
+}
+);
+width = 216;
+}
+);
+unicode = 8242;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

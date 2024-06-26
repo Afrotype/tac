@@ -1,0 +1,21 @@
+{
+glyphname = Uhorn;
+kernLeft = KO_U;
+kernRight = KO_Uhorn;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (359,-35);
+ref = horncomb.case;
+}
+);
+width = 524;
+}
+);
+unicode = 431;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = odieresismacron;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (72,0);
+ref = deeperdieresiscomb;
+},
+{
+pos = (86,139);
+ref = deepermacroncomb;
+}
+);
+width = 490;
+}
+);
+unicode = 555;
+}

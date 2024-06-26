@@ -1,0 +1,30 @@
+{
+glyphname = deepergravecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (142,554);
+},
+{
+name = top;
+pos = (118,687);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(73,592,l),
+(217,592,l),
+(163,687,l),
+(19,687,l)
+);
+}
+);
+width = 236;
+}
+);
+}

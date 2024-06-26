@@ -1,0 +1,26 @@
+{
+glyphname = capbar.part;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (260,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,352,l),
+(504,411,l),
+(10,411,l),
+(10,352,l)
+);
+}
+);
+width = 514;
+}
+);
+}

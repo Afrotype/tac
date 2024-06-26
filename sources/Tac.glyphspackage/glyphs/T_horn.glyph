@@ -1,0 +1,53 @@
+{
+glyphname = Thorn;
+kernLeft = KO_H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (296,0);
+},
+{
+name = top;
+pos = (296,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(217,0,l),
+(217,554,l),
+(44,554,l),
+(44,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(406,113,l),
+(441,146,o),
+(464,214,o),
+(464,284,cs),
+(464,355,o),
+(441,421,o),
+(406,455,c),
+(192,455,l),
+(253,416,o),
+(291,350,o),
+(291,284,cs),
+(291,218,o),
+(253,152,o),
+(192,113,c)
+);
+}
+);
+width = 481;
+}
+);
+metricLeft = H;
+metricRight = b;
+unicode = 222;
+}

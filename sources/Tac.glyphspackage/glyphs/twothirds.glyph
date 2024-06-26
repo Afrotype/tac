@@ -1,0 +1,27 @@
+{
+glyphname = twothirds;
+kernLeft = twothirds;
+kernRight = twothirds;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = two.numr;
+},
+{
+pos = (270,0);
+ref = fraction;
+},
+{
+pos = (454,0);
+ref = three.dnom;
+}
+);
+width = 713;
+}
+);
+metricLeft = two.numr;
+metricRight = two.numr;
+unicode = 8532;
+}

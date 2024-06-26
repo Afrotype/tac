@@ -1,0 +1,21 @@
+{
+glyphname = jcaron;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-53,0);
+ref = caroncomb;
+}
+);
+width = 253;
+}
+);
+unicode = 496;
+}

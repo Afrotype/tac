@@ -1,0 +1,43 @@
+{
+glyphname = f.ss03;
+kernLeft = KO_f;
+kernRight = AngledCrossbar;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (140,0);
+},
+{
+name = top;
+pos = (140,830);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(303,400,l),
+(210,400,l),
+(210,420,ls),
+(210,486,o),
+(229,538,o),
+(266,573,c),
+(264,574,l),
+(113,574,l),
+(65,543,o),
+(39,492,o),
+(39,427,cs),
+(39,0,l),
+(210,0,l),
+(210,280,l),
+(270,280,l)
+);
+}
+);
+width = 303;
+}
+);
+}

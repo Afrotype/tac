@@ -1,0 +1,86 @@
+{
+glyphname = Khook;
+kernLeft = KO_H;
+kernRight = KO_R;
+layers = (
+{
+associatedMasterId = m01;
+layerId = "9CC0EAC0-E2EC-4A55-AE2F-6B2FC71ADADB";
+name = "Jan 30, 24 at 13:41";
+shapes = (
+{
+ref = K;
+},
+{
+pos = (662,0);
+ref = _leftcaphook.part;
+scale = (-1,1);
+}
+);
+width = 515;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (258,0);
+},
+{
+name = hook;
+pos = (470,554);
+},
+{
+name = stroke;
+pos = (131,399);
+},
+{
+name = top;
+pos = (258,554);
+}
+);
+layerId = m01;
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,0,l),
+(214,259,l),
+(279,254,o),
+(306,201,o),
+(310,139,cs),
+(319,0,l),
+(495,0,l),
+(486,139,ls),
+(481,217,o),
+(458,279,o),
+(400,302,c),
+(400,304,l),
+(450,329,o),
+(470,379,o),
+(470,430,cs),
+(470,554,l),
+(296,554,l),
+(296,427,ls),
+(296,367,o),
+(278,316,o),
+(214,307,c),
+(214,400,ls),
+(214,477,o),
+(245,536,o),
+(278,551,c),
+(278,554,l),
+(111,554,l),
+(44,502,o),
+(44,423,o),
+(44,376,cs),
+(44,0,l)
+);
+}
+);
+width = 515;
+}
+);
+metricLeft = H;
+unicode = 408;
+}

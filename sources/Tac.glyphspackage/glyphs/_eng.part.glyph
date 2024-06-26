@@ -1,0 +1,33 @@
+{
+export = 0;
+glyphname = _eng.part;
+layers = (
+{
+anchors = (
+{
+name = _engpart;
+pos = (207,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,-250,l),
+(192,-211,o),
+(207,-124,o),
+(207,-63,cs),
+(207,0,l),
+(41,0,l),
+(41,-23,ls),
+(41,-105,o),
+(17,-188,o),
+(-20,-250,c)
+);
+}
+);
+width = 231;
+}
+);
+}

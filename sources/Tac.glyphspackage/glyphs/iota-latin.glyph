@@ -1,0 +1,30 @@
+{
+glyphname = "iota-latin";
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(261,0,l),
+(225,49,o),
+(197,106,o),
+(197,195,cs),
+(197,400,l),
+(24,400,l),
+(24,160,ls),
+(24,98,o),
+(40,29,o),
+(59,0,c)
+);
+}
+);
+width = 251;
+}
+);
+metricRight = l;
+unicode = 617;
+}

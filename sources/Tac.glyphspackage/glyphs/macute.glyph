@@ -1,0 +1,21 @@
+{
+glyphname = macute;
+kernLeft = KO_n;
+kernRight = KO_n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m;
+},
+{
+pos = (224,0);
+ref = acutecomb;
+}
+);
+width = 742;
+}
+);
+unicode = 7743;
+}

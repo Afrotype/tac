@@ -1,0 +1,21 @@
+{
+glyphname = edblgrave;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (-5,0);
+ref = dblgravecomb;
+}
+);
+width = 452;
+}
+);
+unicode = 517;
+}

@@ -1,0 +1,45 @@
+{
+glyphname = plusminus;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,173,l),
+(280,510,l),
+(152,510,l),
+(148,173,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(401,30,l),
+(401,126,l),
+(31,126,l),
+(31,30,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(400,284,l),
+(400,399,l),
+(30,399,l),
+(30,284,l)
+);
+}
+);
+width = 431;
+}
+);
+unicode = 177;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

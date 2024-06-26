@@ -1,0 +1,25 @@
+{
+glyphname = ecedillabreve;
+kernLeft = KO_e;
+kernRight = KO_e;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (55,0);
+ref = cedillacomb;
+},
+{
+pos = (58,0);
+ref = brevecomb;
+}
+);
+width = 452;
+}
+);
+unicode = 7709;
+}

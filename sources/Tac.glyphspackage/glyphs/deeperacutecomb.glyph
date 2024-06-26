@@ -1,0 +1,32 @@
+{
+glyphname = deeperacutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (99,400);
+},
+{
+name = top;
+pos = (118,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,438,l),
+(217,528,l),
+(68,528,l),
+(19,438,l)
+);
+}
+);
+width = 236;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

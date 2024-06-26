@@ -1,0 +1,21 @@
+{
+glyphname = cstroke;
+kernLeft = KO_c;
+kernRight = KO_c;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (17,22);
+ref = slashshortcomb;
+}
+);
+width = 291;
+}
+);
+unicode = 572;
+}

@@ -1,0 +1,19 @@
+{
+glyphname = Udieresisbelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (104,0);
+ref = dieresisbelowcomb;
+}
+);
+width = 524;
+}
+);
+unicode = 7794;
+}

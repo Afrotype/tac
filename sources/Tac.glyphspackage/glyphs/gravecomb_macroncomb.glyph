@@ -1,0 +1,21 @@
+{
+glyphname = gravecomb_macroncomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (26,0);
+ref = gravecomb;
+},
+{
+pos = (0,154);
+ref = macroncomb;
+}
+);
+width = 316;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

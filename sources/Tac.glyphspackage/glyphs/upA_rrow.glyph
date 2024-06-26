@@ -1,0 +1,38 @@
+{
+glyphname = upArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(411,211,l),
+(411,378,l),
+(229,504,l),
+(50,378,l),
+(50,211,l),
+(229,337,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(288,69,l),
+(288,407,l),
+(173,407,l),
+(173,69,l)
+);
+}
+);
+width = 461;
+}
+);
+unicode = 8593;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

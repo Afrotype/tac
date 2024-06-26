@@ -1,0 +1,50 @@
+{
+glyphname = paragraph;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(271,198,l),
+(271,554,l),
+(65,554,l),
+(29,529,o),
+(-3,452,o),
+(-3,388,cs),
+(-3,316,o),
+(23,245,o),
+(65,198,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(332,-139,l),
+(332,554,l),
+(270,554,l),
+(270,-139,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(449,-139,l),
+(449,554,l),
+(389,554,l),
+(389,-139,l)
+);
+}
+);
+width = 493;
+}
+);
+unicode = 182;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

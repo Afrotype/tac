@@ -1,0 +1,28 @@
+{
+glyphname = quotedblleft;
+kernLeft = KO_quotedblleft;
+kernRight = KO_quotedblleft;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = quoteleft;
+},
+{
+pos = (229,0);
+ref = quoteleft;
+}
+);
+width = 456;
+}
+);
+unicode = 8220;
+userData = {
+KernOnName = quotedblleft;
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

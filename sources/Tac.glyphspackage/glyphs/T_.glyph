@@ -1,0 +1,55 @@
+{
+glyphname = T;
+kernLeft = KO_T;
+kernRight = KO_T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (214,0);
+},
+{
+name = center;
+pos = (214,277);
+},
+{
+name = hook;
+pos = (10,554);
+},
+{
+name = top;
+pos = (214,554);
+}
+);
+guides = (
+{
+angle = 90;
+locked = 1;
+pos = (214,432);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,0,l),
+(298,436,l),
+(398,436,l),
+(430,554,l),
+(10,554,l),
+(10,436,l),
+(130,436,l),
+(130,0,l)
+);
+}
+);
+width = 430;
+}
+);
+unicode = 84;
+userData = {
+KernOnName = T;
+};
+}

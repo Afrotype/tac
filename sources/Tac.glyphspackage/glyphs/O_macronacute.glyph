@@ -1,0 +1,25 @@
+{
+glyphname = Omacronacute;
+kernLeft = KO_O;
+kernRight = KO_O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (95,0);
+ref = deepermacroncomb.case;
+},
+{
+pos = (163,124);
+ref = deeperacutecomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 7762;
+}

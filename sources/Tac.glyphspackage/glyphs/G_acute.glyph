@@ -1,0 +1,21 @@
+{
+glyphname = Gacute;
+kernLeft = KO_G;
+kernRight = KO_G;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = G;
+},
+{
+pos = (146,0);
+ref = acutecomb.case;
+}
+);
+width = 500;
+}
+);
+unicode = 500;
+}

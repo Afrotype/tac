@@ -1,0 +1,41 @@
+{
+glyphname = a.ss02;
+kernLeft = KO_o;
+kernRight = KO_d;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(437,0,l),
+(437,400,l),
+(107,400,l),
+(48,359,o),
+(23,267,o),
+(23,200,cs),
+(23,125,o),
+(48,41,o),
+(107,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,66,o),
+(194,128,o),
+(194,200,cs),
+(194,272,o),
+(220,334,o),
+(271,365,c),
+(271,35,l)
+);
+}
+);
+width = 468;
+}
+);
+metricLeft = o;
+metricRight = h;
+}

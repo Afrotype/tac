@@ -1,0 +1,24 @@
+{
+glyphname = oneinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-99);
+ref = one.dnom;
+}
+);
+width = 168;
+}
+);
+metricLeft = one;
+metricRight = one;
+unicode = 8321;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

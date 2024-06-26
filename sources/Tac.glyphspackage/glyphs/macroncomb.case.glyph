@@ -1,0 +1,32 @@
+{
+glyphname = macroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (166,554);
+},
+{
+name = top;
+pos = (166,683);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,591,l),
+(312,683,l),
+(19,683,l),
+(19,591,l)
+);
+}
+);
+width = 331;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

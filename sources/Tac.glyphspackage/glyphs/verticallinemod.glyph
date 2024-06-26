@@ -1,0 +1,23 @@
+{
+glyphname = verticallinemod;
+kernLeft = KO_verticallinemod;
+kernRight = KO_verticallinemod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,400,l),
+(157,622,l),
+(20,622,l),
+(20,400,l)
+);
+}
+);
+width = 177;
+}
+);
+unicode = 712;
+}

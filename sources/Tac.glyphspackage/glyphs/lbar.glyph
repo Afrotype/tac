@@ -1,0 +1,21 @@
+{
+glyphname = lbar;
+kernLeft = KO_t;
+kernRight = KO_l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-68,-20);
+ref = _shortstroke.part;
+}
+);
+width = 255;
+}
+);
+unicode = 410;
+}

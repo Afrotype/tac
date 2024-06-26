@@ -1,0 +1,105 @@
+{
+glyphname = Ecircumflexdotbelow;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (247,-158);
+},
+{
+name = center;
+pos = (211,277);
+},
+{
+name = ogonek;
+pos = (379,0);
+},
+{
+name = top;
+pos = (221,699);
+},
+{
+name = topleft;
+pos = (44,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,0,l),
+(411,120,l),
+(211,120,l),
+(211,219,l),
+(329,219,l),
+(361,337,l),
+(211,337,l),
+(211,436,l),
+(377,436,l),
+(409,554,l),
+(44,554,l),
+(44,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(184,592,l),
+(237,699,l),
+(101,699,l),
+(47,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(340,699,l),
+(204,699,l),
+(258,592,l),
+(394,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(318,-158,l),
+(327,-145,o),
+(331,-125,o),
+(331,-101,cs),
+(331,-74,o),
+(327,-54,o),
+(318,-42,c),
+(179,-42,l),
+(168,-55,o),
+(163,-74,o),
+(163,-101,cs),
+(163,-125,o),
+(168,-145,o),
+(179,-158,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (114,0);
+ref = dotbelowcomb.case;
+},
+{
+pos = (28,0);
+ref = circumflexcomb.case;
+}
+);
+width = 417;
+}
+);
+unicode = 7878;
+}

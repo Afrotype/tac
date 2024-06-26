@@ -1,0 +1,74 @@
+{
+glyphname = tcaron;
+kernLeft = KO_t;
+kernRight = KO_t;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (167,0);
+},
+{
+name = center;
+pos = (128,222);
+},
+{
+name = top;
+pos = (119,500);
+},
+{
+name = topright;
+pos = (243,448);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(267,0,l),
+(267,2,l),
+(232,50,o),
+(204,107,o),
+(204,195,cs),
+(204,280,l),
+(264,280,l),
+(264,400,l),
+(204,400,l),
+(204,500,l),
+(33,500,l),
+(33,160,ls),
+(33,98,o),
+(49,29,o),
+(68,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(371,418,l),
+(398,574,l),
+(270,574,l),
+(243,418,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (224,204);
+ref = caroncomb.alt;
+}
+);
+width = 278;
+}
+);
+metricLeft = t;
+metricRight = T;
+unicode = 357;
+}

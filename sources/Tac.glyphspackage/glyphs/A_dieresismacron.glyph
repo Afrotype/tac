@@ -1,0 +1,25 @@
+{
+glyphname = Adieresismacron;
+kernLeft = KO_A;
+kernRight = KO_A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (85,0);
+ref = deeperdieresiscomb.case;
+},
+{
+pos = (96,140);
+ref = deepermacroncomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 478;
+}

@@ -1,0 +1,19 @@
+{
+glyphname = Ecedillabreve;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Ecedilla;
+},
+{
+pos = (54,0);
+ref = brevecomb.case;
+}
+);
+width = 417;
+}
+);
+unicode = 7708;
+}

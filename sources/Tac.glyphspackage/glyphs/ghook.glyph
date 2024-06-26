@@ -1,0 +1,21 @@
+{
+glyphname = ghook;
+kernLeft = KO_d;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (386,0);
+ref = _hook.part;
+}
+);
+width = 488;
+}
+);
+unicode = 608;
+}

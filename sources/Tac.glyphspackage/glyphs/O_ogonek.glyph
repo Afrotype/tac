@@ -1,0 +1,21 @@
+{
+glyphname = Oogonek;
+kernLeft = KO_O;
+kernRight = KO_O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (261,0);
+ref = ogonekcomb;
+}
+);
+width = 521;
+}
+);
+unicode = 490;
+}

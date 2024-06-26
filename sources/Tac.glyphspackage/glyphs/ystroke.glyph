@@ -1,0 +1,21 @@
+{
+glyphname = ystroke;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (-32,-67);
+ref = _stroke.part;
+}
+);
+width = 493;
+}
+);
+unicode = 591;
+}

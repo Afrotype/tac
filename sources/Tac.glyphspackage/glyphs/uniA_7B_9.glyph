@@ -1,0 +1,26 @@
+{
+glyphname = uniA7B9;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+closed = 1;
+nodes = (
+(141,-71,l),
+(353,459,l),
+(307,459,l),
+(95,-71,l)
+);
+}
+);
+width = 494;
+}
+);
+metricLeft = u;
+metricRight = u;
+unicode = 42937;
+}

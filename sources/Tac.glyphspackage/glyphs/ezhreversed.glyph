@@ -1,0 +1,17 @@
+{
+glyphname = ezhreversed;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (389,0);
+ref = ezh;
+scale = (-1,1);
+}
+);
+width = 389;
+}
+);
+unicode = 441;
+}

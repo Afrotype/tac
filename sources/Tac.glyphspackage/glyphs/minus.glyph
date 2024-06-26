@@ -1,0 +1,46 @@
+{
+glyphname = minus;
+kernLeft = KO_minus;
+kernRight = KO_minus;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,219,l),
+(420,335,l),
+(20,335,l),
+(20,219,l)
+);
+}
+);
+width = 440;
+},
+{
+associatedMasterId = m01;
+layerId = "A54F054F-0CDF-4017-BC14-B72EE319D7ED";
+name = "Jan 12, 24 at 12:08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,187,l),
+(366,307,l),
+(48,307,l),
+(48,187,l)
+);
+}
+);
+width = 414;
+}
+);
+unicode = 8722;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

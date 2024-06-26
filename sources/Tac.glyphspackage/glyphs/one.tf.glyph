@@ -1,0 +1,29 @@
+{
+glyphname = one.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(331,0,l),
+(331,554,l),
+(197,554,l),
+(172,506,o),
+(160,448,o),
+(160,367,cs),
+(160,0,l)
+);
+}
+);
+width = 500;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

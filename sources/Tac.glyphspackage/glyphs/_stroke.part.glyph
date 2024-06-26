@@ -1,0 +1,27 @@
+{
+export = 0;
+glyphname = _stroke.part;
+layers = (
+{
+anchors = (
+{
+name = _stroke;
+pos = (278,278);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(525,247,l),
+(525,307,l),
+(30,307,l),
+(30,247,l)
+);
+}
+);
+width = 555;
+}
+);
+}

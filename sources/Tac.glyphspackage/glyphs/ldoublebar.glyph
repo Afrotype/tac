@@ -1,0 +1,101 @@
+{
+glyphname = ldoublebar;
+kernLeft = KO_t;
+kernRight = KO_l;
+layers = (
+{
+background = {
+anchors = (
+{
+name = belt;
+pos = (126,353);
+},
+{
+name = bottom;
+pos = (162,0);
+},
+{
+name = bottomshortstroke;
+pos = (127,229);
+},
+{
+name = center;
+pos = (128,336);
+},
+{
+name = shortstroke;
+pos = (127,257);
+},
+{
+name = top;
+pos = (130,574);
+},
+{
+name = topright;
+pos = (253,418);
+},
+{
+name = topshortstroke;
+pos = (127,374);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,0,l),
+(277,2,l),
+(241,50,o),
+(214,107,o),
+(214,195,cs),
+(214,574,l),
+(45,574,l),
+(45,160,ls),
+(45,98,o),
+(61,29,o),
+(80,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(-2,344,l),
+(255,344,l),
+(255,404,l),
+(-2,404,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-2,199,l),
+(255,199,l),
+(255,259,l),
+(-2,259,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (12,0);
+ref = l;
+},
+{
+pos = (-53,37);
+ref = _topshortstroke.part;
+scale = (0.9809,1);
+},
+{
+pos = (-53,-108);
+ref = _bottomshortstroke.part;
+scale = (0.9809,1);
+}
+);
+width = 269;
+}
+);
+unicode = 11361;
+}

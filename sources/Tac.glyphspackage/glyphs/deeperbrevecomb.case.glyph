@@ -1,0 +1,42 @@
+{
+glyphname = deeperbrevecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (167,554);
+},
+{
+name = top;
+pos = (167,678);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(219,582,o),
+(271,596,o),
+(315,624,c),
+(315,723,l),
+(269,690,o),
+(218,673,o),
+(167,673,cs),
+(116,673,o),
+(65,690,o),
+(19,723,c),
+(19,624,l),
+(63,596,o),
+(115,582,o),
+(167,582,cs)
+);
+}
+);
+width = 334;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = Odotaccentmacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (170,0);
+ref = deeperdotaccentcomb.case;
+},
+{
+pos = (95,140);
+ref = deepermacroncomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 560;
+}

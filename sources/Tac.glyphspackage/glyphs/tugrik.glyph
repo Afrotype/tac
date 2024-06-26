@@ -1,0 +1,51 @@
+{
+glyphname = tugrik;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(363,313,l),
+(363,373,l),
+(44,265,l),
+(44,205,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(291,0,l),
+(291,436,l),
+(403,436,l),
+(435,554,l),
+(10,554,l),
+(10,436,l),
+(122,436,l),
+(122,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(363,203,l),
+(363,263,l),
+(44,155,l),
+(44,95,l)
+);
+}
+);
+width = 435;
+}
+);
+metricLeft = T;
+metricRight = T;
+unicode = 8366;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

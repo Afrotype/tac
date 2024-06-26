@@ -1,0 +1,21 @@
+{
+glyphname = acutecomb_macroncomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = acutecomb;
+},
+{
+pos = (-26,154);
+ref = macroncomb;
+}
+);
+width = 264;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

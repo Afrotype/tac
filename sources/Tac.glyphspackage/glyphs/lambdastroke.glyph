@@ -1,0 +1,47 @@
+{
+glyphname = lambdastroke;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (235,0);
+},
+{
+name = hook;
+pos = (443,0);
+},
+{
+name = shortdiagonalstroke;
+pos = (257,451);
+},
+{
+name = stroke;
+pos = (235,189);
+},
+{
+name = top;
+pos = (547,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(373,509,l),
+(358,554,l),
+(115,475,l),
+(131,430,l)
+);
+},
+{
+pos = (-19,0);
+ref = lambda;
+}
+);
+width = 515;
+}
+);
+unicode = 411;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = Idieresisacute;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-46,0);
+ref = deeperdieresiscomb.case;
+},
+{
+pos = (33,140);
+ref = deeperacutecomb.case;
+}
+);
+width = 261;
+}
+);
+unicode = 7726;
+}

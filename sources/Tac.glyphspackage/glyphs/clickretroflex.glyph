@@ -1,0 +1,30 @@
+{
+glyphname = clickretroflex;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,180,l),
+(204,575,l),
+(31,575,l),
+(56,180,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(204,0,l),
+(204,144,l),
+(35,144,l),
+(35,0,l)
+);
+}
+);
+width = 239;
+}
+);
+unicode = 451;
+}

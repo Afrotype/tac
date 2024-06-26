@@ -1,0 +1,36 @@
+{
+glyphname = nmod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,298,l),
+(149,533,l),
+(183,512,o),
+(202,478,o),
+(202,420,cs),
+(202,298,l),
+(331,298,l),
+(331,426,ls),
+(331,478,o),
+(317,527,o),
+(294,554,c),
+(20,554,l),
+(20,298,l)
+);
+}
+);
+width = 348;
+}
+);
+unicode = 8319;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

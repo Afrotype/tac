@@ -1,0 +1,29 @@
+{
+glyphname = fraction;
+kernLeft = fraction;
+kernRight = fraction;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-76,0,l),
+(321,560,l),
+(248,560,l),
+(-150,0,l)
+);
+}
+);
+width = 184;
+}
+);
+unicode = 8260;
+userData = {
+KernOnSpecialSpacing = {
+L = fraction;
+R = fraction;
+};
+};
+}

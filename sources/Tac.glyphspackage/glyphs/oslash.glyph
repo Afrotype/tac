@@ -1,0 +1,32 @@
+{
+glyphname = oslash;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (247,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,-20,l),
+(339,420,l),
+(293,420,l),
+(157,-20,l)
+);
+},
+{
+ref = o;
+}
+);
+width = 494;
+}
+);
+unicode = 248;
+}

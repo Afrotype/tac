@@ -1,0 +1,26 @@
+{
+glyphname = gravemacroncomb;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (612,110);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,1183);
+ref = acutemacroncomb;
+scale = (1,-1);
+}
+);
+width = 400;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 7621;
+}

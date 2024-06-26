@@ -1,0 +1,20 @@
+{
+glyphname = imod.dotless;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,298,l),
+(151,554,l),
+(20,554,l),
+(20,298,l)
+);
+}
+);
+width = 171;
+}
+);
+}

@@ -1,0 +1,81 @@
+{
+glyphname = ordmasculine;
+kernLeft = KO_ordmasculine;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (174,298);
+},
+{
+name = center;
+pos = (173,425);
+},
+{
+name = midstroke;
+pos = (173,425);
+},
+{
+name = ogonek;
+pos = (280,298);
+},
+{
+name = top;
+pos = (173,553);
+},
+{
+name = topright;
+pos = (279,553);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,298,l),
+(328,337,o),
+(334,388,o),
+(334,425,cs),
+(334,462,o),
+(328,508,o),
+(299,553,c),
+(45,553,l),
+(18,515,o),
+(12,463,o),
+(12,425,cs),
+(12,390,o),
+(17,346,o),
+(46,298,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(151,355,o),
+(142,387,o),
+(142,425,cs),
+(142,465,o),
+(151,500,o),
+(172,531,c),
+(193,499,o),
+(204,465,o),
+(204,425,cs),
+(204,386,o),
+(195,350,o),
+(172,320,c)
+);
+}
+);
+width = 346;
+}
+);
+unicode = 186;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

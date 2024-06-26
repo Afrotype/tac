@@ -1,0 +1,89 @@
+{
+glyphname = V;
+kernLeft = KO_V;
+kernRight = KO_V;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (252,0);
+},
+{
+name = ogonek;
+pos = (402,0);
+},
+{
+name = top;
+pos = (259,554);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (255,0);
+},
+{
+name = center;
+pos = (255,277);
+},
+{
+name = hook;
+pos = (25,554);
+},
+{
+name = top;
+pos = (255,554);
+},
+{
+name = topleft;
+pos = (25,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(485,0,l),
+(485,554,l),
+(312,554,l),
+(312,342,l),
+(198,342,l),
+(198,554,l),
+(25,554,l),
+(25,0,l),
+(198,0,l),
+(198,224,l),
+(312,224,l),
+(312,0,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(402,0,l),
+(442,47,o),
+(457,98,o),
+(463,205,cs),
+(483,554,l),
+(313,554,l),
+(292,201,ls),
+(287,113,o),
+(272,60,o),
+(245,32,c),
+(190,554,l),
+(18,554,l),
+(76,0,l)
+);
+}
+);
+width = 507;
+}
+);
+unicode = 86;
+}

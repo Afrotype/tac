@@ -1,0 +1,21 @@
+{
+glyphname = Vtilde;
+kernLeft = KO_V;
+kernRight = KO_V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = V;
+},
+{
+pos = (106,154);
+ref = tildecomb;
+}
+);
+width = 507;
+}
+);
+unicode = 7804;
+}

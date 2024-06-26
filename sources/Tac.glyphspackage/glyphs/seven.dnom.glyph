@@ -1,0 +1,66 @@
+{
+glyphname = seven.dnom;
+kernLeft = seven.dnom;
+kernRight = seven.dnom;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(282,40,o),
+(375,247,o),
+(375,434,cs),
+(375,554,l),
+(202,554,l),
+(203,434,ls),
+(205,235,o),
+(76,40,o),
+(49,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,434,l),
+(375,554,l),
+(-10,554,l),
+(-10,434,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(186,0,l),
+(213,49,o),
+(244,143,o),
+(244,241,cs),
+(244,257,o),
+(244,282,o),
+(243,299,c),
+(24,299,l),
+(24,234,l),
+(136,234,l),
+(136,127,o),
+(90,37,o),
+(60,1,c),
+(62,0,l)
+);
+}
+);
+width = 262;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

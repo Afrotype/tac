@@ -1,0 +1,27 @@
+{
+export = 0;
+glyphname = _midstroke.part;
+layers = (
+{
+anchors = (
+{
+name = _midstroke;
+pos = (270,277);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(472,247,l),
+(472,307,l),
+(83,307,l),
+(83,247,l)
+);
+}
+);
+width = 555;
+}
+);
+}

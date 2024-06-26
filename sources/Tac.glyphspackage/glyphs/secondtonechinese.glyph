@@ -1,0 +1,23 @@
+{
+glyphname = secondtonechinese;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(146,432,l),
+(223,554,l),
+(96,554,l),
+(19,432,l)
+);
+}
+);
+width = 242;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 714;
+}

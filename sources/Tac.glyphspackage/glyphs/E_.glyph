@@ -1,0 +1,110 @@
+{
+glyphname = E;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (205,0);
+},
+{
+name = center;
+pos = (268,277);
+},
+{
+name = ogonek;
+pos = (372,10);
+},
+{
+name = top;
+pos = (205,554);
+},
+{
+name = topleft;
+pos = (16,554);
+}
+);
+associatedMasterId = m01;
+layerId = "6A2C1B8F-E57C-4FB2-B782-7C8CAB9B7401";
+name = "Nov 21, 23 at 16:33";
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,0,l),
+(384,120,l),
+(210,120,l),
+(210,435,l),
+(380,435,l),
+(380,554,l),
+(40,552,l),
+(40,-2,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(348,224,l),
+(348,340,l),
+(194,340,l),
+(194,224,l)
+);
+}
+);
+width = 414;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (217,0);
+},
+{
+name = center;
+pos = (211,277);
+},
+{
+name = ogonek;
+pos = (379,0);
+},
+{
+name = top;
+pos = (221,554);
+},
+{
+name = topleft;
+pos = (44,554);
+}
+);
+layerId = m01;
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,0,l),
+(411,120,l),
+(211,120,l),
+(211,219,l),
+(329,219,l),
+(361,337,l),
+(211,337,l),
+(211,436,l),
+(377,436,l),
+(409,554,l),
+(44,554,l),
+(44,0,l)
+);
+}
+);
+width = 417;
+}
+);
+metricLeft = H;
+unicode = 69;
+userData = {
+KernOnName = E;
+};
+}

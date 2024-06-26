@@ -1,0 +1,19 @@
+{
+glyphname = macronacutecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (400,0);
+ref = gravemacroncomb;
+scale = (-1,1);
+}
+);
+width = 400;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 7620;
+}

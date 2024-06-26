@@ -1,0 +1,19 @@
+{
+glyphname = Aringbelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (83,0);
+ref = ringbelowcomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 7680;
+}

@@ -1,0 +1,24 @@
+{
+glyphname = foursuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,264);
+ref = four.numr;
+}
+);
+width = 286;
+}
+);
+metricLeft = four;
+metricRight = four;
+unicode = 8308;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

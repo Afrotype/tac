@@ -1,0 +1,21 @@
+{
+glyphname = pacute;
+kernLeft = KO_n;
+kernRight = KO_b;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = p;
+},
+{
+pos = (111,0);
+ref = acutecomb;
+}
+);
+width = 485;
+}
+);
+unicode = 7765;
+}

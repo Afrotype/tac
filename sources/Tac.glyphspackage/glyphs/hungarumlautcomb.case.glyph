@@ -1,0 +1,41 @@
+{
+glyphname = hungarumlautcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (176,554);
+},
+{
+name = top;
+pos = (207,699);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,699,l),
+(84,699,l),
+(19,592,l),
+(153,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(395,699,l),
+(261,699,l),
+(196,592,l),
+(330,592,l)
+);
+}
+);
+width = 414;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

@@ -1,0 +1,61 @@
+{
+glyphname = igrave;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,234);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = top;
+pos = (5036,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(4987,438,l),
+(5149,438,l),
+(5085,554,l),
+(4923,554,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-56,0);
+ref = gravecomb;
+}
+);
+width = 221;
+}
+);
+unicode = 236;
+}

@@ -1,0 +1,21 @@
+{
+glyphname = clickdental;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(30,0,l),
+(170,0,l),
+(170,594,l),
+(30,594,l)
+);
+}
+);
+width = 200;
+}
+);
+unicode = 448;
+}

@@ -1,0 +1,53 @@
+{
+glyphname = Ismall;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (161,0);
+},
+{
+name = center;
+pos = (161,200);
+},
+{
+name = ogonek;
+pos = (247,0);
+},
+{
+name = top;
+pos = (161,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,0,l),
+(292,60,l),
+(247,60,l),
+(247,340,l),
+(292,340,l),
+(292,400,l),
+(30,400,l),
+(30,340,l),
+(74,340,l),
+(74,60,l),
+(30,60,l),
+(30,0,l)
+);
+}
+);
+width = 322;
+}
+);
+unicode = 618;
+userData = {
+KernOnSpecialSpacing = {
+L = smallcaps;
+R = smallcaps;
+};
+};
+}
