@@ -1,0 +1,114 @@
+{
+glyphname = Ocircumflexgrave;
+kernLeft = KO_O;
+kernRight = KO_O;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (261,0);
+},
+{
+name = center;
+pos = (261,277);
+},
+{
+name = ogonek;
+pos = (434,0);
+},
+{
+name = top;
+pos = (326,819);
+},
+{
+name = topleft;
+pos = (88,554);
+},
+{
+name = topright;
+pos = (447,519);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,0,l),
+(476,68,o),
+(495,168,o),
+(495,278,cs),
+(495,380,o),
+(479,466,o),
+(433,554,c),
+(88,554,l),
+(45,481,o),
+(26,384,o),
+(26,276,cs),
+(26,175,o),
+(43,89,o),
+(89,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,104,o),
+(201,183,o),
+(201,277,cs),
+(201,365,o),
+(221,446,o),
+(260,516,c),
+(306,444,o),
+(320,365,o),
+(320,273,cs),
+(320,181,o),
+(303,101,o),
+(266,32,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(423,686,l),
+(289,686,l),
+(342,592,l),
+(477,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(268,592,l),
+(322,686,l),
+(188,686,l),
+(134,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(281,724,l),
+(425,724,l),
+(371,819,l),
+(227,819,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (71,0);
+ref = circumflexcomb_gravecomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 7890;
+}

@@ -1,0 +1,24 @@
+{
+glyphname = questiondown;
+kernRight = KO_questiondown;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (363,400);
+ref = question;
+}
+);
+width = 363;
+}
+);
+unicode = 191;
+userData = {
+KernOnSpecialSpacing = {
+R = "spaced-off";
+};
+};
+}

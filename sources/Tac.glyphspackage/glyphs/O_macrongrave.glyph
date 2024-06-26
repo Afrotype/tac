@@ -1,0 +1,23 @@
+{
+glyphname = Omacrongrave;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (95,0);
+ref = deepermacroncomb.case;
+},
+{
+pos = (119,124);
+ref = deepergravecomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 7760;
+}

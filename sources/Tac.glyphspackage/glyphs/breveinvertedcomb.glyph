@@ -1,0 +1,90 @@
+{
+glyphname = breveinvertedcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (166,399);
+},
+{
+name = top;
+pos = (166,584);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,421,l),
+(65,459,o),
+(115,479,o),
+(166,479,cs),
+(216,479,o),
+(267,459,o),
+(313,421,c),
+(313,530,l),
+(270,563,o),
+(218,579,o),
+(166,579,cs),
+(114,579,o),
+(63,563,o),
+(19,530,c)
+);
+}
+);
+width = 332;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (174,360);
+},
+{
+name = top;
+pos = (180,563);
+}
+);
+associatedMasterId = m01;
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,521,o),
+(15,487,o),
+(20,432,c),
+(142,432,l),
+(142,483,o),
+(157,507,o),
+(174,535,c),
+(192,507,o),
+(208,483,o),
+(206,432,c),
+(328,432,l),
+(328,487,o),
+(321,525,o),
+(300,554,c),
+(48,554,l)
+);
+}
+);
+};
+layerId = "841E517C-BB70-4816-9732-EE1166B86516";
+name = "18 Dec 23, 15:55";
+shapes = (
+{
+pos = (0,967);
+ref = brevecomb;
+scale = (1,-1);
+}
+);
+width = 343;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 785;
+}

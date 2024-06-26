@@ -1,0 +1,24 @@
+{
+glyphname = "rightanglebracket-math";
+kernLeft = "KO_rightanglebracket-math";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+pos = (314,0);
+ref = "leftanglebracket-math";
+scale = (-1,1);
+}
+);
+width = 314;
+}
+);
+unicode = 10217;
+userData = {
+KernOnSpecialSpacing = {
+L = parenthesis;
+};
+};
+}

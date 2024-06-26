@@ -1,0 +1,37 @@
+{
+glyphname = commaaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (109,0);
+},
+{
+name = bottom;
+pos = (109,-257);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,-210,l),
+(164,-176,o),
+(179,-134,o),
+(179,-93,cs),
+(179,-65,o),
+(172,-50,o),
+(162,-41,c),
+(38,-41,l),
+(38,-143,l),
+(70,-143,l),
+(70,-210,l)
+);
+}
+);
+width = 217;
+}
+);
+}

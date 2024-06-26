@@ -1,0 +1,21 @@
+{
+glyphname = obarred;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (-25,-77);
+ref = _midstroke.part;
+}
+);
+width = 490;
+}
+);
+unicode = 629;
+}

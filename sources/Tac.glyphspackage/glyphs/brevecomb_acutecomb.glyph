@@ -1,0 +1,43 @@
+{
+glyphname = brevecomb_acutecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = deeperbrevecomb;
+},
+{
+pos = (67,138);
+ref = deeperacutecomb;
+}
+);
+width = 332;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (168,374);
+}
+);
+associatedMasterId = m01;
+layerId = "45BDA2ED-0769-4AA3-A2FB-707AE74DC0E1";
+name = "18 Dec 23, 15:18";
+shapes = (
+{
+alignment = -1;
+ref = brevecomb;
+},
+{
+alignment = -1;
+pos = (78,122);
+ref = acutecomb;
+}
+);
+width = 343;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

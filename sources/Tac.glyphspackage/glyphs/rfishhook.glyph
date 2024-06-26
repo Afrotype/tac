@@ -1,0 +1,81 @@
+{
+glyphname = rfishhook;
+kernLeft = KO_r;
+kernRight = KO_r;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (122,173);
+},
+{
+name = shortstroke;
+pos = (117,338.54);
+},
+{
+name = top;
+pos = (182,573);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,0,l),
+(205,134,ls),
+(205,282,o),
+(242,358,o),
+(335,399,c),
+(176,399,l),
+(102,368,o),
+(33,295,o),
+(33,169,cs),
+(33,0,l)
+);
+}
+);
+width = 321;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (122,173);
+},
+{
+name = shortstroke;
+pos = (117,338.54);
+},
+{
+name = top;
+pos = (182,573);
+}
+);
+associatedMasterId = m01;
+layerId = "09250252-F91D-4259-8535-FCE54B961698";
+name = "18 Dec 23, 21:53";
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,0,l),
+(205,308,ls),
+(205,456,o),
+(242,532,o),
+(335,573,c),
+(141,573,l),
+(67,542,o),
+(33,469,o),
+(33,343,cs),
+(33,0,l)
+);
+}
+);
+width = 279;
+}
+);
+metricRight = r;
+unicode = 638;
+}

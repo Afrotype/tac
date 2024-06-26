@@ -1,0 +1,87 @@
+{
+glyphname = ogonekcomb;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+pos = (176,0);
+}
+);
+associatedMasterId = m01;
+layerId = "A1FB9004-B0B3-4EA8-B994-AC4342EE7C44";
+name = "Jan 16, 24 at 15:13";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,-140,l),
+(172,-135,l),
+(164,-135,ls),
+(133,-135,o),
+(115,-110,o),
+(115,-81,cs),
+(115,-49,o),
+(137,-24,o),
+(176,0,c),
+(121,0,l),
+(55,-27,o),
+(19,-74,o),
+(19,-120,cs),
+(19,-167,o),
+(57,-211,o),
+(111,-211,c)
+);
+}
+);
+width = 195;
+},
+{
+anchors = (
+{
+name = _ogonek;
+pos = (173,0);
+}
+);
+layerId = m01;
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,-77,o),
+(151,-79,o),
+(144,-79,cs),
+(126,-79,o),
+(113,-69,o),
+(113,-52,cs),
+(113,-28,o),
+(136,-9,o),
+(173,0,c),
+(90,0,l),
+(44,-13,o),
+(19,-42,o),
+(19,-82,cs),
+(19,-138,o),
+(69,-177,o),
+(134,-177,cs),
+(145,-177,o),
+(156,-176,o),
+(168,-174,c),
+(168,-73,l)
+);
+}
+);
+width = 192;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 808;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

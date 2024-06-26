@@ -1,0 +1,88 @@
+{
+glyphname = dcaron;
+kernLeft = KO_d;
+kernRight = KO_d;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = center;
+pos = (246,200);
+},
+{
+name = shortstroke;
+pos = (360,494);
+},
+{
+name = tail;
+pos = (449,0);
+},
+{
+name = top;
+pos = (278,574);
+},
+{
+name = topright;
+pos = (488,418);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(449,0,l),
+(449,574,l),
+(278,574,l),
+(278,400,l),
+(96,400,l),
+(51,363,o),
+(20,284,o),
+(20,186,cs),
+(20,137,o),
+(42,51,o),
+(96,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(219,78,o),
+(193,133,o),
+(193,205,cs),
+(193,280,o),
+(235,337,o),
+(278,367,c),
+(278,34,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(616,418,l),
+(643,574,l),
+(515,574,l),
+(488,418,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (469,174);
+ref = caroncomb.alt;
+}
+);
+width = 488;
+}
+);
+unicode = 271;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = rbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (102,0);
+},
+{
+name = bottom;
+pos = (102,-280);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,-280,l),
+(126,-142,ls),
+(126,-100,o),
+(146,-64,o),
+(185,-32,c),
+(54,-32,l),
+(32,-55,o),
+(19,-102,o),
+(19,-156,cs),
+(19,-280,l)
+);
+}
+);
+width = 204;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 7626;
+}

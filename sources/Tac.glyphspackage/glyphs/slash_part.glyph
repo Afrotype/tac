@@ -1,0 +1,49 @@
+{
+glyphname = slash_part;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (186,278);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-71,l),
+(354,623,l),
+(307,623,l),
+(17,-71,l)
+);
+}
+);
+width = 371;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (186,278);
+}
+);
+associatedMasterId = m01;
+layerId = "B70C6AD5-BF90-40C7-8548-67C00C140407";
+name = "18 Dec 23, 16:05";
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,-71,l),
+(273,623,l),
+(227,623,l),
+(98,-71,l)
+);
+}
+);
+width = 371;
+}
+);
+}

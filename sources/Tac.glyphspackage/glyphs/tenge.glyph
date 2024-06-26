@@ -1,0 +1,40 @@
+{
+glyphname = tenge;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,0,l),
+(311,322,l),
+(423,322,l),
+(423,447,l),
+(30,447,l),
+(30,322,l),
+(142,322,l),
+(142,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(423,494,l),
+(423,554,l),
+(30,554,l),
+(30,494,l)
+);
+}
+);
+width = 453;
+}
+);
+unicode = 8376;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

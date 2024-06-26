@@ -1,0 +1,20 @@
+{
+glyphname = circumflexcomb_acutecomb.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = deepercircumflexcomb.case;
+},
+{
+alignment = -1;
+pos = (88,132);
+ref = deeperacutecomb.case;
+}
+);
+width = 381;
+}
+);
+}

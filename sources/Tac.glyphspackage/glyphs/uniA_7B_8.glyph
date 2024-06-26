@@ -1,0 +1,19 @@
+{
+glyphname = uniA7B8;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (96,-1);
+ref = slash_part;
+}
+);
+width = 524;
+}
+);
+unicode = 42936;
+}

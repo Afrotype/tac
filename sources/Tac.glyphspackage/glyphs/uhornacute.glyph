@@ -1,0 +1,21 @@
+{
+glyphname = uhornacute;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (109,0);
+ref = acutecomb;
+}
+);
+width = 494;
+}
+);
+unicode = 7913;
+}

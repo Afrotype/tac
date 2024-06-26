@@ -1,0 +1,26 @@
+{
+glyphname = iogenek.dotless;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (111,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (4984,0);
+ref = ogonekcomb;
+}
+);
+width = 221;
+}
+);
+}

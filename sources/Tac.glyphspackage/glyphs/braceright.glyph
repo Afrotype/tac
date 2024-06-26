@@ -1,0 +1,25 @@
+{
+glyphname = braceright;
+kernLeft = KO_braceright;
+kernRight = braceright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+pos = (317,0);
+ref = braceleft;
+scale = (-1,1);
+}
+);
+width = 317;
+}
+);
+unicode = 125;
+userData = {
+KernOnSpecialSpacing = {
+L = parenthesis;
+};
+};
+}

@@ -1,0 +1,17 @@
+{
+glyphname = downWhiteSmallTriangle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-20,689);
+ref = upWhiteSmallTriangle;
+scale = (1,-1);
+}
+);
+width = 340;
+}
+);
+unicode = 9663;
+}

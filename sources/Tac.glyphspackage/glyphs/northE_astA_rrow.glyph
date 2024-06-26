@@ -1,0 +1,23 @@
+{
+glyphname = northEastArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = -45;
+pos = (-135,217);
+ref = upArrow;
+}
+);
+width = 461;
+}
+);
+unicode = 8599;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,18 @@
+{
+glyphname = Mturned;
+kernRight = KO_H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (774,554);
+ref = M;
+}
+);
+width = 774;
+}
+);
+unicode = 412;
+}

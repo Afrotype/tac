@@ -1,0 +1,26 @@
+{
+glyphname = _shortstroke.part;
+layers = (
+{
+anchors = (
+{
+name = _shortstroke;
+pos = (183,277);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(314,247,l),
+(314,307,l),
+(52,307,l),
+(52,247,l)
+);
+}
+);
+width = 365;
+}
+);
+}

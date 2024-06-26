@@ -1,0 +1,30 @@
+{
+glyphname = strokelongY.comb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (279,0);
+},
+{
+name = _center;
+pos = (278,426);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(550,394,l),
+(550,453,l),
+(10,453,l),
+(10,394,l)
+);
+}
+);
+width = 560;
+}
+);
+}

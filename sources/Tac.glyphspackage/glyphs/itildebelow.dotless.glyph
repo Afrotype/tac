@@ -1,0 +1,42 @@
+{
+glyphname = itildebelow.dotless;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = shortstroke;
+pos = (111,200);
+},
+{
+name = top;
+pos = (111,400);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+pos = (-38,0);
+ref = tildebelowcomb;
+}
+);
+width = 221;
+}
+);
+}

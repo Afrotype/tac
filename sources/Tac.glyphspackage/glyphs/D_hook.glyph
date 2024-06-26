@@ -1,0 +1,95 @@
+{
+glyphname = Dhook;
+kernRight = KO_D;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (388,-1);
+},
+{
+name = center;
+pos = (414,277);
+},
+{
+name = hook;
+pos = (183,554);
+},
+{
+name = stroke;
+pos = (270,277);
+},
+{
+name = top;
+pos = (374,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,0,l),
+(605,64,o),
+(640,184,o),
+(640,291,cs),
+(640,383,o),
+(612,468,o),
+(554,554,c),
+(183,554,l),
+(183,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(356,516,l),
+(425,487,o),
+(469,386,o),
+(469,282,cs),
+(469,182,o),
+(431,83,o),
+(356,32,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(148,349,l),
+(130,377,o),
+(123,405,o),
+(123,428,cs),
+(123,478,o),
+(145,514,o),
+(183,514,c),
+(183,554,l),
+(91,554,o),
+(10,524,o),
+(10,426,cs),
+(10,404,o),
+(13,379,o),
+(30,349,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (139,0);
+ref = D;
+},
+{
+alignment = -1;
+pos = (-9,0);
+ref = _leftcaphook.part;
+}
+);
+width = 660;
+}
+);
+metricLeft = T;
+unicode = 394;
+}

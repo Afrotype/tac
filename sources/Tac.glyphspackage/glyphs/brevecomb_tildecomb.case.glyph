@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = brevecomb_tildecomb.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = deeperbrevecomb.case;
+},
+{
+pos = (22,124);
+ref = deepertildecomb.case;
+}
+);
+width = 334;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

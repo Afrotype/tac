@@ -1,0 +1,20 @@
+{
+glyphname = brevecomb_gravecomb.case;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = deeperbrevecomb.case;
+},
+{
+pos = (25,124);
+ref = deepergravecomb.case;
+}
+);
+width = 334;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

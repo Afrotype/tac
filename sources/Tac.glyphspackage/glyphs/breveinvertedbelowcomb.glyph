@@ -1,0 +1,29 @@
+{
+glyphname = breveinvertedbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (156,0);
+},
+{
+name = bottom;
+pos = (156,-160);
+}
+);
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (332,399);
+ref = brevecomb;
+}
+);
+width = 332;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 815;
+}

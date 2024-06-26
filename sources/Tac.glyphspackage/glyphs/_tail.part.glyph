@@ -1,0 +1,33 @@
+{
+export = 0;
+glyphname = _tail.part;
+layers = (
+{
+anchors = (
+{
+name = _tail;
+pos = (190,573);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,573,l),
+(20,508,o),
+(44,430,o),
+(92,399,c),
+(248,399,l),
+(210,434,o),
+(190,506,o),
+(190,573,c)
+);
+}
+);
+width = 267;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

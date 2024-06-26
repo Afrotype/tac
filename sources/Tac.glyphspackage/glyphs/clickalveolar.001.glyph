@@ -1,0 +1,65 @@
+{
+glyphname = clickalveolar.001;
+layers = (
+{
+background = {
+anchors = (
+{
+name = _shortstroke;
+pos = (161,348);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,594,l),
+(85,594,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,318,l),
+(292,378,l),
+(30,378,l),
+(30,318,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,215,l),
+(292,275,l),
+(30,275,l),
+(30,215,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,594,l),
+(85,594,l)
+);
+},
+{
+pos = (-22,71);
+ref = _shortstroke.part;
+},
+{
+pos = (-22,-32);
+ref = _shortstroke.part;
+}
+);
+width = 322;
+}
+);
+}

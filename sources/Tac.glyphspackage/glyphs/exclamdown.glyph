@@ -1,0 +1,24 @@
+{
+glyphname = exclamdown;
+kernRight = KO_parenright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (239,400);
+ref = exclam;
+}
+);
+width = 239;
+}
+);
+unicode = 161;
+userData = {
+KernOnSpecialSpacing = {
+R = "spaced-off";
+};
+};
+}

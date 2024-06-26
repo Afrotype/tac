@@ -1,0 +1,16 @@
+{
+glyphname = Dcroat;
+kernRight = KO_D;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Eth;
+}
+);
+width = 521;
+}
+);
+unicode = 272;
+}

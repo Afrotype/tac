@@ -1,0 +1,36 @@
+{
+glyphname = imod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,298,l),
+(151,554,l),
+(20,554,l),
+(20,298,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(151,578,l),
+(151,630,l),
+(20,630,l),
+(20,578,l)
+);
+}
+);
+width = 171;
+}
+);
+unicode = 8305;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

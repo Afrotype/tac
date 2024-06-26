@@ -1,0 +1,37 @@
+{
+glyphname = commaabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (103,400);
+},
+{
+name = top;
+pos = (103,613);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,437,l),
+(165,470,o),
+(181,525,o),
+(181,613,c),
+(48,613,l),
+(48,529,o),
+(38,483,o),
+(19,437,c)
+);
+}
+);
+width = 200;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 787;
+}

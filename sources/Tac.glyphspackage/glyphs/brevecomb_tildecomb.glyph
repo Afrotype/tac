@@ -1,0 +1,66 @@
+{
+glyphname = brevecomb_tildecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = deeperbrevecomb;
+},
+{
+pos = (32,138);
+ref = deepertildecomb;
+}
+);
+width = 332;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (172,374);
+},
+{
+name = top;
+pos = (135,570);
+}
+);
+associatedMasterId = m01;
+layerId = "A2153C05-9E05-4431-8BD9-756074A32418";
+name = "18 Dec 23, 15:26";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,577,o),
+(88,588,o),
+(118,588,cs),
+(167,588,o),
+(187,555,o),
+(237,555,cs),
+(266,555,o),
+(287,567,o),
+(308,592,c),
+(308,700,l),
+(284,676,o),
+(268,665,o),
+(239,665,cs),
+(189,665,o),
+(168,698,o),
+(119,698,cs),
+(90,698,o),
+(69,685,o),
+(48,660,c),
+(48,554,l)
+);
+},
+{
+ref = brevecomb;
+}
+);
+width = 343;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

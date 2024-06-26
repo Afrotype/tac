@@ -1,0 +1,26 @@
+{
+glyphname = sevensuperior;
+kernLeft = seven.dnom;
+kernRight = seven.dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,264);
+ref = seven.numr;
+}
+);
+width = 262;
+}
+);
+metricLeft = seven;
+metricRight = seven;
+unicode = 8311;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

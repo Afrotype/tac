@@ -1,0 +1,16 @@
+{
+glyphname = Omega;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = Ohm;
+}
+);
+width = 616;
+}
+);
+unicode = 937;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = caroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (193,554);
+},
+{
+name = top;
+pos = (193,699);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(73,592,l),
+(209,592,l),
+(156,699,l),
+(19,699,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,699,l),
+(176,592,l),
+(312,592,l),
+(366,699,l)
+);
+}
+);
+width = 385;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

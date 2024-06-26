@@ -1,0 +1,19 @@
+{
+glyphname = Zstroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (-10,-19);
+ref = strokelong.comb;
+}
+);
+width = 416;
+}
+);
+unicode = 437;
+}

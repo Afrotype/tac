@@ -1,0 +1,48 @@
+{
+glyphname = deeperhookabovecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (123,554);
+},
+{
+name = top;
+pos = (128,733);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(173,591,l),
+(198,613,o),
+(211,638,o),
+(211,660,cs),
+(211,685,o),
+(198,700,o),
+(176,707,cs),
+(157,713,o),
+(137,713,o),
+(119,713,cs),
+(96,713,o),
+(67,710,o),
+(19,705,c),
+(19,695,l),
+(61,693,o),
+(84,679,o),
+(84,655,cs),
+(84,639,o),
+(74,614,o),
+(56,591,c)
+);
+}
+);
+width = 230;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = deepercaroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (190,400);
+},
+{
+name = top;
+pos = (190,529);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,438,l),
+(199,438,l),
+(151,528,l),
+(19,528,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,528,l),
+(181,438,l),
+(312,438,l),
+(361,528,l)
+);
+}
+);
+width = 380;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

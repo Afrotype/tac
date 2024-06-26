@@ -1,0 +1,70 @@
+{
+glyphname = idblgrave;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,234);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = top;
+pos = (5045,553);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(4995,553,l),
+(4861,553,l),
+(4922,438,l),
+(5056,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(5167,553,l),
+(5033,553,l),
+(5094,438,l),
+(5228,438,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-118,0);
+ref = dblgravecomb;
+}
+);
+width = 221;
+}
+);
+unicode = 521;
+}

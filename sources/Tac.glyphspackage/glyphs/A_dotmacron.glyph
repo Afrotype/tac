@@ -1,0 +1,42 @@
+{
+glyphname = Adotmacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (171,0);
+ref = deeperdotaccentcomb.case;
+},
+{
+pos = (96,140);
+ref = deepermacroncomb.case;
+}
+);
+width = 521;
+},
+{
+associatedMasterId = m01;
+layerId = "5CB562A9-73F8-49F0-B856-42B680A87D95";
+name = "18 Dec 23, 15:59";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (161,154);
+ref = dotaccentcomb;
+},
+{
+pos = (104,308);
+ref = macroncomb;
+}
+);
+width = 521;
+}
+);
+unicode = 480;
+}

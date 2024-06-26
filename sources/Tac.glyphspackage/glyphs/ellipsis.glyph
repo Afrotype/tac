@@ -1,0 +1,27 @@
+{
+glyphname = ellipsis;
+kernLeft = KO_ellipsis;
+kernRight = KO_ellipsis;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (432,0);
+ref = period;
+},
+{
+pos = (216,0);
+ref = period;
+},
+{
+ref = period;
+}
+);
+width = 647;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 8230;
+}

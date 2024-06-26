@@ -1,0 +1,39 @@
+{
+glyphname = circumflexcomb_hookabovecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (390,0);
+ref = deepercircumflex;
+scale = (-1,1);
+},
+{
+pos = (71,139);
+ref = deeperhookabovecomb;
+}
+);
+width = 390;
+},
+{
+associatedMasterId = m01;
+layerId = "F481625A-A6D3-4EC7-A8D0-C58996D2B1B2";
+name = "18 Dec 23, 15:34";
+shapes = (
+{
+alignment = -1;
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (141,154);
+ref = hookabovecomb;
+}
+);
+width = 400;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

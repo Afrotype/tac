@@ -1,0 +1,45 @@
+{
+glyphname = cedillacomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (114,0);
+},
+{
+name = bottom;
+pos = (114,-167);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,-167,l),
+(173,-167,l),
+(200,-149,o),
+(210,-123,o),
+(210,-103,cs),
+(210,-65,o),
+(182,-42,o),
+(150,-32,c),
+(163,0,l),
+(58,0,l),
+(36,-47,l),
+(59,-56,o),
+(81,-76,o),
+(81,-100,cs),
+(81,-132,o),
+(47,-157,o),
+(19,-163,c)
+);
+}
+);
+width = 229;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

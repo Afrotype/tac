@@ -1,0 +1,24 @@
+{
+glyphname = Cstroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,-49,l),
+(409,602,l),
+(364,602,l),
+(0,-49,l)
+);
+},
+{
+ref = C;
+}
+);
+width = 326;
+}
+);
+unicode = 571;
+}

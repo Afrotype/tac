@@ -1,0 +1,24 @@
+{
+glyphname = threesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,264);
+ref = three.numr;
+}
+);
+width = 259;
+}
+);
+metricLeft = three;
+metricRight = three;
+unicode = 179;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

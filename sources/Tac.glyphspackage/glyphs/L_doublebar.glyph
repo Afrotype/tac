@@ -1,0 +1,83 @@
+{
+glyphname = Ldoublebar;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (217,0);
+},
+{
+name = center;
+pos = (131,315);
+},
+{
+name = stroke;
+pos = (142,315);
+},
+{
+name = top;
+pos = (131,554);
+},
+{
+name = topright;
+pos = (256,400);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(370,0,l),
+(402,125,l),
+(217,125,l),
+(217,554,l),
+(46,554,l),
+(46,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(262,340,l),
+(262,400,l),
+(0,400,l),
+(0,340,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(262,235,l),
+(262,295,l),
+(0,295,l),
+(0,235,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (2,0);
+ref = L;
+},
+{
+alignment = -1;
+pos = (-52,93);
+ref = _shortstroke.part;
+},
+{
+alignment = -1;
+pos = (-52,-12);
+ref = _shortstroke.part;
+}
+);
+width = 386;
+}
+);
+metricRight = L;
+unicode = 11360;
+}

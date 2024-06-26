@@ -1,0 +1,23 @@
+{
+glyphname = Sdotbelowdotaccent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S;
+},
+{
+pos = (45,0);
+ref = dotbelowcomb;
+},
+{
+pos = (61,154);
+ref = dotaccentcomb;
+}
+);
+width = 315;
+}
+);
+unicode = 7784;
+}

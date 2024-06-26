@@ -1,0 +1,21 @@
+{
+glyphname = Uhornhookabove;
+kernLeft = KO_U;
+kernRight = KO_Uhorn;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (125,0);
+ref = hookabovecomb.case;
+}
+);
+width = 524;
+}
+);
+unicode = 7916;
+}

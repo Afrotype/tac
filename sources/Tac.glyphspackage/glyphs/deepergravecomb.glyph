@@ -1,0 +1,32 @@
+{
+glyphname = deepergravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (139,400);
+},
+{
+name = top;
+pos = (118,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,528,l),
+(19,528,l),
+(67,438,l),
+(217,438,l)
+);
+}
+);
+width = 236;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

@@ -1,0 +1,91 @@
+{
+glyphname = Ecircumflexgrave;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (217,0);
+},
+{
+name = center;
+pos = (211,277);
+},
+{
+name = ogonek;
+pos = (379,0);
+},
+{
+name = top;
+pos = (286,819);
+},
+{
+name = topleft;
+pos = (44,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,0,l),
+(411,120,l),
+(211,120,l),
+(211,219,l),
+(329,219,l),
+(361,337,l),
+(211,337,l),
+(211,436,l),
+(377,436,l),
+(409,554,l),
+(44,554,l),
+(44,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(383,686,l),
+(249,686,l),
+(302,592,l),
+(437,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(228,592,l),
+(282,686,l),
+(148,686,l),
+(94,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(241,724,l),
+(385,724,l),
+(331,819,l),
+(187,819,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (31,0);
+ref = circumflexcomb_gravecomb.case;
+}
+);
+width = 417;
+}
+);
+unicode = 7872;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = baht;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(282,554,l),
+(282,634,l),
+(222,634,l),
+(222,554,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(282,-80,l),
+(282,0,l),
+(222,0,l),
+(222,-80,l)
+);
+},
+{
+ref = B;
+}
+);
+width = 507;
+}
+);
+unicode = 3647;
+userData = {
+KernOnSpecialSpacing = {
+L = symbols;
+R = symbols;
+};
+};
+}

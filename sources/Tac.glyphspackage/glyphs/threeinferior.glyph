@@ -1,0 +1,24 @@
+{
+glyphname = threeinferior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-99);
+ref = three.dnom;
+}
+);
+width = 259;
+}
+);
+metricLeft = three;
+metricRight = three;
+unicode = 8323;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

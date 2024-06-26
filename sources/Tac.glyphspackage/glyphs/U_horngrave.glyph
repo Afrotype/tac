@@ -1,0 +1,21 @@
+{
+glyphname = Uhorngrave;
+kernLeft = KO_U;
+kernRight = KO_Uhorn;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (102,0);
+ref = gravecomb.case;
+}
+);
+width = 524;
+}
+);
+unicode = 7914;
+}

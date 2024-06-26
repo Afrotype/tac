@@ -1,0 +1,81 @@
+{
+glyphname = Ccircumflex;
+kernLeft = KO_C;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = center;
+pos = (281,289);
+},
+{
+name = hook;
+pos = (333,554);
+},
+{
+name = top;
+pos = (223,698);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,0,l),
+(334,3,l),
+(232,92,o),
+(187,177,o),
+(187,280,cs),
+(187,380,o),
+(238,472,o),
+(333,551,c),
+(333,554,l),
+(113,554,l),
+(50,488,o),
+(14,387,o),
+(14,275,cs),
+(14,157,o),
+(49,60,o),
+(113,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(186,591,l),
+(239,698,l),
+(103,698,l),
+(49,591,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(342,698,l),
+(206,698,l),
+(260,591,l),
+(396,591,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (30,-1);
+ref = circumflexcomb.case;
+}
+);
+width = 326;
+}
+);
+unicode = 264;
+}

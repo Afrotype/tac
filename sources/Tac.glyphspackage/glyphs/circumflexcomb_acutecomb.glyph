@@ -1,0 +1,50 @@
+{
+glyphname = circumflexcomb_acutecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = deepercircumflex;
+},
+{
+pos = (96,139);
+ref = deeperacutecomb;
+}
+);
+width = 390;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (199,400);
+},
+{
+name = top;
+pos = (231,708);
+}
+);
+associatedMasterId = m01;
+layerId = "20A5A91D-EC4C-4B08-B54D-22204282F831";
+name = "18 Dec 23, 15:30";
+shapes = (
+{
+closed = 1;
+nodes = (
+(494,536,l),
+(562,658,l),
+(422,658,l),
+(354,536,l)
+);
+},
+{
+ref = circumflexcomb;
+}
+);
+width = 581;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

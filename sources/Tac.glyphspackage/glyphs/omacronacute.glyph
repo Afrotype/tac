@@ -1,0 +1,21 @@
+{
+glyphname = omacronacute;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (86,0);
+ref = macroncomb_acutecomb;
+}
+);
+width = 490;
+}
+);
+unicode = 7763;
+}

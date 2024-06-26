@@ -1,0 +1,18 @@
+{
+glyphname = Ereversed;
+kernRight = KO_H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (417,0);
+ref = E;
+scale = (-1,1);
+}
+);
+width = 417;
+}
+);
+unicode = 398;
+}

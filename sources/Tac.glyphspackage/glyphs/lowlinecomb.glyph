@@ -1,0 +1,33 @@
+{
+glyphname = lowlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (185,0);
+},
+{
+name = bottom;
+pos = (185,-166);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-166,l),
+(351,-104,l),
+(19,-104,l),
+(19,-166,l)
+);
+}
+);
+width = 370;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 818;
+}

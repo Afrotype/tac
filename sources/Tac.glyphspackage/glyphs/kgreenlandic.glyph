@@ -1,0 +1,50 @@
+{
+glyphname = kgreenlandic;
+kernLeft = KO_i;
+kernRight = KO_k;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = shortstroke;
+pos = (124,487);
+},
+{
+name = top;
+pos = (240,574);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,0,l),
+(210,222,l),
+(258,205,o),
+(293,151,o),
+(293,87,cs),
+(293,0,l),
+(464,0,l),
+(464,72,ls),
+(464,164,o),
+(431,221,o),
+(377,249,c),
+(447,400,l),
+(279,400,l),
+(210,259,l),
+(210,400,l),
+(39,400,l),
+(39,0,l)
+);
+}
+);
+width = 479;
+}
+);
+unicode = 312;
+}

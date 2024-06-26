@@ -1,0 +1,19 @@
+{
+glyphname = Adblgrave;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (17,0);
+ref = dblgravecomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 512;
+}

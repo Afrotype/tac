@@ -1,0 +1,15 @@
+{
+glyphname = colonmod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = colon;
+}
+);
+width = 215;
+}
+);
+unicode = 42889;
+}

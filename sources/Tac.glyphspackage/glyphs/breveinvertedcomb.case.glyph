@@ -1,0 +1,42 @@
+{
+glyphname = breveinvertedcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (169,554);
+},
+{
+name = top;
+pos = (169,744);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(19,581,l),
+(66,619,o),
+(117,639,o),
+(169,639,cs),
+(220,639,o),
+(272,619,o),
+(319,581,c),
+(319,690,l),
+(275,723,o),
+(222,739,o),
+(169,739,cs),
+(116,739,o),
+(64,723,o),
+(19,690,c)
+);
+}
+);
+width = 338;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

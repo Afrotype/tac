@@ -1,0 +1,33 @@
+{
+glyphname = slashshortcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (141,200);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(63,-100,l),
+(277,500,l),
+(219,500,l),
+(5,-100,l)
+);
+}
+);
+width = 371;
+}
+);
+unicode = 823;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

@@ -1,0 +1,92 @@
+{
+glyphname = iogonek;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (127,0);
+},
+{
+name = center;
+pos = (127,234);
+},
+{
+name = ogonek;
+pos = (213,0);
+},
+{
+name = top;
+pos = (127,400);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(213,0,l),
+(213,400,l),
+(40,400,l),
+(40,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(197,-77,o),
+(188,-79,o),
+(181,-79,cs),
+(163,-79,o),
+(150,-69,o),
+(150,-52,cs),
+(150,-28,o),
+(173,-9,o),
+(210,0,c),
+(127,0,l),
+(81,-13,o),
+(56,-42,o),
+(56,-82,cs),
+(56,-138,o),
+(106,-177,o),
+(171,-177,cs),
+(182,-177,o),
+(193,-176,o),
+(205,-174,c),
+(205,-73,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(213,433,l),
+(213,503,l),
+(40,503,l),
+(40,433,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (10,0);
+ref = dotaccentcomb;
+},
+{
+pos = (24,0);
+ref = ogonekcomb;
+}
+);
+width = 221;
+}
+);
+metricLeft = i;
+metricRight = i;
+unicode = 303;
+}

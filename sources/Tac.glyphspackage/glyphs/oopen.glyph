@@ -1,0 +1,18 @@
+{
+glyphname = oopen;
+kernRight = KO_a;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (291,400);
+ref = c;
+}
+);
+width = 291;
+}
+);
+unicode = 596;
+}

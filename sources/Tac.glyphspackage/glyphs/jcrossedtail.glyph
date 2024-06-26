@@ -1,0 +1,28 @@
+{
+glyphname = jcrossedtail;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(408,433,l),
+(408,503,l),
+(235,503,l),
+(235,433,l)
+);
+},
+{
+ref = jcrossedtail.dotless;
+}
+);
+width = 447;
+}
+);
+metricLeft = jcrossedtail.dotless;
+metricRight = jcrossedtail.dotless;
+unicode = 669;
+}

@@ -1,0 +1,21 @@
+{
+glyphname = Ecircumflex;
+kernLeft = KO_H;
+kernRight = KO_E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (28,0);
+ref = circumflexcomb.case;
+}
+);
+width = 417;
+}
+);
+unicode = 202;
+}

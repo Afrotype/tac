@@ -1,0 +1,25 @@
+{
+glyphname = umacrondieresis;
+kernLeft = KO_u;
+kernRight = KO_u;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (82,0);
+ref = deepermacroncomb;
+},
+{
+pos = (68,113);
+ref = deeperdieresiscomb;
+}
+);
+width = 494;
+}
+);
+unicode = 7803;
+}

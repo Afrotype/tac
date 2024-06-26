@@ -1,0 +1,100 @@
+{
+glyphname = dblgravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (229,400);
+},
+{
+name = top;
+pos = (203,553);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(181,432,l),
+(123,554,l),
+(-26,554,l),
+(33,432,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(181,432,l),
+(123,554,l),
+(-26,554,l),
+(33,432,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,553,l),
+(19,553,l),
+(80,438,l),
+(214,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(325,553,l),
+(191,553,l),
+(252,438,l),
+(386,438,l)
+);
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (246,400);
+},
+{
+name = top;
+pos = (217,554);
+}
+);
+associatedMasterId = m01;
+layerId = "4EEF3367-2A26-4EBE-8434-F82DAE5C222F";
+name = "18 Dec 23, 15:40";
+shapes = (
+{
+closed = 1;
+nodes = (
+(415,432,l),
+(356,554,l),
+(208,554,l),
+(266,432,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(226,432,l),
+(168,554,l),
+(19,554,l),
+(78,432,l)
+);
+}
+);
+width = 434;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 783;
+}

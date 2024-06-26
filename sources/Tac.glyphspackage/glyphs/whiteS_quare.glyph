@@ -1,0 +1,30 @@
+{
+glyphname = whiteSquare;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(584,65,l),
+(584,619,l),
+(30,619,l),
+(30,65,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(116,533,l),
+(498,533,l),
+(498,151,l),
+(116,151,l)
+);
+}
+);
+width = 614;
+}
+);
+unicode = 9633;
+}

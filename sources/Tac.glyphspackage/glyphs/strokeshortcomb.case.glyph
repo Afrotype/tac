@@ -1,0 +1,34 @@
+{
+glyphname = strokeshortcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _stroke;
+pos = (153,153);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(287,124,l),
+(287,183,l),
+(19,183,l),
+(19,124,l)
+);
+}
+);
+width = 306;
+}
+);
+metricLeft = period;
+metricRight = period;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

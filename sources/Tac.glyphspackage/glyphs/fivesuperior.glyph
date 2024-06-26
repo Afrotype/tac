@@ -1,0 +1,24 @@
+{
+glyphname = fivesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,264);
+ref = five.numr;
+}
+);
+width = 280;
+}
+);
+metricLeft = five;
+metricRight = five;
+unicode = 8309;
+userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
+};
+}

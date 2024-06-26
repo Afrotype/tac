@@ -1,0 +1,21 @@
+{
+glyphname = odotbelow;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (144,0);
+ref = dotbelowcomb;
+}
+);
+width = 490;
+}
+);
+unicode = 7885;
+}

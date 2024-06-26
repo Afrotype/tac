@@ -1,0 +1,17 @@
+{
+glyphname = glottalstopreversed;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (370,0);
+ref = glottalstop;
+scale = (-1,1);
+}
+);
+width = 370;
+}
+);
+unicode = 661;
+}

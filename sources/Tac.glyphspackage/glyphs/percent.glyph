@@ -1,0 +1,33 @@
+{
+glyphname = percent;
+kernLeft = KO_percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (6,0);
+ref = zero.numr;
+},
+{
+alignment = -1;
+pos = (262,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (424,0);
+ref = zero.dnom;
+}
+);
+width = 704;
+}
+);
+unicode = 37;
+userData = {
+KernOnSpecialSpacing = {
+L = "spaced-off";
+};
+};
+}

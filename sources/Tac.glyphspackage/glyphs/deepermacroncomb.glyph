@@ -1,0 +1,32 @@
+{
+glyphname = deepermacroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (159,400);
+},
+{
+name = top;
+pos = (159,513);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(299,438,l),
+(299,521,l),
+(19,521,l),
+(19,438,l)
+);
+}
+);
+width = 318;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

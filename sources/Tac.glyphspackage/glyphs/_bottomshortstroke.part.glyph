@@ -1,0 +1,26 @@
+{
+glyphname = _bottomshortstroke.part;
+layers = (
+{
+anchors = (
+{
+name = _bottomshortstroke;
+pos = (183,337);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(52,307,l),
+(314,307,l),
+(314,367,l),
+(52,367,l)
+);
+}
+);
+width = 365;
+}
+);
+}

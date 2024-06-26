@@ -1,0 +1,19 @@
+{
+glyphname = ringhalfright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (207,0);
+ref = ringhalfleft;
+scale = (-1,1);
+}
+);
+width = 207;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 702;
+}

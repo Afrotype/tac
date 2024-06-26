@@ -1,0 +1,21 @@
+{
+glyphname = Ohookabove;
+kernLeft = KO_O;
+kernRight = KO_O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (128,0);
+ref = hookabovecomb.case;
+}
+);
+width = 521;
+}
+);
+unicode = 7886;
+}

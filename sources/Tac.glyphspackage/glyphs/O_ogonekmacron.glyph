@@ -1,0 +1,23 @@
+{
+glyphname = Oogonekmacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (261,0);
+ref = ogonekcomb;
+},
+{
+pos = (103,154);
+ref = macroncomb;
+}
+);
+width = 521;
+}
+);
+unicode = 492;
+}

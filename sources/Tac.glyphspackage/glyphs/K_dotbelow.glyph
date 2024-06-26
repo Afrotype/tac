@@ -1,0 +1,21 @@
+{
+glyphname = Kdotbelow;
+kernLeft = KO_H;
+kernRight = KO_R;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (155,0);
+ref = dotbelowcomb;
+}
+);
+width = 515;
+}
+);
+unicode = 7730;
+}

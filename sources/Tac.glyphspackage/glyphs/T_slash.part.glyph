@@ -1,0 +1,26 @@
+{
+glyphname = Tslash.part;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (249,289);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,-71,l),
+(336,623,l),
+(290,623,l),
+(83,-71,l)
+);
+}
+);
+width = 430;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = Tdiagonalstroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (-35,-12);
+ref = Tslash.part;
+}
+);
+width = 430;
+}
+);
+unicode = 574;
+}

@@ -1,0 +1,35 @@
+{
+glyphname = Hturned;
+kernRight = KO_H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(450,0,l),
+(450,554,l),
+(279,554,l),
+(279,208,l),
+(227,241,o),
+(197,295,o),
+(197,385,cs),
+(197,554,l),
+(26,554,l),
+(26,374,ls),
+(26,292,o),
+(48,216,o),
+(84,174,c),
+(279,174,l),
+(279,0,l)
+);
+}
+);
+width = 494;
+}
+);
+metricLeft = O;
+metricRight = H;
+unicode = 42893;
+}

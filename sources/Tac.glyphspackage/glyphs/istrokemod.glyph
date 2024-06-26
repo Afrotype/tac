@@ -1,0 +1,53 @@
+{
+glyphname = istrokemod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111.26,222);
+},
+{
+name = ogonek;
+pos = (168.02,222);
+},
+{
+name = shortstroke;
+pos = (111.26,354);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,508,l),
+(168,554,l),
+(54,554,l),
+(54,508,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(168,222,l),
+(168,486,l),
+(54,486,l),
+(54,222,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(197,334,l),
+(197,374,l),
+(24,374,l),
+(24,334,l)
+);
+}
+);
+width = 221;
+}
+);
+unicode = 7588;
+}

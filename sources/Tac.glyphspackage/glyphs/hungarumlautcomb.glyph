@@ -1,0 +1,48 @@
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (170,400);
+},
+{
+name = top;
+pos = (175,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(325,438,l),
+(386,553,l),
+(252,553,l),
+(191,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(153,438,l),
+(214,553,l),
+(80,553,l),
+(19,438,l)
+);
+}
+);
+width = 405;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 779;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

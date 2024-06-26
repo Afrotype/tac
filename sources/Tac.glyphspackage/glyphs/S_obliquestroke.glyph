@@ -1,0 +1,24 @@
+{
+glyphname = Sobliquestroke;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(315,395,l),
+(277,435,l),
+(-6,180,l),
+(31,140,l)
+);
+}
+);
+width = 307;
+}
+);
+unicode = 42920;
+}

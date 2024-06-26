@@ -1,0 +1,22 @@
+{
+glyphname = circumflexcomb_gravecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (390,0);
+ref = deepercircumflex;
+scale = (-1,1);
+},
+{
+pos = (56,139);
+ref = deepergravecomb;
+}
+);
+width = 390;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

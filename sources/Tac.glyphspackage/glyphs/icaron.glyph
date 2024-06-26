@@ -1,0 +1,70 @@
+{
+glyphname = icaron;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,234);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = top;
+pos = (5071,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(4959,438,l),
+(5090,438,l),
+(5027,554,l),
+(4895,554,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(5116,554,l),
+(5052,438,l),
+(5183,438,l),
+(5247,554,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-84,0);
+ref = caroncomb;
+}
+);
+width = 221;
+}
+);
+unicode = 464;
+}

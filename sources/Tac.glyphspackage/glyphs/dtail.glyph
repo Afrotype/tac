@@ -1,0 +1,21 @@
+{
+glyphname = dtail;
+kernLeft = KO_d;
+kernRight = KO_d;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (259,-573);
+ref = _tail.part;
+}
+);
+width = 488;
+}
+);
+unicode = 598;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = deepercircumflex;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (195,400);
+},
+{
+name = top;
+pos = (195,539);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,438,l),
+(214,539,l),
+(83,539,l),
+(19,438,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(307,539,l),
+(176,539,l),
+(240,438,l),
+(371,438,l)
+);
+}
+);
+width = 390;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

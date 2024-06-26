@@ -1,0 +1,17 @@
+{
+glyphname = tilde;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = tildecomb;
+}
+);
+width = 306;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 732;
+}

@@ -1,0 +1,21 @@
+{
+glyphname = ocircumflex;
+kernLeft = KO_o;
+kernRight = KO_o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (45,0);
+ref = circumflexcomb;
+}
+);
+width = 490;
+}
+);
+unicode = 244;
+}

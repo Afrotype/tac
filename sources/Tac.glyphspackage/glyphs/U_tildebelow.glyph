@@ -1,0 +1,19 @@
+{
+glyphname = Utildebelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (143,0);
+ref = tildebelowcomb;
+}
+);
+width = 524;
+}
+);
+unicode = 7796;
+}

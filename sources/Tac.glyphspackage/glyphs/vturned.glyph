@@ -1,0 +1,18 @@
+{
+glyphname = vturned;
+kernRight = KO_n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,400);
+ref = v;
+scale = (1,-1);
+}
+);
+width = 485;
+}
+);
+unicode = 652;
+}

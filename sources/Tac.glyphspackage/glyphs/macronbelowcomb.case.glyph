@@ -1,0 +1,32 @@
+{
+glyphname = macronbelowcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (166,0);
+},
+{
+name = bottom;
+pos = (166,-135);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,-135,l),
+(312,-43,l),
+(19,-43,l),
+(19,-135,l)
+);
+}
+);
+width = 331;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

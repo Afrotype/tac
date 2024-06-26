@@ -1,0 +1,35 @@
+{
+glyphname = "leftanglebracket-math";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(286,544,l),
+(286,684,l),
+(28,359,l),
+(28,219,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(28,219,l),
+(286,-96,l),
+(286,24,l),
+(28,359,l)
+);
+}
+);
+width = 314;
+}
+);
+unicode = 10216;
+userData = {
+KernOnSpecialSpacing = {
+R = parenthesis;
+};
+};
+}

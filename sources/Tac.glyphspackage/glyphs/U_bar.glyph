@@ -1,0 +1,24 @@
+{
+glyphname = Ubar;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(514,247,l),
+(514,306,l),
+(4,306,l),
+(4,247,l)
+);
+},
+{
+ref = U;
+}
+);
+width = 524;
+}
+);
+unicode = 580;
+}

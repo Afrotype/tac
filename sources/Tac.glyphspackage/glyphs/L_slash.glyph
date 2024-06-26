@@ -1,0 +1,19 @@
+{
+glyphname = Lslash;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (-54,38);
+ref = _shortdiagonalstroke.part;
+}
+);
+width = 384;
+}
+);
+unicode = 321;
+}

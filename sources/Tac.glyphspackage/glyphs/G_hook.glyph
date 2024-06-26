@@ -1,0 +1,27 @@
+{
+glyphname = Ghook;
+kernLeft = KO_G;
+layers = (
+{
+guides = (
+{
+pos = (4688,1585);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = G;
+},
+{
+pos = (360,0);
+ref = _hooktop.part;
+}
+);
+width = 500;
+}
+);
+metricLeft = G;
+metricRight = G;
+unicode = 403;
+}

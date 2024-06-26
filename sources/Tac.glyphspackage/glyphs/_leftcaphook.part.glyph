@@ -1,0 +1,164 @@
+{
+glyphname = _leftcaphook.part;
+layers = (
+{
+anchors = (
+{
+name = _hook;
+pos = (230,453);
+}
+);
+associatedMasterId = m01;
+layerId = "2DFE9334-CBC9-4211-A11E-47D05BD9BBF6";
+name = "18 Dec 23, 16:31";
+shapes = (
+{
+closed = 1;
+nodes = (
+(118,304,o),
+(160,330,o),
+(230,330,c),
+(230,453,l),
+(164,453,o),
+(104,435,o),
+(70,405,c),
+(93,258,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _hook;
+pos = (230,453);
+}
+);
+annotations = (
+{
+pos = (352,244);
+type = Text;
+},
+{
+pos = (735,441);
+type = Text;
+},
+{
+pos = (701,252);
+type = Text;
+},
+{
+pos = (714,322);
+type = Text;
+},
+{
+pos = (549.473,86.293);
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "31347886-0A33-4E1E-BCDC-6D7BF36F0F5D";
+name = "18 Dec 23, 16:48";
+shapes = (
+{
+closed = 1;
+nodes = (
+(107,289,o),
+(153,335,o),
+(230,335,c),
+(230,453,l),
+(157,453,o),
+(92,433,o),
+(54,400,c),
+(79,239,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _hook;
+pos = (192,554);
+}
+);
+layerId = m01;
+name = Bold;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,349,l),
+(139,377,o),
+(132,405,o),
+(132,428,cs),
+(132,478,o),
+(154,514,o),
+(192,514,c),
+(192,554,l),
+(100,554,o),
+(19,524,o),
+(19,426,cs),
+(19,404,o),
+(22,379,o),
+(39,349,c)
+);
+}
+);
+width = 211;
+},
+{
+anchors = (
+{
+name = _hook;
+pos = (230,453);
+}
+);
+annotations = (
+{
+pos = (352,244);
+type = Text;
+},
+{
+pos = (735,441);
+type = Text;
+},
+{
+pos = (701,252);
+type = Text;
+},
+{
+pos = (714,322);
+type = Text;
+},
+{
+pos = (549.473,86.293);
+type = Text;
+}
+);
+associatedMasterId = m01;
+layerId = "2574709F-AC5B-4176-A12D-07293DC9AD4E";
+name = "18 Dec 23, 16:52";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,269,o),
+(153,384,o),
+(230,384,c),
+(230,453,l),
+(157,453,o),
+(92,433,o),
+(54,400,c),
+(79,219,l)
+);
+}
+);
+width = 600;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

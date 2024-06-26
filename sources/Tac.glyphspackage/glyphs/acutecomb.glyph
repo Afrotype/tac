@@ -1,0 +1,39 @@
+{
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (132,400);
+},
+{
+name = top;
+pos = (132,554);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,554,l),
+(34,438,l),
+(196,438,l),
+(260,554,l)
+);
+}
+);
+width = 264;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 769;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

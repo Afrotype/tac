@@ -1,0 +1,70 @@
+{
+glyphname = idotaccent;
+kernLeft = KO_i;
+kernRight = KO_i;
+layers = (
+{
+background = {
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,234);
+},
+{
+name = ogonek;
+pos = (197,0);
+},
+{
+name = top;
+pos = (5071,554);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(197,0,l),
+(197,400,l),
+(24,400,l),
+(24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(5140,438,l),
+(5149,451,o),
+(5153,471,o),
+(5153,495,cs),
+(5153,522,o),
+(5149,542,o),
+(5140,554,c),
+(5005,554,l),
+(4994,541,o),
+(4989,522,o),
+(4989,495,cs),
+(4989,471,o),
+(4994,451,o),
+(5005,438,c)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (10,0);
+ref = dotaccentcomb;
+}
+);
+width = 221;
+}
+);
+}

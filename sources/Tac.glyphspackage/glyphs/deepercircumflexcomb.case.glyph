@@ -1,0 +1,41 @@
+{
+glyphname = deepercircumflexcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (191,554);
+},
+{
+name = top;
+pos = (191,686);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(154,592,l),
+(207,686,l),
+(73,686,l),
+(19,592,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,686,l),
+(174,686,l),
+(228,592,l),
+(362,592,l)
+);
+}
+);
+width = 381;
+}
+);
+metricLeft = period;
+metricRight = period;
+}
